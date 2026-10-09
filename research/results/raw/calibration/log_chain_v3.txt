@@ -1,0 +1,10 @@
+=== start C2dev 18:31:46
+seed 9032: 8.6 min, QC {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.028799702712746192, 'fluency_auroc_high_vs_low': 1.0, 'fluency_mean_high': -3.0859062671661377, 'fluency_mean_low': -5.184445381164551, 'pass': True}
+seed 9033: 10.0 min, QC {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.028445586346118552, 'fluency_auroc_high_vs_low': 1.0, 'fluency_mean_high': -3.0893046855926514, 'fluency_mean_low': -5.185443878173828, 'pass': True}
+C2dev store QC all pass: True
+=== done C2dev 18:59:09
+=== start C4dev 18:59:09
+[V3] lr=0.001 st=100 anc=0.0: eligible=False worst_load=4.34 F6=True F6alt=True ident={'r2_gen': 0.09707680417634001, 'r2_pre': -0.13753303505963466, 'r2_joint': -0.01645330873286377} | 9031: X 0.66 iqr 0.6 Y 0.007 Zmax 0.014 load 4.15 sites 8 flu -0.00 pairs 95/0.09 failed ['X_diversity', 'retention'] (52s) | 9032: X 0.65 iqr 0.6 Y 0.000 Zmax 0.012 load 4.20 sites 8 flu 0.00 pairs 100/0.05 failed ['X_diversity', 'retention'] (48s) | 9033: X 0.55 iqr 0.6 Y 0.000 Zmax 0.023 load 4.34 sites 8 flu -0.00 pairs 112/0.07 failed ['X_diversity', 'retention'] (55s)
+[V3] lr=0.001 st=200 anc=0.0: eligible=False worst_load=3.92 F6=False F6alt=True ident={'r2_gen': 0.004951932944216253, 'r2_pre': 0.06398374263273132, 'r2_joint': 0.11370026177211812} | 9031: X 0.78 iqr 0.5 Y 0.003 Zmax 0.037 load 3.80 sites 8 flu -0.00 pairs 66/0.07 failed ['X_diversity', 'retention'] (95s) | 9032: X 0.77 iqr 0.6 Y 0.000 Zmax 0.040 load 3.92 sites 8 flu -0.00 pairs 63/0.20 failed ['X_diversity', 'retention'] (91s) | 9033: X 0.77 iqr 0.6 Y 0.000 Zmax 0.040 load 3.91 sites 8 flu -0.00 pairs 67/0.16 failed ['X_diversity', 'retention'] (90s)
+C4dev selected: None
+PHASE C4dev: ACCEPTANCE CRITERION FAILED -> STOP

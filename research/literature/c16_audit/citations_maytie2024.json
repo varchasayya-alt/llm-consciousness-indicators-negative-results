@@ -1,0 +1,211 @@
+{
+ "seed": "arXiv:2403.04588",
+ "meta": {
+  "paperId": "a6fe0e02e17aacbd978e49fb1120423f5f27cdb7",
+  "title": "Zero-shot cross-modal transfer of Reinforcement Learning policies through a Global Workspace",
+  "year": 2024,
+  "citationCount": 4
+ },
+ "citations": [
+  {
+   "paperId": "700f46a96b2d2f7b4d0453cf7e65270359d2995e",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2602-08597",
+    "ArXiv": "2602.08597",
+    "DOI": "10.48550/arXiv.2602.08597",
+    "CorpusId": 285452666
+   },
+   "url": "https://www.semanticscholar.org/paper/700f46a96b2d2f7b4d0453cf7e65270359d2995e",
+   "title": "An Attention Mechanism for Robust Multimodal Integration in a Global Workspace Architecture",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2602.08597, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": null,
+     "name": "Roland Bertin-Johannet"
+    },
+    {
+     "authorId": "2409827705",
+     "name": "Lara Scipio"
+    },
+    {
+     "authorId": "2220734046",
+     "name": "Léopold Maytié"
+    },
+    {
+     "authorId": "2129492059",
+     "name": "Rufin VanRullen"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "8fffebb231dbac335ccf1c74a11735862f57b0fd",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2511-19115",
+    "ArXiv": "2511.19115",
+    "DOI": "10.48550/arXiv.2511.19115",
+    "CorpusId": 283245075
+   },
+   "url": "https://www.semanticscholar.org/paper/8fffebb231dbac335ccf1c74a11735862f57b0fd",
+   "title": "AI Consciousness and Existential Risk",
+   "venue": "Journal of Artificial Intelligence and Consciousness",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2511.19115, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2129492059",
+     "name": "Rufin VanRullen"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "c96d46bd283b1da23d2b5ed14facfb0b54f03b88",
+   "externalIds": {
+    "DOI": "10.1016/j.tics.2025.10.011",
+    "CorpusId": 282938617,
+    "PubMed": "41219038"
+   },
+   "url": "https://www.semanticscholar.org/paper/c96d46bd283b1da23d2b5ed14facfb0b54f03b88",
+   "title": "Identifying indicators of consciousness in AI systems.",
+   "venue": "Trends in Cognitive Sciences",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "https://doi.org/10.1016/j.tics.2025.10.011",
+    "status": "HYBRID",
+    "license": "CCBYNCND",
+    "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.tics.2025.10.011?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.tics.2025.10.011, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2303380466",
+     "name": "Patrick Butlin"
+    },
+    {
+     "authorId": "2294376311",
+     "name": "Robert Long"
+    },
+    {
+     "authorId": "2257062620",
+     "name": "Tim Bayne"
+    },
+    {
+     "authorId": "2211024206",
+     "name": "Y. Bengio"
+    },
+    {
+     "authorId": "2316577382",
+     "name": "J. Birch"
+    },
+    {
+     "authorId": "2244742161",
+     "name": "David J. Chalmers"
+    },
+    {
+     "authorId": "2300623364",
+     "name": "Axel Constant"
+    },
+    {
+     "authorId": "35401661",
+     "name": "George Deane"
+    },
+    {
+     "authorId": "2326838414",
+     "name": "Eric Elmoznino"
+    },
+    {
+     "authorId": "2291035181",
+     "name": "Stephen M. Fleming"
+    },
+    {
+     "authorId": "1485524150",
+     "name": "Xuanxiu Ji"
+    },
+    {
+     "authorId": "2252315142",
+     "name": "Ryota Kanai"
+    },
+    {
+     "authorId": "2242728290",
+     "name": "Colin Klein"
+    },
+    {
+     "authorId": "2309490623",
+     "name": "Grace W. Lindsay"
+    },
+    {
+     "authorId": "71250143",
+     "name": "Matthias Michel"
+    },
+    {
+     "authorId": "2106897",
+     "name": "L. Mudrik"
+    },
+    {
+     "authorId": "2291038481",
+     "name": "Megan A. K. Peters"
+    },
+    {
+     "authorId": "3687664",
+     "name": "Eric Schwitzgebel"
+    },
+    {
+     "authorId": "2205545035",
+     "name": "Jonathan Simon"
+    },
+    {
+     "authorId": "2129492059",
+     "name": "Rufin VanRullen"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "d02ffcb1ebb847f99c3b8d86b2f7a9b659f15437",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2502-21142",
+    "ArXiv": "2502.21142",
+    "DOI": "10.48550/arXiv.2502.21142",
+    "CorpusId": 276724740
+   },
+   "url": "https://www.semanticscholar.org/paper/d02ffcb1ebb847f99c3b8d86b2f7a9b659f15437",
+   "title": "Multimodal Dreaming: A Global Workspace Approach to World Model-Based Reinforcement Learning",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2502.21142, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2220734046",
+     "name": "Léopold Maytié"
+    },
+    {
+     "authorId": "2348096199",
+     "name": "Roland Bertin Johannet"
+    },
+    {
+     "authorId": "2129492059",
+     "name": "Rufin VanRullen"
+    }
+   ],
+   "abstract": null
+  }
+ ],
+ "retrieved": "2026-10-08T14:48:52"
+}

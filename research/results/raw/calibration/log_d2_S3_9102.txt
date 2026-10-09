@@ -1,0 +1,28 @@
+S3 9102 lr=0.0003: gates {'G1_lost_range': False, 'G2_dC_iqr': True, 'G4_no_bookkeeping': True, 'G5_input_identity': True} | lost 0.742 IQR(dC) 3.87 IQR(C_post) 3.86 dC median -7.86 | ident {'r2_pre': 0.006900322984548679, 'r2_gen': 0.3843819448127781, 'r2_joint': 0.2828992385553676} | audit C_post {'pre': 0.0004070201521272354, 'book': 0.02470237443242229, 'generic': 0.40445433524589236, 'output': 0.007682106180083137, 'full': 0.009101324604141703, 'full+pre': 0.0011165937844602736, 'full+output': 0.008009412302060315, 'dR2_full_given_pre': 0.0007095736323330382, 'dR2_full_given_output': 0.0003273061219771778} | ctrl lost 0.000 r2(dC|ctrl) -0.001 | steps 300 (52.9 min)
+S3 9102 lr=0.001: gates {'G1_lost_range': False, 'G2_dC_iqr': True, 'G4_no_bookkeeping': True, 'G5_input_identity': True} | lost 0.899 IQR(dC) 3.97 IQR(C_post) 3.78 dC median -9.74 | ident {'r2_pre': 0.023063790738840906, 'r2_gen': 0.32670286636453505, 'r2_joint': 0.21904494325940316} | audit C_post {'pre': 0.005595267344961852, 'book': 0.00781367078530637, 'generic': 0.34052214213912435, 'output': 0.04894156565166563, 'full': 0.015522822508740264, 'full+pre': 0.005718460951777082, 'full+output': 0.053299496368490185, 'dR2_full_given_pre': 0.00012319360681523062, 'dR2_full_given_output': 0.004357930716824554} | ctrl lost 0.171 r2(dC|ctrl) -0.001 | steps 250 (52.4 min)
+Traceback (most recent call last):
+  File "<REPO_ROOT>\research\experiments\stage1\run_d2.py", line 199, in <module>
+    sys.exit({"TRAIN": phase_TRAIN, "S2": phase_S2, "S3": phase_S3}[a.phase](cfg, a.seed) or 0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<REPO_ROOT>\research\experiments\stage1\run_d2.py", line 149, in phase_S3
+    rep = d2_report(A, mI, mC, world, items, mu, sig, derive_seed(seed, "d2qc", lr), meta["trace"], meta["steps_used"],
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<REPO_ROOT>\research\experiments\stage1\s1\d2.py", line 108, in d2_report
+    r = {k: float(ES.crossfit_ridge(v, y, seed + 200 + i, strata)[1]) for i, (k, v) in enumerate(srcs.items())}
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<REPO_ROOT>\research\experiments\stage1\s1\estimands.py", line 130, in crossfit_ridge
+    pred[te], lam = ridge_cv_fit_predict(X[~te], y[~te], X[te])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<REPO_ROOT>\research\experiments\stage1\s1\estimands.py", line 118, in ridge_cv_fit_predict
+    pred = _ridge_path(A, ytr - ytr.mean(), B, [best_l])[0] + ytr.mean()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<REPO_ROOT>\research\experiments\stage1\s1\estimands.py", line 98, in _ridge_path
+    U, s, Vt = np.linalg.svd(A, full_matrices=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<REPO_ROOT>\.venv\Lib\site-packages\numpy\linalg\_linalg.py", line 1840, in svd
+    u, s, vh = gufunc(a, signature=signature)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<REPO_ROOT>\.venv\Lib\site-packages\numpy\linalg\_linalg.py", line 153, in _raise_linalgerror_svd_nonconvergence
+    raise LinAlgError("SVD did not converge")
+numpy.linalg.LinAlgError: SVD did not converge
+S3 9102 lr=0.003: gates {'G1_lost_range': False, 'G2_dC_iqr': True, 'G4_no_bookkeeping': True, 'G5_input_identity': True} | lost 0.961 IQR(dC) 3.95 IQR(C_post) 3.83 dC median -11.88 | ident {'r2_pre': 0.0020860442194129414, 'r2_gen': 0.19032521512588396, 'r2_joint': 0.10584351219055455} | audit C_post {'pre': -0.0015557869809019742, 'book': 0.008990828160327702, 'generic': 0.2027814099349613, 'output': 0.15194388398330605, 'full': -0.01084518556142089, 'full+pre': 0.0013468530958336, 'full+output': 0.11690705676592061, 'dR2_full_given_pre': 0.0029026400767355742, 'dR2_full_given_output': -0.035036827217385436} | ctrl lost 0.799 r2(dC|ctrl) -0.003 | steps 400 (19.7 min)

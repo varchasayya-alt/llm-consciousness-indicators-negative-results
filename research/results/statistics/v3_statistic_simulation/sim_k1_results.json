@@ -1,0 +1,71 @@
+{
+ "reps": 50,
+ "results": {
+  "H3": {
+   "K1_ancova": {
+    "support_rate": 1.0,
+    "mean": 0.8804972240043747
+   },
+   "K1_dml": {
+    "support_rate": 1.0,
+    "mean": 0.8920577826634615
+   },
+   "median_feasible_seeds": 8.0
+  },
+  "H2_intensity": {
+   "K1_ancova": {
+    "support_rate": 0.98,
+    "mean": 0.7543844197644292
+   },
+   "K1_dml": {
+    "support_rate": 0.98,
+    "mean": 0.7553854333837913
+   },
+   "median_feasible_seeds": 8.0
+  },
+  "susceptibility": {
+   "K1_ancova": {
+    "support_rate": 0.24,
+    "mean": 0.5414238443694377
+   },
+   "K1_dml": {
+    "support_rate": 0.02,
+    "mean": 0.510005426266323
+   },
+   "median_feasible_seeds": 8.0
+  },
+  "rtm": {
+   "K1_ancova": {
+    "support_rate": 0.0,
+    "mean": 0.503184396000921
+   },
+   "K1_dml": {
+    "support_rate": 0.02,
+    "mean": 0.5024041208084042
+   },
+   "median_feasible_seeds": 3.0
+  },
+  "null": {
+   "K1_ancova": {
+    "support_rate": 0.0,
+    "mean": 0.5009747247992216
+   },
+   "K1_dml": {
+    "support_rate": 0.0,
+    "mean": 0.5013441093988424
+   },
+   "median_feasible_seeds": 8.0
+  },
+  "susceptibility_latent": {
+   "K1_ancova": {
+    "support_rate": 0.8,
+    "mean": 0.5586688368443891
+   },
+   "K1_dml": {
+    "support_rate": 0.26,
+    "mean": 0.5422176830974206
+   },
+   "median_feasible_seeds": 8.5
+  }
+ }
+}

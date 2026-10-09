@@ -1,0 +1,1 @@
+shift0.0|H3 {'S1_delta_lin': (0.935, 1.0), 'S3_post_rcs_P': (0.946, 1.0), 'S3_noState': (0.955, 1.0), 'S9_dml_rank': (0.935, 1.0), 'S9_dml_logitM': (0.937, 1.0), 'S9_gen': (0.898, 1.0), 'K1_prob': (nan, 0.0), 'K1_ancova': (nan, 0.0)} {'A': 1.0, 'B': 0.0, 'C': 0.0}

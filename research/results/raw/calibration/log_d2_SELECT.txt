@@ -1,0 +1,4 @@
+SELECT lr=0.0003: eligible=False G3 True {'r2_pre': 0.008535729802235714, 'r2_gen': 0.35407326336707545, 'r2_joint': 0.26903724089534387} | per-seed {'G1_lost_range': False, 'G2_dC_iqr': True, 'G4_no_bookkeeping': True, 'G5_input_identity': True} | mean lost 0.749
+SELECT lr=0.001: eligible=False G3 True {'r2_pre': 0.02037526391659672, 'r2_gen': 0.32670286636453505, 'r2_joint': 0.21904494325940316} | per-seed {'G1_lost_range': False, 'G2_dC_iqr': True, 'G4_no_bookkeeping': True, 'G5_input_identity': True} | mean lost 0.901
+SELECT lr=0.003: eligible=False G3 True {'r2_pre': -8.763857054017166e-05, 'r2_gen': 0.19595293009626158, 'r2_joint': 0.11112079295514543} | per-seed {'G1_lost_range': False, 'G2_dC_iqr': True, 'G4_no_bookkeeping': True, 'G5_input_identity': True} | mean lost 0.963
+SELECT: no interference setting satisfies the binding D2 gates -> STOP (D2 kill report; D3 proposal)

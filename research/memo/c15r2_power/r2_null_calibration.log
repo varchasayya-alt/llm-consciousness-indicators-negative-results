@@ -1,0 +1,68 @@
+{
+ "worst": {
+  "R0": {
+   "fpr_star": 0.045599999999999995,
+   "se": 0.0020861601089082306,
+   "lower95": 0.04151112618653986,
+   "cfg": [
+    2.8,
+    "offset_decay",
+    11,
+    0.5,
+    1.0,
+    "acc_nat_0.55",
+    "iso"
+   ]
+  },
+  "R1": {
+   "fpr_star": 0.023899999999999998,
+   "se": 0.0015273765089197882,
+   "lower95": 0.020906342042517213,
+   "cfg": [
+    2.8,
+    "offset_decay",
+    11,
+    0.5,
+    1.0,
+    "acc_nat_0.55",
+    "iso"
+   ]
+  },
+  "R2": {
+   "fpr_star": 0.023899999999999998,
+   "se": 0.0015273765089197882,
+   "lower95": 0.020906342042517213,
+   "cfg": [
+    2.8,
+    "offset_decay",
+    11,
+    0.5,
+    1.0,
+    "acc_nat_0.55",
+    "iso"
+   ]
+  },
+  "R3": {
+   "fpr_star": 0.023899999999999998,
+   "se": 0.0015273765089197882,
+   "lower95": 0.020906342042517213,
+   "cfg": [
+    2.8,
+    "offset_decay",
+    11,
+    0.5,
+    1.0,
+    "acc_nat_0.55",
+    "iso"
+   ]
+  }
+ },
+ "controlled_at_R0": true,
+ "adopted_rung": "R0",
+ "seconds": {
+  "screen": 716.1105823516846,
+  "total": 1698.010906457901
+ }
+}
+{"max_fpr_primary": 0.0385, "max_fpr_uncorrected_any3": 0.09625}
+wrote <REPO_ROOT>\research\memo\c15r2_power\r2_null_calibration.json

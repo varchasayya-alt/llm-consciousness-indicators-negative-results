@@ -1,0 +1,20 @@
+15:30:48 phase S0 start; config_hash=5f61cbb59ff4d63e8631579854c7fc39bed9f5c1507b2b649659c0ef8e56cf11
+15:30:50 S0: 412 main instances, 824 decod instances; X_train=45
+15:30:58 S0 format F1: model Qwen/Qwen2.5-0.5B-Instruct layers=24 d=896 threads=12
+15:30:59   E2 {'E2_zero_patch_maxabs': 0.0, 'E2_hook_vs_hidden_maxabs': 0.0}
+15:30:59 M1 decodability
+15:32:30   L_w=8 add=0.675 sub=0.622 V0=False
+15:32:30 M2 competence
+15:44:34   V1a=False V1b=False V1c=False V1d=False pool_pass=[]
+15:44:45   E3/E4 {'E2_zero_patch_maxabs': 0.0, 'E2_hook_vs_hidden_maxabs': 0.0, 'E3_tokens': 189082, 'E3_wall_s': 814.5449421405792, 'E3_tok_per_s_forward': 242.94968427005853, 'E4': {'batch': 8, 'sec_per_batch': 3.758242130279541, 'sec_per_example': 0.4697802662849426}}
+15:44:45 S0: format F1 failed V0/V1a/b/d -> trying F2 (pre-declared fallback)
+15:44:46 S0 format F2: model Qwen/Qwen2.5-0.5B-Instruct layers=24 d=896 threads=12
+15:44:51   E2 {'E2_zero_patch_maxabs': 0.0, 'E2_hook_vs_hidden_maxabs': 0.0}
+15:44:51 M1 decodability
+15:47:56   L_w=8 add=0.761 sub=0.706 V0=True
+15:47:56 M2 competence
+16:10:41   V1a=False V1b=False V1c=False V1d=False pool_pass=[]
+16:11:02   E3/E4 {'E2_zero_patch_maxabs': 0.0, 'E2_hook_vs_hidden_maxabs': 0.0, 'E3_tokens': 367890, 'E3_wall_s': 1550.3424453735352, 'E3_tok_per_s_forward': 243.910631011934, 'E4': {'batch': 8, 'sec_per_batch': 6.891041278839111, 'sec_per_example': 0.8613801598548889}}
+16:11:02 S0: format F2 failed V0/V1a/b/d -> STOP
+16:11:02 S0 summary: {'final_format': None, 'core_instrument_valid': False, 'phase_diagram_measurable': False, 'V1': {'V1a': False, 'V1b': False, 'V1c': False, 'V1d': False, 'pool_passing_V1': []}, 'V2': None, 'W': None, 'L_w': 8, 'l_o': None, 'read_layers': None, 'rX_geomean': None, 'rB_geomean': None}
+16:11:02 phase S0 done

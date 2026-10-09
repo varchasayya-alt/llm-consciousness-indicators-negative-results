@@ -1,0 +1,2136 @@
+{
+ "seed": "arXiv:1910.11424",
+ "meta": {
+  "paperId": "cf96b99f4d35b452d4679b664b74aa255e000b8c",
+  "title": "Capacity, Bandwidth, and Compositionality in Emergent Language Learning",
+  "year": 2019,
+  "citationCount": 63
+ },
+ "citations": [
+  {
+   "paperId": "ed1271f472295573137ed777a7cba9a090a644d2",
+   "externalIds": {
+    "ArXiv": "2609.15361",
+    "CorpusId": 292027317
+   },
+   "url": "https://www.semanticscholar.org/paper/ed1271f472295573137ed777a7cba9a090a644d2",
+   "title": "Robust and Efficient Communication for Multi-Agent Learning",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.15361, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2057034006",
+     "name": "Rafael Pina"
+    },
+    {
+     "authorId": "2485796112",
+     "name": "Varuna De Silva"
+    },
+    {
+     "authorId": "2188629761",
+     "name": "Corentin Artaud"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "f9d7eb9b0994f0ab566e0f28b2c865e443fbcb00",
+   "externalIds": {
+    "DBLP": "journals/aamas/JosephK26",
+    "DOI": "10.1007/s10458-026-09762-8",
+    "CorpusId": 291324018
+   },
+   "url": "https://www.semanticscholar.org/paper/f9d7eb9b0994f0ab566e0f28b2c865e443fbcb00",
+   "title": "Consensus from Ambiguity: Language Emergence in Guessing Games",
+   "venue": "Autonomous Agents and Multi-Agent Systems",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": "CLOSED",
+    "license": null,
+    "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s10458-026-09762-8?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s10458-026-09762-8, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2279926906",
+     "name": "Ajin George Joseph"
+    },
+    {
+     "authorId": "2260353999",
+     "name": "Vikas Kumar"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "e25dd8de4ce8b0a15259f4807344a489d9310bc4",
+   "externalIds": {
+    "ArXiv": "2608.20054",
+    "CorpusId": 291337749
+   },
+   "url": "https://www.semanticscholar.org/paper/e25dd8de4ce8b0a15259f4807344a489d9310bc4",
+   "title": "What You Can't See Is What You Learn: Slot-Selective Evidence Masking Favors Compositional Generalization in Shared-Genome Language-Model Societies",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.20054, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "1396622743",
+     "name": "Narcis Marincat"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "f7ff1d12514a5c564bc5af70bb59c4eba85341a8",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-03752",
+    "ArXiv": "2607.03752",
+    "DOI": "10.48550/arXiv.2607.03752",
+    "CorpusId": 289934350
+   },
+   "url": "https://www.semanticscholar.org/paper/f7ff1d12514a5c564bc5af70bb59c4eba85341a8",
+   "title": "EmCom-Diffusion: Probing Visual Reflection in Emergent Languages via Image Generation",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.03752, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2376132517",
+     "name": "Haruumi Omoto"
+    },
+    {
+     "authorId": "2247421363",
+     "name": "Tadahiro Taniguchi"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "446c36e23b9f0e444fe0d24f432611b825ef9ce0",
+   "externalIds": {
+    "ArXiv": "2607.00233",
+    "DBLP": "journals/corr/abs-2607-00233",
+    "DOI": "10.48550/arXiv.2607.00233",
+    "CorpusId": 289707316
+   },
+   "url": "https://www.semanticscholar.org/paper/446c36e23b9f0e444fe0d24f432611b825ef9ce0",
+   "title": "From Signals to Structure: How Memory Architecture Drives Language Emergence in LLM Agents",
+   "venue": "IEEE Symposium on Artificial Life",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.00233, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2445797635",
+     "name": "Yashar Talebirad"
+    },
+    {
+     "authorId": "2390252939",
+     "name": "Eden Redman"
+    },
+    {
+     "authorId": "2267534149",
+     "name": "Ali Parsaee"
+    },
+    {
+     "authorId": "2257259661",
+     "name": "Osmar R. Zaïane"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "c636be61a86700abca670d92b1b962605a3dfbbd",
+   "externalIds": {
+    "ArXiv": "2606.06380",
+    "DBLP": "journals/corr/abs-2606-06380",
+    "DOI": "10.48550/arXiv.2606.06380",
+    "CorpusId": 288976601
+   },
+   "url": "https://www.semanticscholar.org/paper/c636be61a86700abca670d92b1b962605a3dfbbd",
+   "title": "Emergent Language as an Approach to Conscious AI",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2606.06380, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2157765133",
+     "name": "Zengqing Wu"
+    },
+    {
+     "authorId": "2284717877",
+     "name": "Chuan Xiao"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "14f37f444cde3790a2f801039cf207ca2b512176",
+   "externalIds": {
+    "ArXiv": "2508.05843",
+    "DBLP": "journals/corr/abs-2508-05843",
+    "DOI": "10.48550/arXiv.2508.05843",
+    "CorpusId": 280561633
+   },
+   "url": "https://www.semanticscholar.org/paper/14f37f444cde3790a2f801039cf207ca2b512176",
+   "title": "Discovering Properties of Inflectional Morphology in Neural Emergent Communication",
+   "venue": "Annual Meeting of the Association for Computational Linguistics",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2508.05843, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2370936269",
+     "name": "Miles Gilberti"
+    },
+    {
+     "authorId": "2375328528",
+     "name": "Shane Storks"
+    },
+    {
+     "authorId": "1576491846",
+     "name": "Huteng Dai"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "44df72184a96c6316d12d991434c001cab6f2e7f",
+   "externalIds": {
+    "ArXiv": "2501.04437",
+    "DBLP": "journals/corr/abs-2501-04437",
+    "DOI": "10.1109/TITS.2025.3528116",
+    "CorpusId": 275357772
+   },
+   "url": "https://www.semanticscholar.org/paper/44df72184a96c6316d12d991434c001cab6f2e7f",
+   "title": "Integrating LLMs With ITS: Recent Advances, Potentials, Challenges, and Future Directions",
+   "venue": "IEEE transactions on intelligent transportation systems (Print)",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2501.04437, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2338998827",
+     "name": "Doaa Mahmud"
+    },
+    {
+     "authorId": "2339000833",
+     "name": "Hadeel Hajmohamed"
+    },
+    {
+     "authorId": "2338999297",
+     "name": "Shamma Almentheri"
+    },
+    {
+     "authorId": "2338999819",
+     "name": "Shamma Alqaydi"
+    },
+    {
+     "authorId": "2321456587",
+     "name": "Lameya Aldhaheri"
+    },
+    {
+     "authorId": "65782608",
+     "name": "R. Khalil"
+    },
+    {
+     "authorId": "39947763",
+     "name": "Nasir Saeed"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "5b19fb4c441856490cbfe8c3eab05187e4063d33",
+   "externalIds": {
+    "DBLP": "journals/tmlr/BoldtM24",
+    "ArXiv": "2407.03302",
+    "DOI": "10.48550/arXiv.2407.03302",
+    "CorpusId": 268054131
+   },
+   "url": "https://www.semanticscholar.org/paper/5b19fb4c441856490cbfe8c3eab05187e4063d33",
+   "title": "A Review of the Applications of Deep Learning-Based Emergent Communication",
+   "venue": "Trans. Mach. Learn. Res.",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2407.03302, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2906717",
+     "name": "Brendon Boldt"
+    },
+    {
+     "authorId": "2288102542",
+     "name": "David R. Mortensen"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "f03030c03173d254b1bf48b5134559d9f14d8929",
+   "externalIds": {
+    "PubMedCentral": "11086074",
+    "DBLP": "journals/sensors/NilssonJADLS24",
+    "DOI": "10.3390/s24092921",
+    "CorpusId": 267404196,
+    "PubMed": "38733028"
+   },
+   "url": "https://www.semanticscholar.org/paper/f03030c03173d254b1bf48b5134559d9f14d8929",
+   "title": "AI Concepts for System of Systems Dynamic Interoperability",
+   "venue": "Italian National Conference on Sensors",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "https://www.mdpi.com/1424-8220/24/9/2921/pdf?version=1714725258",
+    "status": "GOLD",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11086074, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "1845900324",
+     "name": "Jacob Nilsson"
+    },
+    {
+     "authorId": "11927005",
+     "name": "Saleha Javed"
+    },
+    {
+     "authorId": "2555574",
+     "name": "Kim Albertsson"
+    },
+    {
+     "authorId": "1781685",
+     "name": "J. Delsing"
+    },
+    {
+     "authorId": "2239208206",
+     "name": "Marcus Liwicki"
+    },
+    {
+     "authorId": "2257001115",
+     "name": "Fredrik Sandin"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "fbaa9976250127321882b777e07c3f77ec6f9c0e",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2403-11958",
+    "ArXiv": "2403.11958",
+    "DOI": "10.48550/arXiv.2403.11958",
+    "CorpusId": 268531751
+   },
+   "url": "https://www.semanticscholar.org/paper/fbaa9976250127321882b777e07c3f77ec6f9c0e",
+   "title": "Language Evolution with Deep Learning",
+   "venue": "arXiv.org",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2403.11958, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "1986370885",
+     "name": "Mathieu Rita"
+    },
+    {
+     "authorId": "2275185732",
+     "name": "Paul Michel"
+    },
+    {
+     "authorId": "1706980",
+     "name": "R. Chaabouni"
+    },
+    {
+     "authorId": "2285916934",
+     "name": "Olivier Pietquin"
+    },
+    {
+     "authorId": "2292143317",
+     "name": "Emmanuel Dupoux"
+    },
+    {
+     "authorId": "2292199158",
+     "name": "Florian Strub"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "5a16f1e0777fb60a047a7f926b9768ecdd39dfd4",
+   "externalIds": {
+    "ArXiv": "2401.15059",
+    "DBLP": "journals/corr/abs-2401-15059",
+    "DOI": "10.48550/arXiv.2401.15059",
+    "CorpusId": 267301221
+   },
+   "url": "https://www.semanticscholar.org/paper/5a16f1e0777fb60a047a7f926b9768ecdd39dfd4",
+   "title": "Fully Independent Communication in Multi-Agent Reinforcement Learning",
+   "venue": "Adaptive Agents and Multi-Agent Systems",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2401.15059, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2057034006",
+     "name": "Rafael Pina"
+    },
+    {
+     "authorId": "2485796112",
+     "name": "Varuna De Silva"
+    },
+    {
+     "authorId": "2188629761",
+     "name": "Corentin Artaud"
+    },
+    {
+     "authorId": "2265694372",
+     "name": "Xiao-Lan Liu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "2da37a032edc108091de90ac2c690f8c48e949a3",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2312-15985",
+    "ArXiv": "2312.15985",
+    "DOI": "10.48550/arXiv.2312.15985",
+    "CorpusId": 266551032
+   },
+   "url": "https://www.semanticscholar.org/paper/2da37a032edc108091de90ac2c690f8c48e949a3",
+   "title": "Discrete Messages Improve Communication Efficiency among Isolated Intelligent Agents",
+   "venue": "arXiv.org",
+   "year": 2023,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2312.15985, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2276673482",
+     "name": "Hang Chen"
+    },
+    {
+     "authorId": "2276427121",
+     "name": "Yuchuan Jang"
+    },
+    {
+     "authorId": "2350037052",
+     "name": "Weijie Zhou"
+    },
+    {
+     "authorId": "2052095589",
+     "name": "Cristian Meo"
+    },
+    {
+     "authorId": "2117097608",
+     "name": "Ziwei Chen"
+    },
+    {
+     "authorId": "2276487059",
+     "name": "Dianbo Liu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ff6124c7f99de4a3db9e59c62231f4313005e42f",
+   "externalIds": {
+    "PubMedCentral": "10721031",
+    "DOI": "10.1371/journal.pone.0295748",
+    "CorpusId": 266222863,
+    "PubMed": "38096195"
+   },
+   "url": "https://www.semanticscholar.org/paper/ff6124c7f99de4a3db9e59c62231f4313005e42f",
+   "title": "Accelerating language emergence by functional pressures",
+   "venue": "PLoS ONE",
+   "year": 2023,
+   "openAccessPdf": {
+    "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0295748&type=printable",
+    "status": "GOLD",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10721031, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "1753876082",
+     "name": "Kasun Vithanage"
+    },
+    {
+     "authorId": "151197184",
+     "name": "Rukshan Wijesinghe"
+    },
+    {
+     "authorId": "2054181402",
+     "name": "A. Xavier"
+    },
+    {
+     "authorId": "66005670",
+     "name": "Dumindu Tissera"
+    },
+    {
+     "authorId": "2066026296",
+     "name": "Sanath Jayasena"
+    },
+    {
+     "authorId": "148043033",
+     "name": "S. Fernando"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "a2cfc69f77f1d912b69cea6d027f5858416af442",
+   "externalIds": {
+    "ArXiv": "2311.04453",
+    "DBLP": "journals/corr/abs-2311-04453",
+    "DOI": "10.48550/arXiv.2311.04453",
+    "CorpusId": 265050784
+   },
+   "url": "https://www.semanticscholar.org/paper/a2cfc69f77f1d912b69cea6d027f5858416af442",
+   "title": "Lewis's Signaling Game as beta-VAE For Natural Word Lengths and Segments",
+   "venue": "International Conference on Learning Representations",
+   "year": 2023,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2311.04453, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "153704369",
+     "name": "Ryo Ueda"
+    },
+    {
+     "authorId": "2292259369",
+     "name": "Tadahiro Taniguchi"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "b0a4098efda1b4a7e4397395a1616a7ccef57fa7",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2311-04128",
+    "ArXiv": "2311.04128",
+    "DOI": "10.1038/s42254-024-00688-2",
+    "CorpusId": 265043021
+   },
+   "url": "https://www.semanticscholar.org/paper/b0a4098efda1b4a7e4397395a1616a7ccef57fa7",
+   "title": "Generative learning for nonlinear dynamics",
+   "venue": "Nature Reviews Physics",
+   "year": 2023,
+   "openAccessPdf": {
+    "url": "",
+    "status": "CLOSED",
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2311.04128, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2322501431",
+     "name": "William Gilpin"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "46b5aed4c2af13529d77eb09d881169cb708a22e",
+   "externalIds": {
+    "DBLP": "journals/access/Brandizzi23",
+    "ArXiv": "2308.02541",
+    "DOI": "10.1109/ACCESS.2023.3339656",
+    "CorpusId": 260682813
+   },
+   "url": "https://www.semanticscholar.org/paper/46b5aed4c2af13529d77eb09d881169cb708a22e",
+   "title": "Toward More Human-Like AI Communication: A Review of Emergent Communication Research",
+   "venue": "IEEE Access",
+   "year": 2023,
+   "openAccessPdf": {
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10343141.pdf",
+    "status": "GOLD",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2308.02541, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2108867346",
+     "name": "Nicolo’ Brandizzi"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "2f4a940282642b1d57418a5d4bea0064b48ded2d",
+   "externalIds": {
+    "ArXiv": "2302.12239",
+    "PubMedCentral": "11685529",
+    "DOI": "10.1038/s41467-024-55158-1",
+    "CorpusId": 257102881,
+    "PubMed": "39738033"
+   },
+   "url": "https://www.semanticscholar.org/paper/2f4a940282642b1d57418a5d4bea0064b48ded2d",
+   "title": "Deep neural networks and humans both benefit from compositional language structure",
+   "venue": "Nature Communications",
+   "year": 2023,
+   "openAccessPdf": {
+    "url": "https://www.nature.com/articles/s41467-024-55158-1.pdf",
+    "status": "GOLD",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2302.12239, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "11220282",
+     "name": "Lukas Galke Poech"
+    },
+    {
+     "authorId": "2201908",
+     "name": "Yoav Ram"
+    },
+    {
+     "authorId": "24825997",
+     "name": "Limor Raviv"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "d8cca520b231d3dcc284944bcf37e5d0834bf28d",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2211-15783",
+    "ArXiv": "2211.15783",
+    "DOI": "10.48550/arXiv.2211.15783",
+    "CorpusId": 254070116
+   },
+   "url": "https://www.semanticscholar.org/paper/d8cca520b231d3dcc284944bcf37e5d0834bf28d",
+   "title": "Mathematically Modeling the Lexicon Entropy of Emergent Language",
+   "venue": "arXiv.org",
+   "year": 2022,
+   "openAccessPdf": {
+    "url": "http://arxiv.org/pdf/2211.15783",
+    "status": "GREEN",
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2211.15783, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2906717",
+     "name": "Brendon Boldt"
+    },
+    {
+     "authorId": "3407646",
+     "name": "David R. Mortensen"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "69e364cb69fc8c2dcd1157ecdb8758f3fd04c431",
+   "externalIds": {
+    "ArXiv": "2211.02412",
+    "DBLP": "journals/corr/abs-2211-02412",
+    "DOI": "10.48550/arXiv.2211.02412",
+    "CorpusId": 253370522
+   },
+   "url": "https://www.semanticscholar.org/paper/69e364cb69fc8c2dcd1157ecdb8758f3fd04c431",
+   "title": "Emergent Quantized Communication",
+   "venue": "AAAI Conference on Artificial Intelligence",
+   "year": 2022,
+   "openAccessPdf": {
+    "url": "http://arxiv.org/pdf/2211.02412",
+    "status": "GREEN",
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2211.02412, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "1719299",
+     "name": "Boaz Carmeli"
+    },
+    {
+     "authorId": "1766683",
+     "name": "R. Meir"
+    },
+    {
+     "authorId": "2083259",
+     "name": "Yonatan Belinkov"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "44e567cad44a664ad14540a89c1fb3594390b1c3",
+   "externalIds": {
+    "ArXiv": "2209.15342",
+    "DBLP": "journals/corr/abs-2209-15342",
+    "DOI": "10.48550/arXiv.2209.15342",
+    "CorpusId": 252668738
+   },
+   "url": "https://www.semanticscholar.org/paper/44e567cad44a664ad14540a89c1fb3594390b1c3",
+   "title": "Emergent Communication: Generalization and Overfitting in Lewis Games",
+   "venue": "Neural Information Processing Systems",
+   "year": 2022,
+   "openAccessPdf": {
+    "url": "http://arxiv.org/pdf/2209.15342",
+    "status": "GREEN",
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2209.15342, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "1986370885",
+     "name": "Mathieu Rita"
+    },
+    {
+     "authorId": "31803582",
+     "name": "Corentin Tallec"
+    },
+    {
+     "authorId": "144397625",
+     "name": "Paul Michel"
+    },
+    {
+     "authorId": "145840757",
+     "name": "Jean-Bastien Grill"
+    },
+    {
+     "authorId": "1721354",
+     "name": "O. Pietquin"
+    },
+    {
+     "authorId": "2202008",
+     "name": "Emmanuel Dupoux"
+    },
+    {
+     "authorId": "3367628",
+     "name": "Florian Strub"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "1a7a24c73521eecf0a2d555e921b27e2c4d8e3c3",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2208-07998",
+    "ArXiv": "2208.07998",
+    "DOI": "10.48550/arXiv.2208.07998",
+    "CorpusId": 251623202
+   },
+   "url": "https://www.semanticscholar.org/paper/1a7a24c73521eecf0a2d555e921b27e2c4d8e3c3",
+   "title": "What Artificial Neural Networks Can Tell Us About Human Language Acquisition",
+   "venue": "arXiv.org",
+   "year": 2022,
+   "openAccessPdf": {
+    "url": "http://arxiv.org/pdf/2208.07998",
+    "status": "GREEN",
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2208.07998, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "46236380",
+     "name": "Alex Warstadt"
+    },
+    {
+     "authorId": "3644767",
+     "name": "Samuel R. Bowman"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "e583db149f3942246064ade7c793c8ea70adc827",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2206-11146",
+    "ArXiv": "2206.11146",
+    "DOI": "10.48550/arXiv.2206.11146",
+    "CorpusId": 249926814
+   },
+   "url": "https://www.semanticscholar.org/paper/e583db149f3942246064ade7c793c8ea70adc827",
+   "title": "Modeling Emergent Lexicon Formation with a Self-Reinforcing Stochastic Process",
+   "venue": "arXiv.org",
+   "year": 2022,
+   "openAccessPdf": {
+    "url": "https://arxiv.org/pdf/2206.11146",
+    "status": "GREEN",
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2206.11146, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2906717",
+     "name": "Brendon Boldt"
+    },
+    {
+     "authorId": "3407646",
+     "name": "David R. Mortensen"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "c375f5c426d51f860f4d77999123fa9aed795c08",
+   "externalIds": {
+    "ArXiv": "2206.11302",
+    "DBLP": "journals/corr/abs-2206-11302",
+    "DOI": "10.48550/arXiv.2206.11302",
+    "CorpusId": 249953798
+   },
+   "url": "https://www.semanticscholar.org/paper/c375f5c426d51f860f4d77999123fa9aed795c08",
+   "title": "Recommendations for Systematic Research on Emergent Language",
+   "venue": "arXiv.org",
+   "year": 2022,
+   "openAccessPdf": {
+    "url": "https://arxiv.org/pdf/2206.11302",
+    "status": "GREEN",
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2206.11302, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2906717",
+     "name": "Brendon Boldt"
+    },
+    {
+     "authorId": "3407646",
+     "name": "David R. Mortensen"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "61cbee9df90ede1fae2c7fb9af30cb855a50c1c6",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2204-12982",
+    "ArXiv": "2204.12982",
+    "DOI": "10.48550/arXiv.2204.12982",
+    "CorpusId": 247867757
+   },
+   "url": "https://www.semanticscholar.org/paper/61cbee9df90ede1fae2c7fb9af30cb855a50c1c6",
+   "title": "On the role of population heterogeneity in emergent communication",
+   "venue": "International Conference on Learning Representations",
+   "year": 2022,
+   "openAccessPdf": {
+    "url": "http://arxiv.org/pdf/2204.12982",
+    "status": "GREEN",
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2204.12982, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "1986370885",
+     "name": "Mathieu Rita"
+    },
+    {
+     "authorId": "3367628",
+     "name": "Florian Strub"
+    },
+    {
+     "authorId": "145840757",
+     "name": "Jean-Bastien Grill"
+    },
+    {
+     "authorId": "1721354",
+     "name": "O. Pietquin"
+    },
+    {
+     "authorId": "2202008",
+     "name": "Emmanuel Dupoux"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "501a150a91f6b6949c4a497bd6c1e95fe2b2a4f9",
+   "externalIds": {
+    "ArXiv": "2204.10590",
+    "DBLP": "journals/corr/abs-2204-10590",
+    "DOI": "10.48550/arXiv.2204.10590",
+    "CorpusId": 248366613
+   },
+   "url": "https://www.semanticscholar.org/paper/501a150a91f6b6949c4a497bd6c1e95fe2b2a4f9",
+   "title": "Emergent Communication for Understanding Human Language Evolution: What's Missing?",
+   "venue": "arXiv.org",
+   "year": 2022,
+   "openAccessPdf": {
+    "url": "http://arxiv.org/pdf/2204.10590",
+    "status": "GREEN",
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2204.10590, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "11220282",
+     "name": "Lukas Galke Poech"
+    },
+    {
+     "authorId": "2201908",
+     "name": "Yoav Ram"
+    },
+    {
+     "authorId": "24825997",
+     "name": "Limor Raviv"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "d60742f6c1df48bc820a26564ae51cf527732ae2",
+   "externalIds": {
+    "ArXiv": "2203.08975",
+    "DBLP": "conf/atal/ZhuD024",
+    "DOI": "10.1007/s10458-023-09633-6",
+    "CorpusId": 247518595
+   },
+   "url": "https://www.semanticscholar.org/paper/d60742f6c1df48bc820a26564ae51cf527732ae2",
+   "title": "A survey of multi-agent deep reinforcement learning with communication",
+   "venue": "Autonomous Agents and Multi-Agent Systems",
+   "year": 2022,
+   "openAccessPdf": {
+    "url": "https://link.springer.com/content/pdf/10.1007/s10458-023-09633-6.pdf",
+    "status": "HYBRID",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2203.08975, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "119890891",
+     "name": "Changxi Zhu"
+    },
+    {
+     "authorId": "1707738",
+     "name": "M. Dastani"
+    },
+    {
+     "authorId": "2109511123",
+     "name": "Shi-Han Wang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "39f604fdd3ade5bd5a67d5284a6d9c12e535db85",
+   "externalIds": {
+    "ArXiv": "2201.12926",
+    "DBLP": "conf/acl/AkyurekA23",
+    "ACL": "2023.acl-long.38",
+    "DOI": "10.18653/v1/2023.acl-long.38",
+    "CorpusId": 260669688
+   },
+   "url": "https://www.semanticscholar.org/paper/39f604fdd3ade5bd5a67d5284a6d9c12e535db85",
+   "title": "LexSym: Compositionality as Lexical Symmetry",
+   "venue": "Annual Meeting of the Association for Computational Linguistics",
+   "year": 2022,
+   "openAccessPdf": {
+    "url": "https://aclanthology.org/2023.acl-long.38.pdf",
+    "status": "HYBRID",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2201.12926, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "39021671",
+     "name": "Ekin Akyürek"
+    },
+    {
+     "authorId": "2112400",
+     "name": "Jacob Andreas"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "bf3364982fe198458e04c2a987e1a97ccf1e1465",
+   "externalIds": {
+    "DBLP": "conf/nips/KucinskiKKM21",
+    "ArXiv": "2111.06464",
+    "CorpusId": 244102651
+   },
+   "url": "https://www.semanticscholar.org/paper/bf3364982fe198458e04c2a987e1a97ccf1e1465",
+   "title": "Catalytic Role Of Noise And Necessity Of Inductive Biases In The Emergence Of Compositional Communication",
+   "venue": "Neural Information Processing Systems",
+   "year": 2021,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2111.06464, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2167581543",
+     "name": "Lukasz Kucinski"
+    },
+    {
+     "authorId": "30023177",
+     "name": "Tomasz Korbak"
+    },
+    {
+     "authorId": "1401948394",
+     "name": "P. Kołodziej"
+    },
+    {
+     "authorId": "2066047191",
+     "name": "Piotr Milos"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "338fc4f5097a9ad00084f376d1f9b0209100ee1d",
+   "externalIds": {
+    "ArXiv": "2111.02827",
+    "DBLP": "journals/corr/abs-2111-02827",
+    "CorpusId": 242757488
+   },
+   "url": "https://www.semanticscholar.org/paper/338fc4f5097a9ad00084f376d1f9b0209100ee1d",
+   "title": "Towards Learning to Speak and Hear Through Multi-Agent Communication over a Continuous Acoustic Channel",
+   "venue": "arXiv.org",
+   "year": 2021,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2111.02827, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2057090282",
+     "name": "Kevin Eloff"
+    },
+    {
+     "authorId": "38166712",
+     "name": "Arnu Pretorius"
+    },
+    {
+     "authorId": "34945374",
+     "name": "O. Räsänen"
+    },
+    {
+     "authorId": "27378556",
+     "name": "H. Engelbrecht"
+    },
+    {
+     "authorId": "2308553",
+     "name": "H. Kamper"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "d494df092c78da73b0f83b19cce9201458b07f9f",
+   "externalIds": {
+    "ArXiv": "2106.11156",
+    "DBLP": "conf/atal/GrupenLS22",
+    "DOI": "10.5555/3535850.3535913",
+    "CorpusId": 246063125
+   },
+   "url": "https://www.semanticscholar.org/paper/d494df092c78da73b0f83b19cce9201458b07f9f",
+   "title": "Multi-Agent Curricula and Emergent Implicit Signaling",
+   "venue": "Adaptive Agents and Multi-Agent Systems",
+   "year": 2021,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2106.11156, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2029504859",
+     "name": "Niko A. Grupen"
+    },
+    {
+     "authorId": "2124216699",
+     "name": "Daniel D. Lee"
+    },
+    {
+     "authorId": "1744679",
+     "name": "B. Selman"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "c524002fb88ce10a5ca0bfb92f055ca52252ca90",
+   "externalIds": {
+    "ArXiv": "2106.02668",
+    "DBLP": "conf/nips/MuG21",
+    "CorpusId": 235351188
+   },
+   "url": "https://www.semanticscholar.org/paper/c524002fb88ce10a5ca0bfb92f055ca52252ca90",
+   "title": "Emergent Communication of Generalizations",
+   "venue": "Neural Information Processing Systems",
+   "year": 2021,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2106.02668, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "24835910",
+     "name": "Jesse Mu"
+    },
+    {
+     "authorId": "144002017",
+     "name": "Noah D. Goodman"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "cd03c4702087eecb423b49265f1370fda580afe3",
+   "externalIds": {
+    "ArXiv": "2103.04180",
+    "CorpusId": 244488744
+   },
+   "url": "https://www.semanticscholar.org/paper/cd03c4702087eecb423b49265f1370fda580afe3",
+   "title": "Neural networks can understand compositional functions that humans do not, in the context of emergent communication",
+   "venue": "",
+   "year": 2021,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2103.04180, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "145933682",
+     "name": "Hugh Perkins"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "9dc7fba6551c8e142b95ee6baf0d25ccb1aed988",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2012-10776",
+    "ArXiv": "2012.10776",
+    "CorpusId": 229340012
+   },
+   "url": "https://www.semanticscholar.org/paper/9dc7fba6551c8e142b95ee6baf0d25ccb1aed988",
+   "title": "On (Emergent) Systematic Generalisation and Compositionality in Visual Referential Games with Straight-Through Gumbel-Softmax Estimator",
+   "venue": "arXiv.org",
+   "year": 2020,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2012.10776, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2038266435",
+     "name": "Kevin Denamganai"
+    },
+    {
+     "authorId": "39547552",
+     "name": "James Alfred Walker"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "aa8873e731210ea3ae2bd9b1481b91ce87cab5a7",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2012-09486",
+    "MAG": "3111866942",
+    "ArXiv": "2012.09486",
+    "CorpusId": 229297863
+   },
+   "url": "https://www.semanticscholar.org/paper/aa8873e731210ea3ae2bd9b1481b91ce87cab5a7",
+   "title": "ReferentialGym: A Nomenclature and Framework for Language Emergence & Grounding in (Visual) Referential Games",
+   "venue": "arXiv.org",
+   "year": 2020,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2012.09486, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2038266435",
+     "name": "Kevin Denamganai"
+    },
+    {
+     "authorId": "39547552",
+     "name": "James Alfred Walker"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "9a2c0ae7e6ab851c982c1a3e970e85f919606aed",
+   "externalIds": {
+    "MAG": "3110053813",
+    "ArXiv": "2011.14890",
+    "DBLP": "journals/corr/abs-2011-14890",
+    "CorpusId": 227228921
+   },
+   "url": "https://www.semanticscholar.org/paper/9a2c0ae7e6ab851c982c1a3e970e85f919606aed",
+   "title": "Low-Bandwidth Communication Emerges Naturally in Multi-Agent Learning Systems",
+   "venue": "arXiv.org",
+   "year": 2020,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2011.14890, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2029504859",
+     "name": "Niko A. Grupen"
+    },
+    {
+     "authorId": "2124216699",
+     "name": "Daniel D. Lee"
+    },
+    {
+     "authorId": "1744679",
+     "name": "B. Selman"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "18f44e11e7586202c6d15775089f7b3f6cbbfd57",
+   "externalIds": {
+    "ArXiv": "2011.00890",
+    "MAG": "3109407175",
+    "ACL": "2020.coling-main.416",
+    "DBLP": "conf/coling/LiPVK20",
+    "DOI": "10.18653/v1/2020.coling-main.416",
+    "CorpusId": 226226658
+   },
+   "url": "https://www.semanticscholar.org/paper/18f44e11e7586202c6d15775089f7b3f6cbbfd57",
+   "title": "Emergent Communication Pretraining for Few-Shot Machine Translation",
+   "venue": "International Conference on Computational Linguistics",
+   "year": 2020,
+   "openAccessPdf": {
+    "url": "https://www.aclweb.org/anthology/2020.coling-main.416.pdf",
+    "status": "HYBRID",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2011.00890, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2110977488",
+     "name": "Yaoyiran Li"
+    },
+    {
+     "authorId": "3381663",
+     "name": "E. Ponti"
+    },
+    {
+     "authorId": "1747849",
+     "name": "Ivan Vulic"
+    },
+    {
+     "authorId": "145762466",
+     "name": "A. Korhonen"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "0d442696821d4e51f20ee6400ac6ff505c6d51cb",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2010-15058",
+    "ArXiv": "2010.15058",
+    "MAG": "3095531775",
+    "CorpusId": 225094094
+   },
+   "url": "https://www.semanticscholar.org/paper/0d442696821d4e51f20ee6400ac6ff505c6d51cb",
+   "title": "Measuring non-trivial compositionality in emergent communication",
+   "venue": "arXiv.org",
+   "year": 2020,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2010.15058, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "30023177",
+     "name": "Tomasz Korbak"
+    },
+    {
+     "authorId": "48544391",
+     "name": "Julian Zubek"
+    },
+    {
+     "authorId": null,
+     "name": "Joanna Raczaszek-Leonardi"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "6463f532a45f68624cb172d247d19a6601dda270",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2006-02419",
+    "MAG": "3033076904",
+    "ArXiv": "2006.02419",
+    "CorpusId": 219260403
+   },
+   "url": "https://www.semanticscholar.org/paper/6463f532a45f68624cb172d247d19a6601dda270",
+   "title": "Emergent Multi-Agent Communication in the Deep Learning Era",
+   "venue": "arXiv.org",
+   "year": 2020,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2006.02419, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2672644",
+     "name": "Angeliki Lazaridou"
+    },
+    {
+     "authorId": "145283199",
+     "name": "M. Baroni"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "d70af4990cba2574c41b1235030f7a5b702e2d70",
+   "externalIds": {
+    "MAG": "3016815617",
+    "DBLP": "conf/acl/ChaabouniKBDB20",
+    "ArXiv": "2004.09124",
+    "ACL": "2020.acl-main.407",
+    "DOI": "10.18653/v1/2020.acl-main.407",
+    "CorpusId": 215827766
+   },
+   "url": "https://www.semanticscholar.org/paper/d70af4990cba2574c41b1235030f7a5b702e2d70",
+   "title": "Compositionality and Generalization In Emergent Languages",
+   "venue": "Annual Meeting of the Association for Computational Linguistics",
+   "year": 2020,
+   "openAccessPdf": {
+    "url": "https://doi.org/10.18653/v1/2020.acl-main.407",
+    "status": "HYBRID",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2004.09124, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "1706980",
+     "name": "R. Chaabouni"
+    },
+    {
+     "authorId": "144875326",
+     "name": "E. Kharitonov"
+    },
+    {
+     "authorId": "3365029",
+     "name": "Diane Bouchacourt"
+    },
+    {
+     "authorId": "2202008",
+     "name": "Emmanuel Dupoux"
+    },
+    {
+     "authorId": "145283199",
+     "name": "M. Baroni"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "300896cd4fb518b67b796e9eef7c94c64661ec37",
+   "externalIds": {
+    "MAG": "3106113101",
+    "ACL": "2020.blackboxnlp-1.2",
+    "DBLP": "journals/corr/abs-2004-03420",
+    "ArXiv": "2004.03420",
+    "DOI": "10.18653/v1/2020.blackboxnlp-1.2",
+    "CorpusId": 215238861
+   },
+   "url": "https://www.semanticscholar.org/paper/300896cd4fb518b67b796e9eef7c94c64661ec37",
+   "title": "Emergent Language Generalization and Acquisition Speed are not tied to Compositionality",
+   "venue": "BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP",
+   "year": 2020,
+   "openAccessPdf": {
+    "url": "https://www.aclweb.org/anthology/2020.blackboxnlp-1.2.pdf",
+    "status": "HYBRID",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2004.03420, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "144875326",
+     "name": "E. Kharitonov"
+    },
+    {
+     "authorId": "145283199",
+     "name": "M. Baroni"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "affe7b47c89ce6a54f3cca29a3e5d785031dfc17",
+   "externalIds": {
+    "MAG": "3012998026",
+    "DBLP": "journals/corr/abs-2003-11922",
+    "ArXiv": "2003.11922",
+    "CorpusId": 214667053
+   },
+   "url": "https://www.semanticscholar.org/paper/affe7b47c89ce6a54f3cca29a3e5d785031dfc17",
+   "title": "Rat big, cat eaten! Ideas for a useful deep-agent protolanguage",
+   "venue": "arXiv.org",
+   "year": 2020,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2003.11922, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "145283199",
+     "name": "M. Baroni"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "29d1adb458d5b5a0fc837d37af01a6673efd531c",
+   "externalIds": {
+    "MAG": "3004486559",
+    "DBLP": "journals/corr/abs-2002-01335",
+    "CorpusId": 211020708
+   },
+   "url": "https://www.semanticscholar.org/paper/29d1adb458d5b5a0fc837d37af01a6673efd531c",
+   "title": "Exploring Structural Inductive Biases in Emergent Communication",
+   "venue": "arXiv.org",
+   "year": 2020,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "145349716",
+     "name": "Agnieszka Słowik"
+    },
+    {
+     "authorId": "48668899",
+     "name": "Abhinav Gupta"
+    },
+    {
+     "authorId": "49437682",
+     "name": "William L. Hamilton"
+    },
+    {
+     "authorId": "1708741",
+     "name": "M. Jamnik"
+    },
+    {
+     "authorId": "2732041",
+     "name": "S. Holden"
+    },
+    {
+     "authorId": "1972076",
+     "name": "C. Pal"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "7fbc178ac8f061f27702d75c6681ee9efe2fb6d3",
+   "externalIds": {
+    "ArXiv": "2001.09063",
+    "DBLP": "journals/corr/abs-2001-09063",
+    "MAG": "3001342399",
+    "CorpusId": 210911627
+   },
+   "url": "https://www.semanticscholar.org/paper/7fbc178ac8f061f27702d75c6681ee9efe2fb6d3",
+   "title": "Towards Graph Representation Learning in Emergent Communication",
+   "venue": "arXiv.org",
+   "year": 2020,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2001.09063, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "145349716",
+     "name": "Agnieszka Słowik"
+    },
+    {
+     "authorId": "48668899",
+     "name": "Abhinav Gupta"
+    },
+    {
+     "authorId": "49437682",
+     "name": "William L. Hamilton"
+    },
+    {
+     "authorId": "1708741",
+     "name": "M. Jamnik"
+    },
+    {
+     "authorId": "2732041",
+     "name": "S. Holden"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "214ae214fa4b45769f6ca6b7534dbe6bb04e03ae",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2606-16084",
+    "DOI": "10.48550/arXiv.2606.16084",
+    "CorpusId": 289299543
+   },
+   "url": "https://www.semanticscholar.org/paper/214ae214fa4b45769f6ca6b7534dbe6bb04e03ae",
+   "title": "Rhythm of the Deep: A Computational-Linguistic Test of Duality of Patterning in Sperm Whale Codas",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.48550/arXiv.2606.16084?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.48550/arXiv.2606.16084, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2106509",
+     "name": "Mudit Sinha"
+    },
+    {
+     "authorId": "2433289490",
+     "name": "Sanika Chavan"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "6c367e71fddc8c7899eff4260fa99d2e696b118b",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2501-19182",
+    "DOI": "10.48550/arXiv.2501.19182",
+    "CorpusId": 276648430
+   },
+   "url": "https://www.semanticscholar.org/paper/6c367e71fddc8c7899eff4260fa99d2e696b118b",
+   "title": "A Comunication Framework for Compositional Generation",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.48550/arXiv.2501.19182?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.48550/arXiv.2501.19182, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2299941167",
+     "name": "Rafael Elberg"
+    },
+    {
+     "authorId": "2299941247",
+     "name": "Mircea Petrache"
+    },
+    {
+     "authorId": "2299941391",
+     "name": "Denis Parra"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "427898ebdcbbee0a3249fa6f2a0f21ab692f30be",
+   "externalIds": {
+    "DBLP": "journals/tmlr/OgunleyeVL25",
+    "CorpusId": 280871317
+   },
+   "url": "https://www.semanticscholar.org/paper/427898ebdcbbee0a3249fa6f2a0f21ab692f30be",
+   "title": "Emergent Corpus Pre-training Benefits Vision Language Models",
+   "venue": "Trans. Mach. Learn. Res.",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "2377314460",
+     "name": "M. Ogunleye"
+    },
+    {
+     "authorId": "2057095282",
+     "name": "Chase Vickery"
+    },
+    {
+     "authorId": "2099420",
+     "name": "Ismini Lourentzou"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "a30d1846ff94055c7a37f6b408034d17b65b21f7",
+   "externalIds": {
+    "DBLP": "conf/emnlp/Lee24",
+    "ACL": "2024.emnlp-main.1157",
+    "DOI": "10.18653/v1/2024.emnlp-main.1157",
+    "CorpusId": 273901369
+   },
+   "url": "https://www.semanticscholar.org/paper/a30d1846ff94055c7a37f6b408034d17b65b21f7",
+   "title": "One-to-Many Communication and Compositionality in Emergent Communication",
+   "venue": "Conference on Empirical Methods in Natural Language Processing",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "https://aclanthology.org/2024.emnlp-main.1157.pdf",
+    "status": "HYBRID",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://aclanthology.org/2024.emnlp-main.1157, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2243946773",
+     "name": "Heeyoung Lee"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "d9262c7106540009acb2fbbb97c920f5f5a80b43",
+   "externalIds": {
+    "CorpusId": 259854281
+   },
+   "url": "https://www.semanticscholar.org/paper/d9262c7106540009acb2fbbb97c920f5f5a80b43",
+   "title": "C OMPOSITIONALITY WITH V ARIATION R ELIABLY E MERGES B ETWEEN N EURAL N ETWORKS",
+   "venue": "",
+   "year": 2023,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "2110165114",
+     "name": "Kenny Smith"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "09b8f21c6b087c9daeb4685e881dd60fa35db877",
+   "externalIds": {
+    "DBLP": "conf/iclr/UedaIM23",
+    "CorpusId": 259298530
+   },
+   "url": "https://www.semanticscholar.org/paper/09b8f21c6b087c9daeb4685e881dd60fa35db877",
+   "title": "On the Word Boundaries of Emergent Languages Based on Harris's Articulation Scheme",
+   "venue": "International Conference on Learning Representations",
+   "year": 2023,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "153704369",
+     "name": "Ryo Ueda"
+    },
+    {
+     "authorId": "2166589092",
+     "name": "Taiga Ishii"
+    },
+    {
+     "authorId": "1768065",
+     "name": "Yusuke Miyao"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "cbff004c02484724b3edcbfa7eeefff17b0bac8c",
+   "externalIds": {
+    "DBLP": "conf/acl/FengL23",
+    "DOI": "10.18653/v1/2023.findings-acl.491",
+    "CorpusId": 259859003
+   },
+   "url": "https://www.semanticscholar.org/paper/cbff004c02484724b3edcbfa7eeefff17b0bac8c",
+   "title": "Multi-Agent Language Learning: Symbolic Mapping",
+   "venue": "Annual Meeting of the Association for Computational Linguistics",
+   "year": 2023,
+   "openAccessPdf": {
+    "url": "https://aclanthology.org/2023.findings-acl.491.pdf",
+    "status": "HYBRID",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.18653/v1/2023.findings-acl.491?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.18653/v1/2023.findings-acl.491, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2115319860",
+     "name": "Yicheng Feng"
+    },
+    {
+     "authorId": "2258676670",
+     "name": "Zongqing Lu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "74099b8dde8a22e1b26801f52a8a1a9fd6a5fe21",
+   "externalIds": {
+    "ACL": "2022.naacl-main.335",
+    "DBLP": "conf/naacl/GarciaCB22",
+    "DOI": "10.18653/v1/2022.naacl-main.335",
+    "CorpusId": 250391082
+   },
+   "url": "https://www.semanticscholar.org/paper/74099b8dde8a22e1b26801f52a8a1a9fd6a5fe21",
+   "title": "Disentangling Categorization in Multi-agent Emergent Communication",
+   "venue": "North American Chapter of the Association for Computational Linguistics",
+   "year": 2022,
+   "openAccessPdf": {
+    "url": "https://aclanthology.org/2022.naacl-main.335.pdf",
+    "status": "HYBRID",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://aclanthology.org/2022.naacl-main.335, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "47238599",
+     "name": "Washington Garcia"
+    },
+    {
+     "authorId": "1822631",
+     "name": "H S Clouse"
+    },
+    {
+     "authorId": "2175478945",
+     "name": "K. Butler"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "df827e86453f41edf5c7500d321cb5c0f0a0b56d",
+   "externalIds": {
+    "CorpusId": 253181292
+   },
+   "url": "https://www.semanticscholar.org/paper/df827e86453f41edf5c7500d321cb5c0f0a0b56d",
+   "title": "On the Pitfalls of Visual Learning in Referential Games",
+   "venue": "",
+   "year": 2022,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "1390986871",
+     "name": "Shresth Verma"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "051c85b10124bd2de6fcc29519a187f479d451bf",
+   "externalIds": {
+    "DBLP": "conf/iclr/ChaabouniSATTDM22",
+    "CorpusId": 251649056
+   },
+   "url": "https://www.semanticscholar.org/paper/051c85b10124bd2de6fcc29519a187f479d451bf",
+   "title": "Emergent Communication at Scale",
+   "venue": "International Conference on Learning Representations",
+   "year": 2022,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "1706980",
+     "name": "R. Chaabouni"
+    },
+    {
+     "authorId": "3367628",
+     "name": "Florian Strub"
+    },
+    {
+     "authorId": "3383768",
+     "name": "Florent Altché"
+    },
+    {
+     "authorId": "2401143",
+     "name": "Eugene Tarassov"
+    },
+    {
+     "authorId": "31803582",
+     "name": "Corentin Tallec"
+    },
+    {
+     "authorId": "3232032",
+     "name": "Elnaz Davoodi"
+    },
+    {
+     "authorId": "2034344309",
+     "name": "K. Mathewson"
+    },
+    {
+     "authorId": "13667364",
+     "name": "O. Tieleman"
+    },
+    {
+     "authorId": "2672644",
+     "name": "Angeliki Lazaridou"
+    },
+    {
+     "authorId": "1808897",
+     "name": "Bilal Piot"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "8cade5f5c2cc8310d42ae60a5ce03a3973856894",
+   "externalIds": {
+    "DBLP": "conf/cogsci/OhmerMFK21",
+    "CorpusId": 234797910
+   },
+   "url": "https://www.semanticscholar.org/paper/8cade5f5c2cc8310d42ae60a5ce03a3973856894",
+   "title": "Why and how to study the impact of perception on language emergence in artificial agents",
+   "venue": "Annual Meeting of the Cognitive Science Society",
+   "year": 2021,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "2285726964",
+     "name": "Xenia Ohmer"
+    },
+    {
+     "authorId": "2069314289",
+     "name": "Michael Marino"
+    },
+    {
+     "authorId": "145075066",
+     "name": "M. Franke"
+    },
+    {
+     "authorId": "40089171",
+     "name": "P. König"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "da1149d20e57edb87d316aa23863fdfa91ebd7ed",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2106-11156",
+    "CorpusId": 235490388
+   },
+   "url": "https://www.semanticscholar.org/paper/da1149d20e57edb87d316aa23863fdfa91ebd7ed",
+   "title": "Curriculum-Driven Multi-Agent Learning and the Role of Implicit Communication in Teamwork",
+   "venue": "arXiv.org",
+   "year": 2021,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "2029504859",
+     "name": "Niko A. Grupen"
+    },
+    {
+     "authorId": "2124216699",
+     "name": "Daniel D. Lee"
+    },
+    {
+     "authorId": "1744679",
+     "name": "B. Selman"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "91da7ddbad1ce9bb3fe6860a9fa54162221fe0f9",
+   "externalIds": {
+    "CorpusId": 235497977
+   },
+   "url": "https://www.semanticscholar.org/paper/91da7ddbad1ce9bb3fe6860a9fa54162221fe0f9",
+   "title": "HexaJungle: a MARL Simulator to Study the Emergence of Language",
+   "venue": "",
+   "year": 2021,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "2005754034",
+     "name": "Kiran Ikram"
+    },
+    {
+     "authorId": "1724795",
+     "name": "Esther Mondragón"
+    },
+    {
+     "authorId": "2060083703",
+     "name": "E. Alonso"
+    },
+    {
+     "authorId": "2997261",
+     "name": "M. G. Ortiz"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "54ed769772112b2ac947655c75ebedda037c0f32",
+   "externalIds": {
+    "CorpusId": 237189793
+   },
+   "url": "https://www.semanticscholar.org/paper/54ed769772112b2ac947655c75ebedda037c0f32",
+   "title": "Meta Learning for Multi-agent Communication",
+   "venue": "",
+   "year": 2021,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "48668899",
+     "name": "Abhinav Gupta"
+    },
+    {
+     "authorId": "2672644",
+     "name": "Angeliki Lazaridou"
+    },
+    {
+     "authorId": "1975889",
+     "name": "Marc Lanctot"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "952fd7551bdf51548f504b1425e6d8758380e1a7",
+   "externalIds": {
+    "CorpusId": 245384149
+   },
+   "url": "https://www.semanticscholar.org/paper/952fd7551bdf51548f504b1425e6d8758380e1a7",
+   "title": "Emergent Communication under Varying Group Sizes and Connectivities",
+   "venue": "",
+   "year": 2021,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "1590804958",
+     "name": "Jooyeon Kim"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "91a6a59b36846f7f27441cb23651e458e12e1be1",
+   "externalIds": {
+    "CorpusId": 232379015
+   },
+   "url": "https://www.semanticscholar.org/paper/91a6a59b36846f7f27441cb23651e458e12e1be1",
+   "title": "Analyzing structural priors in multi-agent communication *",
+   "venue": "",
+   "year": 2020,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "1726095131",
+     "name": "A. Gupta"
+    },
+    {
+     "authorId": "2111978802",
+     "name": "A. Slowik"
+    },
+    {
+     "authorId": "49437682",
+     "name": "William L. Hamilton"
+    },
+    {
+     "authorId": "1708741",
+     "name": "M. Jamnik"
+    },
+    {
+     "authorId": "2732041",
+     "name": "S. Holden"
+    },
+    {
+     "authorId": "1972076",
+     "name": "C. Pal"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "f37370503dc67340888f3f79a629a860095fd53d",
+   "externalIds": {
+    "CorpusId": 284352851
+   },
+   "url": "https://www.semanticscholar.org/paper/f37370503dc67340888f3f79a629a860095fd53d",
+   "title": "Emergence of linguistic universals in neural agents via artificial language learning and communication",
+   "venue": "",
+   "year": null,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "2490891817",
+     "name": "A. Plaat"
+    },
+    {
+     "authorId": "2299343983",
+     "name": "T. Verhoef"
+    },
+    {
+     "authorId": "2299372765",
+     "name": "A. Bisazza"
+    },
+    {
+     "authorId": "2487172885",
+     "name": "R. G. Alhama"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "1e61ae2b835cef61c34ef992faef56c7daa49e8c",
+   "externalIds": {
+    "CorpusId": 290788248
+   },
+   "url": "https://www.semanticscholar.org/paper/1e61ae2b835cef61c34ef992faef56c7daa49e8c",
+   "title": "Rhythm of the Deep: Two-Tier Combinatorial Structure in Sperm Whale Codas Revealed by Acoustic Unit Induction",
+   "venue": "",
+   "year": null,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "2106509",
+     "name": "Mudit Sinha"
+    },
+    {
+     "authorId": "2433289490",
+     "name": "Sanika Chavan"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "fef9e06c339145fa37ce5a4a785a833f335af84a",
+   "externalIds": {
+    "CorpusId": 291257234
+   },
+   "url": "https://www.semanticscholar.org/paper/fef9e06c339145fa37ce5a4a785a833f335af84a",
+   "title": "What You Can’t See Is What You Learn: Restricted Evidence Visibility Favors Compositional Generalization in Shared-Genome Language-Model Societies",
+   "venue": "",
+   "year": null,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "1396622743",
+     "name": "Narcis Marincat"
+    }
+   ],
+   "abstract": null
+  }
+ ],
+ "retrieved": "2026-10-08T14:58:09"
+}

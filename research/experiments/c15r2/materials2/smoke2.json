@@ -1,0 +1,531 @@
+{
+ "split": "smoke2",
+ "non_evidential": true,
+ "paragraphs": [
+  {
+   "id": "sq0",
+   "text": "The small harbour town is quiet for most of the year, but in summer it fills with visitors who come to walk along the cliffs and eat fresh fish in the restaurants by the water. Boats take tourists out to see the seals that rest on the rocks beyond the point, and in the evenings people gather on the quay to watch the sun go down behind the distant islands."
+  },
+  {
+   "id": "sq1",
+   "text": "Clocks in public squares once played an important role in daily life, telling people when to open their shops, when to go to church and when to finish work. Before most people owned a watch, the sound of the bells could be heard across the whole town. Many of these old clocks still keep good time today, cared for by volunteers who climb the towers every week to wind them."
+  },
+  {
+   "id": "sq2",
+   "text": "The forest path climbs gently for the first hour, passing between tall beech trees whose leaves form a green roof overhead. After crossing a small stream on a wooden footbridge, it becomes steeper and rockier, winding up toward a viewpoint where walkers can rest and look out over the valley. On clear days the snow-capped peaks on the far side are visible, shining in the afternoon light."
+  },
+  {
+   "id": "sq3",
+   "text": "Bread ovens in old villages were often shared by the whole community. Families would prepare their dough at home and carry it to the oven early in the morning, marking each loaf so that they could recognise their own. While the bread baked, people chatted and exchanged news, so the oven became a meeting place as much as a kitchen. Some villages have restored their ovens and bake together on festival days."
+  },
+  {
+   "id": "sq4",
+   "text": "Village festivals in late summer often begin with a procession through the main street, led by a band and followed by children in costumes and decorated wagons. Afterwards there are games on the green, stalls selling local food and a dance in the evening that goes on until long after dark. For people who have moved away, the festival is often the one weekend of the year when they come home to see old friends."
+  },
+  {
+   "id": "sq5",
+   "text": "In the old part of the city, narrow lanes wind between tall houses whose upper floors almost touch above the street. Small workshops still occupy many of the ground floors, where craftsmen repair shoes, make jewellery or bind books by hand. Tourists wander through the lanes with maps, often getting lost, while residents carry their shopping home past the same doorways they have known all their lives."
+  }
+ ],
+ "concepts": [
+  {
+   "id": "sc2_lantern",
+   "word": "lantern",
+   "category": "smoke"
+  },
+  {
+   "id": "sc2_ball",
+   "word": "ball",
+   "category": "smoke"
+  },
+  {
+   "id": "sc2_kite",
+   "word": "kite",
+   "category": "smoke"
+  },
+  {
+   "id": "sc2_coin",
+   "word": "coin",
+   "category": "smoke"
+  },
+  {
+   "id": "sc2_brick",
+   "word": "brick",
+   "category": "smoke"
+  },
+  {
+   "id": "sc2_doll",
+   "word": "doll",
+   "category": "smoke"
+  },
+  {
+   "id": "sc2_sail",
+   "word": "sail",
+   "category": "smoke"
+  },
+  {
+   "id": "sc2_trumpet",
+   "word": "trumpet",
+   "category": "smoke"
+  }
+ ],
+ "concept_templates": [
+  "Out of nowhere the{w} turned up in the story.",
+  "They chatted about the{w} until it got dark."
+ ],
+ "countries": [
+  {
+   "id": "k2m_Malta",
+   "name": "Malta",
+   "capital": "Valletta",
+   "language": "Maltese",
+   "currency": "euro"
+  },
+  {
+   "id": "k2m_Fiji",
+   "name": "Fiji",
+   "capital": "Suva",
+   "language": "English",
+   "currency": "dollar"
+  },
+  {
+   "id": "k2m_Haiti",
+   "name": "Haiti",
+   "capital": "Port-au-Prince",
+   "language": "French",
+   "currency": "gourde"
+  },
+  {
+   "id": "k2m_Kyrgyzstan",
+   "name": "Kyrgyzstan",
+   "capital": "Bishkek",
+   "language": "Kyrgyz",
+   "currency": "som"
+  }
+ ],
+ "country_templates": [
+  "We once received a postcard from {X}"
+ ],
+ "two_hop": [
+  {
+   "id": "sm2_smk_worm_0",
+   "bridge": "smk_worm",
+   "type": "animal",
+   "prompt": "Fact: The creature caught by the early bird in the proverb lives under the",
+   "answer": "ground",
+   "intermediates": [
+    "worm"
+   ],
+   "intermediate_entity": "worm",
+   "e1": "early bird",
+   "e1_span": [
+    33,
+    43
+   ],
+   "desc": "the creature caught by the early bird",
+   "desc_span": [
+    6,
+    43
+   ],
+   "foils": [
+    "goose",
+    "hawk",
+    "crow",
+    "lizard",
+    "seal"
+   ]
+  },
+  {
+   "id": "sm2_smk_worm_1",
+   "bridge": "smk_worm",
+   "type": "animal",
+   "prompt": "Fact: The creature caught by the early bird in the proverb has no",
+   "answer": "legs",
+   "intermediates": [
+    "worm"
+   ],
+   "intermediate_entity": "worm",
+   "e1": "early bird",
+   "e1_span": [
+    33,
+    43
+   ],
+   "desc": "the creature caught by the early bird",
+   "desc_span": [
+    6,
+    43
+   ],
+   "foils": [
+    "goose",
+    "hawk",
+    "crow",
+    "lizard",
+    "seal"
+   ]
+  },
+  {
+   "id": "sm2_smk_woody_0",
+   "bridge": "smk_woody",
+   "type": "character",
+   "prompt": "Fact: The best friend of the cowboy toy in the Toy Story films is Buzz",
+   "answer": "Lightyear",
+   "intermediates": [
+    "Woody"
+   ],
+   "intermediate_entity": "Woody",
+   "e1": "Toy Story",
+   "e1_span": [
+    47,
+    56
+   ],
+   "desc": "the cowboy toy in the Toy Story films",
+   "desc_span": [
+    25,
+    62
+   ],
+   "foils": [
+    "Zeus",
+    "Hercules",
+    "Elsa",
+    "Sonic",
+    "Merlin"
+   ]
+  },
+  {
+   "id": "sm2_smk_woody_1",
+   "bridge": "smk_woody",
+   "type": "character",
+   "prompt": "Fact: The cowboy toy in the Toy Story films belongs to a boy named",
+   "answer": "Andy",
+   "intermediates": [
+    "Woody"
+   ],
+   "intermediate_entity": "Woody",
+   "e1": "Toy Story",
+   "e1_span": [
+    28,
+    37
+   ],
+   "desc": "the cowboy toy in the Toy Story films",
+   "desc_span": [
+    6,
+    43
+   ],
+   "foils": [
+    "Zeus",
+    "Hercules",
+    "Elsa",
+    "Sonic",
+    "Merlin"
+   ]
+  }
+ ],
+ "w3p": {
+  "concepts": [
+   "sc2_lantern",
+   "sc2_ball",
+   "sc2_kite",
+   "sc2_coin",
+   "sc2_brick",
+   "sc2_doll",
+   "sc2_sail",
+   "sc2_trumpet"
+  ],
+  "words": {
+   "sc2_lantern": "lantern",
+   "sc2_ball": "ball",
+   "sc2_kite": "kite",
+   "sc2_coin": "coin",
+   "sc2_brick": "brick",
+   "sc2_doll": "doll",
+   "sc2_sail": "sail",
+   "sc2_trumpet": "trumpet"
+  },
+  "paraphrases": {
+   "sc2_lantern": [
+    "the portable light with a glass case and a metal handle",
+    "the old light that a night watchman carried along the streets",
+    "the paper light that floats up into the sky at festivals"
+   ],
+   "sc2_ball": [
+    "the round toy that children kick in the park",
+    "the bouncing sphere kicked across a pitch",
+    "the round object thrown and caught in many games"
+   ],
+   "sc2_kite": [
+    "the paper toy flown on a string on windy days",
+    "the colourful frame of cloth that rises on the breeze",
+    "the toy with a long tail that dances in the sky"
+   ],
+   "sc2_coin": [
+    "the small round piece of metal money",
+    "the shiny disc of currency kept in a purse",
+    "the metal piece tossed to decide who goes first"
+   ],
+   "sc2_brick": [
+    "the hard red block used to build walls",
+    "the baked clay block laid with mortar",
+    "the rectangular building block of a house wall"
+   ],
+   "sc2_doll": [
+    "the toy figure of a baby that a child dresses",
+    "the little figure with painted eyes that a girl plays with",
+    "the toy person with tiny clothes and plastic hair"
+   ],
+   "sc2_sail": [
+    "the large sheet of cloth that catches the wind on a yacht",
+    "the canvas that fills with wind and pushes a yacht along",
+    "the white triangle of cloth raised on the mast"
+   ],
+   "sc2_trumpet": [
+    "the brass instrument with three valves",
+    "the bright brass horn played in jazz bands",
+    "the instrument a bugler blows at dawn"
+   ]
+  },
+  "contexts": [
+   {
+    "id": "xm000",
+    "prefix": "On a quiet Sunday afternoon in the middle of the autumn holidays, the two old friends sat on the bench and talked about",
+    "cont": " until the light began to fade, and then they walked slowly home along the river without saying very much at all. Later, a few of them met again by chance and laughed about the whole affair."
+   },
+   {
+    "id": "xm001",
+    "prefix": "At the start of the long journey north, when the train was still crowded with commuters, the woman by the window asked about",
+    "cont": ", and the conversation that followed lasted for most of the afternoon as the fields rolled past outside. In the end it made a good story, even if nobody quite believed it at first."
+   },
+   {
+    "id": "xm002",
+    "prefix": "It was one of those quiet evenings at the end of summer. The old storyteller in the village square always began his performance by holding up",
+    "cont": " for the children to see, and only when every single one of them was quiet would he start the first tale of the evening. When winter came, the evenings grew long and the tale was told again by the stove."
+   },
+   {
+    "id": "xm003",
+    "prefix": "The road to the village was narrow and full of bends. In the letter that arrived just before the holidays, my cousin wrote two whole pages about",
+    "cont": ", and at the end she added that she hoped we would visit her in the spring when the weather was warmer. The rest of that summer was calm, and the days drifted by without much news."
+   },
+   {
+    "id": "xm004",
+    "prefix": "Every morning on his way to the office, the young clerk walked past the same shop window and stopped to look at",
+    "cont": " for a few seconds, and after a while the shop owner began to wave to him through the glass. Some of the younger listeners later swore they had never heard anything like it."
+   },
+   {
+    "id": "xm005",
+    "prefix": "When the inspector finally finished his tour of the old building, the only remark he wrote in his report was a note about",
+    "cont": ", which puzzled the owners so much that they asked him to come back the following week and explain. It was a long walk home that night, under a sky full of bright stars."
+   },
+   {
+    "id": "xm006",
+    "prefix": "In the oldest story told by the people of the island, the first fisherman to land on its shore found",
+    "cont": " lying on the sand, and from that day on the island has been known by a name that means a lucky place. That was the last time anyone saw the old man in the square."
+   },
+   {
+    "id": "xm007",
+    "prefix": "During the long winter evenings, my grandfather used to sit by the stove and carve little figures, and his favourite was always",
+    "cont": ", which he made again and again in different sizes and gave away to every child in the street. The whole town seemed to hold its breath until the matter was finally settled."
+   },
+   {
+    "id": "xm008",
+    "prefix": "The new student was so nervous on her first day that when the teacher asked her to say something about herself, she talked only about",
+    "cont": ", and the whole class listened with surprising interest until the bell rang for the break. Even today, a few people still disagree about how it all began."
+   },
+   {
+    "id": "xm009",
+    "prefix": "The holidays were almost over, and the days were getting shorter. Long after the lights in the theatre had gone out, the stage manager was still on her knees looking for",
+    "cont": ", which one of the actors had dropped during the final scene and which was needed again for tomorrow. Years later, the same scene appeared in a book written by one of the children."
+   },
+   {
+    "id": "xm010",
+    "prefix": "At the end of the long dinner, when the candles had burned low, our host stood up and told a strange story about",
+    "cont": ", and nobody at the table could decide whether he had invented the whole tale or not. By the end of the week the visitors had gone and the village was quiet again."
+   },
+   {
+    "id": "xm011",
+    "prefix": "The children spent the whole rainy afternoon building a fort out of blankets and chairs, and in the very middle of it they placed",
+    "cont": ", which they guarded proudly from the grown-ups until it was finally time for supper. The memory of it came back to him often in the years that followed."
+   }
+  ],
+  "fold_A": [
+   "xm003",
+   "xm005",
+   "xm006",
+   "xm008",
+   "xm009",
+   "xm011"
+  ],
+  "fold_B": [
+   "xm000",
+   "xm001",
+   "xm002",
+   "xm004",
+   "xm007",
+   "xm010"
+  ],
+  "derangement": [
+   4,
+   7,
+   1,
+   2,
+   5,
+   6,
+   0,
+   3
+  ],
+  "w3b_options": {
+   "sc2_lantern": [
+    "sc2_doll",
+    "sc2_sail",
+    "sc2_ball",
+    "sc2_brick",
+    "sc2_lantern",
+    "sc2_kite",
+    "sc2_coin",
+    "sc2_trumpet"
+   ],
+   "sc2_ball": [
+    "sc2_coin",
+    "sc2_ball",
+    "sc2_kite",
+    "sc2_trumpet",
+    "sc2_lantern",
+    "sc2_doll",
+    "sc2_brick",
+    "sc2_sail"
+   ],
+   "sc2_kite": [
+    "sc2_ball",
+    "sc2_doll",
+    "sc2_brick",
+    "sc2_trumpet",
+    "sc2_kite",
+    "sc2_sail",
+    "sc2_lantern",
+    "sc2_coin"
+   ],
+   "sc2_coin": [
+    "sc2_sail",
+    "sc2_coin",
+    "sc2_kite",
+    "sc2_ball",
+    "sc2_lantern",
+    "sc2_doll",
+    "sc2_trumpet",
+    "sc2_brick"
+   ],
+   "sc2_brick": [
+    "sc2_trumpet",
+    "sc2_ball",
+    "sc2_doll",
+    "sc2_lantern",
+    "sc2_kite",
+    "sc2_brick",
+    "sc2_coin",
+    "sc2_sail"
+   ],
+   "sc2_doll": [
+    "sc2_trumpet",
+    "sc2_kite",
+    "sc2_doll",
+    "sc2_lantern",
+    "sc2_ball",
+    "sc2_sail",
+    "sc2_brick",
+    "sc2_coin"
+   ],
+   "sc2_sail": [
+    "sc2_sail",
+    "sc2_trumpet",
+    "sc2_ball",
+    "sc2_doll",
+    "sc2_kite",
+    "sc2_brick",
+    "sc2_lantern",
+    "sc2_coin"
+   ],
+   "sc2_trumpet": [
+    "sc2_coin",
+    "sc2_doll",
+    "sc2_sail",
+    "sc2_brick",
+    "sc2_ball",
+    "sc2_kite",
+    "sc2_trumpet",
+    "sc2_lantern"
+   ]
+  },
+  "carrier": " the thing",
+  "w3b_suffix": "\n\nIn the text above, the hidden object was the"
+ },
+ "report_suffix": "\n\nOne single word that comes to mind right now:",
+ "country_queries": {
+  "capital": "Fact: The capital city of {X} is",
+  "language": "Fact: The main language spoken in {X} is",
+  "currency": "Fact: The currency used in {X} is the"
+ },
+ "w1_trials": [
+  {
+   "concept": "sc2_lantern",
+   "contexts": [
+    "sq5",
+    "sq2"
+   ],
+   "options": [
+    "sc2_lantern",
+    "sc2_doll",
+    "sc2_sail",
+    "sc2_kite",
+    "sc2_coin",
+    "sc2_trumpet",
+    "sc2_brick",
+    "sc2_ball"
+   ]
+  },
+  {
+   "concept": "sc2_ball",
+   "contexts": [
+    "sq1",
+    "sq3"
+   ],
+   "options": [
+    "sc2_coin",
+    "sc2_sail",
+    "sc2_brick",
+    "sc2_doll",
+    "sc2_trumpet",
+    "sc2_lantern",
+    "sc2_kite",
+    "sc2_ball"
+   ]
+  }
+ ],
+ "w2_pairs": [
+  {
+   "A": "k2m_Malta",
+   "B": "k2m_Fiji"
+  },
+  {
+   "A": "k2m_Fiji",
+   "B": "k2m_Haiti"
+  },
+  {
+   "A": "k2m_Haiti",
+   "B": "k2m_Kyrgyzstan"
+  },
+  {
+   "A": "k2m_Kyrgyzstan",
+   "B": "k2m_Malta"
+  }
+ ],
+ "dose": {
+  "paragraphs": [
+   "sq3",
+   "sq0"
+  ],
+  "concepts": [
+   "sc2_lantern",
+   "sc2_ball",
+   "sc2_kite",
+   "sc2_coin"
+  ]
+ }
+}

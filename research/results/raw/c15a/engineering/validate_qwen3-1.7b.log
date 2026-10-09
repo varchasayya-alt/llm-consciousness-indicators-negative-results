@@ -1,0 +1,25 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   7%|▋         | 23/311 [00:00<00:01, 160.90it/s]Loading weights:  13%|█▎        | 40/311 [00:00<00:02, 104.79it/s]Loading weights:  17%|█▋        | 52/311 [00:00<00:02, 91.21it/s] Loading weights:  20%|█▉        | 62/311 [00:00<00:03, 79.04it/s]Loading weights:  23%|██▎       | 71/311 [00:00<00:03, 73.50it/s]Loading weights:  25%|██▌       | 79/311 [00:01<00:03, 62.42it/s]Loading weights:  28%|██▊       | 86/311 [00:01<00:04, 55.55it/s]Loading weights:  31%|███       | 97/311 [00:01<00:03, 57.33it/s]Loading weights:  35%|███▍      | 108/311 [00:01<00:03, 63.81it/s]Loading weights:  38%|███▊      | 119/311 [00:01<00:02, 73.20it/s]Loading weights:  41%|████      | 127/311 [00:01<00:02, 65.62it/s]Loading weights:  43%|████▎     | 134/311 [00:01<00:02, 59.34it/s]Loading weights:  46%|████▋     | 144/311 [00:02<00:02, 58.77it/s]Loading weights:  49%|████▊     | 151/311 [00:02<00:02, 59.30it/s]Loading weights:  51%|█████     | 159/311 [00:02<00:02, 62.28it/s]Loading weights:  53%|█████▎    | 166/311 [00:02<00:02, 60.04it/s]Loading weights:  57%|█████▋    | 176/311 [00:02<00:01, 69.65it/s]Loading weights:  59%|█████▉    | 184/311 [00:02<00:01, 64.58it/s]Loading weights:  61%|██████▏   | 191/311 [00:02<00:02, 57.45it/s]Loading weights:  64%|██████▎   | 198/311 [00:02<00:01, 57.27it/s]Loading weights:  68%|██████▊   | 210/311 [00:03<00:01, 61.47it/s]Loading weights:  70%|███████   | 219/311 [00:03<00:01, 67.39it/s]Loading weights:  73%|███████▎  | 226/311 [00:03<00:01, 59.25it/s]Loading weights:  75%|███████▍  | 233/311 [00:03<00:01, 53.92it/s]Loading weights:  77%|███████▋  | 241/311 [00:03<00:01, 51.92it/s]Loading weights:  79%|███████▉  | 247/311 [00:03<00:01, 51.29it/s]Loading weights:  82%|████████▏ | 254/311 [00:03<00:01, 52.85it/s]Loading weights:  85%|████████▍ | 263/311 [00:04<00:00, 52.20it/s]Loading weights:  88%|████████▊ | 273/311 [00:04<00:00, 55.34it/s]Loading weights:  91%|█████████ | 282/311 [00:04<00:00, 62.44it/s]Loading weights:  93%|█████████▎| 289/311 [00:04<00:00, 55.98it/s]Loading weights:  96%|█████████▌| 298/311 [00:04<00:00, 58.54it/s]Loading weights: 100%|██████████| 311/311 [00:04<00:00, 64.91it/s]
+wrote <REPO_ROOT>\research\results\raw\c15a\engineering\validate_qwen3-1.7b.json
+{
+ "gp": {
+  "n": 256,
+  "sec_exact": 6.254369258880615,
+  "sec_screened": 1.7558865547180176,
+  "rel_residual_ratio_mean": 1.0000003576278687,
+  "rel_residual_ratio_p95": 1.0,
+  "atom_set_overlap_mean": 0.9886749751984127,
+  "top10_overlap_mean": 0.576171875,
+  "recon_cos_mean": 0.9921532869338989
+ },
+ "ablation": {
+  "removed_cos_mean": 0.9988613724708557,
+  "removed_norm_ratio_mean": 1.000852346420288
+ },
+ "emp_kl_cache_check": {
+  "cached": 0.008239885792136192,
+  "uncached": 0.008239842019975185,
+  "abs_diff": 4.377216100692749e-08
+ },
+ "pass": true,
+ "non_evidential": true
+}

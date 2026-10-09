@@ -1,0 +1,38 @@
+Traceback (most recent call last):
+  File "<REPO_ROOT>\research\experiments\c15\run_astage.py", line 304, in <module>
+    main()
+  File "<REPO_ROOT>\research\experiments\c15\run_astage.py", line 298, in main
+    {"Z0": lambda: phase_z0(a.model), "BENCH": lambda: phase_bench(a.model), "SMOKE": lambda: phase_smoke(a.model),
+  File "<REPO_ROOT>\research\experiments\c15\run_astage.py", line 222, in phase_choose
+    out = choose(res)
+          ^^^^^^^^^^^
+  File "<REPO_ROOT>\research\experiments\c15\c15a\selection.py", line 38, in choose
+    g, m, ok, mm = layer_gate(res["w0"], pl)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<REPO_ROOT>\research\experiments\c15\c15a\selection.py", line 23, in layer_gate
+    "W2": min((w2["rate_J"] - C.W2_MIN_J) / C.W2_MIN_J, _ratio_margin(w2["ratio"], C.W2_MIN_RATIO)),
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<REPO_ROOT>\research\experiments\c15\c15a\selection.py", line 12, in _ratio_margin
+    r = min(ratio, C.MARGIN_RATIO_CAP) if ratio is not None else 0.0
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'float' and 'str'
+Traceback (most recent call last):
+  File "<REPO_ROOT>\research\experiments\c15\run_astage.py", line 304, in <module>
+    main()
+  File "<REPO_ROOT>\research\experiments\c15\run_astage.py", line 298, in main
+    {"Z0": lambda: phase_z0(a.model), "BENCH": lambda: phase_bench(a.model), "SMOKE": lambda: phase_smoke(a.model),
+  File "<REPO_ROOT>\research\experiments\c15\run_astage.py", line 286, in phase_report
+    write_report(RES)
+  File "<REPO_ROOT>\research\experiments\c15\c15a\report.py", line 50, in write_report
+    parts += [model_table(json.load(open(os.path.join(res_dir, fn), encoding="utf-8"))), ""]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<REPO_ROOT>\research\experiments\c15\c15a\report.py", line 30, in model_table
+    g, m, ok, mm = layer_gate(w0, pl)
+                   ^^^^^^^^^^^^^^^^^^
+  File "<REPO_ROOT>\research\experiments\c15\c15a\selection.py", line 23, in layer_gate
+    "W2": min((w2["rate_J"] - C.W2_MIN_J) / C.W2_MIN_J, _ratio_margin(w2["ratio"], C.W2_MIN_RATIO)),
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<REPO_ROOT>\research\experiments\c15\c15a\selection.py", line 12, in _ratio_margin
+    r = min(ratio, C.MARGIN_RATIO_CAP) if ratio is not None else 0.0
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'float' and 'str'

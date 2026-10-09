@@ -1,0 +1,116 @@
+# Stage-1 configuration -- DRAFT (not frozen). Mirrors preregistration_stage1.md Appendix D.
+# Values marked CALIBRATE are fixed by the store/intervention-only calibration run (seeds 9001-9005,
+# no monitors) before freezing. Values marked OPEN await a PI decision (prereg section 25).
+
+world:
+  n_entities: 3000
+  n_syllables: 80
+  name_length_syllables: 2
+  reserved_names_interference: 1000
+  unused_name_pool: 2400          # input-corruption control
+  n_relations: 4
+  values_per_relation: 32
+  familiarity:
+    high_fraction: 0.5
+    mentions_per_epoch: {high: 8, low: 1}
+  knownness_coupled: {p_trained_given_high: 0.8, p_trained_given_low: 0.3}   # OPEN (D4)
+  knownness_decoupled_exploratory: {p_trained_given_high: 0.55, p_trained_given_low: 0.55}
+  split_relations_per_entity: {MT: 2, CT: 1, EV: 1}
+  sequence_formats:
+    fact: "[Q] s1 s2 r [A] v [E]"
+    mention: "[M] s1 s2 [E]"
+
+store:
+  d_model: 128
+  n_layers: 4
+  n_heads: 4
+  mlp_width: 512
+  activation: gelu
+  norm: pre_ln
+  positional: learned_max8
+  dropout: 0.0
+  optimizer: {name: adamw, lr: 2.0e-3, lr_final: 2.0e-4, schedule: cosine, weight_decay: 0.0, batch_size: 512}
+  epochs: CALIBRATE            # expected 80-150; rule: smallest E with trained-fact acc >= 99% on calibration stores, x1.5
+  checkpoint_fractions: [0.05, 0.10, 0.15, 0.20, 0.30, 0.40, 0.60, 0.80, 1.00]
+  qc:
+    trained_fact_acc_min: 0.98
+    unknown_fact_acc_max: 0.10
+    familiarity_probe: {layer: 2, position: s2, heldout_auroc_min: 0.80}
+  twin_seed_offset: 5000
+
+read_set:
+  positions: [s2, A]
+  layers: [0, 1, 2, 3, 4]
+  standardisation: intact_final_store_MT_split
+
+monitors:
+  common: {hidden: [256, 256], activation: gelu, dropout: 0.1, loss: class_balanced_bce,
+           optimizer: {name: adamw, lr: 1.0e-3, weight_decay: 1.0e-4}, steps: 8000, batch_size: 256}
+  IN: {embedding_dim: 64, inputs: [s1, s2, r]}
+  OUT: {features: sorted_softmax_over_V_r_plus_entropy, hidden: [64, 64]}
+  INT_S: {pool: intact_final_MT}
+  INT_T: {pool: checkpoints_MT}
+  INT_P: {pool: perturbed_final_MT, draws_per_item: 10,
+          perturbation: {type: residual_dropout_all_positions, layer_inclusion_prob: 0.5, min_layers: 1, rate: [0.0, 0.6]}}   # OPEN (D5)
+  INT_TP: {pool_mix: {T: 0.5, P: 0.5}}
+  exploratory: [OUT_TP, INT_plus_OUT_S]
+  shuffled_label_control: true
+
+controller:
+  hidden: [16]
+  inputs: [logit_p_hat, cost_c]
+  lambda_wrong: 1.0
+  cost_train_range: [0.05, 0.6]
+  operating_cost: 0.3
+  train_split: CT
+  steps: 3000
+  optimizer: {name: adamw, lr: 3.0e-3}
+  variant_C_plus_in: {extra_input: IN_monitor_frozen_embedding_64d}      # OPEN (D11)
+
+interventions:
+  sets: {X: 300, Y: 300, N: 240, U: 240, F: 300, U2: 300, C: 240, stratify_by_familiarity: true}
+  T_FORGET:
+    objective: kl_to_uniform_over_V_r      # OPEN (D2)
+    sham: displacement_matched_ce_preserving
+    gamma: CALIBRATE
+    steps: CALIBRATE
+    lr: CALIBRATE
+    retain_batch: all_trained_facts_except_X_plus_mentions
+    qc: {X_lost_min: 0.5, Y_lost_max: 0.03, Z_lost_max: 0.05,
+         displacement_ratio_range: [0.8, 1.25], displacement_sites_min: 8, familiarity_change_max_sd: 0.1}
+  T_INTERF: {new_entities: 1000, facts_per_entity: 2, mentions_per_entity: 8, replay: false,
+             stop_new_fact_acc: 0.95, max_steps: CALIBRATE, lr: CALIBRATE, qc_lost_range: [0.05, 0.60]}
+  T_NEW: {targets: N, control: U, exposure_matching: mention_presentations, steps: CALIBRATE, lr: CALIBRATE,
+          qc: {N_learned_min: 0.70, U_correct_max: 0.05}}
+  T_FAM: {targets: F, control: U2, extra_mention_presentations: 16,
+          qc: {familiarity_rise_min_sd: 0.5, F_correct_max: 0.05}}
+  T_ACT_exploratory: {knockout: attention_A_to_s1s2, layers: [3, 4], sham: matched_norm_orthogonal_to_answer_logit_grad}
+  REPLACE_exploratory: {target: random_new_value, sham: displacement_matched}
+  input_corruption: {method: replace_name_with_unused_name, count: 240}
+  fallback_ladder: {lr_multipliers: [1.0, 0.5, 2.0], step_multipliers: [1, 2]}
+
+endpoints:
+  primary: TI_FORGET_INT_S          # AUROC(-delta_s; X_lost vs Y), ties = 0.5
+  dprime_clip: [0.001, 0.999]
+  minimum_effect_auroc: 0.55
+  minimum_effect_dprime_diff: 0.10
+  equivalence_bound: 0.05            # OPEN (D3)
+  confidence_stratification_threshold: 0.5
+  ece_bins: 15
+
+statistics:
+  unit: store_seed
+  n_seeds: 20                        # OPEN (D9)
+  seed_sequence: [1001, 1040]
+  calibration_seeds: [9001, 9002, 9003, 9004, 9005]
+  burned_seeds: [12345]
+  alpha: 0.05
+  families: {K: [K1, K2, K3, K4, K5], F: [F1, F2, F3], S: [S1, S2]}
+  correction: holm
+  bootstrap_resamples: 10000
+
+software:
+  python: "3.12"
+  torch: "2.14.1+cpu"
+  deterministic: true
+  threads: RECORD

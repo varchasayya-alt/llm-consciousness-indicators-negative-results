@@ -1,0 +1,13 @@
+{
+ "susceptibility": {
+  "K1_ancova": {
+   "support_rate": 0.24,
+   "mean": 0.5414238443694377
+  },
+  "K1_dml": {
+   "support_rate": 0.02,
+   "mean": 0.510005426266323
+  },
+  "median_feasible_seeds": 8.0
+ }
+}

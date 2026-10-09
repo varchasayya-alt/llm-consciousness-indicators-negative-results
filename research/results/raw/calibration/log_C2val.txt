@@ -1,0 +1,4 @@
+seed 9011: 6.7 min, QC {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.029551258664720904, 'fluency_auroc_high_vs_low': 1.0, 'fluency_mean_high': -3.0923609733581543, 'fluency_mean_low': -5.179720878601074, 'pass': True}
+seed 9012: 6.5 min, QC {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.03400735294117647, 'fluency_auroc_high_vs_low': 1.0, 'fluency_mean_high': -3.090268850326538, 'fluency_mean_low': -5.1819257736206055, 'pass': True}
+seed 9013: 6.4 min, QC {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.02994121969140338, 'fluency_auroc_high_vs_low': 1.0, 'fluency_mean_high': -3.0910465717315674, 'fluency_mean_low': -5.160626411437988, 'pass': True}
+C2val store QC all pass: True

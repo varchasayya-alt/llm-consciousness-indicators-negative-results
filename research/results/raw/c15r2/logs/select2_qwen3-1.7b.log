@@ -1,0 +1,14 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   7%|▋         | 22/311 [00:00<00:01, 218.95it/s]Loading weights:  14%|█▍        | 44/311 [00:00<00:02, 119.19it/s]Loading weights:  19%|█▉        | 59/311 [00:00<00:02, 98.13it/s] Loading weights:  23%|██▎       | 71/311 [00:00<00:02, 93.35it/s]Loading weights:  26%|██▋       | 82/311 [00:00<00:02, 88.61it/s]Loading weights:  30%|██▉       | 92/311 [00:00<00:02, 86.63it/s]Loading weights:  32%|███▏      | 101/311 [00:01<00:02, 84.74it/s]Loading weights:  36%|███▌      | 111/311 [00:01<00:02, 81.65it/s]Loading weights:  39%|███▉      | 122/311 [00:01<00:02, 86.94it/s]Loading weights:  42%|████▏     | 132/311 [00:01<00:02, 82.01it/s]Loading weights:  45%|████▌     | 141/311 [00:01<00:02, 81.95it/s]Loading weights:  48%|████▊     | 150/311 [00:01<00:01, 82.32it/s]Loading weights:  51%|█████     | 159/311 [00:01<00:01, 80.22it/s]Loading weights:  54%|█████▍    | 168/311 [00:01<00:01, 79.13it/s]Loading weights:  57%|█████▋    | 177/311 [00:02<00:01, 74.22it/s]Loading weights:  60%|██████    | 187/311 [00:02<00:01, 79.90it/s]Loading weights:  63%|██████▎   | 197/311 [00:02<00:01, 73.67it/s]Loading weights:  67%|██████▋   | 208/311 [00:02<00:01, 81.81it/s]Loading weights:  70%|███████   | 218/311 [00:02<00:01, 84.06it/s]Loading weights:  74%|███████▎  | 229/311 [00:02<00:00, 89.36it/s]Loading weights:  77%|███████▋  | 239/311 [00:02<00:00, 86.39it/s]Loading weights:  80%|███████▉  | 248/311 [00:02<00:00, 82.21it/s]Loading weights:  83%|████████▎ | 257/311 [00:02<00:00, 81.93it/s]Loading weights:  86%|████████▌ | 266/311 [00:03<00:00, 77.84it/s]Loading weights:  89%|████████▊ | 276/311 [00:03<00:00, 81.33it/s]Loading weights:  92%|█████████▏| 285/311 [00:03<00:00, 81.03it/s]Loading weights:  95%|█████████▍| 294/311 [00:03<00:00, 79.09it/s]Loading weights:  97%|█████████▋| 302/311 [00:03<00:00, 69.42it/s]Loading weights: 100%|██████████| 311/311 [00:03<00:00, 86.06it/s]
+[qwen3-1.7b] layer 8
+<REPO_ROOT>\.venv\Lib\site-packages\numpy\lib\_function_base_impl.py:4608: RuntimeWarning: invalid value encountered in scalar subtract
+  diff_b_a = b - a
+[qwen3-1.7b] layer 8 done: W1 False W2 False W3' False W4 False W5 False
+[qwen3-1.7b] layer 10
+[qwen3-1.7b] layer 10 done: W1 False W2 False W3' False W4 False W5 False
+[qwen3-1.7b] layer 12
+[qwen3-1.7b] layer 12 done: W1 False W2 False W3' False W4 False W5 False
+[qwen3-1.7b] layer 14
+[qwen3-1.7b] layer 14 done: W1 False W2 False W3' False W4 False W5 False
+[qwen3-1.7b] layer 16
+[qwen3-1.7b] layer 16 done: W1 False W2 False W3' False W4 False W5 False
+wrote <REPO_ROOT>\research\results\raw\c15r2\select2_qwen3-1.7b.json

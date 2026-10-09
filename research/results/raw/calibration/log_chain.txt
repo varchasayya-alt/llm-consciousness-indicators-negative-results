@@ -1,0 +1,17 @@
+=== start C2 18:35:34
+=== done C2 19:09:32
+seed 9003: 7.1 min, QC {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.03344419807834442, 'fluency_auroc_high_vs_low': 1.0, 'fluency_mean_high': -3.097782611846924, 'fluency_mean_low': -5.152964115142822, 'pass': True}
+seed 9004: 6.7 min, QC {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.03129657228017884, 'fluency_auroc_high_vs_low': 1.0, 'fluency_mean_high': -3.090557336807251, 'fluency_mean_low': -5.148437976837158, 'pass': True}
+seed 9005: 6.6 min, QC {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.028581831421809575, 'fluency_auroc_high_vs_low': 1.0, 'fluency_mean_high': -3.096696615219116, 'fluency_mean_low': -5.19678258895874, 'pass': True}
+=== start C3 19:09:32
+=== done C3 19:09:55
+seed 9002: {'0.1': 0.5216666666666666, '0.2': 0.3913333333333333, '0.3': 0.2945, '0.4': 0.21766666666666667, '0.5': 0.17033333333333334, '0.6': 0.13666666666666666, '0.8': 0.07733333333333334, 'pool_accuracy_U(0,0.6)': 0.32816666666666666}
+seed 9003: {'0.1': 0.508, '0.2': 0.38416666666666666, '0.3': 0.291, '0.4': 0.21483333333333332, '0.5': 0.1615, '0.6': 0.13183333333333333, '0.8': 0.0835, 'pool_accuracy_U(0,0.6)': 0.315}
+P-family rate max -> 0.6
+=== start C4 19:09:56
+PHASE C4 FAILED
+<REPO_ROOT>\research\experiments\stage1\s1\interventions.py:86: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:821.)
+  log.append({"step": step, "phase": "A" if step < KA else "B", "L_x": float(lx), "L_y": float(ly),
+lr=0.0005 steps=100 gamma=1.0: pass=False maxlog=0.141 9001: lost 0.92 Y 0.000 Z 0.615 sites 10 flu -0.08 | 9002: lost 0.94 Y 0.000 Z 0.584 sites 10 flu -0.07 | 9003: lost 0.88 Y 0.000 Z 0.504 sites 10 flu -0.10
+lr=0.0005 steps=100 gamma=10.0: pass=False maxlog=0.136 9001: lost 0.93 Y 0.000 Z 0.627 sites 10 flu -0.08 | 9002: lost 0.94 Y 0.000 Z 0.589 sites 10 flu -0.07 | 9003: lost 0.89 Y 0.000 Z 0.521 sites 10 flu -0.11

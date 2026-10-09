@@ -1,0 +1,81 @@
+{
+ "model_key": "qwen3.5-2b",
+ "hf_model_id": "Qwen/Qwen3.5-2B",
+ "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+ "lens_repo_revision": "b25d72a96b79c8e309d6625955a98751da47e67a",
+ "files": {
+  "model.safetensors-00001-of-00001.safetensors": "aa33250c4fc64891ddfaba3a314fd9542ea371843c387178b425fbcc5ed680b1",
+  "tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+  "config.json": "ed1c1723241f23f7f4e23430759cbd7dcfb4103cbdfe052bfe7626b57c2615b4",
+  "tokenizer_config.json": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c"
+ },
+ "lens": {
+  "path": "qwen3.5-2b/jlens/Salesforce-wikitext/Qwen3.5-2B_jacobian_lens.pt",
+  "sha256": "69e02a9794c340da7a69cfaa1638c0267192f25a64e7f4fa23f3021e72393c82",
+  "config_hf_model_name": "Qwen/Qwen3.5-2B",
+  "config_sha256": "dd62598850a1ee4cde90ff1df6e00676f09a61ba4cd269acb221f4da076ba2d2"
+ },
+ "config": {
+  "n_layers": 24,
+  "d_model": 2048,
+  "vocab_size": 248320,
+  "architectures": [
+   "Qwen3_5ForConditionalGeneration"
+  ]
+ },
+ "lens_checkpoint": {
+  "n_lens_layers": 23,
+  "d_model": 2048,
+  "n_prompts": 283,
+  "provenance": {
+   "model_id": "Qwen/Qwen3.5-2B",
+   "dataset_id": "Salesforce/wikitext",
+   "dataset_config": "wikitext-103-raw-v1",
+   "dataset_split": "train",
+   "text_field": "text",
+   "n_prompts": 283,
+   "t_max": 128,
+   "target_layer": 23,
+   "skip_first": 16,
+   "dim_batch": 64,
+   "model_dtype": "bfloat16",
+   "transformers": "5.17.0",
+   "torch": "2.11.0+cu128",
+   "python": "3.12.3",
+   "jlens_commit": null,
+   "generated": "2026-09-25T20:55:05.826547+00:00",
+   "fitted_by": "neuronpedia fit_lens.py"
+  }
+ },
+ "tokenizer": {
+  "len": 248077,
+  "n_word_initial": 67557
+ },
+ "convention_check": {
+  "lens_agreement_L-2_smoke2": 0.5264550264550265,
+  "threshold": 0.3
+ },
+ "band_layers": [
+  7,
+  9,
+  11,
+  13
+ ],
+ "pass": true,
+ "seconds": 27.334190130233765,
+ "provenance": {
+  "phase": "Z",
+  "model": "qwen3.5-2b",
+  "utc": "2026-10-07T08:11:12.813813+00:00",
+  "git_head": "f415bb1ac27821f8549fd732d9cf315582992f0e",
+  "config_hash": "93af8f8fe7b57477d48ee07623cf25007b3dd35d98820cf7dfb5d164130f6e3d",
+  "thresholds_sha256": "0edbff81b69f002091fa872e6d3d6a18c5c6c606f81e772821b02e374d1199a3",
+  "prereg_sha256": "e603bd1f34cfb3df0277cdc4dfd99676ed3364b7cbc6e9ee3f2dc5d1fd9294f4",
+  "split_manifest2_sha256": "620f3a513a2ed251c97b5b0e3793075cf96c3a3ec7eba3478080db0fb3ba74ae",
+  "artifact_manifest_sha256": "79b082e4a629eaa260a0b97a7968e0abacfd7f71c8f82e2317bc46151d7a88de",
+  "torch": "2.14.1+cpu",
+  "transformers": "5.18.0",
+  "threads": 12,
+  "platform": "Windows-11-10.0.26200-SP0"
+ }
+}

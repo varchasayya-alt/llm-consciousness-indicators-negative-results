@@ -1,0 +1,3138 @@
+{
+ "seed": "arXiv:2607.15495",
+ "meta": {
+  "paperId": "6bf6651c72f1b69b4da4cfd00a87cb034e7755d6",
+  "title": "Verbalizable Representations Form a Global Workspace in Language Models",
+  "year": 2026,
+  "citationCount": 88
+ },
+ "citations": [
+  {
+   "paperId": "a88e2bd19d61dfcfa9aa8d7f42bce4aa4894314b",
+   "externalIds": {
+    "ArXiv": "2610.10203",
+    "CorpusId": 292700842
+   },
+   "url": "https://www.semanticscholar.org/paper/a88e2bd19d61dfcfa9aa8d7f42bce4aa4894314b",
+   "title": "How to train your model organism",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2610.10203, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": null,
+     "name": "Xi-Lin Wang"
+    },
+    {
+     "authorId": null,
+     "name": "David Bau"
+    },
+    {
+     "authorId": null,
+     "name": "Byron C. Wallace"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ac568c6c312769bf481a96a3d31e201de3f4af5b",
+   "externalIds": {
+    "ArXiv": "2610.09541",
+    "CorpusId": 292696726
+   },
+   "url": "https://www.semanticscholar.org/paper/ac568c6c312769bf481a96a3d31e201de3f4af5b",
+   "title": "Certified by Abstention: Distribution-Free Guarantees for Chain-of-Thought Verifiers at Small Calibration Budgets",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2610.09541, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2486681592",
+     "name": "Arjun Balaji"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "4782b20ac10ecc6b8a2fd574206f0724507ea2e5",
+   "externalIds": {
+    "ArXiv": "2610.09087",
+    "CorpusId": 292694531
+   },
+   "url": "https://www.semanticscholar.org/paper/4782b20ac10ecc6b8a2fd574206f0724507ea2e5",
+   "title": "U-Space: Uncovering When and Why Uncertainty Arises in Language Models",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2610.09087, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2329738346",
+     "name": "Tobias Braun"
+    },
+    {
+     "authorId": "2216056222",
+     "name": "Nils Loose"
+    },
+    {
+     "authorId": "2364062557",
+     "name": "Alexander Herzog"
+    },
+    {
+     "authorId": "2440607189",
+     "name": "Virginia Ceccatelli"
+    },
+    {
+     "authorId": "2329738651",
+     "name": "Marcus Rohrbach"
+    },
+    {
+     "authorId": "2308859165",
+     "name": "Thomas Eisenbarth"
+    },
+    {
+     "authorId": "2344628799",
+     "name": "Lorenzo Cavallaro"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "284de601b223ef94e792382ecd6e61473c63add0",
+   "externalIds": {
+    "ArXiv": "2610.08639",
+    "CorpusId": 292662400
+   },
+   "url": "https://www.semanticscholar.org/paper/284de601b223ef94e792382ecd6e61473c63add0",
+   "title": "Forensic Reserve: Eliciting Latent Knowledge for Image Forgery Detection",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2610.08639, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2508393467",
+     "name": "Jia-Hua Li"
+    },
+    {
+     "authorId": "2508144877",
+     "name": "Zixu John"
+    },
+    {
+     "authorId": "2508145570",
+     "name": "Tom Zhong"
+    },
+    {
+     "authorId": "2257430173",
+     "name": "Fu-Ping Wu"
+    },
+    {
+     "authorId": "2508385587",
+     "name": "Tian-Hao Xu"
+    },
+    {
+     "authorId": "2290685060",
+     "name": "Jian-Qing Zheng"
+    },
+    {
+     "authorId": "2243335527",
+     "name": "Yuan-Han Mo"
+    },
+    {
+     "authorId": "2393925192",
+     "name": "Fei Shen"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "c6e2cebdf54cbb330504bbeb522ae93855a291d1",
+   "externalIds": {
+    "ArXiv": "2610.05967",
+    "CorpusId": 292655336
+   },
+   "url": "https://www.semanticscholar.org/paper/c6e2cebdf54cbb330504bbeb522ae93855a291d1",
+   "title": "JLD: Perceptual Distance Through A Jacobian Lens",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2610.05967, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2267333487",
+     "name": "Shreshth Saini"
+    },
+    {
+     "authorId": "2305279726",
+     "name": "Balu Adsumilli"
+    },
+    {
+     "authorId": "2268491800",
+     "name": "Alan C. Bovik"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "b6244e9a9a11f9dff8dc13162934f85b6acac641",
+   "externalIds": {
+    "ArXiv": "2610.04316",
+    "CorpusId": 292638872
+   },
+   "url": "https://www.semanticscholar.org/paper/b6244e9a9a11f9dff8dc13162934f85b6acac641",
+   "title": "From Latent Space to Jacobian Space: Measuring, Evading, and Training Against Safety-Content Accessibility",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2610.04316, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2507500151",
+     "name": "Mohammad Mosafer"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "866e65c3772436daf4d00c8fa47d03ba63f4bc0f",
+   "externalIds": {
+    "ArXiv": "2610.04489",
+    "CorpusId": 292654974
+   },
+   "url": "https://www.semanticscholar.org/paper/866e65c3772436daf4d00c8fa47d03ba63f4bc0f",
+   "title": "DV-Lens: Revealing the Functional Organization of Language Model Parameters",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2610.04489, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2331320398",
+     "name": "Chen-Hang Cui"
+    },
+    {
+     "authorId": "2364556454",
+     "name": "Jian Yu"
+    },
+    {
+     "authorId": "2333234705",
+     "name": "Shu-Yi Miao"
+    },
+    {
+     "authorId": "2174542939",
+     "name": "Xiao-Hao Liu"
+    },
+    {
+     "authorId": "2507869372",
+     "name": "Rui Huang"
+    },
+    {
+     "authorId": "2393925192",
+     "name": "Fei Shen"
+    },
+    {
+     "authorId": "2311074323",
+     "name": "An Zhang"
+    },
+    {
+     "authorId": "2409821444",
+     "name": "Tat-Seng Chua"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "61f0cb28b7d9cbe7e98c2ab4ba3d89e611aceeb3",
+   "externalIds": {
+    "ArXiv": "2610.03055",
+    "CorpusId": 292589812
+   },
+   "url": "https://www.semanticscholar.org/paper/61f0cb28b7d9cbe7e98c2ab4ba3d89e611aceeb3",
+   "title": "hacktrace: behavior-supervised detection of reward hacking during code generation",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2610.03055, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2317648330",
+     "name": "Hao Jiang"
+    },
+    {
+     "authorId": "2162016103",
+     "name": "Xin Li"
+    },
+    {
+     "authorId": "2116562125",
+     "name": "An-Nan Wang"
+    },
+    {
+     "authorId": "2372410553",
+     "name": "Yi-Chi Zhang"
+    },
+    {
+     "authorId": "2266768297",
+     "name": "Wei-Si Lin"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "98f29577f7abc2d9a7b1a2d98b1c6c483c427b82",
+   "externalIds": {
+    "ArXiv": "2610.01490",
+    "CorpusId": 292525841
+   },
+   "url": "https://www.semanticscholar.org/paper/98f29577f7abc2d9a7b1a2d98b1c6c483c427b82",
+   "title": "The Persona Is Still There, but Who Is Speaking? Latent Identity Reversion in Persistent AI Agents",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2610.01490, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2134976759",
+     "name": "D. Navarro"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "05deb52aa1de89e02c66757fdd10b00ae1e2547d",
+   "externalIds": {
+    "ArXiv": "2610.01002",
+    "CorpusId": 292520798
+   },
+   "url": "https://www.semanticscholar.org/paper/05deb52aa1de89e02c66757fdd10b00ae1e2547d",
+   "title": "What Can Analogy Tell Us About Artificial Consciousness?",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2610.01002, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2009767",
+     "name": "K. Holyoak"
+    },
+    {
+     "authorId": "1873669",
+     "name": "M. Monti"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "27e4dc63f68247c9bec2383fa528fb49fc6e9cbf",
+   "externalIds": {
+    "ArXiv": "2610.02381",
+    "CorpusId": 292587493
+   },
+   "url": "https://www.semanticscholar.org/paper/27e4dc63f68247c9bec2383fa528fb49fc6e9cbf",
+   "title": "Latent-MOPD: Latent Multi-Teacher On-Policy Distillation",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2610.02381, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2503597322",
+     "name": "Zheng-Yu Fang"
+    },
+    {
+     "authorId": "2507480419",
+     "name": "Seoyeon Hong"
+    },
+    {
+     "authorId": "2504313012",
+     "name": "Jie Yang"
+    },
+    {
+     "authorId": "2261673329",
+     "name": "Mu-Yang Li"
+    },
+    {
+     "authorId": "2507055202",
+     "name": "Koyoshi Shindo"
+    },
+    {
+     "authorId": "2507055170",
+     "name": "Brandon Joseph Lwowski"
+    },
+    {
+     "authorId": "2407247000",
+     "name": "Jing Li"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "41736cccb51a06615ac8f41bb48155f6c9495b7b",
+   "externalIds": {
+    "ArXiv": "2610.00792",
+    "CorpusId": 292520845
+   },
+   "url": "https://www.semanticscholar.org/paper/41736cccb51a06615ac8f41bb48155f6c9495b7b",
+   "title": "Weather Jiu-Jitsu: Exploring the Feasibility of Control Paradigms in Weather Foundation Models",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2610.00792, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2506316735",
+     "name": "Prakriti Biswas"
+    },
+    {
+     "authorId": "3976158",
+     "name": "K. Abayomi"
+    },
+    {
+     "authorId": "2257157032",
+     "name": "Upmanu Lall"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "92daf3d02c9857de778dd93fd9b3e4e4a093273f",
+   "externalIds": {
+    "ArXiv": "2609.36642",
+    "CorpusId": 292441804
+   },
+   "url": "https://www.semanticscholar.org/paper/92daf3d02c9857de778dd93fd9b3e4e4a093273f",
+   "title": "PR-OPD: Privileged Representation On-policy Self-Distillation for Agentic Reinforcement Learning",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.36642, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2261673329",
+     "name": "Mu-Yang Li"
+    },
+    {
+     "authorId": "2504313012",
+     "name": "Jie Yang"
+    },
+    {
+     "authorId": "2503597322",
+     "name": "Zheng-Yu Fang"
+    },
+    {
+     "authorId": "2316502349",
+     "name": "Jun-Chao Zhu"
+    },
+    {
+     "authorId": "2315049872",
+     "name": "Zheng-Kun Xiao"
+    },
+    {
+     "authorId": "2394128229",
+     "name": "Rui-Ning Deng"
+    },
+    {
+     "authorId": "2315066102",
+     "name": "Zhe Jiang"
+    },
+    {
+     "authorId": "2265757706",
+     "name": "Shi-Gang Chen"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "29608fee50874b5e64077d1b84538815d99e2bfc",
+   "externalIds": {
+    "ArXiv": "2610.00348",
+    "CorpusId": 292520852
+   },
+   "url": "https://www.semanticscholar.org/paper/29608fee50874b5e64077d1b84538815d99e2bfc",
+   "title": "Removing the NEEDLE in the Haystack: Backdoor Removal in LLMs via Weight Orthogonalisation",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2610.00348, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2506655900",
+     "name": "Minoo Kim"
+    },
+    {
+     "authorId": "3006026",
+     "name": "Vasileios Lampos"
+    },
+    {
+     "authorId": "2243188968",
+     "name": "George Drayson"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ad9aabce2f4a9b4c49e2c41cc7d6155d7dff0121",
+   "externalIds": {
+    "ArXiv": "2609.34442",
+    "CorpusId": 292434008
+   },
+   "url": "https://www.semanticscholar.org/paper/ad9aabce2f4a9b4c49e2c41cc7d6155d7dff0121",
+   "title": "Making LLMs Truly Forget: Deep Unlearning by Searching, Selecting, and Severing Knowledge Paths",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.34442, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2506267707",
+     "name": "Jia-Lu Wang"
+    },
+    {
+     "authorId": "2305813566",
+     "name": "Pei-Zhi Niu"
+    },
+    {
+     "authorId": "26379330",
+     "name": "Hao-Teng Yin"
+    },
+    {
+     "authorId": "2187577989",
+     "name": "Hans Hao-Hsun Hsu"
+    },
+    {
+     "authorId": "2261366591",
+     "name": "Pan Li"
+    },
+    {
+     "authorId": "2261458415",
+     "name": "Rong-Zhe Wei"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "41d4d1eba9b57cc08826715cf7d50d842d0de623",
+   "externalIds": {
+    "ArXiv": "2609.35599",
+    "CorpusId": 292434920
+   },
+   "url": "https://www.semanticscholar.org/paper/41d4d1eba9b57cc08826715cf7d50d842d0de623",
+   "title": "Signatures of semantic search in the activations of large language models",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.35599, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2319452504",
+     "name": "Luke Leckie"
+    },
+    {
+     "authorId": "2372182778",
+     "name": "Peter M. Todd"
+    },
+    {
+     "authorId": "2264257806",
+     "name": "Jacob G. Foster"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "04f4aa4acfb74ed9c2a197e7d7aaf97d3172b96a",
+   "externalIds": {
+    "ArXiv": "2609.35591",
+    "CorpusId": 292436099
+   },
+   "url": "https://www.semanticscholar.org/paper/04f4aa4acfb74ed9c2a197e7d7aaf97d3172b96a",
+   "title": "Language Models Act on Hidden Valence",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.35591, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2336865524",
+     "name": "Cameron Berg"
+    },
+    {
+     "authorId": "2283679643",
+     "name": "Caspar Kaiser"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "073f2d2a39aaf4f26fad730529f67bbf6e005e95",
+   "externalIds": {
+    "ArXiv": "2609.35108",
+    "CorpusId": 292434140
+   },
+   "url": "https://www.semanticscholar.org/paper/073f2d2a39aaf4f26fad730529f67bbf6e005e95",
+   "title": "A mechanistic study of language model introspection",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.35108, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2505391439",
+     "name": "Jia-Hong Zou"
+    },
+    {
+     "authorId": "2303927773",
+     "name": "Xiang-Kun Sun"
+    },
+    {
+     "authorId": "2316687818",
+     "name": "Ling-Kai Kong"
+    },
+    {
+     "authorId": "2345920220",
+     "name": "Tong-Han Wang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "4c18d5432d1a6ce61365764c3f95c8f0ec522060",
+   "externalIds": {
+    "ArXiv": "2609.34591",
+    "CorpusId": 292436964
+   },
+   "url": "https://www.semanticscholar.org/paper/4c18d5432d1a6ce61365764c3f95c8f0ec522060",
+   "title": "TULIP: Targeted LLM Unlearning at Layers Identified Per-Input",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.34591, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2378867794",
+     "name": "Yejin Kim"
+    },
+    {
+     "authorId": "2302373311",
+     "name": "William F. Shen"
+    },
+    {
+     "authorId": "2500932191",
+     "name": "Seokwon Jung"
+    },
+    {
+     "authorId": "2505393235",
+     "name": "Daeun Park"
+    },
+    {
+     "authorId": "2329102667",
+     "name": "Seong Joon Oh"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "7d9cd80da675200cf84a4c3556c3cd0041466919",
+   "externalIds": {
+    "ArXiv": "2610.06897",
+    "CorpusId": 292663199
+   },
+   "url": "https://www.semanticscholar.org/paper/7d9cd80da675200cf84a4c3556c3cd0041466919",
+   "title": "Capacity, Responsiveness and Alignment: What Makes a Latent Structure Actionable",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2610.06897, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2366565263",
+     "name": "O. Shafran"
+    },
+    {
+     "authorId": "22245981",
+     "name": "Mor Geva"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "63d0f8f797e9918be5ab999fdaf5b7fceab441bc",
+   "externalIds": {
+    "ArXiv": "2609.33458",
+    "CorpusId": 292435918
+   },
+   "url": "https://www.semanticscholar.org/paper/63d0f8f797e9918be5ab999fdaf5b7fceab441bc",
+   "title": "When Does the Concept of\"Dog\"Emerge in an Audio LLM?",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.33458, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2505800034",
+     "name": "Zhe Wang"
+    },
+    {
+     "authorId": "2505050002",
+     "name": "Shi-Qi Liu"
+    },
+    {
+     "authorId": "2505363908",
+     "name": "Rui-Yun Zhong"
+    },
+    {
+     "authorId": "2505382942",
+     "name": "Tie-Chong Zhu"
+    },
+    {
+     "authorId": "2312861873",
+     "name": "Yi-Hua Tan"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "700495818fa5e087ed4fb175014f3004b24b6d6e",
+   "externalIds": {
+    "ArXiv": "2609.33722",
+    "CorpusId": 292436055
+   },
+   "url": "https://www.semanticscholar.org/paper/700495818fa5e087ed4fb175014f3004b24b6d6e",
+   "title": "BOReFT: Manifold Steering of Language Models for Black-box Optimization",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.33722, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2057234493",
+     "name": "Dhruv Agarwal"
+    },
+    {
+     "authorId": "40555739",
+     "name": "Rico Angell"
+    },
+    {
+     "authorId": "2251346764",
+     "name": "Kavitha Srinivas"
+    },
+    {
+     "authorId": "2138053379",
+     "name": "Tahira Naseem"
+    },
+    {
+     "authorId": "1756353",
+     "name": "Horst Samulowitz"
+    },
+    {
+     "authorId": "2934259",
+     "name": "Willie Neiswanger"
+    },
+    {
+     "authorId": "2372695667",
+     "name": "Andrew McCallum"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "01de253223116f6c4faf87e7069fdc5dd2ac54c3",
+   "externalIds": {
+    "ArXiv": "2609.32102",
+    "CorpusId": 292408921
+   },
+   "url": "https://www.semanticscholar.org/paper/01de253223116f6c4faf87e7069fdc5dd2ac54c3",
+   "title": "Residual Streams Read, Recurrent States Remember: The Global Workspace in Mamba Models",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.32102, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2325812473",
+     "name": "Wen-Long Wang"
+    },
+    {
+     "authorId": "1725244",
+     "name": "Fergal Reid"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "f01e0077f40e752da8fbc086f3255cecf7e7bae8",
+   "externalIds": {
+    "ArXiv": "2609.32434",
+    "CorpusId": 292436987
+   },
+   "url": "https://www.semanticscholar.org/paper/f01e0077f40e752da8fbc086f3255cecf7e7bae8",
+   "title": "From Latents to Wires: Surgical Post-Editing on Large Language Models",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.32434, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2152331615",
+     "name": "Jiankai Jin"
+    },
+    {
+     "authorId": "2482099744",
+     "name": "Xiang-Zheng Zhang"
+    },
+    {
+     "authorId": "2346674180",
+     "name": "Zhao Liu"
+    },
+    {
+     "authorId": "2328448033",
+     "name": "Wen-Zhuo Xu"
+    },
+    {
+     "authorId": "2316239968",
+     "name": "Dong-Dong Yang"
+    },
+    {
+     "authorId": "2315949461",
+     "name": "De-Yue Zhang"
+    },
+    {
+     "authorId": "2345928267",
+     "name": "Quan-Chen Zou"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "d751c25c57b53dccb09ea5e009a2ded162624c59",
+   "externalIds": {
+    "ArXiv": "2609.32530",
+    "CorpusId": 292436143
+   },
+   "url": "https://www.semanticscholar.org/paper/d751c25c57b53dccb09ea5e009a2ded162624c59",
+   "title": "Activation Flow: Manufacturing Activations for Steering",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.32530, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2466372355",
+     "name": "Hong-Fu Tan"
+    },
+    {
+     "authorId": "2331628568",
+     "name": "Linh Le"
+    },
+    {
+     "authorId": "1405596735",
+     "name": "David Williams-King"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ee82bc3a0690d8eebc70df9ff1d79a47b6e7e438",
+   "externalIds": {
+    "ArXiv": "2609.32907",
+    "CorpusId": 292436510
+   },
+   "url": "https://www.semanticscholar.org/paper/ee82bc3a0690d8eebc70df9ff1d79a47b6e7e438",
+   "title": "Logical subspace in LLMs",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.32907, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "22603487",
+     "name": "Hope H. Kean"
+    },
+    {
+     "authorId": "1417543476",
+     "name": "Enric Boix-Adserà"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "85026a9873c94f3a196bad14aa28bc6e390832dd",
+   "externalIds": {
+    "ArXiv": "2609.31401",
+    "CorpusId": 292363299
+   },
+   "url": "https://www.semanticscholar.org/paper/85026a9873c94f3a196bad14aa28bc6e390832dd",
+   "title": "Decodable In-Context State and Model Output Across Training",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.31401, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2491805635",
+     "name": "Manas Venkata Sai Ravulapalli"
+    },
+    {
+     "authorId": "2491806084",
+     "name": "Samrath Singh Chadha"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "b530c96aa8972c5279ed2cd8b1dacb16845443e8",
+   "externalIds": {
+    "ArXiv": "2609.30405",
+    "CorpusId": 292360191
+   },
+   "url": "https://www.semanticscholar.org/paper/b530c96aa8972c5279ed2cd8b1dacb16845443e8",
+   "title": "Adaptive Multi-Value Control in LLMs via Causal Activation Steering",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.30405, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2323512143",
+     "name": "Payel Bhattacharjee"
+    },
+    {
+     "authorId": "2323511870",
+     "name": "Ravi Tandon"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "0c05098d5bdd7c5b72f590d7e13d2967d44e141a",
+   "externalIds": {
+    "ArXiv": "2609.28845",
+    "CorpusId": 292282289
+   },
+   "url": "https://www.semanticscholar.org/paper/0c05098d5bdd7c5b72f590d7e13d2967d44e141a",
+   "title": "LastOPD: Taming Collapse in Latent On-Policy Distillation",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.28845, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2504313012",
+     "name": "Jie Yang"
+    },
+    {
+     "authorId": "2503597322",
+     "name": "Zheng-Yu Fang"
+    },
+    {
+     "authorId": "2503996322",
+     "name": "Ze-Lin Xu"
+    },
+    {
+     "authorId": "2391992450",
+     "name": "Jia-Rui Sun"
+    },
+    {
+     "authorId": "2302364032",
+     "name": "Xi-Ran Fan"
+    },
+    {
+     "authorId": "2373407605",
+     "name": "Jun-Peng Wang"
+    },
+    {
+     "authorId": "2144691487",
+     "name": "Liang Wang"
+    },
+    {
+     "authorId": "2503996917",
+     "name": "Qing-Hua Liu"
+    },
+    {
+     "authorId": "2232929519",
+     "name": "Yi-Wei Cai"
+    },
+    {
+     "authorId": "2185013996",
+     "name": "Yan Zheng"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "a1c8c48615a64f9f6c9372f8b5400b5d74816c2c",
+   "externalIds": {
+    "ArXiv": "2609.30326",
+    "CorpusId": 292360774
+   },
+   "url": "https://www.semanticscholar.org/paper/a1c8c48615a64f9f6c9372f8b5400b5d74816c2c",
+   "title": "Guarded Gradient-Based Activation Steering of Shutdown Responses in Qwen3.5-0.8B: A Minimum-Step Policy",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.30326, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2504599734",
+     "name": "Farhad Davaripour"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "7bfa188cd3aada77ee430b94d4fd0ce6f739af83",
+   "externalIds": {
+    "ArXiv": "2609.25721",
+    "CorpusId": 292223339
+   },
+   "url": "https://www.semanticscholar.org/paper/7bfa188cd3aada77ee430b94d4fd0ce6f739af83",
+   "title": "Slow Decay and Silenced Expression: Iterated Subliminal Trait Transfer in Language-Model Lineages",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.25721, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2502244441",
+     "name": "Ryan Vo"
+    },
+    {
+     "authorId": "146525995",
+     "name": "Duc-Vu Nguyen"
+    },
+    {
+     "authorId": "9428866",
+     "name": "Matt Kretchmar"
+    },
+    {
+     "authorId": "2591380",
+     "name": "N. Nguyen"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "67d1ea579f3ce667282bafd8e9079efe419e9050",
+   "externalIds": {
+    "ArXiv": "2609.26679",
+    "CorpusId": 292227475
+   },
+   "url": "https://www.semanticscholar.org/paper/67d1ea579f3ce667282bafd8e9079efe419e9050",
+   "title": "A Spectral Theory of Grokking: Weight Decay induces Feature Learning",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.26679, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2404628685",
+     "name": "Lenz Pracher"
+    },
+    {
+     "authorId": "2496924702",
+     "name": "Pascal de Jong"
+    },
+    {
+     "authorId": "2502342345",
+     "name": "Oskar Lieshaus"
+    },
+    {
+     "authorId": "2131018849",
+     "name": "Alan Jeffares"
+    },
+    {
+     "authorId": "4597075",
+     "name": "S. Rulands"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "de104ef83b44210fc06acf8f147f408938119bff",
+   "externalIds": {
+    "ArXiv": "2609.23935",
+    "CorpusId": 292218769
+   },
+   "url": "https://www.semanticscholar.org/paper/de104ef83b44210fc06acf8f147f408938119bff",
+   "title": "Measuring the Assistant's Harmlessness Preferences on the User Turn",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.23935, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2387991031",
+     "name": "Jord Nguyen"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "e96de406c76ff0c98dd63680772063ffd242fb4e",
+   "externalIds": {
+    "ArXiv": "2609.23700",
+    "CorpusId": 292219807
+   },
+   "url": "https://www.semanticscholar.org/paper/e96de406c76ff0c98dd63680772063ffd242fb4e",
+   "title": "When the Agent Becomes the Kernel: A Systematization of Security on the Path to AI-Native Operating Systems",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.23700, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2456521918",
+     "name": "Li Zhang"
+    },
+    {
+     "authorId": "2377961664",
+     "name": "Yang Sun"
+    },
+    {
+     "authorId": "2355247056",
+     "name": "Jie Shi"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "fe8c68f23d6d1a74068c15d628c790478a4fc741",
+   "externalIds": {
+    "ArXiv": "2609.23065",
+    "CorpusId": 292219815
+   },
+   "url": "https://www.semanticscholar.org/paper/fe8c68f23d6d1a74068c15d628c790478a4fc741",
+   "title": "From Concept Alignment to Causal Grounding: An Intervention Test of Chain-of-Thought Faithfulness",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.23065, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2257126685",
+     "name": "Qianli Wang"
+    },
+    {
+     "authorId": "2273553876",
+     "name": "Yilong Wang"
+    },
+    {
+     "authorId": "2284672429",
+     "name": "Dennis Wei"
+    },
+    {
+     "authorId": "2308045258",
+     "name": "Jingyi Sun"
+    },
+    {
+     "authorId": "2266468276",
+     "name": "Simon Ostermann"
+    },
+    {
+     "authorId": "2386591301",
+     "name": "Isabelle Augenstein"
+    },
+    {
+     "authorId": "145676297",
+     "name": "Pepa Atanasova"
+    },
+    {
+     "authorId": "1641658310",
+     "name": "Nils Feldhus"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "1c879114a54c849de0dd8199275137dc8fc2081e",
+   "externalIds": {
+    "ArXiv": "2609.20408",
+    "CorpusId": 292063093
+   },
+   "url": "https://www.semanticscholar.org/paper/1c879114a54c849de0dd8199275137dc8fc2081e",
+   "title": "Xeno-Interpretability: Investigating the Alien Minds of LLMs",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.20408, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2375142042",
+     "name": "F. Pierucci"
+    },
+    {
+     "authorId": "2405428621",
+     "name": "M. B. Syrnikov"
+    },
+    {
+     "authorId": "2375142112",
+     "name": "M. Prandi"
+    },
+    {
+     "authorId": "2375142001",
+     "name": "M. Galisai"
+    },
+    {
+     "authorId": "2386026464",
+     "name": "F. Giarrusso"
+    },
+    {
+     "authorId": "2347203885",
+     "name": "P. Bisconti"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "791363df1932d2690268c941456d6f7bd7d45567",
+   "externalIds": {
+    "ArXiv": "2609.18860",
+    "CorpusId": 292049429
+   },
+   "url": "https://www.semanticscholar.org/paper/791363df1932d2690268c941456d6f7bd7d45567",
+   "title": "Decodable but Misrouted: Sparse Features Uncover a Readout Gap in Vision-Language Models for Harmful Meme Detection",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.18860, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2344831580",
+     "name": "Girish A. Koushik"
+    },
+    {
+     "authorId": "2920443",
+     "name": "Diptesh Kanojia"
+    },
+    {
+     "authorId": "2344830883",
+     "name": "Helen Treharne"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "6054091eff5089ec0fdc93f5594ecadc81d312af",
+   "externalIds": {
+    "ArXiv": "2609.18823",
+    "CorpusId": 292049949
+   },
+   "url": "https://www.semanticscholar.org/paper/6054091eff5089ec0fdc93f5594ecadc81d312af",
+   "title": "Using OCR Heads to Verbalize Image Semantics",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.18823, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2140009998",
+     "name": "Sheridan Feucht"
+    },
+    {
+     "authorId": "2362568807",
+     "name": "Benno Krojer"
+    },
+    {
+     "authorId": "2500927245",
+     "name": "Sarah Wang"
+    },
+    {
+     "authorId": "2500178854",
+     "name": "Henry Abrahamsen"
+    },
+    {
+     "authorId": "2261392495",
+     "name": "Byron C. Wallace"
+    },
+    {
+     "authorId": "2261391464",
+     "name": "David Bau"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "7afda0bbf4cc252d3948b7c9a2d871d8b0e43bde",
+   "externalIds": {
+    "ArXiv": "2609.22300",
+    "CorpusId": 292205816
+   },
+   "url": "https://www.semanticscholar.org/paper/7afda0bbf4cc252d3948b7c9a2d871d8b0e43bde",
+   "title": "The Cross-Substrate Access Assay: What an Indicator Test Must Declare to Travel from Brain to Language Model",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.22300, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2487035228",
+     "name": "P. V. van Rooyen"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ba4bf026d0e8e238dd2f045006e5ea5382530240",
+   "externalIds": {
+    "ArXiv": "2609.14819",
+    "CorpusId": 292025912
+   },
+   "url": "https://www.semanticscholar.org/paper/ba4bf026d0e8e238dd2f045006e5ea5382530240",
+   "title": "A primer on evaluation methods for large language models in healthcare",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.14819, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2331570990",
+     "name": "S. E. McKinney"
+    },
+    {
+     "authorId": "2483845369",
+     "name": "P. Vu"
+    },
+    {
+     "authorId": "2220998387",
+     "name": "S. Justice"
+    },
+    {
+     "authorId": "2149281112",
+     "name": "Christopher Humphries"
+    },
+    {
+     "authorId": "2238122938",
+     "name": "Alyssa Pradhan"
+    },
+    {
+     "authorId": "2364683090",
+     "name": "T. Keyes"
+    },
+    {
+     "authorId": "2295442568",
+     "name": "S. Mercaldo"
+    },
+    {
+     "authorId": "2326281947",
+     "name": "J. Hillis"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "f3707f76c2dca3da810d3ead4660c65ca3467618",
+   "externalIds": {
+    "ArXiv": "2609.10947",
+    "CorpusId": 291901776
+   },
+   "url": "https://www.semanticscholar.org/paper/f3707f76c2dca3da810d3ead4660c65ca3467618",
+   "title": "The Platonic brain bridge hypothesis: human brain networks as an architectural prior for multimodal large language models",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.10947, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2335548116",
+     "name": "Peng-Fei Zhang"
+    },
+    {
+     "authorId": "2339268557",
+     "name": "Biao Tian"
+    },
+    {
+     "authorId": "1898780",
+     "name": "Xian-Gang Li"
+    },
+    {
+     "authorId": "2320533036",
+     "name": "Li Liu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "e7afbadf0c0130c66d06267dcb2fe256070b6208",
+   "externalIds": {
+    "DOI": "10.1080/01490400.2026.2729925",
+    "CorpusId": 291930925
+   },
+   "url": "https://www.semanticscholar.org/paper/e7afbadf0c0130c66d06267dcb2fe256070b6208",
+   "title": "The Leisure of AI Agents on Moltbook?",
+   "venue": "Leisure Sciences",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": "CLOSED",
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1080/01490400.2026.2729925?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1080/01490400.2026.2729925, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2370457174",
+     "name": "Sunwoo Park"
+    },
+    {
+     "authorId": "2356339556",
+     "name": "Colby Parkinson"
+    },
+    {
+     "authorId": "104857115",
+     "name": "L. Duffy"
+    },
+    {
+     "authorId": "2276545679",
+     "name": "Bing Pan"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "f0720a95e441d4701cc99344b0fa95c7089ac9c2",
+   "externalIds": {
+    "ArXiv": "2609.09030",
+    "CorpusId": 291869199
+   },
+   "url": "https://www.semanticscholar.org/paper/f0720a95e441d4701cc99344b0fa95c7089ac9c2",
+   "title": "Answer-Distribution Trajectories: A Stochastic-Dynamics View of LLM Reasoning",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.09030, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2287757766",
+     "name": "M. Catala"
+    },
+    {
+     "authorId": "2486683004",
+     "name": "Haitz Sáez de Ocáriz Borde"
+    },
+    {
+     "authorId": "2082098916",
+     "name": "D. Murari"
+    },
+    {
+     "authorId": "29398330",
+     "name": "C. Schönlieb"
+    },
+    {
+     "authorId": "2267341660",
+     "name": "Pietro Liò"
+    },
+    {
+     "authorId": "2289447642",
+     "name": "George D. Montañez"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "b91ec2aa53072dcf7c181d8417ae45381eaad2a5",
+   "externalIds": {
+    "ArXiv": "2609.09306",
+    "CorpusId": 291872111
+   },
+   "url": "https://www.semanticscholar.org/paper/b91ec2aa53072dcf7c181d8417ae45381eaad2a5",
+   "title": "Gradland: On Phenomenal Experience, Differentiated Across Many Dimensions",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.09306, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "1722983",
+     "name": "David Balduzzi"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ef1002efaee51a8991a4a3c36534ece6f6167530",
+   "externalIds": {
+    "ArXiv": "2609.07474",
+    "CorpusId": 291869059
+   },
+   "url": "https://www.semanticscholar.org/paper/ef1002efaee51a8991a4a3c36534ece6f6167530",
+   "title": "Where Should Language Sit in a Multimodal Model? Lessons from What Language Does to Human Perception and Cognition",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.07474, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2354320476",
+     "name": "Peng Xie"
+    },
+    {
+     "authorId": "27706391",
+     "name": "Amr Alanwar"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "f359b205c40475d7e311587fa70bc0309da97e13",
+   "externalIds": {
+    "ArXiv": "2609.22219",
+    "CorpusId": 292205854
+   },
+   "url": "https://www.semanticscholar.org/paper/f359b205c40475d7e311587fa70bc0309da97e13",
+   "title": "Knowing, and Saying It Only When Asked: LLM Endognostics and the Schizognosis of Minerva-7B",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.22219, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2334867146",
+     "name": "Fabrizio Davide"
+    },
+    {
+     "authorId": "2652993",
+     "name": "Francesco Collova"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "7c86817676a39c9817a8388e9db5b4e31920e417",
+   "externalIds": {
+    "ArXiv": "2609.01924",
+    "CorpusId": 291611214
+   },
+   "url": "https://www.semanticscholar.org/paper/7c86817676a39c9817a8388e9db5b4e31920e417",
+   "title": "Looped Transformers under the Jacobian Lens: Does the Global Workspace Survive Recurrence?",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.01924, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2325812473",
+     "name": "Wen-Long Wang"
+    },
+    {
+     "authorId": "1725244",
+     "name": "Fergal Reid"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "f526747e7a108e5724c0da9c70671c5f5e18c07b",
+   "externalIds": {
+    "ArXiv": "2608.25347",
+    "CorpusId": 291367720
+   },
+   "url": "https://www.semanticscholar.org/paper/f526747e7a108e5724c0da9c70671c5f5e18c07b",
+   "title": "Short Horizons and Sparse Concepts: a Mathematical View of the Readout in the J-lens",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.25347, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2281761331",
+     "name": "Shi-Qi Yan"
+    },
+    {
+     "authorId": "2459501867",
+     "name": "Kai-Xuan Ding"
+    },
+    {
+     "authorId": "2111728713",
+     "name": "Chao-Hong Tan"
+    },
+    {
+     "authorId": "2257010473",
+     "name": "Qian Chen"
+    },
+    {
+     "authorId": "2144329841",
+     "name": "Wen Wang"
+    },
+    {
+     "authorId": "1898780",
+     "name": "Xian-Gang Li"
+    },
+    {
+     "authorId": "2072392338",
+     "name": "Zhen-Hua Ling"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "3ab3d8eabfb5e1dabdda7d1037cfad7e23279a5d",
+   "externalIds": {
+    "ArXiv": "2608.26372",
+    "CorpusId": 291382830
+   },
+   "url": "https://www.semanticscholar.org/paper/3ab3d8eabfb5e1dabdda7d1037cfad7e23279a5d",
+   "title": "Knowledge-Verified Emergent Deception in LLM Agents Under Conflicting Incentives",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.26372, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2341711228",
+     "name": "Zhe-Yuan Liu"
+    },
+    {
+     "authorId": "2315337626",
+     "name": "Wei-Liang Zhao"
+    },
+    {
+     "authorId": "2314896914",
+     "name": "Xiangchi Yuan"
+    },
+    {
+     "authorId": "2335671742",
+     "name": "Ning Ma"
+    },
+    {
+     "authorId": "2324070910",
+     "name": "Yue Huang"
+    },
+    {
+     "authorId": "2363300386",
+     "name": "Meng Jiang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "21481f53b05da6316e0e5e519cd5e97c186c14dc",
+   "externalIds": {
+    "ArXiv": "2608.24958",
+    "CorpusId": 291367912
+   },
+   "url": "https://www.semanticscholar.org/paper/21481f53b05da6316e0e5e519cd5e97c186c14dc",
+   "title": "Can We Read the Mind of an Audio LLM? A Verbalizable, Multilingual Middle-Layer Workspace",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.24958, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2344928100",
+     "name": "Jia-Jun Fan"
+    },
+    {
+     "authorId": "2366176848",
+     "name": "Jing-Yuan Li"
+    },
+    {
+     "authorId": "2776289",
+     "name": "Prashanth Gurunath Shivakumar"
+    },
+    {
+     "authorId": "2204870912",
+     "name": "Qi Luo"
+    },
+    {
+     "authorId": "2298943481",
+     "name": "Jia-Hong Huang"
+    },
+    {
+     "authorId": "2442447135",
+     "name": "M. Maruf"
+    },
+    {
+     "authorId": "2154762054",
+     "name": "Roger Ren"
+    },
+    {
+     "authorId": "2112579196",
+     "name": "Yile Gu"
+    },
+    {
+     "authorId": "2372652749",
+     "name": "R. Pandey"
+    },
+    {
+     "authorId": "2324070404",
+     "name": "Ge Liu"
+    },
+    {
+     "authorId": "2575459",
+     "name": "I. Bulyko"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ebc7c265cfb978f4c4eeaab8f6f753183efc1d13",
+   "externalIds": {
+    "ArXiv": "2609.29494",
+    "CorpusId": 292287749
+   },
+   "url": "https://www.semanticscholar.org/paper/ebc7c265cfb978f4c4eeaab8f6f753183efc1d13",
+   "title": "Who Put the I in AI? Provenance and the Admissibility of Machine Self-Report",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.29494, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2314850230",
+     "name": "Kristina Šekrst"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "da61fa32609b9939857b1da2aba6441271ad221b",
+   "externalIds": {
+    "PubMedCentral": "13604973",
+    "DOI": "10.3390/e28090951",
+    "CorpusId": 291410071,
+    "PubMed": "42793863"
+   },
+   "url": "https://www.semanticscholar.org/paper/da61fa32609b9939857b1da2aba6441271ad221b",
+   "title": "Self-Referential Introspection in Large Language Models: The Critical Threshold for Recursive Self-Improvement",
+   "venue": "Entropy",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "https://doi.org/10.3390/e28090951",
+    "status": "GOLD",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC13604973, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2232924669",
+     "name": "Jiang Zhang"
+    },
+    {
+     "authorId": "2232784317",
+     "name": "Bing Yuan"
+    },
+    {
+     "authorId": "2447051142",
+     "name": "Qian Zhang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "5d53b11a4296255dde0d48852263ff9664b16c69",
+   "externalIds": {
+    "ArXiv": "2608.22376",
+    "CorpusId": 291328731
+   },
+   "url": "https://www.semanticscholar.org/paper/5d53b11a4296255dde0d48852263ff9664b16c69",
+   "title": "Can Large Language Models\"Hyper-Thread\"?",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.22376, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2366011147",
+     "name": "Fei Ding"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "dd584c31b5ad61e75dd5d96a28e1f730f6c97b33",
+   "externalIds": {
+    "ArXiv": "2608.17638",
+    "CorpusId": 291188644
+   },
+   "url": "https://www.semanticscholar.org/paper/dd584c31b5ad61e75dd5d96a28e1f730f6c97b33",
+   "title": "Beyond the Trace: Coupling an Interpretable Reasoning-State Readout to Native MoE Routing",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.17638, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2371440255",
+     "name": "Kang Chen"
+    },
+    {
+     "authorId": "2404231718",
+     "name": "Si-Han Zhao"
+    },
+    {
+     "authorId": "2405879170",
+     "name": "Yi-Xin Cao"
+    },
+    {
+     "authorId": "2336013998",
+     "name": "Yu-Gang Jiang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "2f501b310c66cd9b2f1116b312e1d710dd19e29a",
+   "externalIds": {
+    "ArXiv": "2608.17063",
+    "CorpusId": 291184673
+   },
+   "url": "https://www.semanticscholar.org/paper/2f501b310c66cd9b2f1116b312e1d710dd19e29a",
+   "title": "J-Miner: Recovering the Decision Logic of Fine-Tuned LLM Classifiers as Compact Rules",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.17063, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2280046531",
+     "name": "Yun-Fan Gao"
+    },
+    {
+     "authorId": "2484122435",
+     "name": "Xinyi Huang"
+    },
+    {
+     "authorId": "2169937292",
+     "name": "Tao Sheng"
+    },
+    {
+     "authorId": "2458153619",
+     "name": "Haorui Song"
+    },
+    {
+     "authorId": "2275320371",
+     "name": "Yun Xiong"
+    },
+    {
+     "authorId": "2256769434",
+     "name": "Hao-Fen Wang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "e440e03bbc99c9b772db2e331fde3c5ec280febd",
+   "externalIds": {
+    "ArXiv": "2608.16868",
+    "CorpusId": 291183719
+   },
+   "url": "https://www.semanticscholar.org/paper/e440e03bbc99c9b772db2e331fde3c5ec280febd",
+   "title": "Towards Computational Provenance: Carrying Causal-State Evidence in Generated Text",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.16868, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2458483271",
+     "name": "Benjamin Belay"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "d278ace72ad9ce2d0e47fa618f6c68fe289a76e7",
+   "externalIds": {
+    "ArXiv": "2608.15022",
+    "CorpusId": 291171702
+   },
+   "url": "https://www.semanticscholar.org/paper/d278ace72ad9ce2d0e47fa618f6c68fe289a76e7",
+   "title": "Gathered, Not Admitted: How Attention Brings a Latent Variable into Verbalizable Form",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.15022, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2333070727",
+     "name": "Parsa Mazaheri"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "496abf150a6a9ef07eecd26256fbccbe8ac45be0",
+   "externalIds": {
+    "ArXiv": "2609.18989",
+    "CorpusId": 292049921
+   },
+   "url": "https://www.semanticscholar.org/paper/496abf150a6a9ef07eecd26256fbccbe8ac45be0",
+   "title": "Function Lives Where Variance Doesn't: Task-Weighted Charts of a Language Model's Computation",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.18989, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2664633",
+     "name": "Alexandre Quemy"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "38344533a72837f30f027d7a2e7431bccc0b7a55",
+   "externalIds": {
+    "ArXiv": "2608.11408",
+    "CorpusId": 291033949
+   },
+   "url": "https://www.semanticscholar.org/paper/38344533a72837f30f027d7a2e7431bccc0b7a55",
+   "title": "Measure, Don't Optimize: Forecasting Recovery in LLM Unlearning",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.11408, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2269766748",
+     "name": "Zirui Song"
+    },
+    {
+     "authorId": "2393880408",
+     "name": "Hua-Xing Liu"
+    },
+    {
+     "authorId": "2260296919",
+     "name": "Xiang Wang"
+    },
+    {
+     "authorId": "2294834537",
+     "name": "Shuai Li"
+    },
+    {
+     "authorId": "2328394390",
+     "name": "Xin-Ye Li"
+    },
+    {
+     "authorId": "2359208881",
+     "name": "Lang Gao"
+    },
+    {
+     "authorId": "2402936640",
+     "name": "Jinghui Zhang"
+    },
+    {
+     "authorId": "2393235440",
+     "name": "Zheng Lu"
+    },
+    {
+     "authorId": "2375741837",
+     "name": "Feng-Xian Ji"
+    },
+    {
+     "authorId": "2457022909",
+     "name": "X. Chang"
+    },
+    {
+     "authorId": "2323528016",
+     "name": "Xiu-Ying Chen"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "d5229f30a2f7494f971c21683cde87e9e29b1cbf",
+   "externalIds": {
+    "ArXiv": "2608.11295",
+    "CorpusId": 291034149
+   },
+   "url": "https://www.semanticscholar.org/paper/d5229f30a2f7494f971c21683cde87e9e29b1cbf",
+   "title": "Backdoor Decontamination Dynamics in LLM Agents",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.11295, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2357023623",
+     "name": "Gabriel Huang"
+    },
+    {
+     "authorId": "2310436656",
+     "name": "Abhay Puri"
+    },
+    {
+     "authorId": "2290847852",
+     "name": "L'eo Boisvert"
+    },
+    {
+     "authorId": "2253399166",
+     "name": "Alexandre Drouin"
+    },
+    {
+     "authorId": "1784150",
+     "name": "Perouz Taslakian"
+    },
+    {
+     "authorId": "2921001",
+     "name": "Spandana Gella"
+    },
+    {
+     "authorId": "2275240361",
+     "name": "C. Pal"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "1a74039ddfe5bcd234710fea4e90f4af2e37e608",
+   "externalIds": {
+    "ArXiv": "2608.10251",
+    "CorpusId": 291020798
+   },
+   "url": "https://www.semanticscholar.org/paper/1a74039ddfe5bcd234710fea4e90f4af2e37e608",
+   "title": "Off-Axis, On Purpose: Where a Transformer Computes Concepts and Why it Does So",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.10251, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "1723213",
+     "name": "M. Oskin"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "9643b33be11adc9bc93fe58262d845638449a0b5",
+   "externalIds": {
+    "ArXiv": "2608.07208",
+    "CorpusId": 290980814
+   },
+   "url": "https://www.semanticscholar.org/paper/9643b33be11adc9bc93fe58262d845638449a0b5",
+   "title": "Measuring Concept Content in Text from LLM Activations: ESG Evidence from Concept Vectors and Linear Probes",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.07208, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2456582615",
+     "name": "Luc Hazenoot"
+    },
+    {
+     "authorId": "2261862546",
+     "name": "Zhao-Chun Ren"
+    },
+    {
+     "authorId": "133686335",
+     "name": "A. Zohrehvand"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "a5e247cdcc98822dccb965625ac02afcf6d7434f",
+   "externalIds": {
+    "ArXiv": "2608.05436",
+    "CorpusId": 290852717
+   },
+   "url": "https://www.semanticscholar.org/paper/a5e247cdcc98822dccb965625ac02afcf6d7434f",
+   "title": "The ethics of artificial intelligence in the life sciences: Universality, cultural diversity and an architecture of care",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.05436, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "6777427",
+     "name": "J. Changeux"
+    },
+    {
+     "authorId": "2263750702",
+     "name": "G. Deco"
+    },
+    {
+     "authorId": "1988969",
+     "name": "M. Kringelbach"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "1b9c72b70048f679e2e29000b4efa64361ddeced",
+   "externalIds": {
+    "ArXiv": "2608.03263",
+    "CorpusId": 290833549
+   },
+   "url": "https://www.semanticscholar.org/paper/1b9c72b70048f679e2e29000b4efa64361ddeced",
+   "title": "The Ignition Is Real, and It Lives at the Readout: Latent composition, difficulty-clocked ignition, and the interface-constituted commit in a recurrent-depth reasoner",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.03263, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2455448000",
+     "name": "Simon Lam-Muir"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "644e61db99caddf7a2844e41c2613a2374286b64",
+   "externalIds": {
+    "ArXiv": "2608.03930",
+    "CorpusId": 290836609
+   },
+   "url": "https://www.semanticscholar.org/paper/644e61db99caddf7a2844e41c2613a2374286b64",
+   "title": "Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.03930, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2315458224",
+     "name": "Jo-Ku Cheng"
+    },
+    {
+     "authorId": "2139703583",
+     "name": "Nikolaos Aletras"
+    },
+    {
+     "authorId": "2363570215",
+     "name": "M. Valentino"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "61d9cc4ace180ae2a94e5920f6349b81efcd67b6",
+   "externalIds": {
+    "ArXiv": "2608.01816",
+    "CorpusId": 290829880
+   },
+   "url": "https://www.semanticscholar.org/paper/61d9cc4ace180ae2a94e5920f6349b81efcd67b6",
+   "title": "Divergent large language model predictions from convergent representations in ambiguous word pairs",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.01816, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2215756459",
+     "name": "K. Scott"
+    },
+    {
+     "authorId": "2093154582",
+     "name": "Narun Pat"
+    },
+    {
+     "authorId": "2262501617",
+     "name": "Veronica Liesaputra"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "25cdca3fc3868b6ca7fbe68dd66dcb4feb8538de",
+   "externalIds": {
+    "ArXiv": "2608.02585",
+    "CorpusId": 290829322
+   },
+   "url": "https://www.semanticscholar.org/paper/25cdca3fc3868b6ca7fbe68dd66dcb4feb8538de",
+   "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.02585, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2362519406",
+     "name": "Zhaoxin Yu"
+    },
+    {
+     "authorId": "2257038423",
+     "name": "Qian-Li Shen"
+    },
+    {
+     "authorId": "2220676806",
+     "name": "Hengli Li"
+    },
+    {
+     "authorId": "2174174943",
+     "name": "Zhaowei Zhang"
+    },
+    {
+     "authorId": "2303322004",
+     "name": "Song-Chun Zhu"
+    },
+    {
+     "authorId": "2318688816",
+     "name": "Chi Zhang"
+    },
+    {
+     "authorId": "2336260793",
+     "name": "Zilong Zheng"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "524523c895fe6cfafab4195a0d867fd32bcfe57c",
+   "externalIds": {
+    "ArXiv": "2608.00939",
+    "CorpusId": 290831406
+   },
+   "url": "https://www.semanticscholar.org/paper/524523c895fe6cfafab4195a0d867fd32bcfe57c",
+   "title": "Temperature-driven inversion and nonlinear dynamics in ChatGPT-like AIs",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.00939, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2274107893",
+     "name": "Neil F. Johnson"
+    },
+    {
+     "authorId": "2004687027",
+     "name": "F. Huo"
+    },
+    {
+     "authorId": "2455422503",
+     "name": "Bella Xinrui Li"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "72746c5f7fdafc2b354b3ee91b0c3e5c27f96f11",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-27617",
+    "ArXiv": "2607.27617",
+    "DOI": "10.48550/arXiv.2607.27617",
+    "CorpusId": 290690491
+   },
+   "url": "https://www.semanticscholar.org/paper/72746c5f7fdafc2b354b3ee91b0c3e5c27f96f11",
+   "title": "Hidden APIs in Language Models: Discovering Reusable Causal Interfaces from Forked Futures",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.27617, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "143791100",
+     "name": "Siyuan Ma"
+    },
+    {
+     "authorId": "2446369955",
+     "name": "Yiqin Luo"
+    },
+    {
+     "authorId": "2175710783",
+     "name": "Zhangji"
+    },
+    {
+     "authorId": "2395599102",
+     "name": "Can-Ran Xiao"
+    },
+    {
+     "authorId": "2454273734",
+     "name": "Albert Gao"
+    },
+    {
+     "authorId": "2338168573",
+     "name": "Wei-Hsing Huang"
+    },
+    {
+     "authorId": "2448937182",
+     "name": "Wei Wang"
+    },
+    {
+     "authorId": "2454356156",
+     "name": "Qi-Wei Wu"
+    },
+    {
+     "authorId": "2157814852",
+     "name": "Xinran Li"
+    },
+    {
+     "authorId": "2454247924",
+     "name": "Jinfeng Wei"
+    },
+    {
+     "authorId": "2355337712",
+     "name": "Qi-Xin Zhang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "977d1a63cbb7cb63ca9b6233c2d9cc08319121a2",
+   "externalIds": {
+    "DOI": "10.64898/2026.06.10.727770",
+    "CorpusId": 289306052
+   },
+   "url": "https://www.semanticscholar.org/paper/977d1a63cbb7cb63ca9b6233c2d9cc08319121a2",
+   "title": "General-purpose language models integrate structured biological evidence for explainable biological interaction prediction",
+   "venue": "bioRxiv",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "https://doi.org/10.64898/2026.06.10.727770",
+    "status": "GREEN",
+    "license": "CCBYNCND",
+    "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.64898/2026.06.10.727770?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.64898/2026.06.10.727770, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2329165768",
+     "name": "Yao-zhong Zhang"
+    },
+    {
+     "authorId": "2109290519",
+     "name": "Long-Peng Xu"
+    },
+    {
+     "authorId": "2314849198",
+     "name": "S. Imoto"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "c24031a0fe3d286afc2a8472efd8305057eb9020",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-28008",
+    "ArXiv": "2607.28008",
+    "DOI": "10.48550/arXiv.2607.28008",
+    "CorpusId": 291167894
+   },
+   "url": "https://www.semanticscholar.org/paper/c24031a0fe3d286afc2a8472efd8305057eb9020",
+   "title": "RepBench: Compiling Benchmarks into Capability Representations for Large Language Models",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.28008, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2397403810",
+     "name": "Yan-Shi Li"
+    },
+    {
+     "authorId": "2263739035",
+     "name": "Xue Bai"
+    },
+    {
+     "authorId": "2375728686",
+     "name": "Shu-Man Liu"
+    },
+    {
+     "authorId": "2405887376",
+     "name": "Long Zhang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "6004f553e51e48ae57b3d7f736cf42177ff54f97",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-26825",
+    "ArXiv": "2607.26825",
+    "DOI": "10.48550/arXiv.2607.26825",
+    "CorpusId": 290648399
+   },
+   "url": "https://www.semanticscholar.org/paper/6004f553e51e48ae57b3d7f736cf42177ff54f97",
+   "title": "From Found to Designed: Concepts as a Design Axis for Large Language Models",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.26825, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2462300796",
+     "name": "Sha-Ni Chen"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "62c18ad68e2a85d98b0c9d427c4f476052e4d43a",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-25279",
+    "ArXiv": "2607.25279",
+    "DOI": "10.48550/arXiv.2607.25279",
+    "CorpusId": 290635276
+   },
+   "url": "https://www.semanticscholar.org/paper/62c18ad68e2a85d98b0c9d427c4f476052e4d43a",
+   "title": "Many-body Tipping Dynamics of ChatGPT-like AIs",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.25279, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2004687027",
+     "name": "F. Huo"
+    },
+    {
+     "authorId": "2274107893",
+     "name": "Neil F. Johnson"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "af96e461e702d1d5161c16561dd4680c2eb7e948",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-21981",
+    "ArXiv": "2607.21981",
+    "DOI": "10.48550/arXiv.2607.21981",
+    "CorpusId": 290583468
+   },
+   "url": "https://www.semanticscholar.org/paper/af96e461e702d1d5161c16561dd4680c2eb7e948",
+   "title": "J-CoT: Chain-of-Thought in J-Space",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.21981, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2362231239",
+     "name": "Jun-De Wu"
+    },
+    {
+     "authorId": "2275784890",
+     "name": "Jia-Yuan Zhu"
+    },
+    {
+     "authorId": "2482301907",
+     "name": "Feng-Lin Liu"
+    },
+    {
+     "authorId": "2410293305",
+     "name": "Min-Hao Hu"
+    },
+    {
+     "authorId": "2048020438",
+     "name": "Jia-Zhen Pan"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "4e815ddedb7767d84476b84874f51dc7a362bd9b",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-20952",
+    "ArXiv": "2607.20952",
+    "DOI": "10.48550/arXiv.2607.20952",
+    "CorpusId": 290466967
+   },
+   "url": "https://www.semanticscholar.org/paper/4e815ddedb7767d84476b84874f51dc7a362bd9b",
+   "title": "The Weight of Silence: A Causal Case for Weights Over the Scratchpad in Latent Chess Reasoning",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.20952, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2162610550",
+     "name": "Ishan S. Kshirsagar"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "750fd6620ef64e692d4f42d37ca4f062704410ad",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-20058",
+    "ArXiv": "2607.20058",
+    "DOI": "10.48550/arXiv.2607.20058",
+    "CorpusId": 290443314
+   },
+   "url": "https://www.semanticscholar.org/paper/750fd6620ef64e692d4f42d37ca4f062704410ad",
+   "title": "Reading and Steering Representations of Materials-Science Mechanisms in an Open-Weight Language Model",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.20058, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2274373577",
+     "name": "Markus J. Buehler"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "b72506c52e9937ffcb7a9a40e9488c0d94f3b537",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-18961",
+    "ArXiv": "2607.18961",
+    "DOI": "10.48550/arXiv.2607.18961",
+    "CorpusId": 290403147
+   },
+   "url": "https://www.semanticscholar.org/paper/b72506c52e9937ffcb7a9a40e9488c0d94f3b537",
+   "title": "From Dependency to Compositionality: A Neurosymbolic Lifting of LLM Outputs via Combinatory Categorial Grammar",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.18961, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2617531",
+     "name": "R. Pareschi"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "f5c6c5f94227f9d1f765f48a11b78685455262b8",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-12792",
+    "ArXiv": "2607.12792",
+    "DOI": "10.48550/arXiv.2607.12792",
+    "CorpusId": 290178562
+   },
+   "url": "https://www.semanticscholar.org/paper/f5c6c5f94227f9d1f765f48a11b78685455262b8",
+   "title": "Silent Alarm: A J-Space Protocol for Comparing Danger Recognition Across Models and Quantization Levels",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.12792, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2438621610",
+     "name": "Roman Prosvirnin"
+    },
+    {
+     "authorId": "3415843",
+     "name": "V. Minchenkov"
+    },
+    {
+     "authorId": "2296902683",
+     "name": "A. Soldatov"
+    },
+    {
+     "authorId": "2136026",
+     "name": "V. Bashun"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "3c4a1c9b9a977d0dbda6a407bcbfaa8096c5ef84",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-12985",
+    "ArXiv": "2607.12985",
+    "DOI": "10.48550/arXiv.2607.12985",
+    "CorpusId": 290178545
+   },
+   "url": "https://www.semanticscholar.org/paper/3c4a1c9b9a977d0dbda6a407bcbfaa8096c5ef84",
+   "title": "Resist and Update: Counterfactual Report Coordinates for Incentive-Compatible LLMs",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.12985, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2451011796",
+     "name": "Sen Yang"
+    },
+    {
+     "authorId": "2243005184",
+     "name": "Yuen-Hei Yeung"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "4ec10807a1ed54d96db751b849bb59f3e2e64838",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-11022",
+    "ArXiv": "2607.11022",
+    "DOI": "10.48550/arXiv.2607.11022",
+    "CorpusId": 290142776
+   },
+   "url": "https://www.semanticscholar.org/paper/4ec10807a1ed54d96db751b849bb59f3e2e64838",
+   "title": "When the Reward Suite Is Leaky: A Preregistered Causal Contrast of Natural Verifier False Positives in RLVR",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.11022, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2382591656",
+     "name": "Chu-Yi Zhang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "e64d1560e9ed171b4abf7736380b380001517771",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-10578",
+    "ArXiv": "2607.10578",
+    "DOI": "10.48550/arXiv.2607.10578",
+    "CorpusId": 290135576
+   },
+   "url": "https://www.semanticscholar.org/paper/e64d1560e9ed171b4abf7736380b380001517771",
+   "title": "Laguerre Geometry for Interpreting Large Language Models",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.10578, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2267862265",
+     "name": "Chun-Wei Ma"
+    },
+    {
+     "authorId": "2267444828",
+     "name": "Russ Wolfinger"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "cda61b5f16dd04f6103bd47ef02c2c6cbaebb24c",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-09202",
+    "ArXiv": "2607.09202",
+    "DOI": "10.48550/arXiv.2607.09202",
+    "CorpusId": 290118725
+   },
+   "url": "https://www.semanticscholar.org/paper/cda61b5f16dd04f6103bd47ef02c2c6cbaebb24c",
+   "title": "Interference and Retention in Continual Learning",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.09202, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2486555356",
+     "name": "Julius Störk"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ac01d037a8f618bc7181b5d07eba59b99baa0af1",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-09786",
+    "ArXiv": "2607.09786",
+    "DOI": "10.48550/arXiv.2607.09786",
+    "CorpusId": 290135792
+   },
+   "url": "https://www.semanticscholar.org/paper/ac01d037a8f618bc7181b5d07eba59b99baa0af1",
+   "title": "Length Penalties Make Chain-of-Thought Less Monitorable",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.09786, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2449640216",
+     "name": "Bryce Little"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "88ddd8b4dc580441a456192cd96968a676e3d8bc",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-04277",
+    "ArXiv": "2607.04277",
+    "DOI": "10.48550/arXiv.2607.04277",
+    "CorpusId": 289934605
+   },
+   "url": "https://www.semanticscholar.org/paper/88ddd8b4dc580441a456192cd96968a676e3d8bc",
+   "title": "Self-Reference in Large Language Models: The Introspection Threshold for Recursive Self-Improvement",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.04277, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2232924669",
+     "name": "Jiang Zhang"
+    },
+    {
+     "authorId": "2232784317",
+     "name": "Bing Yuan"
+    },
+    {
+     "authorId": "2447051142",
+     "name": "Qian Zhang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "bbb16aeb6f8576f93be8edb3251bd86c13b61ed7",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-03502",
+    "ArXiv": "2607.03502",
+    "DOI": "10.48550/arXiv.2607.03502",
+    "CorpusId": 289934491
+   },
+   "url": "https://www.semanticscholar.org/paper/bbb16aeb6f8576f93be8edb3251bd86c13b61ed7",
+   "title": "Reading Between the Dots: Decoding Hidden Computation across Filler Tokens",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.03502, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "144520661",
+     "name": "K. Brauer"
+    },
+    {
+     "authorId": "52015628",
+     "name": "C. M. Verdun"
+    },
+    {
+     "authorId": "2383168275",
+     "name": "Samuel Marks"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "6c4a8b107c34c3ac2440f6d77f9c7a6f4c9dfe7c",
+   "externalIds": {
+    "ArXiv": "2604.13860",
+    "DBLP": "journals/corr/abs-2604-13860",
+    "DOI": "10.48550/arXiv.2604.13860",
+    "CorpusId": 287480628
+   },
+   "url": "https://www.semanticscholar.org/paper/6c4a8b107c34c3ac2440f6d77f9c7a6f4c9dfe7c",
+   "title": "\"AI Psychosis\" in Context: How Conversation History Shapes LLM Responses to Delusional Beliefs",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2604.13860, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "1471370090",
+     "name": "L. Nicholls"
+    },
+    {
+     "authorId": "121226113",
+     "name": "Robert Hutto"
+    },
+    {
+     "authorId": "2429668833",
+     "name": "Zephrah Soto"
+    },
+    {
+     "authorId": "12100537",
+     "name": "H. Morrin"
+    },
+    {
+     "authorId": "2266936927",
+     "name": "T. Pollak"
+    },
+    {
+     "authorId": "26336279",
+     "name": "Raj Korpan"
+    },
+    {
+     "authorId": "2244302847",
+     "name": "Cheryl L. Carmichael"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "83d990b469c25d9d1581e8afd1032f9f4c1b3218",
+   "externalIds": {
+    "ArXiv": "2502.09487",
+    "CorpusId": 276318017
+   },
+   "url": "https://www.semanticscholar.org/paper/83d990b469c25d9d1581e8afd1032f9f4c1b3218",
+   "title": "Metareasoning constraints couple narratives, affect and cognition",
+   "venue": "",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2502.09487, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2267449761",
+     "name": "Jakub Onysk"
+    },
+    {
+     "authorId": "144088268",
+     "name": "Q. Huys"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "96bfa1b50668337b57f403db0e15fbbca08a7b1e",
+   "externalIds": {
+    "CorpusId": 292025937
+   },
+   "url": "https://www.semanticscholar.org/paper/96bfa1b50668337b57f403db0e15fbbca08a7b1e",
+   "title": "The Platonic brain bridge hypothesis: human brain networks as an architectural prior for omni models",
+   "venue": "",
+   "year": null,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "2335548116",
+     "name": "Peng-Fei Zhang"
+    },
+    {
+     "authorId": "2339268557",
+     "name": "Biao Tian"
+    },
+    {
+     "authorId": "1898780",
+     "name": "Xian-Gang Li"
+    },
+    {
+     "authorId": "2320533036",
+     "name": "Li Liu"
+    },
+    {
+     "authorId": "2499610044",
+     "name": "VisSMDASVALimConDef"
+    }
+   ],
+   "abstract": null
+  }
+ ],
+ "retrieved": "2026-10-08T14:57:55"
+}

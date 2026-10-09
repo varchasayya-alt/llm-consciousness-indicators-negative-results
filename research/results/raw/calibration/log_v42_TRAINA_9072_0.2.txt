@@ -1,0 +1,7 @@
+  stage A epoch 10: trained-fact acc (parametric) 0.0348 (1.5 min)
+  stage A epoch 20: trained-fact acc (parametric) 0.0585 (3.0 min)
+  stage A epoch 30: trained-fact acc (parametric) 0.1936 (4.8 min)
+  stage A epoch 40: trained-fact acc (parametric) 0.3561 (6.4 min)
+  stage A epoch 50: trained-fact acc (parametric) 0.4286 (8.0 min)
+  stage A epoch 60: trained-fact acc (parametric) 0.5131 (9.6 min)
+TRAINA 9072 p_rd=0.2: 9.6 min, threads 6

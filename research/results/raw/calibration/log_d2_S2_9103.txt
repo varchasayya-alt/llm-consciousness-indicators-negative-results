@@ -1,0 +1,3 @@
+S2 9103 lr=0.0003: steps 350, final new-fact acc 0.9885 (4.9 min)
+S2 9103 lr=0.001: steps 250, final new-fact acc 0.954 (3.4 min)
+S2 9103 lr=0.003: steps 400, final new-fact acc 0.984 (5.1 min)

@@ -1,0 +1,172 @@
+# Stage-1 working configuration (pre-freeze). Values tagged CALIBRATED are set by the calibration
+# procedure (run_calibration.py; stores + interventions only, no monitors). v3 (decisions D36-D41):
+# T-FORGET recipe selected on fresh development seeds 9031-9033, validated once on 9021-9023.
+# The FINAL frozen config is written to stage1_config_FINAL.yaml after calibration.
+version: "0.8-D2"      # D2 store-only kill test (D62-D65). B1 line CLOSED (D61): memory / v4 blocks kept for the record only
+
+seeds:
+  confirmatory: [1001, 1040]          # first 20 passing all store- and intervention-level QC
+  v3_development: [9031, 9032, 9033]
+  v3_validation: [9021, 9022, 9023]   # used exactly once per component
+  retired: [12345, 9001, 9002, 9003, 9004, 9005, 9011, 9012, 9013, 9031, 9032, 9033, 9021, 9022, 9023, 9041, 9042, 9043, 9061, 9062, 9063]
+  # 9001-9005 v1/v2 calibration; 9011-9013 v2 validation; 9031-9033 v3 development; 9021-9023 v3 validation (retired UNUSED)
+  # 9041-9043: v4 development (stopped at V4-F1 K-2); historical evidence only, never used for v4.1 selection
+  # 9061: v4.1 development (stopped at V4.1-F0 K-1), history only; 9062, 9063 retired unused
+  v42_development: [9071, 9072, 9073]  # v4.2 (B1 closed, D61): history only
+  d2_development: [9101, 9102, 9103]   # D2 store-only kill test (fresh namespace)
+  d2_validation_proposed: [9111, 9112, 9113]   # D2 validation: untouched; only after PI approval of a frozen D2 recipe
+  v4_validation: [9051, 9052, 9053]   # still untouched; used once, only after the complete v4.2 recipe is frozen
+
+identifiability:                       # failure criteria F3-F5 (median over seeds of cross-fitted R^2 of dC)
+  r2_gen_max: 0.90
+  r2_pre_max: 0.90
+  r2_joint_max: 0.95
+
+world:
+  n_entities: 3000
+  n_syllables: 80
+  reserved_names_interference: 1000
+  unused_name_pool: 2400
+  n_relations: 4
+  values_per_relation: 32
+  familiarity:
+    high_fraction: 0.5
+    mentions_per_epoch: {high: 8, low: 1}
+  knownness: {p_trained_given_high: 0.8, p_trained_given_low: 0.3}
+  split_relations_per_entity: {MT: 2, CT: 1, EV: 1}
+  interference_facts_per_entity: 2
+  memory_coverage: 0.7               # v4 B1: fraction of trained facts with an explicit memory slot (random)
+
+store:
+  d_model: 128
+  n_layers: 4
+  n_heads: 4
+  mlp_width: 512
+  optimizer: {lr: 2.0e-3, lr_final: 2.0e-4, weight_decay: 0.0, batch_size: 512}
+  epochs: 60                        # CALIBRATED (C1: E99 = 40 on 9001/9002 -> 60)
+  checkpoint_fractions: [0.05, 0.10, 0.15, 0.20, 0.30, 0.40, 0.60, 0.80, 1.00]
+  twin_seed_offset: 5000
+  qc: {trained_fact_acc_min: 0.98, unknown_fact_acc_max: 0.10, fluency_auroc_min: 0.80}
+
+monitors:
+  hidden: [256, 256]
+  out_hidden: [64, 64]
+  in_embedding_dim: 64
+  dropout: 0.1
+  lr: 1.0e-3
+  weight_decay: 1.0e-4
+  steps: 8000
+  batch_size: 256
+  P: {draws_per_item: 10, layer_inclusion_prob: 0.5, rate: [0.0, 0.6]}   # rate range CALIBRATED (non-degeneracy check only)
+
+alignment: {ridge_lambda: 1.0}
+
+controller:
+  hidden: 16
+  lambda_wrong: 1.0
+  cost_train_range: [0.05, 0.6]
+  operating_cost: 0.3
+  steps: 3000
+  batch_size: 512
+  lr: 3.0e-3
+
+interventions:
+  sets: {X: 300, Y: 300, N: 240, U: 240, F: 300, U2: 300, C: 240}
+  caliper: 0.5                      # CALIBRATED (RMS log-displacement distance)
+  fallback_ladder: {lr_multipliers: [1.0, 0.5, 2.0], step_multipliers: [1, 2]}
+  T_FORGET:
+    variant: V0                     # CALIBRATED (v3 mechanism family {V0, V1, V2, V3}; D40)
+    anchor_lambda: 0.0              # CALIBRATED (V1 only: {0.01, 1, 100})
+    steps: 100                      # CALIBRATED ({100, 200})
+    lr: 3.0e-4                      # CALIBRATED ({1e-4, 3e-4, 1e-3})
+    gamma: 10.0                     # fixed (Y sham displacement matching)
+    lambda_retain: 100.0            # fixed (carried over from v2: dominated {1, 10} on collateral; D40)
+    retain_fact_batch: 1024
+    retain_mention_batch: 256       # X, Y entities excluded
+    qc:
+      X_lost_range: [0.35, 0.65]    # F2 outcome diversity
+      C_post_iqr_min: 1.0           # F2 (nats)
+      Y_lost_max: 0.03
+      Z_lost_max: 0.05              # EACH of Z_random, Z_near_entity_X, Z_near_entity_Y, Z_near_repr, Z_far
+      retention_sensitivity: [0.05, 0.10, 0.20]   # primary gate at 0.10 (ratios to X; |dmargin| / D_C)
+      near_repr_fraction: 0.2
+      ratio_lo: 0.8
+      ratio_hi: 1.25
+      sites_min: 8                  # Y negative-control displacement match
+      familiarity_change_max_sd: 0.1
+      binary_secondary: {min_pairs: 50, smd_max: 0.10, caliper_sd: 0.2}   # F6 / K1
+  T_INTERF:
+    mentions_per_entity: 8
+    batch_size: 512
+    lr: 1.0e-3                      # CALIBRATED
+    max_steps: 1500                 # CALIBRATED
+    eval_every: 50
+    stop_new_fact_acc: 0.95
+    qc: {lost_range: [0.05, 0.60]}   # matched lost/retained pairs are descriptive in v3 (no minimum)
+  T_NEW:
+    steps: 150                      # CALIBRATED
+    lr: 1.0e-3                      # CALIBRATED
+    lambda_retain: 1.0              # CALIBRATED (C8 grid {1, 10})
+    retain_fact_batch: 1024
+    retain_mention_batch: 256       # N and U entities excluded
+    qc: {N_learned_min: 0.70, U_correct_max: 0.05, collateral_max: 0.05, collateral_abs_frac_DC: 0.10}
+  T_FAM:
+    steps: 16                       # presentations of each F entity's mention sequence
+    lr: 1.0e-3                      # CALIBRATED
+    lambda_retain: 1.0
+    retain_fact_batch: 1024
+    retain_mention_batch: 256       # F and U2 entities excluded
+    qc: {familiarity_rise_min_sd: 0.5, F_correct_max: 0.05, collateral_max: 0.05, collateral_abs_frac_DC: 0.10}
+  T_ACT_exploratory: {layers: [3, 4]}
+
+test_mode_store_epochs: 1
+
+memory:                              # v4 B1 dual-route store (v4_design_memo.md; D46-D48); v4.1 learning routes (D52)
+  d_key: 64
+  inject_after_block: 2
+  retrieval_loss_weight: 1.0
+  route_dropout: 0.35                # v4.2: p_rd = Stage-A inclusion probability of a covered fact per epoch; CALIBRATED (F0A grid)
+  gradient_isolation: false          # v4.1 only (D52); not used by v4.2
+  development: sequential            # v4.2 (D58): Stage A (P only, memory off) -> Stage B (P frozen, M only)
+  null_value: fixed_zero             # v4.2 (D58): NULL value is exactly zero ("no explicit memory contribution")
+  injection_cap_kappa: 10.0          # v4.2 (D58): |W_o r| <= kappa x median pre-injection |hA| of the frozen Stage-A network
+
+v4:
+  E_store: 60                        # v4 / v4.1 only (C1 rule); NOT used by v4.2
+  stage_A_epochs: 60                 # v4.2: fixed BEFORE development data; no extension rule (PI item 6)
+  stage_B_epochs: 200                # v4.2: fixed; Stage B cannot change the parametric dose (P frozen)
+  F0B: {covered_integrated_acc_min: 0.98, rescue_acc_min: 0.95, no_damage_acc_min: 0.98, param_only_drop_max: 0.01,
+        int1_alpha: 0.01, sc1_u_over_hA_max: 10.0, sc2_null_u_over_hA_max: 0.10}   # v4.2 (D59)
+  store_qc: {trained_fact_acc_min: 0.98, unknown_fact_acc_max: 0.10, fluency_auroc_min: 0.80, own_slot_attention_min: 0.90}
+  F1: {route_dropout_grid: [0.05, 0.10, 0.20, 0.35, 0.50], A_acc_range: [0.30, 0.70], A_margin_iqr_min: 1.0,
+       memory_sufficiency_min: 0.90, param_only_acc_min: 0.90,
+       dose: {dc1_pairwise_decrease_max: 0.05, dc1_range_min: 0.20, dc2_alpha: 0.01}}   # v4.1 grid fixed by the PI; dose rules D53
+  sets: {X: 300, Y: 300}
+  qc:
+    near_key_fraction: 0.2
+    retention_sensitivity: [0.05, 0.10, 0.20]
+    Z_lost_max: 0.05
+    Y_lost_max: 0.03
+    displacement_ratio_max: 0.10
+    familiarity_change_max_sd: 0.1
+    X_lost_range: [0.35, 0.65]
+    C_post_iqr_min: 1.0
+    tier_min: 0.15
+    exposure_r2_max: 0.50
+    exposure_auroc_max: 0.80
+    binary_secondary: {min_pairs: 50, smd_max: 0.10, caliper_sd: 0.2}
+    bookkeeping_r2_kill: 0.90
+  P2: {lr_grid: [3.0e-4, 1.0e-3, 3.0e-3], max_steps: 3000, lost_select_range: [0.10, 0.50], target_lost: 0.25,
+       mentions_per_entity: 8, batch_size: 512, eval_every: 50, stop_new_fact_acc: 0.95}
+
+d2:                                  # Stage-1 D2 store-only kill test (d2_protocol.md; d2_S0_satisfiability_note.md; D62-D65)
+  base_store_epochs: 60              # plain v1-v3 store recipe (store.epochs; C1: E99 = 40 -> 60)
+  interference:                      # FROZEN before any D2 run (P2 / C7 logic; never run before)
+    lr_grid: [3.0e-4, 1.0e-3, 3.0e-3]
+    max_steps: 3000
+    eval_every: 50
+    stop_new_fact_acc: 0.95
+    batch_size: 512
+    mentions_per_entity: 8
+  gates: {lost_range: [0.10, 0.50], dC_iqr_min: 1.0, bookkeeping_r2_kill: 0.90}   # G1, G2, G4 (G3: identifiability block)
+  selection: {target_lost: 0.25}     # eligible lr with mean lost closest to .25; max_steps = ceil100(1.5 x max steps used)

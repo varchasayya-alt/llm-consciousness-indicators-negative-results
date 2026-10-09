@@ -1,0 +1,27 @@
+v4.1 engineering dry run (D53) -- BURNED seed 12345 only (never a development or validation seed). Code path and
+timing check before any v4.1 development run; nothing here is used for any selection. Script: _eng_dryrun_v41.py.
+
+Run 1: 3 epochs, p_rd 0.35, 12 threads, gradient_isolation true.
+  training 0.51 min (about 10 s/epoch -> about 10 min per 60-epoch store); full F1 store evaluation (QC, ablations
+  A/M1/M2, dose report) ran end to end; isolation invariants asserted at every epoch start (no violation).
+  Route-drop counts: mean 1.06 per covered fact (expected 3 x 0.35 = 1.05); presentations 3.0 per covered fact.
+  As expected after 3 epochs the store is untrained (trained-fact acc 0.037; QC fails); the F2/F3 X draw is
+  impossible (too few base-correct facts) -> dose_report now records X_lost = None with the reason instead of crashing.
+Run 2: 2 epochs, p_rd 0.20, 3 threads: 0.31 min/epoch (about 19 min per 60-epoch store per process) -> grid stores
+  are trained in parallel processes (TRAIN utility).
+
+Run 3 (_eng_route_check_v41.py; 10-epoch schedule, 12 threads): is the P route correct under isolation?
+  p_rd = 1.0 (no memory-present rows; v4 and v4.1 train P on identical rows):
+    v4   param-only acc 0.038, covered (route A = integrated) 0.046
+    v4.1 param-only acc 0.047, covered 0.052        -> P route equivalent; no bug.
+  p_rd = 0.35:
+    v4   covered integrated 0.357, route A 0.069, own-slot attention 0.55, NULL (param-only) 0.69
+    v4.1 covered integrated 0.049, route A 0.045, own-slot attention 0.32, NULL (param-only) 0.58
+  Reading: under v4.1 the MEMORY route learns much more slowly early in training. This is expected from the approved
+  routing: blocks 3-4 and the unembedding no longer co-adapt to the memory term (no gradient from memory-present
+  rows), so memory values must learn to write directions the parametric readout already decodes, and that readout
+  develops only from parametric-only and route-dropped rows. Whether the store converges is what V4.1-F0 tests
+  (trained-fact acc >= .98 at 60 epochs, else the pre-declared C1 rule). Nothing is changed in response.
+Run 4 (_eng_plumbing_v41.py; 15-epoch store, p_rd 0.35; set sizes X = Y = 10 for plumbing only): F1 store
+  evaluation, evaluate_F234 (T-DELETE + Y, delete_qc, audit) and p2_eval (100 steps) all ran end to end.
+  (15-epoch store: trained acc 0.063, M2 0.865, own-slot 0.50 -- partly trained; not a feasibility result.)

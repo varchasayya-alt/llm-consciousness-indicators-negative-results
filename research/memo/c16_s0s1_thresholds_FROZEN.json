@@ -1,0 +1,45 @@
+{
+  "_doc": "C16 Stage 0/1 frozen thresholds (D79). Companion of c16_s0s1_preregistration_FROZEN.md. Never edited after a result.",
+  "model": {"name": "Qwen/Qwen2.5-0.5B-Instruct", "dtype": "float32", "fallback_model": null},
+  "formats": {"primary": "F1", "fallback": "F2", "fallback_trigger": ["V0", "V1a", "V1b", "V1d"], "fallback_uses": 1},
+  "seeds": {"split": 16001, "s0_sampling": 16010, "halves": 16011, "swap_nc": 16012, "s1a": 16100, "s1b": 16150,
+            "planted_base": 16200, "planted_core": [16211, 16212, 16213], "planted_pilot": [16221, 16222, 16223]},
+  "materials": {"x_range": [10, 99], "x_excluded": [50], "n_train": 45, "n_select": 22, "n_confirm": 22,
+                "instances_main": 4, "instances_decod": 8,
+                "names_train": ["Ana", "Ben", "Dan", "Jon", "Sam", "Tom", "Max", "Leo", "Ian", "Ray"],
+                "names_eval_sealed": ["Ted", "Amy", "Joe", "Kim", "Lou", "Roy", "Tim", "Val"],
+                "primer_name": "Bo",
+                "colours": ["red", "blue", "green", "black", "white", "pink"]},
+  "consumers": {"pool": ["succ", "plus10", "parity", "mag", "lookup"], "U": "verb", "positive_control": "copy",
+                "chance": {"parity": 0.5, "mag": 0.5, "lookup": 0.3333333333333333, "succ": 0.0, "plus10": 0.0, "verb": 0.0, "copy": 0.0}},
+  "stage0": {
+    "decod": {"ridge_lambda": 1.0, "pca_dim": 256, "folds": 5, "layer_min": 8, "positions_last": 3},
+    "oracle_layers": [1, 2, 3, 4, 6, 8, 10, 12, 14], "oracle_layer_margin_below_Lw": 3, "n_read_layers": 3,
+    "items_per_half_per_consumer": 100,
+    "ranks": [1, 2, 4, 8, 16, 32, 64, 128, "full"], "rank_fraction": 0.9, "rank_min_full_gain": 0.10,
+    "bundles": {"B1": ["succ"], "B2": ["succ", "plus10"], "B4": ["succ", "plus10", "parity", "mag"], "Bpm": ["parity", "mag"]},
+    "gates": {
+      "V0_decod_min": 0.70,
+      "V1a_copy_min": 0.80,
+      "V1b_text_min": 0.80, "V1b_min_pool_pass": 4,
+      "V1c_kappa_max": 0.35, "V1c_min_pool_pass": 3,
+      "V1d_eligible_min": 0.50,
+      "V2a_gain_min": 0.25, "V2a_min_pool_pass": 3,
+      "V2b_ct_min": 0.30, "V2b_min_pool_pass": 3,
+      "V2c_fprime_shift_max": 0.10, "V2c_acc_shift_max": 0.15,
+      "W1_log2_ratio_max": 1.0,
+      "W2_bundle_U_ratio_max": 0.5, "W2_bundle_own_gain_min": 0.25,
+      "W3_window_ratio_min": 4.0,
+      "W4_monotone_tolerance_steps": 1
+    }
+  },
+  "stage1": {
+    "S1b": {"r_true": [4, 16, 64], "rB_true": [16, 64], "recovery_factor_max": 2.0},
+    "S1c": {"layers": 4, "d_model": 128, "heads": 4,
+            "train_reach_min": 0.20, "transport_pc_ct_min": 0.5, "V6_paraphrase_ratio_min": 0.80,
+            "pilot_capacities_xr": [0.5, 1, 2, 4, 8], "pilot_sets": {"S1": ["succ"], "S4": ["succ", "plus10", "parity", "mag"], "Spm": ["parity", "mag"]}},
+    "S1a": {"power_min": 0.80, "fpr_max": 0.05, "sigma_X": [0.3, 0.6], "n_seeds_grid": [3, 5, 8], "items_per_cell_grid": [100, 200],
+            "margin_step": 0.05, "boot_reps": 2000, "sim_reps": 400, "hcd_margin": 0.10, "hcd_budget_cpu_h": 120}
+  },
+  "hcd_central_rule": "central iff W1-W4 pass and S1a power >= 0.80 within <= 120 CPU-h of Stage-2 training; else secondary (lower bound and D only) or not run"
+}

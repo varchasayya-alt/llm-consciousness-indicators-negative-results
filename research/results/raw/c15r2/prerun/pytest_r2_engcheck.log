@@ -1,0 +1,24 @@
+.....................                                                    [100%]
+=================================== PASSES ====================================
+=========================== short test summary info ===========================
+PASSED tests/test_r2.py::test_thresholds_equal_frozen_json
+PASSED tests/test_r2.py::test_unchanged_astage_constants
+PASSED tests/test_r2.py::test_T1_no_reference_to_astage_material_files
+PASSED tests/test_r2.py::test_T2_no_overlap_with_astage_material
+PASSED tests/test_r2.py::test_T3_splits_disjoint_and_manifest_hashes
+PASSED tests/test_r2.py::test_T4_no_writes_into_astage_dirs
+PASSED tests/test_r2.py::test_runner_and_package_have_no_unauthorized_phase
+PASSED tests/test_r2.py::test_eng_check_reads_full_block_or_diagnostics
+PASSED tests/test_r2.py::test_confirm_gate_sealed_without_freeze
+PASSED tests/test_r2.py::test_materials_structure
+PASSED tests/test_r2.py::test_kcrit_and_site_pass
+PASSED tests/test_r2.py::test_restricted_derangement
+PASSED tests/test_r2.py::test_PC4_planted_transport_and_null
+PASSED tests/test_r2.py::test_w3p_engineering_diagnostics_without_perp
+PASSED tests/test_r2.py::test_w3p_generic_influence_cancels_by_centring
+PASSED tests/test_r2.py::test_w0b_positions_on_smoke
+PASSED tests/test_r2.py::test_classify_P1_and_choose
+PASSED tests/test_r2.py::test_classify_P2_requires_powered_double_dissociation
+PASSED tests/test_r2.py::test_classify_P3_P0_P4_IND
+PASSED tests/test_r2.py::test_validity_blocks_powered_failure
+PASSED tests/test_r2.py::test_confirm_verdicts

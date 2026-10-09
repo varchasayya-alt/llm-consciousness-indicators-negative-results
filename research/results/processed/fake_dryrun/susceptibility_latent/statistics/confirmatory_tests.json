@@ -1,0 +1,293 @@
+{
+ "tests": [
+  {
+   "n": 20,
+   "mean": 0.09230476388044098,
+   "sd": 0.06717906935850548,
+   "t": 6.185556256887807,
+   "p": 3.034533605182118e-06,
+   "name": "P1 within-target FORGET theta_pre (INT-S)",
+   "family": "P",
+   "column": "P1|INT-S",
+   "ci": [
+    0.06278941006898536,
+    0.1202220747338282
+   ],
+   "mei": 0.1,
+   "wilcoxon_p": 1.811981201171875e-05,
+   "kind": "theta",
+   "p_holm": 3.034533605182118e-06,
+   "reject": true,
+   "decision": "inconclusive"
+  },
+  {
+   "n": 20,
+   "mean": 0.08520933941588071,
+   "sd": 0.040622595288228466,
+   "t": 9.4187920269311,
+   "p": 6.842534581183681e-09,
+   "name": "P2 within-exposed INTERF theta_pre (INT-S)",
+   "family": "P",
+   "column": "P2|INT-S",
+   "ci": [
+    0.06831021917126048,
+    0.10244850038294777
+   ],
+   "mei": 0.1,
+   "wilcoxon_p": 9.5367431640625e-07,
+   "kind": "theta",
+   "p_holm": 1.3685069162367362e-08,
+   "reject": true,
+   "decision": "inconclusive"
+  },
+  {
+   "n": 20,
+   "mean": 0.10189210585824013,
+   "sd": 0.05946354049664606,
+   "t": 7.7126686746692545,
+   "p": 1.4364475462634798e-07,
+   "name": "G1 P1 generic-adjusted theta_gen",
+   "family": "G",
+   "column": "P1_gen|INT-S",
+   "ci": [
+    0.07546245185866535,
+    0.12612392867722869
+   ],
+   "mei": 0.1,
+   "wilcoxon_p": 6.67572021484375e-06,
+   "kind": "theta",
+   "p_holm": 1.4364475462634798e-07,
+   "reject": true,
+   "decision": "supported"
+  },
+  {
+   "n": 20,
+   "mean": 0.1001171269029422,
+   "sd": 0.03778043392035528,
+   "t": 11.906250787872658,
+   "p": 1.4787660192330234e-10,
+   "name": "G2 P2 generic-adjusted theta_gen",
+   "family": "G",
+   "column": "P2_gen|INT-S",
+   "ci": [
+    0.0841089471467857,
+    0.11580192998642622
+   ],
+   "mei": 0.1,
+   "wilcoxon_p": 9.5367431640625e-07,
+   "kind": "theta",
+   "p_holm": 2.957532038466047e-10,
+   "reject": true,
+   "decision": "supported"
+  },
+  {
+   "n": 6,
+   "mean": 0.5561578129215524,
+   "sd": 0.03985070141112713,
+   "t": 3.4518335150324426,
+   "p": 0.009100823831505097,
+   "name": "K1 matched lost vs retained within X (INT-S)",
+   "family": "K",
+   "column": "K1",
+   "ci": [
+    0.5289720741432707,
+    0.5861896343275754
+   ],
+   "mei": 0.55,
+   "wilcoxon_p": 0.015625,
+   "kind": "theta",
+   "p_holm": 0.018201647663010193,
+   "reject": true,
+   "decision": "supported"
+  },
+  {
+   "n": 20,
+   "mean": -0.00041018384225046485,
+   "p_lower": 3.62551980351492e-32,
+   "p_upper": 3.1025362311240195e-32,
+   "p": 3.62551980351492e-32,
+   "bound": 0.1,
+   "name": "K2 Y negative control (TOST, rel. bound 0.10)",
+   "family": "K",
+   "column": "K2",
+   "kind": "tost",
+   "ci": [
+    -0.0014944415408505599,
+    0.0007124412881921374
+   ],
+   "p_holm": 1.450207921405968e-31,
+   "reject": true,
+   "decision": "equivalent"
+  },
+  {
+   "n": 20,
+   "mean": 0.0,
+   "sd": 0.0,
+   "t": NaN,
+   "p": 1.0,
+   "name": "K3 developmental TP>S (z(theta) difference)",
+   "family": "K",
+   "column": "K3",
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "mei": 0.1,
+   "wilcoxon_p": 1.0,
+   "kind": "theta",
+   "p_holm": 1.0,
+   "reject": false,
+   "decision": "falsified (strong form)"
+  },
+  {
+   "n": 20,
+   "mean": 0.09230476388044098,
+   "sd": 0.06717906935850548,
+   "t": 6.185556256887807,
+   "p": 3.034533605182118e-06,
+   "name": "K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))",
+   "family": "K",
+   "column": "K4",
+   "ci": [
+    0.06278941006898536,
+    0.1202220747338282
+   ],
+   "mei": 0.1,
+   "wilcoxon_p": 1.811981201171875e-05,
+   "kind": "theta",
+   "p_holm": 9.103600815546355e-06,
+   "reject": true,
+   "decision": "inconclusive"
+  },
+  {
+   "n": 20,
+   "mean": 0.10746725561967488,
+   "sd": 0.09706090223296401,
+   "t": 5.007487076961024,
+   "p": 7.818191714134959e-05,
+   "name": "F1 familiar stratum theta_pre",
+   "family": "F",
+   "column": "F1",
+   "mu0": 0.0,
+   "ci": [
+    0.06492263207761986,
+    0.14737114707290533
+   ],
+   "kind": "two-sided",
+   "p_holm": 0.00023454575142404876,
+   "reject": true,
+   "decision": "different from null"
+  },
+  {
+   "n": 20,
+   "mean": 0.0004890235637543617,
+   "sd": 0.005553812879253624,
+   "t": 0.39377989677639585,
+   "p": 0.6981278011511948,
+   "name": "F2 familiarity-boost false rise (rel.)",
+   "family": "F",
+   "column": "F2",
+   "mu0": 0.0,
+   "ci": [
+    -0.0018897104677080391,
+    0.0029199162959451727
+   ],
+   "kind": "two-sided",
+   "p_holm": 0.8393809042023538,
+   "reject": false,
+   "decision": "not different"
+  },
+  {
+   "n": 20,
+   "mean": 0.49095960607604433,
+   "sd": 0.04901459542227296,
+   "t": -0.8248537066636676,
+   "p": 0.4196904521011769,
+   "name": "F3 newly learned (low fam.)",
+   "family": "F",
+   "column": "F3",
+   "mu0": 0.5,
+   "ci": [
+    0.4696760378501612,
+    0.512903448811053
+   ],
+   "kind": "two-sided",
+   "p_holm": 0.8393809042023538,
+   "reject": false,
+   "decision": "not different"
+  },
+  {
+   "n": 20,
+   "mean": 0.0035557796670210645,
+   "sd": 0.01353245931792401,
+   "t": 1.175095355792344,
+   "p": 0.2544732820844004,
+   "name": "S1 system-specific coupling INT-S (z diff)",
+   "family": "S",
+   "column": "S|INT-S",
+   "mu0": 0.0,
+   "ci": [
+    -0.001901933481321672,
+    0.009478532773159246
+   ],
+   "kind": "two-sided",
+   "p_holm": 0.5089465641688008,
+   "reject": false,
+   "decision": "not different"
+  },
+  {
+   "n": 20,
+   "mean": 0.0024426458416643817,
+   "sd": 0.014138837554636902,
+   "t": 0.7726126176656555,
+   "p": 0.44925663205815963,
+   "name": "S2 system-specific coupling INT-TP (z diff)",
+   "family": "S",
+   "column": "S|INT-TP",
+   "mu0": 0.0,
+   "ci": [
+    -0.0034615638682513003,
+    0.008606066768525655
+   ],
+   "kind": "two-sided",
+   "p_holm": 0.5089465641688008,
+   "reject": false,
+   "decision": "not different"
+  }
+ ],
+ "study_checks": {
+  "a_enough_valid_seeds": true,
+  "b_natural_auroc_INT-S_median": 0.9970975040932906,
+  "b_pass": true,
+  "c_twin_level_auroc_median": 0.5102172767014752,
+  "c_flag": false,
+  "d_disp_ratio_median": 1.0054814468565072,
+  "d_flag": false,
+  "e_identifiability_P1": {
+   "r2_gen": 0.23992183648860266,
+   "r2_pre": 0.16564815212425288,
+   "r2_joint": 0.3899631287383207
+  },
+  "e_identifiable_P1": true,
+  "e_identifiability_P2": {
+   "r2_gen": 0.2446850285001948,
+   "r2_pre": 0.18496968474277753,
+   "r2_joint": 0.4270381417069395
+  },
+  "e_identifiable_P2": true
+ },
+ "labels": {
+  "P1": "C",
+  "P2": "C"
+ },
+ "excluded_seeds": [
+  {
+   "seed": 1003,
+   "reason": "store QC (fabricated)"
+  },
+  {
+   "seed": 1011,
+   "reason": "store QC (fabricated)"
+  }
+ ]
+}

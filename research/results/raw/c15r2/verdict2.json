@@ -1,0 +1,26 @@
+{
+ "pins_end": {
+  "trees": {
+   "research/experiments/c15": "31f6d6e7af81c4d894abe576f85052cb2850bd25",
+   "research/results/raw/c15a": "54a3f1236f0af1688f63dfa168d3a85a162ba438"
+  },
+  "files": {
+   "research/experiments/c15/materials/g_confirm.json": "3f0911cb006cbffc0b87a59e263ddc7d320f9f33807d12c2bbf185447f03b0dc",
+   "research/experiments/c15/materials/g_select.json": "740e55b90c6b4e8a6baffa76ff47e0f487243a21bcfa64f686e363f55161b9c2",
+   "research/experiments/c15/materials/split_manifest.json": "4367561c8a1e59ba067aac6b9905b9a910645b5be042b885272caf19b8a7dc3b",
+   "research/experiments/c15/artifacts_astage.json": "79b082e4a629eaa260a0b97a7968e0abacfd7f71c8f82e2317bc46151d7a88de",
+   "research/experiments/c15/astage_report.md": "b18b5bb9cffb373e2316f24467fd1fde8b3a8055507863f737784d187397efaf",
+   "research/results/raw/c15a/select_qwen3-1.7b.json": "e4646d8dc1af5dda0c7ae4913192b16169f4b1e409afeabf8498a7c89faf5b6a",
+   "research/results/raw/c15a/select_qwen3.5-2b.json": "61d88e94da79b9563a5a597a6fed1aba767fee29d213070b7e7509dfc26ec884",
+   "research/results/raw/c15a/select_qwen3-4b.json": "85fd4a3fc3b909b5b014af6da9adc3a1e8816f51ff6faf915a1df39c79de3724",
+   "research/results/raw/c15a/choose_astage.json": "2effe74b433b00795e3b0705a8d4df064411373e6b1c13c5cb19addb459fb9aa",
+   "research/results/raw/c15a/select_tensors/qwen3-1.7b.pt": "5a68f8c3ab334cffa2f8a2b3d8fbab5f3b10a50a20478b3ec94f582d74edbc15",
+   "research/results/raw/c15a/select_tensors/qwen3.5-2b.pt": "9e91f4a028dc4e335e5b805ea7f86e061c10c63dd9d2695f0d6d1b8ca5d18798",
+   "research/results/raw/c15a/select_tensors/qwen3-4b.pt": "c3c99d67a1d0169187b122f93473eb46d1e575221d8e9de175af3cea4d9c2fa8"
+  },
+  "head": "5bffcb5440d08aa08e4566318072468f34b1de83",
+  "pass": true
+ },
+ "pattern_select": "P4",
+ "final": "P4"
+}

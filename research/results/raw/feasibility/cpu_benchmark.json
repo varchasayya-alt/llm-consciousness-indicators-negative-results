@@ -1,0 +1,62 @@
+{
+ "info": {
+  "python": "3.12.10",
+  "torch": "2.14.1+cpu",
+  "threads": 12,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 181 Stepping 0, GenuineIntel"
+ },
+ "tiny_transformer": [
+  {
+   "d_model": 128,
+   "n_layers": 2,
+   "params": 922880,
+   "batch": 256,
+   "seq": 16,
+   "sec_per_step": 0.3546,
+   "train_tokens_per_sec": 11551
+  },
+  {
+   "d_model": 256,
+   "n_layers": 4,
+   "params": 4209664,
+   "batch": 256,
+   "seq": 16,
+   "sec_per_step": 1.3516,
+   "train_tokens_per_sec": 3031
+  },
+  {
+   "d_model": 384,
+   "n_layers": 6,
+   "params": 12221696,
+   "batch": 256,
+   "seq": 16,
+   "sec_per_step": 3.0973,
+   "train_tokens_per_sec": 1322
+  }
+ ],
+ "pretrained": [
+  {
+   "model": "Qwen/Qwen2.5-0.5B-Instruct",
+   "dtype": "torch.float32",
+   "load_sec": 19.9,
+   "prompt_tokens": 64,
+   "forward_b1_sec": 0.492,
+   "forward_b1_sec_per_prompt": 0.492,
+   "forward_b8_sec": 2.676,
+   "forward_b8_sec_per_prompt": 0.335,
+   "generate_8tok_b1_sec": 1.021
+  },
+  {
+   "model": "Qwen/Qwen2.5-0.5B-Instruct",
+   "dtype": "torch.bfloat16",
+   "load_sec": 2.0,
+   "prompt_tokens": 64,
+   "forward_b1_sec": 2.207,
+   "forward_b1_sec_per_prompt": 2.207,
+   "forward_b8_sec": 15.902,
+   "forward_b8_sec_per_prompt": 1.988,
+   "generate_8tok_b1_sec": 2.368
+  }
+ ]
+}

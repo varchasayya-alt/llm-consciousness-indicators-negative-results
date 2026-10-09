@@ -1,0 +1,806 @@
+{
+ "inputs": {
+  "sigma_seed": [
+   0.2575261115686491
+  ],
+  "p_nc": 0.05,
+  "rB_over_rX": {
+   "S1": 1.0,
+   "S2": 2.0,
+   "S4": 4.0,
+   "Spm": 0.5,
+   "Sparam": Infinity
+  },
+  "rB_source": "default"
+ },
+ "core": [
+  {
+   "gates": {
+    "h1_lb": 0.1,
+    "h2_lb": 0.0,
+    "h3_lb": 0.0,
+    "h4_lb": 0.0,
+    "h5_lb": 0.0
+   },
+   "rows": [
+    {
+     "worlds": {
+      "null": {
+       "dist": {
+        "W0": 1.0
+       },
+       "true_class": "W0",
+       "P_correct": 1.0,
+       "P_overclaim": 0
+      },
+      "H1_bound": {
+       "dist": {
+        "W0": 1.0
+       },
+       "true_class": "W0",
+       "P_correct": 1.0,
+       "P_overclaim": 0
+      },
+      "reentry": {
+       "dist": {
+        "W-RE": 1.0
+       },
+       "true_class": "W-RE",
+       "P_correct": 1.0,
+       "P_overclaim": 0
+      },
+      "broadcast": {
+       "dist": {
+        "W-BC": 0.92,
+        "W-GW": 0.035,
+        "W-RE": 0.045
+       },
+       "true_class": "W-BC",
+       "P_correct": 0.92,
+       "P_overclaim": 0.035
+      },
+      "full_gw": {
+       "dist": {
+        "W-GW": 0.8575,
+        "W-BC": 0.085,
+        "W-RE": 0.0575
+       },
+       "true_class": "W-GW",
+       "P_correct": 0.8575,
+       "P_overclaim": 0
+      }
+     },
+     "max_overclaim_fpr": 0.035,
+     "min_power_true_class": 0.8575,
+     "n_s": 3,
+     "n_x": 22,
+     "sig_s": 0.2575261115686491,
+     "sig_x": 0.3,
+     "gates": {
+      "h1_lb": 0.1,
+      "h2_lb": 0.0,
+      "h3_lb": 0.0,
+      "h4_lb": 0.0,
+      "h5_lb": 0.0
+     }
+    },
+    {
+     "worlds": {
+      "null": {
+       "dist": {
+        "W0": 1.0
+       },
+       "true_class": "W0",
+       "P_correct": 1.0,
+       "P_overclaim": 0
+      },
+      "H1_bound": {
+       "dist": {
+        "W0": 1.0
+       },
+       "true_class": "W0",
+       "P_correct": 1.0,
+       "P_overclaim": 0
+      },
+      "reentry": {
+       "dist": {
+        "W-RE": 1.0
+       },
+       "true_class": "W-RE",
+       "P_correct": 1.0,
+       "P_overclaim": 0
+      },
+      "broadcast": {
+       "dist": {
+        "W-BC": 0.8225,
+        "W-RE": 0.13,
+        "W-GW": 0.0475
+       },
+       "true_class": "W-BC",
+       "P_correct": 0.8225,
+       "P_overclaim": 0.0475
+      },
+      "full_gw": {
+       "dist": {
+        "W-GW": 0.7,
+        "W-BC": 0.15,
+        "W-RE": 0.15
+       },
+       "true_class": "W-GW",
+       "P_correct": 0.7,
+       "P_overclaim": 0
+      }
+     },
+     "max_overclaim_fpr": 0.0475,
+     "min_power_true_class": 0.7,
+     "n_s": 3,
+     "n_x": 22,
+     "sig_s": 0.2575261115686491,
+     "sig_x": 0.6,
+     "gates": {
+      "h1_lb": 0.1,
+      "h2_lb": 0.0,
+      "h3_lb": 0.0,
+      "h4_lb": 0.0,
+      "h5_lb": 0.0
+     }
+    }
+   ]
+  }
+ ],
+ "core_final_gates": {
+  "h1_lb": 0.1,
+  "h2_lb": 0.0,
+  "h3_lb": 0.0,
+  "h4_lb": 0.0,
+  "h5_lb": 0.0
+ },
+ "core_final_fpr": 0.0475,
+ "core_final_power": 0.7,
+ "hcd": [
+  {
+   "n_s": 3,
+   "m_cell": 100,
+   "min_power": 0.0,
+   "max_wrong_account": 0.04,
+   "cpu_h_4cells": null,
+   "cpu_h_full_grid": null,
+   "rows": [
+    {
+     "worlds": {
+      "geometry": {
+       "dist": {
+        "geometry": 0.9833333333333333,
+        "ib": 0.01,
+        "undetermined": 0.006666666666666667
+       },
+       "P_correct": 0.9833333333333333,
+       "P_wrong_account": 0.01
+      },
+      "ib": {
+       "dist": {
+        "ib": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      },
+      "copy": {
+       "dist": {
+        "undetermined": 0.9833333333333333,
+        "ib": 0.016666666666666666
+       },
+       "P_correct": 0.0,
+       "P_wrong_account": 0.016666666666666666
+      },
+      "null": {
+       "dist": {
+        "none": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      }
+     },
+     "n_s": 3,
+     "m_cell": 100,
+     "sig_s": 0.2575261115686491,
+     "sig_x": 0.3,
+     "rB": {
+      "S1": 1.0,
+      "S2": 2.0,
+      "S4": 4.0,
+      "Spm": 0.5,
+      "Sparam": Infinity
+     },
+     "min_power": 0.0,
+     "max_wrong_account": 0.016666666666666666
+    },
+    {
+     "worlds": {
+      "geometry": {
+       "dist": {
+        "geometry": 0.9233333333333333,
+        "ib": 0.04,
+        "undetermined": 0.03666666666666667
+       },
+       "P_correct": 0.9233333333333333,
+       "P_wrong_account": 0.04
+      },
+      "ib": {
+       "dist": {
+        "ib": 0.9866666666666667,
+        "undetermined": 0.013333333333333334
+       },
+       "P_correct": 0.9866666666666667,
+       "P_wrong_account": 0
+      },
+      "copy": {
+       "dist": {
+        "undetermined": 0.9833333333333333,
+        "ib": 0.013333333333333334,
+        "geometry": 0.0033333333333333335
+       },
+       "P_correct": 0.0,
+       "P_wrong_account": 0.016666666666666666
+      },
+      "null": {
+       "dist": {
+        "none": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      }
+     },
+     "n_s": 3,
+     "m_cell": 100,
+     "sig_s": 0.2575261115686491,
+     "sig_x": 0.6,
+     "rB": {
+      "S1": 1.0,
+      "S2": 2.0,
+      "S4": 4.0,
+      "Spm": 0.5,
+      "Sparam": Infinity
+     },
+     "min_power": 0.0,
+     "max_wrong_account": 0.04
+    }
+   ]
+  },
+  {
+   "n_s": 3,
+   "m_cell": 200,
+   "min_power": 0.0,
+   "max_wrong_account": 0.043333333333333335,
+   "cpu_h_4cells": null,
+   "cpu_h_full_grid": null,
+   "rows": [
+    {
+     "worlds": {
+      "geometry": {
+       "dist": {
+        "geometry": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      },
+      "ib": {
+       "dist": {
+        "ib": 0.99,
+        "undetermined": 0.006666666666666667,
+        "geometry": 0.0033333333333333335
+       },
+       "P_correct": 0.99,
+       "P_wrong_account": 0.0033333333333333335
+      },
+      "copy": {
+       "dist": {
+        "undetermined": 0.9566666666666667,
+        "ib": 0.03333333333333333,
+        "geometry": 0.01
+       },
+       "P_correct": 0.0,
+       "P_wrong_account": 0.043333333333333335
+      },
+      "null": {
+       "dist": {
+        "none": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      }
+     },
+     "n_s": 3,
+     "m_cell": 200,
+     "sig_s": 0.2575261115686491,
+     "sig_x": 0.3,
+     "rB": {
+      "S1": 1.0,
+      "S2": 2.0,
+      "S4": 4.0,
+      "Spm": 0.5,
+      "Sparam": Infinity
+     },
+     "min_power": 0.0,
+     "max_wrong_account": 0.043333333333333335
+    },
+    {
+     "worlds": {
+      "geometry": {
+       "dist": {
+        "geometry": 0.9966666666666667,
+        "ib": 0.0033333333333333335
+       },
+       "P_correct": 0.9966666666666667,
+       "P_wrong_account": 0.0033333333333333335
+      },
+      "ib": {
+       "dist": {
+        "ib": 0.9933333333333333,
+        "undetermined": 0.006666666666666667
+       },
+       "P_correct": 0.9933333333333333,
+       "P_wrong_account": 0
+      },
+      "copy": {
+       "dist": {
+        "undetermined": 0.9666666666666667,
+        "ib": 0.02666666666666667,
+        "geometry": 0.006666666666666667
+       },
+       "P_correct": 0.0,
+       "P_wrong_account": 0.03333333333333333
+      },
+      "null": {
+       "dist": {
+        "none": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      }
+     },
+     "n_s": 3,
+     "m_cell": 200,
+     "sig_s": 0.2575261115686491,
+     "sig_x": 0.6,
+     "rB": {
+      "S1": 1.0,
+      "S2": 2.0,
+      "S4": 4.0,
+      "Spm": 0.5,
+      "Sparam": Infinity
+     },
+     "min_power": 0.0,
+     "max_wrong_account": 0.03333333333333333
+    }
+   ]
+  },
+  {
+   "n_s": 5,
+   "m_cell": 100,
+   "min_power": 0.0,
+   "max_wrong_account": 0.013333333333333334,
+   "cpu_h_4cells": null,
+   "cpu_h_full_grid": null,
+   "rows": [
+    {
+     "worlds": {
+      "geometry": {
+       "dist": {
+        "geometry": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      },
+      "ib": {
+       "dist": {
+        "ib": 0.99,
+        "geometry": 0.0033333333333333335,
+        "undetermined": 0.006666666666666667
+       },
+       "P_correct": 0.99,
+       "P_wrong_account": 0.0033333333333333335
+      },
+      "copy": {
+       "dist": {
+        "undetermined": 0.9866666666666667,
+        "ib": 0.013333333333333334
+       },
+       "P_correct": 0.0,
+       "P_wrong_account": 0.013333333333333334
+      },
+      "null": {
+       "dist": {
+        "none": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      }
+     },
+     "n_s": 5,
+     "m_cell": 100,
+     "sig_s": 0.2575261115686491,
+     "sig_x": 0.3,
+     "rB": {
+      "S1": 1.0,
+      "S2": 2.0,
+      "S4": 4.0,
+      "Spm": 0.5,
+      "Sparam": Infinity
+     },
+     "min_power": 0.0,
+     "max_wrong_account": 0.013333333333333334
+    },
+    {
+     "worlds": {
+      "geometry": {
+       "dist": {
+        "geometry": 0.9933333333333333,
+        "undetermined": 0.0033333333333333335,
+        "ib": 0.0033333333333333335
+       },
+       "P_correct": 0.9933333333333333,
+       "P_wrong_account": 0.0033333333333333335
+      },
+      "ib": {
+       "dist": {
+        "ib": 0.9966666666666667,
+        "undetermined": 0.0033333333333333335
+       },
+       "P_correct": 0.9966666666666667,
+       "P_wrong_account": 0
+      },
+      "copy": {
+       "dist": {
+        "undetermined": 0.9866666666666667,
+        "ib": 0.013333333333333334
+       },
+       "P_correct": 0.0,
+       "P_wrong_account": 0.013333333333333334
+      },
+      "null": {
+       "dist": {
+        "none": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      }
+     },
+     "n_s": 5,
+     "m_cell": 100,
+     "sig_s": 0.2575261115686491,
+     "sig_x": 0.6,
+     "rB": {
+      "S1": 1.0,
+      "S2": 2.0,
+      "S4": 4.0,
+      "Spm": 0.5,
+      "Sparam": Infinity
+     },
+     "min_power": 0.0,
+     "max_wrong_account": 0.013333333333333334
+    }
+   ]
+  },
+  {
+   "n_s": 5,
+   "m_cell": 200,
+   "min_power": 0.0,
+   "max_wrong_account": 0.023333333333333334,
+   "cpu_h_4cells": null,
+   "cpu_h_full_grid": null,
+   "rows": [
+    {
+     "worlds": {
+      "geometry": {
+       "dist": {
+        "geometry": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      },
+      "ib": {
+       "dist": {
+        "ib": 0.9933333333333333,
+        "undetermined": 0.006666666666666667
+       },
+       "P_correct": 0.9933333333333333,
+       "P_wrong_account": 0
+      },
+      "copy": {
+       "dist": {
+        "undetermined": 0.9866666666666667,
+        "ib": 0.01,
+        "geometry": 0.0033333333333333335
+       },
+       "P_correct": 0.0,
+       "P_wrong_account": 0.013333333333333334
+      },
+      "null": {
+       "dist": {
+        "none": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      }
+     },
+     "n_s": 5,
+     "m_cell": 200,
+     "sig_s": 0.2575261115686491,
+     "sig_x": 0.3,
+     "rB": {
+      "S1": 1.0,
+      "S2": 2.0,
+      "S4": 4.0,
+      "Spm": 0.5,
+      "Sparam": Infinity
+     },
+     "min_power": 0.0,
+     "max_wrong_account": 0.013333333333333334
+    },
+    {
+     "worlds": {
+      "geometry": {
+       "dist": {
+        "geometry": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      },
+      "ib": {
+       "dist": {
+        "ib": 0.99,
+        "undetermined": 0.01
+       },
+       "P_correct": 0.99,
+       "P_wrong_account": 0
+      },
+      "copy": {
+       "dist": {
+        "undetermined": 0.9766666666666667,
+        "ib": 0.02,
+        "geometry": 0.0033333333333333335
+       },
+       "P_correct": 0.0,
+       "P_wrong_account": 0.023333333333333334
+      },
+      "null": {
+       "dist": {
+        "none": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      }
+     },
+     "n_s": 5,
+     "m_cell": 200,
+     "sig_s": 0.2575261115686491,
+     "sig_x": 0.6,
+     "rB": {
+      "S1": 1.0,
+      "S2": 2.0,
+      "S4": 4.0,
+      "Spm": 0.5,
+      "Sparam": Infinity
+     },
+     "min_power": 0.0,
+     "max_wrong_account": 0.023333333333333334
+    }
+   ]
+  },
+  {
+   "n_s": 8,
+   "m_cell": 100,
+   "min_power": 0.0,
+   "max_wrong_account": 0.013333333333333334,
+   "cpu_h_4cells": null,
+   "cpu_h_full_grid": null,
+   "rows": [
+    {
+     "worlds": {
+      "geometry": {
+       "dist": {
+        "geometry": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      },
+      "ib": {
+       "dist": {
+        "ib": 0.9933333333333333,
+        "undetermined": 0.006666666666666667
+       },
+       "P_correct": 0.9933333333333333,
+       "P_wrong_account": 0
+      },
+      "copy": {
+       "dist": {
+        "undetermined": 0.9966666666666667,
+        "ib": 0.0033333333333333335
+       },
+       "P_correct": 0.0,
+       "P_wrong_account": 0.0033333333333333335
+      },
+      "null": {
+       "dist": {
+        "none": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      }
+     },
+     "n_s": 8,
+     "m_cell": 100,
+     "sig_s": 0.2575261115686491,
+     "sig_x": 0.3,
+     "rB": {
+      "S1": 1.0,
+      "S2": 2.0,
+      "S4": 4.0,
+      "Spm": 0.5,
+      "Sparam": Infinity
+     },
+     "min_power": 0.0,
+     "max_wrong_account": 0.0033333333333333335
+    },
+    {
+     "worlds": {
+      "geometry": {
+       "dist": {
+        "geometry": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      },
+      "ib": {
+       "dist": {
+        "ib": 0.9866666666666667,
+        "undetermined": 0.013333333333333334
+       },
+       "P_correct": 0.9866666666666667,
+       "P_wrong_account": 0
+      },
+      "copy": {
+       "dist": {
+        "undetermined": 0.9866666666666667,
+        "geometry": 0.006666666666666667,
+        "ib": 0.006666666666666667
+       },
+       "P_correct": 0.0,
+       "P_wrong_account": 0.013333333333333334
+      },
+      "null": {
+       "dist": {
+        "none": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      }
+     },
+     "n_s": 8,
+     "m_cell": 100,
+     "sig_s": 0.2575261115686491,
+     "sig_x": 0.6,
+     "rB": {
+      "S1": 1.0,
+      "S2": 2.0,
+      "S4": 4.0,
+      "Spm": 0.5,
+      "Sparam": Infinity
+     },
+     "min_power": 0.0,
+     "max_wrong_account": 0.013333333333333334
+    }
+   ]
+  },
+  {
+   "n_s": 8,
+   "m_cell": 200,
+   "min_power": 0.0,
+   "max_wrong_account": 0.02,
+   "cpu_h_4cells": null,
+   "cpu_h_full_grid": null,
+   "rows": [
+    {
+     "worlds": {
+      "geometry": {
+       "dist": {
+        "geometry": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      },
+      "ib": {
+       "dist": {
+        "ib": 0.9933333333333333,
+        "undetermined": 0.006666666666666667
+       },
+       "P_correct": 0.9933333333333333,
+       "P_wrong_account": 0
+      },
+      "copy": {
+       "dist": {
+        "undetermined": 0.9866666666666667,
+        "ib": 0.006666666666666667,
+        "copy": 0.006666666666666667
+       },
+       "P_correct": 0.006666666666666667,
+       "P_wrong_account": 0.006666666666666667
+      },
+      "null": {
+       "dist": {
+        "none": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      }
+     },
+     "n_s": 8,
+     "m_cell": 200,
+     "sig_s": 0.2575261115686491,
+     "sig_x": 0.3,
+     "rB": {
+      "S1": 1.0,
+      "S2": 2.0,
+      "S4": 4.0,
+      "Spm": 0.5,
+      "Sparam": Infinity
+     },
+     "min_power": 0.006666666666666667,
+     "max_wrong_account": 0.006666666666666667
+    },
+    {
+     "worlds": {
+      "geometry": {
+       "dist": {
+        "geometry": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      },
+      "ib": {
+       "dist": {
+        "ib": 0.9833333333333333,
+        "geometry": 0.0033333333333333335,
+        "undetermined": 0.013333333333333334
+       },
+       "P_correct": 0.9833333333333333,
+       "P_wrong_account": 0.0033333333333333335
+      },
+      "copy": {
+       "dist": {
+        "undetermined": 0.98,
+        "geometry": 0.006666666666666667,
+        "ib": 0.013333333333333334
+       },
+       "P_correct": 0.0,
+       "P_wrong_account": 0.02
+      },
+      "null": {
+       "dist": {
+        "none": 1.0
+       },
+       "P_correct": 1.0,
+       "P_wrong_account": 0
+      }
+     },
+     "n_s": 8,
+     "m_cell": 200,
+     "sig_s": 0.2575261115686491,
+     "sig_x": 0.6,
+     "rB": {
+      "S1": 1.0,
+      "S2": 2.0,
+      "S4": 4.0,
+      "Spm": 0.5,
+      "Sparam": Infinity
+     },
+     "min_power": 0.0,
+     "max_wrong_account": 0.02
+    }
+   ]
+  }
+ ],
+ "hcd_minimal": null,
+ "stage2_run_cpu_h_estimate": null,
+ "hcd_central_recommended": false
+}

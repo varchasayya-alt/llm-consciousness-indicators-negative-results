@@ -1,0 +1,236 @@
+{
+ "H3_strong": {
+  "labels": {
+   "P1": "A",
+   "P2": "A"
+  },
+  "expected": "A",
+  "decisions": {
+   "P1 within-target FORGET theta_pre (INT-S)": "supported",
+   "P2 within-exposed INTERF theta_pre (INT-S)": "supported",
+   "G1 P1 generic-adjusted theta_gen": "supported",
+   "G2 P2 generic-adjusted theta_gen": "supported",
+   "K1 matched lost vs retained within X (INT-S)": "supported",
+   "K2 Y negative control (TOST, rel. bound 0.10)": "equivalent",
+   "K3 developmental TP>S (z(theta) difference)": "falsified (strong form)",
+   "K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))": "supported",
+   "F1 familiar stratum theta_pre": "different from null",
+   "F2 familiarity-boost false rise (rel.)": "not different",
+   "F3 newly learned (low fam.)": "different from null",
+   "S1 system-specific coupling INT-S (z diff)": "different from null",
+   "S2 system-specific coupling INT-TP (z diff)": "different from null"
+  },
+  "identifiable": {
+   "P1": true,
+   "P2": true
+  }
+ },
+ "H3": {
+  "labels": {
+   "P1": "A",
+   "P2": "A"
+  },
+  "expected": "A",
+  "decisions": {
+   "P1 within-target FORGET theta_pre (INT-S)": "supported",
+   "P2 within-exposed INTERF theta_pre (INT-S)": "supported",
+   "G1 P1 generic-adjusted theta_gen": "supported",
+   "G2 P2 generic-adjusted theta_gen": "supported",
+   "K1 matched lost vs retained within X (INT-S)": "supported",
+   "K2 Y negative control (TOST, rel. bound 0.10)": "equivalent",
+   "K3 developmental TP>S (z(theta) difference)": "supported",
+   "K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))": "supported",
+   "F1 familiar stratum theta_pre": "different from null",
+   "F2 familiarity-boost false rise (rel.)": "not different",
+   "F3 newly learned (low fam.)": "different from null",
+   "S1 system-specific coupling INT-S (z diff)": "different from null",
+   "S2 system-specific coupling INT-TP (z diff)": "different from null"
+  },
+  "identifiable": {
+   "P1": true,
+   "P2": true
+  }
+ },
+ "H3_plus_generic": {
+  "labels": {
+   "P1": "A",
+   "P2": "A"
+  },
+  "expected": "A",
+  "decisions": {
+   "P1 within-target FORGET theta_pre (INT-S)": "supported",
+   "P2 within-exposed INTERF theta_pre (INT-S)": "supported",
+   "G1 P1 generic-adjusted theta_gen": "supported",
+   "G2 P2 generic-adjusted theta_gen": "supported",
+   "K1 matched lost vs retained within X (INT-S)": "supported",
+   "K2 Y negative control (TOST, rel. bound 0.10)": "equivalent",
+   "K3 developmental TP>S (z(theta) difference)": "supported",
+   "K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))": "supported",
+   "F1 familiar stratum theta_pre": "different from null",
+   "F2 familiarity-boost false rise (rel.)": "not different",
+   "F3 newly learned (low fam.)": "different from null",
+   "S1 system-specific coupling INT-S (z diff)": "different from null",
+   "S2 system-specific coupling INT-TP (z diff)": "different from null"
+  },
+  "identifiable": {
+   "P1": true,
+   "P2": true
+  }
+ },
+ "H2_generic": {
+  "labels": {
+   "P1": "B",
+   "P2": "B"
+  },
+  "expected": "B",
+  "decisions": {
+   "P1 within-target FORGET theta_pre (INT-S)": "supported",
+   "P2 within-exposed INTERF theta_pre (INT-S)": "supported",
+   "G1 P1 generic-adjusted theta_gen": "falsified (strong form)",
+   "G2 P2 generic-adjusted theta_gen": "falsified (strong form)",
+   "K1 matched lost vs retained within X (INT-S)": "supported",
+   "K2 Y negative control (TOST, rel. bound 0.10)": "equivalent",
+   "K3 developmental TP>S (z(theta) difference)": "falsified (strong form)",
+   "K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))": "supported",
+   "F1 familiar stratum theta_pre": "different from null",
+   "F2 familiarity-boost false rise (rel.)": "not different",
+   "F3 newly learned (low fam.)": "not different",
+   "S1 system-specific coupling INT-S (z diff)": "not different",
+   "S2 system-specific coupling INT-TP (z diff)": "not different"
+  },
+  "identifiable": {
+   "P1": true,
+   "P2": true
+  }
+ },
+ "H2_intensity": {
+  "labels": {
+   "P1": "B",
+   "P2": "B"
+  },
+  "expected": "B",
+  "decisions": {
+   "P1 within-target FORGET theta_pre (INT-S)": "supported",
+   "P2 within-exposed INTERF theta_pre (INT-S)": "supported",
+   "G1 P1 generic-adjusted theta_gen": "falsified (strong form)",
+   "G2 P2 generic-adjusted theta_gen": "falsified (strong form)",
+   "K1 matched lost vs retained within X (INT-S)": "supported",
+   "K2 Y negative control (TOST, rel. bound 0.10)": "equivalent",
+   "K3 developmental TP>S (z(theta) difference)": "falsified (strong form)",
+   "K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))": "supported",
+   "F1 familiar stratum theta_pre": "different from null",
+   "F2 familiarity-boost false rise (rel.)": "not different",
+   "F3 newly learned (low fam.)": "not different",
+   "S1 system-specific coupling INT-S (z diff)": "not different",
+   "S2 system-specific coupling INT-TP (z diff)": "not different"
+  },
+  "identifiable": {
+   "P1": true,
+   "P2": true
+  }
+ },
+ "susceptibility": {
+  "labels": {
+   "P1": "C",
+   "P2": "C"
+  },
+  "expected": "C",
+  "decisions": {
+   "P1 within-target FORGET theta_pre (INT-S)": "falsified (strong form)",
+   "P2 within-exposed INTERF theta_pre (INT-S)": "falsified (strong form)",
+   "G1 P1 generic-adjusted theta_gen": "falsified (strong form)",
+   "G2 P2 generic-adjusted theta_gen": "falsified (strong form)",
+   "K1 matched lost vs retained within X (INT-S)": "falsified (strong form)",
+   "K2 Y negative control (TOST, rel. bound 0.10)": "equivalent",
+   "K3 developmental TP>S (z(theta) difference)": "falsified (strong form)",
+   "K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))": "falsified (strong form)",
+   "F1 familiar stratum theta_pre": "not different",
+   "F2 familiarity-boost false rise (rel.)": "not different",
+   "F3 newly learned (low fam.)": "not different",
+   "S1 system-specific coupling INT-S (z diff)": "not different",
+   "S2 system-specific coupling INT-TP (z diff)": "not different"
+  },
+  "identifiable": {
+   "P1": true,
+   "P2": true
+  }
+ },
+ "rtm": {
+  "labels": {
+   "P1": "C",
+   "P2": "C"
+  },
+  "expected": "C",
+  "decisions": {
+   "P1 within-target FORGET theta_pre (INT-S)": "falsified (strong form)",
+   "P2 within-exposed INTERF theta_pre (INT-S)": "falsified (strong form)",
+   "G1 P1 generic-adjusted theta_gen": "falsified (strong form)",
+   "G2 P2 generic-adjusted theta_gen": "falsified (strong form)",
+   "K1 matched lost vs retained within X (INT-S)": "inconclusive",
+   "K2 Y negative control (TOST, rel. bound 0.10)": "equivalent",
+   "K3 developmental TP>S (z(theta) difference)": "falsified (strong form)",
+   "K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))": "falsified (strong form)",
+   "F1 familiar stratum theta_pre": "not different",
+   "F2 familiarity-boost false rise (rel.)": "not different",
+   "F3 newly learned (low fam.)": "not different",
+   "S1 system-specific coupling INT-S (z diff)": "not different",
+   "S2 system-specific coupling INT-TP (z diff)": "not different"
+  },
+  "identifiable": {
+   "P1": true,
+   "P2": true
+  }
+ },
+ "null": {
+  "labels": {
+   "P1": "C",
+   "P2": "C"
+  },
+  "expected": "C",
+  "decisions": {
+   "P1 within-target FORGET theta_pre (INT-S)": "falsified (strong form)",
+   "P2 within-exposed INTERF theta_pre (INT-S)": "falsified (strong form)",
+   "G1 P1 generic-adjusted theta_gen": "falsified (strong form)",
+   "G2 P2 generic-adjusted theta_gen": "falsified (strong form)",
+   "K1 matched lost vs retained within X (INT-S)": "inconclusive",
+   "K2 Y negative control (TOST, rel. bound 0.10)": "equivalent",
+   "K3 developmental TP>S (z(theta) difference)": "falsified (strong form)",
+   "K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))": "falsified (strong form)",
+   "F1 familiar stratum theta_pre": "not different",
+   "F2 familiarity-boost false rise (rel.)": "not different",
+   "F3 newly learned (low fam.)": "not different",
+   "S1 system-specific coupling INT-S (z diff)": "not different",
+   "S2 system-specific coupling INT-TP (z diff)": "not different"
+  },
+  "identifiable": {
+   "P1": true,
+   "P2": true
+  }
+ },
+ "susceptibility_latent": {
+  "labels": {
+   "P1": "C",
+   "P2": "C"
+  },
+  "expected": null,
+  "decisions": {
+   "P1 within-target FORGET theta_pre (INT-S)": "inconclusive",
+   "P2 within-exposed INTERF theta_pre (INT-S)": "inconclusive",
+   "G1 P1 generic-adjusted theta_gen": "supported",
+   "G2 P2 generic-adjusted theta_gen": "supported",
+   "K1 matched lost vs retained within X (INT-S)": "supported",
+   "K2 Y negative control (TOST, rel. bound 0.10)": "equivalent",
+   "K3 developmental TP>S (z(theta) difference)": "falsified (strong form)",
+   "K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))": "inconclusive",
+   "F1 familiar stratum theta_pre": "different from null",
+   "F2 familiarity-boost false rise (rel.)": "not different",
+   "F3 newly learned (low fam.)": "not different",
+   "S1 system-specific coupling INT-S (z diff)": "not different",
+   "S2 system-specific coupling INT-TP (z diff)": "not different"
+  },
+  "identifiable": {
+   "P1": true,
+   "P2": true
+  }
+ }
+}

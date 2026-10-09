@@ -1,0 +1,746 @@
+{
+ "seed": "arXiv:2501.14082",
+ "meta": {
+  "paperId": "7e2c1dcc5165abf4907e97defe181d08e8a97a6c",
+  "title": "Communicating Activations Between Language Model Agents",
+  "year": 2025,
+  "citationCount": 16
+ },
+ "citations": [
+  {
+   "paperId": "9db00db878134e6d0db133b653155b97694ebc59",
+   "externalIds": {
+    "ArXiv": "2609.34444",
+    "CorpusId": 292435431
+   },
+   "url": "https://www.semanticscholar.org/paper/9db00db878134e6d0db133b653155b97694ebc59",
+   "title": "Social Circuits behind Multi-agent Echo Chambers",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.34444, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2287829702",
+     "name": "Chui-Yang Meng"
+    },
+    {
+     "authorId": "2505388656",
+     "name": "Wen-Lu Yu"
+    },
+    {
+     "authorId": "2236563555",
+     "name": "Ming Tang"
+    },
+    {
+     "authorId": "2307396710",
+     "name": "Cheng Li"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "530b4e9c70f4c09c52f63426f6eafaf377767c92",
+   "externalIds": {
+    "ArXiv": "2609.34754",
+    "CorpusId": 292435687
+   },
+   "url": "https://www.semanticscholar.org/paper/530b4e9c70f4c09c52f63426f6eafaf377767c92",
+   "title": "Draft-KV: Learning Useful Latent Communication Between Language Models",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.34754, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2326452431",
+     "name": "Lin-Quan Wu"
+    },
+    {
+     "authorId": "2400549772",
+     "name": "Shi-Chang Meng"
+    },
+    {
+     "authorId": "2293777850",
+     "name": "Tianxiang Jiang"
+    },
+    {
+     "authorId": "2391705705",
+     "name": "Hao-Yu Yang"
+    },
+    {
+     "authorId": "2505378519",
+     "name": "Peng Zhong"
+    },
+    {
+     "authorId": "2505392863",
+     "name": "Feng-Ming Zhu"
+    },
+    {
+     "authorId": "2505464935",
+     "name": "Xi Peng"
+    },
+    {
+     "authorId": "2368566696",
+     "name": "Lin-Qi Song"
+    },
+    {
+     "authorId": "2300860996",
+     "name": "J. Keung"
+    },
+    {
+     "authorId": "2505396318",
+     "name": "Jing-Yu Zhang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "a0c5c69dd3d0463905d0f7cbffc01e1bc9f4967b",
+   "externalIds": {
+    "ArXiv": "2609.32046",
+    "CorpusId": 292408710
+   },
+   "url": "https://www.semanticscholar.org/paper/a0c5c69dd3d0463905d0f7cbffc01e1bc9f4967b",
+   "title": "Receiver-Conditioned Latent Communication gives 94% CacheBack",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.32046, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2239249255",
+     "name": "M. Rossi"
+    },
+    {
+     "authorId": "2399332917",
+     "name": "Prajwal Raghunath"
+    },
+    {
+     "authorId": "2235060849",
+     "name": "Hao Xuan"
+    },
+    {
+     "authorId": "2349941052",
+     "name": "Yu-Sen Zhang"
+    },
+    {
+     "authorId": "2278433158",
+     "name": "Eugene Wu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "f0f623f556476be5ded4b190eee6b7be04ca049a",
+   "externalIds": {
+    "ArXiv": "2608.11676",
+    "CorpusId": 291034219
+   },
+   "url": "https://www.semanticscholar.org/paper/f0f623f556476be5ded4b190eee6b7be04ca049a",
+   "title": "XBridge: Entity-Grounded Latent Bridge for Heterogeneous LLM Communication",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.11676, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2324838126",
+     "name": "Wooseong Yang"
+    },
+    {
+     "authorId": "2359100511",
+     "name": "Wei-Chieh Huang"
+    },
+    {
+     "authorId": "2267498932",
+     "name": "Wei-Zhi Zhang"
+    },
+    {
+     "authorId": "2339563037",
+     "name": "Yu Wang"
+    },
+    {
+     "authorId": "2375326707",
+     "name": "Philip S. Yu"
+    },
+    {
+     "authorId": "2108454776",
+     "name": "Junhyun Lee"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ee9a7c26085ebb99aa464aa03120a4973fc42b46",
+   "externalIds": {
+    "ArXiv": "2608.04893",
+    "CorpusId": 290844590
+   },
+   "url": "https://www.semanticscholar.org/paper/ee9a7c26085ebb99aa464aa03120a4973fc42b46",
+   "title": "When Does Latent Communication Pay? A Causal Audit of Relayed KV Caches in Multi-Agent LLMs",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.04893, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2388006543",
+     "name": "Jiaming Cheng"
+    },
+    {
+     "authorId": "2389916963",
+     "name": "Subhransu Das"
+    },
+    {
+     "authorId": "2253261",
+     "name": "Rajiv Ramnath"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "c14c1d492639dfc22576363e07d947289471e450",
+   "externalIds": {
+    "ArXiv": "2607.28979",
+    "CorpusId": 290782012
+   },
+   "url": "https://www.semanticscholar.org/paper/c14c1d492639dfc22576363e07d947289471e450",
+   "title": "KV Cache Translation across Heterogeneous Large Language Models",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.28979, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2108524459",
+     "name": "Jin-woo Lee"
+    },
+    {
+     "authorId": "2290979483",
+     "name": "Minkyung Song"
+    },
+    {
+     "authorId": "2450397107",
+     "name": "Junghyun Oh"
+    },
+    {
+     "authorId": "2280683258",
+     "name": "Seunghoon Han"
+    },
+    {
+     "authorId": "113309385",
+     "name": "Gwangseon Jang"
+    },
+    {
+     "authorId": "2347137915",
+     "name": "Soyoung Park"
+    },
+    {
+     "authorId": "2280855804",
+     "name": "Sungsu Lim"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "cb4894510f148d13c27c4c422686d8c870883e55",
+   "externalIds": {
+    "ArXiv": "2606.19857",
+    "DBLP": "journals/corr/abs-2606-19857",
+    "DOI": "10.48550/arXiv.2606.19857",
+    "CorpusId": 289628383
+   },
+   "url": "https://www.semanticscholar.org/paper/cb4894510f148d13c27c4c422686d8c870883e55",
+   "title": "Large Language Models Do Not Always Need Readable Language",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2606.19857, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2116289562",
+     "name": "Jia-Yi Zhu"
+    },
+    {
+     "authorId": "2324900508",
+     "name": "Hao Peng"
+    },
+    {
+     "authorId": "2358409794",
+     "name": "Junxi Wang"
+    },
+    {
+     "authorId": "2444875777",
+     "name": "Liang Ke"
+    },
+    {
+     "authorId": "2307559946",
+     "name": "Chen Zhang"
+    },
+    {
+     "authorId": "2345873335",
+     "name": "Lin-Feng Zhang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "709acdad120539e7e08ecc19c7d3124030d7cde3",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2606-19636",
+    "ArXiv": "2606.19636",
+    "DOI": "10.48550/arXiv.2606.19636",
+    "CorpusId": 289625297
+   },
+   "url": "https://www.semanticscholar.org/paper/709acdad120539e7e08ecc19c7d3124030d7cde3",
+   "title": "Hard or Just Unreached? Diagnosing the Sampling Blind Spot in Math-Reasoning Difficulty Estimation",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2606.19636, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2329320182",
+     "name": "Luca Zhou"
+    },
+    {
+     "authorId": "2445225536",
+     "name": "Sajel Shah"
+    },
+    {
+     "authorId": "2386525324",
+     "name": "Emanuele Rodolà"
+    },
+    {
+     "authorId": "2273711031",
+     "name": "Roberto Dessì"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "973c415795605271f50c20b70196cda533ca5921",
+   "externalIds": {
+    "ArXiv": "2606.13594",
+    "DBLP": "journals/corr/abs-2606-13594",
+    "DOI": "10.48550/arXiv.2606.13594",
+    "CorpusId": 289186888
+   },
+   "url": "https://www.semanticscholar.org/paper/973c415795605271f50c20b70196cda533ca5921",
+   "title": "See What I See, Know What I Think: Dense Latent Communication Across Heterogeneous Agents",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2606.13594, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2319784944",
+     "name": "Si-Yi Chen"
+    },
+    {
+     "authorId": "2422566730",
+     "name": "Xiao-Yan Zhang"
+    },
+    {
+     "authorId": "2382061783",
+     "name": "Meng Wu"
+    },
+    {
+     "authorId": "2294175839",
+     "name": "Jonathan Tremblay"
+    },
+    {
+     "authorId": "32481910",
+     "name": "Valts Blukis"
+    },
+    {
+     "authorId": "2285517121",
+     "name": "Stanley T. Birchfield"
+    },
+    {
+     "authorId": "2294360080",
+     "name": "René Vidal"
+    },
+    {
+     "authorId": "2408427254",
+     "name": "Alvaro Velasquez"
+    },
+    {
+     "authorId": "2356000124",
+     "name": "Si-Jia Liu"
+    },
+    {
+     "authorId": "2319604827",
+     "name": "Qing Qu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "4835d37593a1d758a024ddabf4d1867b054b4655",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2606-05711",
+    "ArXiv": "2606.05711",
+    "DOI": "10.48550/arXiv.2606.05711",
+    "CorpusId": 288976564
+   },
+   "url": "https://www.semanticscholar.org/paper/4835d37593a1d758a024ddabf4d1867b054b4655",
+   "title": "Beyond tokens: a unified framework for latent communication in LLM-based multi-agent systems",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2606.05711, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2276763438",
+     "name": "Ying-Zhu Liu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "052bb5816a502357b70d0559f8527fe0aff8c1b8",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2605-11167",
+    "ArXiv": "2605.11167",
+    "DOI": "10.48550/arXiv.2605.11167",
+    "CorpusId": 288259712
+   },
+   "url": "https://www.semanticscholar.org/paper/052bb5816a502357b70d0559f8527fe0aff8c1b8",
+   "title": "The Bicameral Model: Bidirectional Hidden-State Coupling Between Parallel Language Models",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2605.11167, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "103234612",
+     "name": "Cedric Wen Flamant"
+    },
+    {
+     "authorId": "2324579770",
+     "name": "Udaya Ghai"
+    },
+    {
+     "authorId": "2270060648",
+     "name": "Kanna Shimizu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "dea260e28e469f5c5c0ef1b379043021ba446e20",
+   "externalIds": {
+    "ArXiv": "2602.15382",
+    "CorpusId": 285659277
+   },
+   "url": "https://www.semanticscholar.org/paper/dea260e28e469f5c5c0ef1b379043021ba446e20",
+   "title": "Vision Wormhole: Latent-Space Communication in Heterogeneous Multi-Agent Systems",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2602.15382, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2109052548",
+     "name": "Xiaoze Liu"
+    },
+    {
+     "authorId": "2411632161",
+     "name": "Ruowang Zhang"
+    },
+    {
+     "authorId": "2258712398",
+     "name": "Weicheng Yu"
+    },
+    {
+     "authorId": "2327053595",
+     "name": "Si-Heng Xiong"
+    },
+    {
+     "authorId": "2311605355",
+     "name": "Liu He"
+    },
+    {
+     "authorId": "2257429592",
+     "name": "Fei-Jie Wu"
+    },
+    {
+     "authorId": "2323732924",
+     "name": "Hoin Jung"
+    },
+    {
+     "authorId": "2337690647",
+     "name": "Matt Fredrikson"
+    },
+    {
+     "authorId": "2294510615",
+     "name": "Xiaoqian Wang"
+    },
+    {
+     "authorId": "2308660705",
+     "name": "Jing Gao"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ea062ab3af3fbc32e6934599473fc881516897c6",
+   "externalIds": {
+    "ArXiv": "2602.06205",
+    "DBLP": "journals/corr/abs-2602-06205",
+    "DOI": "10.48550/arXiv.2602.06205",
+    "CorpusId": 285401834
+   },
+   "url": "https://www.semanticscholar.org/paper/ea062ab3af3fbc32e6934599473fc881516897c6",
+   "title": "Multi-Way Representation Alignment",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2602.06205, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2184669155",
+     "name": "Akshit Achara"
+    },
+    {
+     "authorId": "1438947672",
+     "name": "Tatiana Gaintseva"
+    },
+    {
+     "authorId": "1581336361",
+     "name": "Mat'eo Mahaut"
+    },
+    {
+     "authorId": "93457464",
+     "name": "Pritish Chakraborty"
+    },
+    {
+     "authorId": "2075871506",
+     "name": "Viktor Johansson"
+    },
+    {
+     "authorId": "3377815",
+     "name": "Melih Barsbey"
+    },
+    {
+     "authorId": "2257170785",
+     "name": "E. Rodolà"
+    },
+    {
+     "authorId": "2156124648",
+     "name": "Donato Crisostomi"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "18963ca7e1e08cd30065a542c778d190d4254659",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2510-03346",
+    "ArXiv": "2510.03346",
+    "DOI": "10.48550/arXiv.2510.03346",
+    "CorpusId": 281842742
+   },
+   "url": "https://www.semanticscholar.org/paper/18963ca7e1e08cd30065a542c778d190d4254659",
+   "title": "KVComm: Enabling Efficient LLM Communication through Selective KV Sharing",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2510.03346, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2150069074",
+     "name": "Xiangyu Shi"
+    },
+    {
+     "authorId": "2239100004",
+     "name": "Marco Chiesa"
+    },
+    {
+     "authorId": "2256991618",
+     "name": "Gerald Q. Maguire"
+    },
+    {
+     "authorId": "2175788597",
+     "name": "Dejan Kostić"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ebc6f4a176eaf61a3ead9fa8963d9c805f01341c",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2506-19209",
+    "ArXiv": "2506.19209",
+    "DOI": "10.48550/arXiv.2506.19209",
+    "CorpusId": 280000537
+   },
+   "url": "https://www.semanticscholar.org/paper/ebc6f4a176eaf61a3ead9fa8963d9c805f01341c",
+   "title": "Augmenting Multi-Agent Communication with State Delta Trajectory",
+   "venue": "Conference on Empirical Methods in Natural Language Processing",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2506.19209, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2291993837",
+     "name": "Yi-Chen Tang"
+    },
+    {
+     "authorId": "2147219374",
+     "name": "Wei-Hang Su"
+    },
+    {
+     "authorId": "2290870875",
+     "name": "Yu-Jia Zhou"
+    },
+    {
+     "authorId": "1783406",
+     "name": "Yi-Qun Liu"
+    },
+    {
+     "authorId": "2258690221",
+     "name": "Min Zhang"
+    },
+    {
+     "authorId": "8093158",
+     "name": "Shao-Ping Ma"
+    },
+    {
+     "authorId": "2256982003",
+     "name": "Qing-Yao Ai"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "1567d7739436fe14ad422d89bc7567d22b748744",
+   "externalIds": {
+    "ArXiv": "2412.13437",
+    "DBLP": "journals/comsur/XuCZYTZWWFSS26",
+    "DOI": "10.1109/COMST.2025.3580745",
+    "CorpusId": 274822410
+   },
+   "url": "https://www.semanticscholar.org/paper/1567d7739436fe14ad422d89bc7567d22b748744",
+   "title": "Deploying Foundation Model Powered Agent Services: A Survey",
+   "venue": "IEEE Communications Surveys and Tutorials",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2412.13437, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "1794590",
+     "name": "Wen-Chao Xu"
+    },
+    {
+     "authorId": "2278983647",
+     "name": "Jinyu Chen"
+    },
+    {
+     "authorId": "2317064245",
+     "name": "Peirong Zheng"
+    },
+    {
+     "authorId": "2260138193",
+     "name": "Xiao-Quan Yi"
+    },
+    {
+     "authorId": "2325570926",
+     "name": "Tian Tian"
+    },
+    {
+     "authorId": "2350206293",
+     "name": "Wen-Hui Zhu"
+    },
+    {
+     "authorId": "2055595972",
+     "name": "Quan Wan"
+    },
+    {
+     "authorId": "51175126",
+     "name": "Hao-Zhao Wang"
+    },
+    {
+     "authorId": "2257400147",
+     "name": "Yunfeng Fan"
+    },
+    {
+     "authorId": "2314838701",
+     "name": "Qinliang Su"
+    },
+    {
+     "authorId": "2257428649",
+     "name": "Xuemin Shen"
+    }
+   ],
+   "abstract": null
+  }
+ ],
+ "retrieved": "2026-10-08T14:56:49"
+}

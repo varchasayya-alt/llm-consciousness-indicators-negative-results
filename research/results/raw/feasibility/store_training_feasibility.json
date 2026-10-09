@@ -1,0 +1,26 @@
+{
+ "purpose": "feasibility only (training time); no hypothesis tested",
+ "seed": 12345,
+ "n_facts": 4000,
+ "params": 665487,
+ "d_model": 128,
+ "n_layers": 3,
+ "reached_target": true,
+ "log": [
+  {
+   "epoch": 10,
+   "train_fact_acc": 0.1608,
+   "elapsed_min": 0.11
+  },
+  {
+   "epoch": 20,
+   "train_fact_acc": 0.71,
+   "elapsed_min": 0.22
+  },
+  {
+   "epoch": 30,
+   "train_fact_acc": 0.9765,
+   "elapsed_min": 0.34
+  }
+ ]
+}

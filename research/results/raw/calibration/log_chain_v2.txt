@@ -1,0 +1,20 @@
+=== start C3r 22:24:50
+seed 9002: {'n_base_correct_MT': 3347, '0.1': 0.9073797430534807, '0.2': 0.6931580519868539, '0.3': 0.49238123692859276, '0.4': 0.3639079772930983, '0.5': 0.26590976994323273, '0.6': 0.21452046608903497, '0.8': 0.11443083358231251, 'pool_rho_U(0,0.6)': 0.5575141918135644}
+seed 9003: {'n_base_correct_MT': 3274, '0.1': 0.9089798411728772, '0.2': 0.6912034208918754, '0.3': 0.5042761148442273, '0.4': 0.3558338423946243, '0.5': 0.27183872938301773, '0.6': 0.21472205253512522, '0.8': 0.11514966401954796, 'pool_rho_U(0,0.6)': 0.5519242516799022}
+C3r: rho(0.1)=0.909 rho(0.6)=0.210 -> P-family rate max 0.6
+=== done C3r 22:25:08
+=== start C4v2 22:25:08
+[A] lr=0.0005 steps=400 lam=10.0 gamma=10.0 fb=1024: eligible=False C=0.040 maxlog=0.014 fp_ok=[] | 9001: X 0.83 Y 0.000 Z 0.020/0.029/0.031/0.019/0.034 sites 10 flu 0.00 pairs1.0 248 (230s) | 9002: X 0.85 Y 0.000 Z 0.025/0.030/0.025/0.024/0.014 sites 10 flu 0.00 pairs1.0 256 (230s) | 9003: X 0.82 Y 0.000 Z 0.025/0.055/0.048/0.034/0.019 sites 10 flu 0.00 pairs1.0 247 (225s)
+[A] lr=0.0005 steps=400 lam=100.0 gamma=10.0 fb=1024: eligible=False C=0.012 maxlog=0.038 fp_ok=[] | 9001: X 0.77 Y 0.000 Z 0.004/0.006/0.019/0.010/0.005 sites 10 flu 0.00 pairs1.0 230 (229s) | 9002: X 0.81 Y 0.000 Z 0.004/0.006/0.006/0.010/0.000 sites 10 flu -0.00 pairs1.0 243 (237s) | 9003: X 0.74 Y 0.000 Z 0.002/0.006/0.006/0.005/0.000 sites 10 flu 0.00 pairs1.0 222 (240s)
+C4v2 selected: {'lr': 0.0005, 'steps': 100, 'lambda_retain': 100.0, 'gamma': 10.0, 'retain_fact_batch': 1024, 'retain_mention_batch': 256}
+=== done C4v2 03:09:47
+=== start C2val 03:09:47
+seed 9012: 6.5 min, QC {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.03400735294117647, 'fluency_auroc_high_vs_low': 1.0, 'fluency_mean_high': -3.090268850326538, 'fluency_mean_low': -5.1819257736206055, 'pass': True}
+seed 9013: 6.4 min, QC {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.02994121969140338, 'fluency_auroc_high_vs_low': 1.0, 'fluency_mean_high': -3.0910465717315674, 'fluency_mean_low': -5.160626411437988, 'pass': True}
+C2val store QC all pass: True
+=== done C2val 03:29:37
+=== start C4val 03:29:37
+seed 9012 rung {'lr_mult': 1.0, 'step_mult': 1}: pass=True failed=[] X 0.73 Y 0.000 Z {'Z_random': 0.0009345794392523365, 'Z_near_entity_X': 0.0, 'Z_near_entity_Y': 0.0, 'Z_near_repr': 0.0, 'Z_far': 0.004672897196261682} sites 10 flu -0.00 pairs {'0.25': 219, '0.5': 220, '0.75': 220, '1.0': 220}
+seed 9013 rung {'lr_mult': 1.0, 'step_mult': 1}: pass=True failed=[] X 0.73 Y 0.000 Z {'Z_random': 0.002803738317757009, 'Z_near_entity_X': 0.00625, 'Z_near_entity_Y': 0.005649717514124294, 'Z_near_repr': 0.0, 'Z_far': 0.009345794392523364} sites 9 flu -0.00 pairs {'0.25': 214, '0.5': 219, '0.75': 219, '1.0': 219}
+C4val PASS=False (seeds_ok=True, fingerprint-ok calipers=[])
+PHASE C4val: ACCEPTANCE CRITERION FAILED -> STOP

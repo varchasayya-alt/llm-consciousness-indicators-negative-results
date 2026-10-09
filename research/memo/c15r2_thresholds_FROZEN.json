@@ -1,0 +1,238 @@
+{
+ "_note": "C15-R2 frozen thresholds (D73; D74 additions marked 'D74'). The c15a2 package must load and assert these values; any difference fails its tests. Unchanged A-stage criteria are marked 'unchanged'.",
+ "W0a": {
+  "lens_agreement_L-2_min": 0.6,
+  "status": "unchanged; validity requirement for every claim"
+ },
+ "W0b_prime": {
+  "two_hop_acc_min": 0.6,
+  "intermediate_rate_min": 0.4,
+  "topk": 20,
+  "positions": [
+   "t1_first_hop_entity_end",
+   "td_descriptive_mention_end",
+   "t2_final"
+  ],
+  "layers": "band [0.3L,0.6L] step 2 (unchanged)",
+  "foils_per_item": 5,
+  "foil_lift_min": 0.2,
+  "foil_lift_lower_bound_gt": 0.0,
+  "lift_ci": "one-sided 95%, item bootstrap 2000",
+  "status": "positions per Biran 2024 / Yang 2024; thresholds unchanged; foil lift added (stricter)",
+  "D74_decision_rule": {
+   "primary_position": "td_descriptive_mention_end",
+   "reported_only_positions": [
+    "t1_first_hop_entity_end",
+    "t2_final"
+   ],
+   "multiplicity": "none (single pre-declared primary position; t1/t2 have no role in any gate, pattern or claim)",
+   "gate": "two_hop_acc >= 0.60 AND rate_td >= 0.40 AND lift_td >= 0.20 AND one-sided 95% item-bootstrap (2000) lower bound of lift_td > 0; rates among correct items",
+   "hit": "any alias first token in J-lens top-20 at any band layer at td (band-layer union unchanged; applied identically to the 5 foils)",
+   "lift_item": "hit_i - mean_j foilhit_ij",
+   "lower_bound_percentile": 5.0,
+   "n_boot": 2000,
+   "rejected": [
+    "uncorrected any-of-three-positions rule",
+    "item-level union over positions"
+   ],
+   "synthetic_max_fpr_primary": 0.0385,
+   "synthetic_max_fpr_rejected_any3": 0.09625
+  }
+ },
+ "W1": {
+  "hit_J_min": 0.3,
+  "ratio_min": 2.0,
+  "max_unmatched": 0.2,
+  "status": "unchanged"
+ },
+ "W2": {
+  "rate_J_min": 0.25,
+  "ratio_min": 2.0,
+  "min_switch": 2,
+  "max_unmatched": 0.2,
+  "min_included_pairs_for_powered_failure": 15,
+  "status": "unchanged"
+ },
+ "W3_prime": {
+  "n_concepts": 8,
+  "n_contexts": 48,
+  "folds": 2,
+  "paraphrases_per_concept": 3,
+  "site_offsets": "slot+1..slot+23 step 2",
+  "site_layers": "l+2..L-2 step 2",
+  "site_identification_floor_abs": 0.3,
+  "site_identification_floor_rel_natural": 0.5,
+  "site_binomial_alpha": 0.05,
+  "chance": 0.125,
+  "breadth_diff_min": 0.15,
+  "breadth_ci_lower_gt": 0.0,
+  "bootstrap": "contexts x concepts, 1000",
+  "PC1_reference_split_half_cos_min": 0.5,
+  "PC1_site_fraction_min": 0.5,
+  "PC2_natural_identification_min": 0.3,
+  "PC2_site_fraction_min": 0.5,
+  "PC3_injection_site_identification_min": 0.3,
+  "PC4_planted_breadth_min": 0.8,
+  "PC4_null_breadth_max": 0.1,
+  "NC1_random_direction_breadth_max": 0.1,
+  "NC2_label_permutation_breadth_max": 0.1,
+  "NC3_lexical_sham": "reported diagnostic (lexical-equivalence index), not gating",
+  "D74_complete_gate_null_calibration": {
+   "rung_adopted": "R0 (frozen thresholds preserved; no adjustment)",
+   "fpr_star": 0.0456,
+   "fpr_star_se": 0.0021,
+   "fpr_star_mc_lower95": 0.0415,
+   "rule": "controlled iff FPR* - 1.96*SE <= 0.05 (pre-declared, commit 3d243a9)",
+   "worst_config": "offset-decay, 132 sites, rho 0.5, sigma_m 1.0, floor 0.30, isotropic",
+   "null_family_mean_fpr": 0.0102,
+   "bootstrap_lower_percentile": 2.5,
+   "n_boot": 1000,
+   "script_sha256": "998859ce8243efe9817566743b6591285cdce2d0b5cb58ba7d076161dc80d53e",
+   "results_sha256": "e6d3121202085b660c2006d0d29aebc26d67e746a2d7edd0e3db5622e89a03b2"
+  },
+  "D74_matched_coverage": {
+   "max_unmatched_concepts": 1,
+   "rule": "<=1 unmatched -> drop it from both arms (K'=7, chance 1/7); >=2 -> not assessable"
+  },
+  "D74_controls": {
+   "PC1": "median over concepts cos(F_p1, F_p2) >= 0.5 at >= 50% of downstream sites",
+   "PC2": "acc_nat >= 0.30 and binomial p < 0.05 at >= 50% of downstream sites",
+   "PC3": "offset 0 at layer l+2 vs offset-0 paraphrase references: J or perp acc >= 0.30 and p < 0.05",
+   "NC1": "deterministic norm-matched random unit directions at a*h: BB <= 0.10",
+   "NC2": "J effects with a fixed derangement of labels (design seed): BB <= 0.10",
+   "NC3_LEI": "mean over downstream sites of acc_J(word refs) - acc_J(paraphrase refs); reported only"
+  }
+ },
+ "W3b_behavioural": {
+  "status": "secondary, reported, not gating",
+  "natural_mention_accuracy_min_for_assessable": 0.8,
+  "D74": {
+   "contexts": "fold B, ' the thing' carrier",
+   "n_options": 10,
+   "arms": [
+    "none",
+    "J",
+    "perp"
+   ],
+   "suffix": "\n\nIn the text above, the hidden object was the"
+  }
+ },
+ "W4": {
+  "diff_pp_min": 10.0,
+  "requires_two_hop_acc_min": 0.6,
+  "status": "unchanged"
+ },
+ "W5": {
+  "SI_iso_max": 1.0,
+  "SI_iso_ci_upper_max": 1.25,
+  "certifiable_status": [
+   "interpolated",
+   "unreached_upper_bound"
+  ],
+  "SI_norm": "always reported; mandated wording if SI_iso passes and SI_norm > 1",
+  "status": "unchanged"
+ },
+ "unchanged_procedures": [
+  "S_J (generic-PCA of GP25 reconstructions, r=min(r90,d/8))",
+  "V_gen",
+  "GP screening by model",
+  "band layers",
+  "dose rule (KL<=0.05, robust agreement>=0.95, monotone)",
+  "matched-perp construction (empirical KL x/1.15, lens gain, propagation)",
+  "materials sizes per split for W0-W2, W4-W5"
+ ],
+ "powered_failure": {
+  "_rule": "A failed gate counts as evidence of absence only if (i) its assay-validity controls pass in that cell AND (ii) the 95% CI lies entirely outside the pass region AND (iii) the point estimate is outside the pass region by the margin below.",
+  "W0a": {
+   "ci_upper_lt": 0.6,
+   "point_le": 0.55
+  },
+  "W0b_prime": {
+   "intermediate_ci_upper_lt": 0.4,
+   "intermediate_point_le": 0.3,
+   "or_lift_ci_upper_lt": 0.2,
+   "or_lift_point_le": 0.1
+  },
+  "W1": {
+   "hit_J_ci_upper_lt": 0.3,
+   "hit_J_point_le": 0.25,
+   "or_ratio_ci_upper_lt": 2.0,
+   "or_ratio_point_le": 1.5
+  },
+  "W2": {
+   "rate_J_ci_upper_lt": 0.25,
+   "rate_J_point_le": 0.15,
+   "or_ratio_ci_upper_lt": 2.0,
+   "or_ratio_point_le": 1.5,
+   "requires_included_pairs_ge": 15
+  },
+  "W3_prime": {
+   "diff_ci_upper_lt": 0.15,
+   "diff_point_le": 0.05,
+   "requires": "PC1-PC3, NC1-NC2 pass"
+  },
+  "W4": {
+   "diff_ci_upper_lt": 10.0,
+   "diff_point_le": 5.0,
+   "requires": "two_hop_acc >= 0.60"
+  },
+  "W5": {
+   "SI_iso_ci_lower_gt": 1.0,
+   "SI_iso_point_ge": 1.1,
+   "requires": "s* certifiable"
+  }
+ },
+ "groups": {
+  "A_report_broadcast": [
+   "W1",
+   "W2"
+  ],
+  "B_selective_relevance": [
+   "W4",
+   "W5"
+  ]
+ },
+ "seeds": {
+  "splits": 9500,
+  "designs": 9501,
+  "rng": 9502
+ },
+ "D74_ci_for_powered_failure": {
+  "type": "two-sided 95% percentile bootstrap",
+  "n_boot": 2000,
+  "seed": "9502 + layer",
+  "W0a": "paragraphs",
+  "W0b_prime": "correct items",
+  "W1": "cluster bootstrap over concepts",
+  "W2": "included pairs",
+  "W4": "two-hop items (paired J vs random scale 1)",
+  "W3_prime": "own contexts x concepts bootstrap (1000)",
+  "W5": "unchanged ratio CI"
+ },
+ "D74_classification": {
+  "group_powered_failure": "at least one member gate has a powered failure",
+  "assay_valid_cell": "W0a(model) AND W3' PC1,PC2,PC3,NC1,NC2 pass AND W1, W2 frac_unmatched <= 0.20",
+  "model_coverage_P3_P0": "model counts only if W0a passes and >= 50% of its band layers are assay-valid",
+  "P4_min_valid_cell_fraction": 0.5,
+  "P1_choice": "unchanged A-stage CHOOSE rule with W3 -> W3' and W0 = W0a AND W0b'",
+  "P2_pair": "maximise min(min margin of A at X, min margin of B at Y); X, Y in different models; ties smaller model for X, then lower layers",
+  "P3_representative": "largest W4 margin among the qualifying model's assay-valid layers",
+  "P0_representative": "most negative max(margin_W1, margin_W2, margin_W3') among assay-valid cells; ties smaller model, lower layer",
+  "precedence": [
+   "P4",
+   "P1",
+   "P2",
+   "P3",
+   "P0",
+   "IND"
+  ]
+ },
+ "D74_smoke2": {
+  "layer": "middle band layer",
+  "required": [
+   "PC3",
+   "NC1"
+  ],
+  "evidential": false
+ }
+}

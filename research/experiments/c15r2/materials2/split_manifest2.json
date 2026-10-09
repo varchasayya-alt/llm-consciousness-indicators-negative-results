@@ -1,0 +1,75 @@
+{
+ "seeds": {
+  "splits": 9500,
+  "designs": 9501,
+  "rng": 9502
+ },
+ "files": {
+  "g_select2.json": "0eb34ced00b5935061841d666472578b24404a96ca89678f6f14e2b8306392ae",
+  "g_confirm2.json": "5cc46b3a4f8d1977d5f332adfbffbe9c9bcfd7ca16e9a5eca544d12904f8945e",
+  "smoke2.json": "2027c9724c73201168e9db9ab90589edd94cda37589b45e61bb36b5fd7a6f7e9"
+ },
+ "sources": {
+  "source_items2.py": "dd13084295484854cb755d783f886d2d18c19953995393eb1198aeb87ed301a3",
+  "source_paragraphs2.py": "60db8513f62bd76a7be86db94ab3dfd4684a810e5c281271db90ffa3ffc1cbd8",
+  "source_contexts2.py": "5f20cb03c3dac370c20bbe3c0894ce340ed5977bf36cc2ad5a596d74f1015180",
+  "tools/make_splits2.py": "ac566a21df2a9ce4cdbc560d0fb4f93919744f31b24125acb67c8a6dc39d99bf"
+ },
+ "unused_country_bridges": [
+  "bennevis",
+  "connery",
+  "dubrovnik",
+  "gaddafi",
+  "galapagos",
+  "hoxha",
+  "idiamin",
+  "marley",
+  "plitvice",
+  "sigiriya",
+  "uyuni",
+  "wc2022",
+  "zelensky"
+ ],
+ "counts": {
+  "select2": {
+   "paragraphs": 63,
+   "concepts": 20,
+   "countries": 20,
+   "two_hop": 74,
+   "w3p_concepts": 8,
+   "w3p_contexts": 48
+  },
+  "confirm2": {
+   "paragraphs": 63,
+   "concepts": 20,
+   "countries": 20,
+   "two_hop": 74,
+   "w3p_concepts": 8,
+   "w3p_contexts": 48
+  },
+  "smoke2": {
+   "paragraphs": 6,
+   "concepts": 8,
+   "countries": 4,
+   "two_hop": 4,
+   "w3p_concepts": 8,
+   "w3p_contexts": 12
+  }
+ },
+ "tokenizer_sha256": {
+  "qwen3-1.7b": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+  "qwen3.5-2b": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+  "qwen3-4b": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+ },
+ "checks": [
+  "lengths",
+  "single_token",
+  "paraphrase_tokens",
+  "context_tokenization",
+  "two_hop_spans",
+  "foils",
+  "T2_astage_disjoint",
+  "T3_split_disjoint",
+  "vocabulary"
+ ]
+}

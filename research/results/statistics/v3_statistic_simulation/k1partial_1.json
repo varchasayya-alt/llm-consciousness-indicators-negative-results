@@ -1,0 +1,13 @@
+{
+ "H2_intensity": {
+  "K1_ancova": {
+   "support_rate": 0.98,
+   "mean": 0.7543844197644292
+  },
+  "K1_dml": {
+   "support_rate": 0.98,
+   "mean": 0.7553854333837913
+  },
+  "median_feasible_seeds": 8.0
+ }
+}

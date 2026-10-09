@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Model weights / caches (never commit)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+*.ckpt
+hf_cache/
+models/
+
+# Large activation dumps (store hashes + summaries in git instead)
+research/results/raw/**/*.npy
+research/results/raw/**/*.npz
+research/results/raw/**/*.h5
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Stage-1: regenerable / large artefacts
+research/results/raw/fake_dryrun/
+research/experiments/stage1/_calib/
+.pytest_cache/

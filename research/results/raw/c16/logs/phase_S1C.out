@@ -1,0 +1,187 @@
+16:11:08 phase S1C start; config_hash=5f61cbb59ff4d63e8631579854c7fc39bed9f5c1507b2b649659c0ef8e56cf11
+16:11:10 S1c: training planted base model
+16:11:12   base step 0 loss 79.6328
+16:15:49   base step 500 loss 0.4236
+16:20:23   base step 1000 loss 0.1147
+16:24:59   base step 1500 loss 0.0306
+16:29:32   base step 2000 loss 0.0353
+16:34:05   base step 2500 loss 0.0261
+16:38:36   base step 3000 loss 0.0151
+16:43:11   base step 3500 loss 0.0145
+16:47:41   base step 3999 loss 0.0032
+16:47:42 S1c: Stage-0 pipeline on the planted model
+16:47:42 M1 decodability
+16:47:43   L_w=3 add=0.575 sub=0.431 V0=False
+16:47:43 M2 competence
+16:47:46   V1a=True V1b=True V1c=True V1d=True pool_pass=['succ', 'plus10', 'parity', 'mag', 'lookup']
+16:47:46 M3 layer sweep
+16:47:47   layer 0: succ=+0.00 plus10=+0.00 parity=+0.00 mag=+0.00 lookup=+0.00 verb=+0.00
+16:47:47   layer 1: succ=+0.06 plus10=+0.02 parity=+0.06 mag=+0.01 lookup=+0.01 verb=+0.00
+16:47:47   layer 2: succ=+0.04 plus10=-0.01 parity=+0.02 mag=+0.00 lookup=-0.01 verb=+0.01
+16:47:47 M4 content ranks
+16:47:50   content eval=A: succ:r*=None,gf=+0.06 plus10:r*=None,gf=+0.02 parity:r*=None,gf=+0.06 mag:r*=None,gf=+0.01 lookup:r*=None,gf=+0.01 verb:r*=None,gf=+0.00
+16:47:52   content eval=B: succ:r*=None,gf=+0.05 plus10:r*=None,gf=-0.03 parity:r*=None,gf=+0.01 mag:r*=None,gf=+0.00 lookup:r*=None,gf=+0.00 verb:r*=None,gf=+0.00
+16:47:52 M4 swap and NC
+16:47:53   succ: CT=0.0 nc_sw=0.0 nat_sw=0.0
+16:47:54   plus10: CT=0.0 nc_sw=0.0 nat_sw=0.0
+16:47:55   parity: CT=0.010000000000000009 nc_sw=0.41 nat_sw=0.42
+16:47:55   mag: CT=0.0 nc_sw=0.405 nat_sw=0.41
+16:47:56   lookup: CT=0.0 nc_sw=0.2751322751322751 nat_sw=0.2804232804232804
+16:47:57   verb: CT=0.0 nc_sw=0.01 nat_sw=0.01
+16:47:57 M4 bundles
+16:47:58   bundle B1 eval=A: succ:r*=32,gf=+0.10 verb:r*=None,gf=-0.02
+16:47:59   bundle B1 eval=B: succ:r*=None,gf=+0.02 verb:r*=None,gf=+0.00
+16:48:00   bundle B2 eval=A: succ:r*=None,gf=+0.07 plus10:r*=None,gf=+0.01 verb:r*=None,gf=+0.00
+16:48:01   bundle B2 eval=B: succ:r*=None,gf=+0.06 plus10:r*=None,gf=-0.03 verb:r*=None,gf=+0.00
+16:48:04   bundle B4 eval=A: succ:r*=None,gf=+0.03 plus10:r*=None,gf=+0.04 parity:r*=None,gf=+0.03 mag:r*=None,gf=+0.01 verb:r*=None,gf=-0.01
+16:48:06   bundle B4 eval=B: succ:r*=None,gf=+0.01 plus10:r*=None,gf=+0.02 parity:r*=None,gf=+0.00 mag:r*=None,gf=+0.01 verb:r*=None,gf=-0.01
+16:48:08   bundle Bpm eval=A: parity:r*=None,gf=+0.01 mag:r*=None,gf=+0.03 verb:r*=None,gf=+0.00
+16:48:09   bundle Bpm eval=B: parity:r*=None,gf=+0.00 mag:r*=None,gf=-0.02 verb:r*=None,gf=+0.00
+16:48:09 V2={'V2a': False, 'V2a_pool_pass': [], 'V2b': False, 'V2c': True, 'V2c_by_consumer': {'succ': True, 'plus10': True, 'parity': True, 'mag': True, 'lookup': True, 'verb': True}} W={'W1': False, 'W2': False, 'W3': False, 'W4': False} core_valid=False
+16:48:10 S1c core arm A seed 16211
+16:48:10     A step 0 loss 3.3185
+16:49:06     A step 500 loss 1.0958
+16:49:58     A step 1000 loss 0.8528
+16:50:56     A step 1499 loss 0.9846
+16:51:10    TR acc=0.322 CT=0.09948096885813146 | HO CT=0.14999999999999997 | U CT=-0.014563106796116505
+16:51:10 S1c core arm A seed 16212
+16:51:10     A step 0 loss 3.1277
+16:52:10     A step 500 loss 1.1953
+16:53:09     A step 1000 loss 0.7929
+16:54:07     A step 1499 loss 0.9443
+16:54:20    TR acc=0.435 CT=0.08957795004306629 | HO CT=0.18300653594771238 | U CT=-0.009708737864077669
+16:54:20 S1c core arm A seed 16213
+16:54:20     A step 0 loss 3.5585
+16:55:20     A step 500 loss 0.6977
+16:56:18     A step 1000 loss 0.7066
+16:57:16     A step 1499 loss 0.6730
+16:57:29    TR acc=0.517 CT=0.09905254091300603 | HO CT=0.09892473118279571 | U CT=-0.007281553398058253
+16:57:29 S1c core arm C1 seed 16211
+16:57:29     C1 step 0 loss 3.3185
+16:58:28     C1 step 500 loss 0.9682
+16:59:28     C1 step 1000 loss 0.6652
+17:00:26     C1 step 1499 loss 0.5943
+17:00:47    TR acc=0.500 CT=0.1375432525951557 | HO CT=0.26304347826086955 | U CT=-0.01699029126213592
+17:00:47 S1c core arm C1 seed 16212
+17:00:47     C1 step 0 loss 3.1277
+17:01:46     C1 step 500 loss 1.0995
+17:02:44     C1 step 1000 loss 0.6397
+17:03:42     C1 step 1499 loss 0.7807
+17:04:05    TR acc=0.469 CT=0.12833763996554695 | HO CT=0.22004357298474947 | U CT=-0.0048543689320388345
+17:04:05 S1c core arm C1 seed 16213
+17:04:06     C1 step 0 loss 3.5585
+17:05:07     C1 step 500 loss 0.6718
+17:06:05     C1 step 1000 loss 0.6408
+17:07:03     C1 step 1499 loss 0.5679
+17:07:24    TR acc=0.547 CT=0.11972437553832904 | HO CT=0.13333333333333336 | U CT=-0.0024271844660194173
+17:07:24 S1c core arm C3 seed 16211
+17:07:25     C3 step 0 loss 3.3185
+17:08:26     C3 step 500 loss 0.5468
+17:09:26     C3 step 1000 loss 0.5428
+17:10:28     C3 step 1499 loss 0.4096
+17:10:42    TR acc=0.568 CT=0.023356401384083014 | HO CT=0.2108695652173913 | U CT=-0.012135922330097087
+17:10:42 S1c core arm C3 seed 16212
+17:10:42     C3 step 0 loss 3.1277
+17:11:41     C3 step 500 loss 0.8183
+17:12:41     C3 step 1000 loss 0.4694
+17:13:40     C3 step 1499 loss 0.3902
+17:13:53    TR acc=0.607 CT=0.07838070628768307 | HO CT=0.16122004357298475 | U CT=-0.009708737864077669
+17:13:53 S1c core arm C3 seed 16213
+17:13:54     C3 step 0 loss 3.5585
+17:14:52     C3 step 500 loss 0.5546
+17:15:51     C3 step 1000 loss 0.5458
+17:16:49     C3 step 1499 loss 0.4618
+17:17:03    TR acc=0.582 CT=-0.11714039621016364 | HO CT=0.047311827956989294 | U CT=-0.0024271844660194173
+17:17:03 S1c-2: {'zero_gate_identity': True, 'cue_invariance': True, 'train_reach': 0.007369614512471645, 'train_reach_pass': False, 'transport_pc_CT_TR': 0.09603715327140126, 'transport_pc_pass': False, 'V6_ratio': 1.212500990286497, 'V6_pass': True, 'nc_neutral': True, 'pass': False}
+17:17:03 S1c pilot c0.5_S1 (d_w=64) seed 16221
+17:18:30    U CT=-0.00970873786407767 acc=0.024 | TR CT=0.0
+17:18:30 S1c pilot c0.5_S1 (d_w=64) seed 16222
+17:19:55    U CT=-0.007281553398058253 acc=0.015 | TR CT=0.0
+17:19:55 S1c pilot c0.5_S1 (d_w=64) seed 16223
+17:21:21    U CT=0.0024271844660194164 acc=0.010 | TR CT=-0.0048543689320388345
+17:21:21 S1c pilot c0.5_S4 (d_w=64) seed 16221
+17:22:50    U CT=-0.007281553398058253 acc=0.000 | TR CT=0.01334951456310679
+17:22:50 S1c pilot c0.5_S4 (d_w=64) seed 16222
+17:24:23    U CT=0.0 acc=0.002 | TR CT=0.11771844660194178
+17:24:23 S1c pilot c0.5_S4 (d_w=64) seed 16223
+17:25:53    U CT=-0.009708737864077669 acc=0.007 | TR CT=0.12257281553398056
+17:25:53 S1c pilot c0.5_Spm (d_w=64) seed 16221
+17:27:16    U CT=-0.014563106796116505 acc=0.000 | TR CT=0.24514563106796122
+17:27:16 S1c pilot c0.5_Spm (d_w=64) seed 16222
+17:28:39    U CT=-0.014563106796116505 acc=0.010 | TR CT=0.22087378640776706
+17:28:39 S1c pilot c0.5_Spm (d_w=64) seed 16223
+17:30:02    U CT=0.004854368932038836 acc=0.005 | TR CT=0.05825242718446605
+17:30:02 S1c pilot c1_S1 (d_w=128) seed 16221
+17:31:29    U CT=-0.007281553398058253 acc=0.000 | TR CT=0.0
+17:31:29 S1c pilot c1_S1 (d_w=128) seed 16222
+17:32:58    U CT=-0.012135922330097087 acc=0.000 | TR CT=0.0
+17:32:58 S1c pilot c1_S1 (d_w=128) seed 16223
+17:34:27    U CT=-0.012135922330097087 acc=0.000 | TR CT=0.0
+17:34:27 S1c pilot c1_S4 (d_w=128) seed 16221
+17:35:58    U CT=-0.004854368932038835 acc=0.002 | TR CT=0.10679611650485435
+17:35:58 S1c pilot c1_S4 (d_w=128) seed 16222
+17:37:29    U CT=-0.01699029126213592 acc=0.000 | TR CT=-0.01941747572815533
+17:37:29 S1c pilot c1_S4 (d_w=128) seed 16223
+17:39:01    U CT=-0.012135922330097089 acc=0.012 | TR CT=0.10436893203883493
+17:39:01 S1c pilot c1_Spm (d_w=128) seed 16221
+17:40:26    U CT=-0.007281553398058253 acc=0.002 | TR CT=0.21601941747572817
+17:40:26 S1c pilot c1_Spm (d_w=128) seed 16222
+17:41:52    U CT=-0.01699029126213592 acc=0.000 | TR CT=0.0509708737864078
+17:41:52 S1c pilot c1_Spm (d_w=128) seed 16223
+17:44:07    U CT=-0.009708737864077669 acc=0.000 | TR CT=0.21116504854368934
+17:44:07 S1c pilot c2_S1 (d_w=128) seed 16221
+17:46:31    U CT=-0.007281553398058253 acc=0.000 | TR CT=0.0
+17:46:31 S1c pilot c2_S1 (d_w=128) seed 16222
+17:48:56    U CT=-0.012135922330097087 acc=0.000 | TR CT=0.0
+17:48:56 S1c pilot c2_S1 (d_w=128) seed 16223
+17:51:23    U CT=-0.012135922330097087 acc=0.000 | TR CT=0.0
+17:51:23 S1c pilot c2_S4 (d_w=128) seed 16221
+17:53:52    U CT=-0.004854368932038835 acc=0.002 | TR CT=0.10679611650485435
+17:53:52 S1c pilot c2_S4 (d_w=128) seed 16222
+17:56:27    U CT=-0.01699029126213592 acc=0.000 | TR CT=-0.01941747572815533
+17:56:27 S1c pilot c2_S4 (d_w=128) seed 16223
+17:58:57    U CT=-0.012135922330097089 acc=0.012 | TR CT=0.10436893203883493
+17:58:57 S1c pilot c2_Spm (d_w=128) seed 16221
+18:01:17    U CT=-0.007281553398058253 acc=0.002 | TR CT=0.21601941747572817
+18:01:17 S1c pilot c2_Spm (d_w=128) seed 16222
+18:03:34    U CT=-0.01699029126213592 acc=0.000 | TR CT=0.0509708737864078
+18:03:34 S1c pilot c2_Spm (d_w=128) seed 16223
+18:05:46    U CT=-0.009708737864077669 acc=0.000 | TR CT=0.21116504854368934
+18:05:46 S1c pilot c4_S1 (d_w=128) seed 16221
+18:08:05    U CT=-0.007281553398058253 acc=0.000 | TR CT=0.0
+18:08:05 S1c pilot c4_S1 (d_w=128) seed 16222
+18:10:32    U CT=-0.012135922330097087 acc=0.000 | TR CT=0.0
+18:10:32 S1c pilot c4_S1 (d_w=128) seed 16223
+18:12:58    U CT=-0.012135922330097087 acc=0.000 | TR CT=0.0
+18:12:58 S1c pilot c4_S4 (d_w=128) seed 16221
+18:15:22    U CT=-0.004854368932038835 acc=0.002 | TR CT=0.10679611650485435
+18:15:22 S1c pilot c4_S4 (d_w=128) seed 16222
+18:17:52    U CT=-0.01699029126213592 acc=0.000 | TR CT=-0.01941747572815533
+18:17:52 S1c pilot c4_S4 (d_w=128) seed 16223
+18:20:18    U CT=-0.012135922330097089 acc=0.012 | TR CT=0.10436893203883493
+18:20:18 S1c pilot c4_Spm (d_w=128) seed 16221
+18:22:34    U CT=-0.007281553398058253 acc=0.002 | TR CT=0.21601941747572817
+18:22:34 S1c pilot c4_Spm (d_w=128) seed 16222
+18:24:52    U CT=-0.01699029126213592 acc=0.000 | TR CT=0.0509708737864078
+18:24:52 S1c pilot c4_Spm (d_w=128) seed 16223
+18:27:15    U CT=-0.009708737864077669 acc=0.000 | TR CT=0.21116504854368934
+18:27:15 S1c pilot c8_S1 (d_w=128) seed 16221
+18:29:45    U CT=-0.007281553398058253 acc=0.000 | TR CT=0.0
+18:29:45 S1c pilot c8_S1 (d_w=128) seed 16222
+18:32:15    U CT=-0.012135922330097087 acc=0.000 | TR CT=0.0
+18:32:15 S1c pilot c8_S1 (d_w=128) seed 16223
+18:34:38    U CT=-0.012135922330097087 acc=0.000 | TR CT=0.0
+18:34:38 S1c pilot c8_S4 (d_w=128) seed 16221
+18:37:06    U CT=-0.004854368932038835 acc=0.002 | TR CT=0.10679611650485435
+18:37:06 S1c pilot c8_S4 (d_w=128) seed 16222
+18:39:36    U CT=-0.01699029126213592 acc=0.000 | TR CT=-0.01941747572815533
+18:39:36 S1c pilot c8_S4 (d_w=128) seed 16223
+18:42:03    U CT=-0.012135922330097089 acc=0.012 | TR CT=0.10436893203883493
+18:42:03 S1c pilot c8_Spm (d_w=128) seed 16221
+18:44:24    U CT=-0.007281553398058253 acc=0.002 | TR CT=0.21601941747572817
+18:44:24 S1c pilot c8_Spm (d_w=128) seed 16222
+18:46:41    U CT=-0.01699029126213592 acc=0.000 | TR CT=0.0509708737864078
+18:46:41 S1c pilot c8_Spm (d_w=128) seed 16223
+18:49:01    U CT=-0.009708737864077669 acc=0.000 | TR CT=0.21116504854368934
+18:49:01 S1c done: S1c-1=False S1c-2=False sigma_seed=0.2575261115686491
+18:49:01 phase S1C done

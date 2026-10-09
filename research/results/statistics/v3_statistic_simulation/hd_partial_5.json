@@ -1,0 +1,11 @@
+{
+ "susceptibility_latent": {
+  "labels": {
+   "A": 0.85,
+   "B": 0.15,
+   "C": 0.0
+  },
+  "mean_theta_pre": 0.14943708212596168,
+  "median_r2_pre": 0.07201650359982775
+ }
+}

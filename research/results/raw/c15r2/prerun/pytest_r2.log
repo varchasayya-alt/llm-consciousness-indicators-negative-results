@@ -1,0 +1,41 @@
+.....................                                                    [100%]
+============================== warnings summary ===============================
+tests/test_r2.py::test_r2_w1_w2_w45_equal_astage_methods
+tests/test_r2.py::test_r2_end_to_end_on_tiny_model
+  <REPO_ROOT>\.venv\Lib\site-packages\numpy\lib\_function_base_impl.py:4608: RuntimeWarning: invalid value encountered in scalar subtract
+    diff_b_a = b - a
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=================================== PASSES ====================================
+______________________ test_r2_end_to_end_on_tiny_model _______________________
+---------------------------- Captured stdout call -----------------------------
+[tiny] layer 2
+[tiny] layer 2 done: W1 False W2 False W3' False W4 False W5 False
+============================= slowest 5 durations =============================
+530.30s call     tests/test_r2.py::test_r2_w1_w2_w45_equal_astage_methods
+517.67s call     tests/test_r2.py::test_r2_end_to_end_on_tiny_model
+21.07s setup    tests/test_r2.py::test_r2_w1_w2_w45_equal_astage_methods
+2.62s call     tests/test_r2.py::test_kcrit_and_site_pass
+0.94s call     tests/test_r2.py::test_PC4_planted_transport_and_null
+=========================== short test summary info ===========================
+PASSED tests/test_r2.py::test_thresholds_equal_frozen_json
+PASSED tests/test_r2.py::test_unchanged_astage_constants
+PASSED tests/test_r2.py::test_T1_no_reference_to_astage_material_files
+PASSED tests/test_r2.py::test_T2_no_overlap_with_astage_material
+PASSED tests/test_r2.py::test_T3_splits_disjoint_and_manifest_hashes
+PASSED tests/test_r2.py::test_T4_no_writes_into_astage_dirs
+PASSED tests/test_r2.py::test_runner_and_package_have_no_unauthorized_phase
+PASSED tests/test_r2.py::test_confirm_gate_sealed_without_freeze
+PASSED tests/test_r2.py::test_materials_structure
+PASSED tests/test_r2.py::test_kcrit_and_site_pass
+PASSED tests/test_r2.py::test_restricted_derangement
+PASSED tests/test_r2.py::test_PC4_planted_transport_and_null
+PASSED tests/test_r2.py::test_w3p_generic_influence_cancels_by_centring
+PASSED tests/test_r2.py::test_r2_w1_w2_w45_equal_astage_methods
+PASSED tests/test_r2.py::test_w0b_positions_on_smoke
+PASSED tests/test_r2.py::test_r2_end_to_end_on_tiny_model
+PASSED tests/test_r2.py::test_classify_P1_and_choose
+PASSED tests/test_r2.py::test_classify_P2_requires_powered_double_dissociation
+PASSED tests/test_r2.py::test_classify_P3_P0_P4_IND
+PASSED tests/test_r2.py::test_validity_blocks_powered_failure
+PASSED tests/test_r2.py::test_confirm_verdicts

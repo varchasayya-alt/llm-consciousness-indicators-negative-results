@@ -1,0 +1,7 @@
+[qwen3-1.7b] lens -> <REPO_ROOT>\hf_cache\hub\models--neuronpedia--jacobian-lens\snapshots\b25d72a96b79c8e309d6625955a98751da47e67a (9s)
+[qwen3-1.7b] model -> <REPO_ROOT>\hf_cache\hub\models--Qwen--Qwen3-1.7B\snapshots\70d244cc86ccca08cf5af4e1e306ecf908b1ad5e (67s)
+[qwen3.5-2b] lens -> <REPO_ROOT>\hf_cache\hub\models--neuronpedia--jacobian-lens\snapshots\b25d72a96b79c8e309d6625955a98751da47e67a (4s)
+[qwen3.5-2b] model -> <REPO_ROOT>\hf_cache\hub\models--Qwen--Qwen3.5-2B\snapshots\15852e8c16360a2fea060d615a32b45270f8a8fc (73s)
+[qwen3-4b] lens -> <REPO_ROOT>\hf_cache\hub\models--neuronpedia--jacobian-lens\snapshots\b25d72a96b79c8e309d6625955a98751da47e67a (10s)
+[qwen3-4b] model -> <REPO_ROOT>\hf_cache\hub\models--Qwen--Qwen3-4B\snapshots\1cfa9a7208912126459214e8b04321603b3df60c (125s)
+DONE

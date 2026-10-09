@@ -1,0 +1,4954 @@
+{
+ "seed": "arXiv:2406.12775",
+ "meta": {
+  "paperId": "d610e066e5c3cc7eda13313554e25a340ce18f71",
+  "title": "Hopping Too Late: Exploring the Limitations of Large Language Models on Multi-Hop Queries",
+  "year": 2024,
+  "citationCount": 111
+ },
+ "citations": [
+  {
+   "paperId": "63829e015b4a578a34d3f7ad5551eb1e93e7f34c",
+   "externalIds": {
+    "ArXiv": "2610.09733",
+    "CorpusId": 292700743
+   },
+   "url": "https://www.semanticscholar.org/paper/63829e015b4a578a34d3f7ad5551eb1e93e7f34c",
+   "title": "Bridge Routing Heads: Where Multilingual Multi-hop Reasoning Lives in LLMs",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2610.09733, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": null,
+     "name": "Seunghan Kim"
+    },
+    {
+     "authorId": "2322443928",
+     "name": "Minyeong Choe"
+    },
+    {
+     "authorId": null,
+     "name": "Hyunil Kim"
+    },
+    {
+     "authorId": null,
+     "name": "Haehyun Cho"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ccae08fecdf056e5e5e78ea656e0a585d0a807a5",
+   "externalIds": {
+    "ArXiv": "2610.06666",
+    "CorpusId": 292655874
+   },
+   "url": "https://www.semanticscholar.org/paper/ccae08fecdf056e5e5e78ea656e0a585d0a807a5",
+   "title": "What Matters for Latent Reasoning with Flow Matching",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2610.06666, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2301453619",
+     "name": "Yassine Ouali"
+    },
+    {
+     "authorId": "145245424",
+     "name": "Adrian Bulat"
+    },
+    {
+     "authorId": "2137359565",
+     "name": "Georgios Tzimiropoulos"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "c3d84ee4b1dcdbe4a5e79fc60acca27065dd5057",
+   "externalIds": {
+    "ArXiv": "2609.38972",
+    "CorpusId": 292487214
+   },
+   "url": "https://www.semanticscholar.org/paper/c3d84ee4b1dcdbe4a5e79fc60acca27065dd5057",
+   "title": "Making LLMs Say What They Think: Measuring and Improving CoT-Interpretability Alignment",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.38972, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2306946364",
+     "name": "Yi-Huai Hong"
+    },
+    {
+     "authorId": "2143278592",
+     "name": "Shauli Ravfogel"
+    },
+    {
+     "authorId": "2267020413",
+     "name": "Chen Zhao"
+    },
+    {
+     "authorId": "2387882412",
+     "name": "Eunsol Choi"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "2ba8f5f96c05f15d69849b4febff90fd6d12fe59",
+   "externalIds": {
+    "ArXiv": "2609.36585",
+    "CorpusId": 292441981
+   },
+   "url": "https://www.semanticscholar.org/paper/2ba8f5f96c05f15d69849b4febff90fd6d12fe59",
+   "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.36585, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2257436659",
+     "name": "Ze-Hao Jin"
+    },
+    {
+     "authorId": "2384446212",
+     "name": "Rui-Xuan Deng"
+    },
+    {
+     "authorId": "2378712453",
+     "name": "Jun-Ran Wang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "fceffa100ac53a4dfcc4e0a8b8b6ede554a89565",
+   "externalIds": {
+    "ArXiv": "2609.38149",
+    "CorpusId": 292474546
+   },
+   "url": "https://www.semanticscholar.org/paper/fceffa100ac53a4dfcc4e0a8b8b6ede554a89565",
+   "title": "Pretraining Latent Information Feedback Transformers with Teacher Supervision",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.38149, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2505755258",
+     "name": "Dor Tirosh"
+    },
+    {
+     "authorId": "2253657736",
+     "name": "Ido Amos"
+    },
+    {
+     "authorId": "22245981",
+     "name": "Mor Geva"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "98773695e2a608f256f26bce3f85a9f5311c4056",
+   "externalIds": {
+    "ArXiv": "2609.36221",
+    "CorpusId": 292441888
+   },
+   "url": "https://www.semanticscholar.org/paper/98773695e2a608f256f26bce3f85a9f5311c4056",
+   "title": "How Language Models Differ in Redistributing Attention-Head Activity Under Serial Demand",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.36221, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2313691123",
+     "name": "Johnny Jingze Li"
+    },
+    {
+     "authorId": "2319409607",
+     "name": "Abdulla Kuleib"
+    },
+    {
+     "authorId": "2283770057",
+     "name": "Kalyan S. Basu"
+    },
+    {
+     "authorId": "2268700720",
+     "name": "Gabriel A. Silva"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "51af17d5010ef616ba14070b8d7d7033d7094b39",
+   "externalIds": {
+    "ArXiv": "2609.32942",
+    "CorpusId": 292436635
+   },
+   "url": "https://www.semanticscholar.org/paper/51af17d5010ef616ba14070b8d7d7033d7094b39",
+   "title": "The Key Handoff: Retrieval in Hybrid Language Models",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.32942, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2301146746",
+     "name": "Kaan Kale"
+    },
+    {
+     "authorId": "2283308339",
+     "name": "Oğuzhan Başer"
+    },
+    {
+     "authorId": "2380361128",
+     "name": "Sriram Vishwanath"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "b3bd1205d2285c5191b9dedfd1f93326bf84a6c1",
+   "externalIds": {
+    "ArXiv": "2609.05149",
+    "CorpusId": 291769543
+   },
+   "url": "https://www.semanticscholar.org/paper/b3bd1205d2285c5191b9dedfd1f93326bf84a6c1",
+   "title": "From Vision to Language: Investigating Causal Information Flow in Multimodal Decision-Making",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.05149, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2297364800",
+     "name": "Davide Testa"
+    },
+    {
+     "authorId": "2084554416",
+     "name": "Hugh Mee Wong"
+    },
+    {
+     "authorId": "2277456474",
+     "name": "Alessandro Lenci"
+    },
+    {
+     "authorId": "2291361020",
+     "name": "Bernardo Magnini"
+    },
+    {
+     "authorId": "2315933729",
+     "name": "Albert Gatt"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "7b6584561b8ed45fe9c80ae05fd1dcb0f7ac4b81",
+   "externalIds": {
+    "ArXiv": "2609.00293",
+    "CorpusId": 291544485
+   },
+   "url": "https://www.semanticscholar.org/paper/7b6584561b8ed45fe9c80ae05fd1dcb0f7ac4b81",
+   "title": "Slow to See, Slow to Suppress: Understanding the Effects of Modality in Context-Memory Conflicts",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.00293, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2473142836",
+     "name": "Athulith Paraselli"
+    },
+    {
+     "authorId": "2297668268",
+     "name": "Etha Tianze Hua"
+    },
+    {
+     "authorId": "2949185",
+     "name": "Ellie Pavlick"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "48d4056450a732a42abd8e8a090e415685a45baf",
+   "externalIds": {
+    "ArXiv": "2608.07261",
+    "CorpusId": 290980766
+   },
+   "url": "https://www.semanticscholar.org/paper/48d4056450a732a42abd8e8a090e415685a45baf",
+   "title": "Why Knowing Both Hops Is Not Enough: Understanding Two-Hop Generalization in Language Models",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.07261, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2456524547",
+     "name": "Zili Zhang"
+    },
+    {
+     "authorId": "2357223402",
+     "name": "Yilin Wang"
+    },
+    {
+     "authorId": "2256778370",
+     "name": "Heng Wang"
+    },
+    {
+     "authorId": "2114831715",
+     "name": "He-Run Wan"
+    },
+    {
+     "authorId": "2260397981",
+     "name": "Min-Nan Luo"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ae15fb17715ea90d600c0875e7e3df7cfec8208d",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-16051",
+    "ArXiv": "2607.16051",
+    "DOI": "10.48550/arXiv.2607.16051",
+    "CorpusId": 290333341
+   },
+   "url": "https://www.semanticscholar.org/paper/ae15fb17715ea90d600c0875e7e3df7cfec8208d",
+   "title": "Loop the Loopies!",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.16051, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2301532663",
+     "name": "Zitian Gao"
+    },
+    {
+     "authorId": "2268796753",
+     "name": "Yi-Long Chen"
+    },
+    {
+     "authorId": "2316513973",
+     "name": "Yihao Xiao"
+    },
+    {
+     "authorId": "2312345351",
+     "name": "Xin-Yu Yang"
+    },
+    {
+     "authorId": "2384120505",
+     "name": "Ran Tao"
+    },
+    {
+     "authorId": "2346475893",
+     "name": "Joey Zhou"
+    },
+    {
+     "authorId": "2346322341",
+     "name": "Bryan Dai"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "b0128c2abc28b433fd9774eeba05800d9ce5e293",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-08393",
+    "ArXiv": "2607.08393",
+    "DOI": "10.48550/arXiv.2607.08393",
+    "CorpusId": 290010213
+   },
+   "url": "https://www.semanticscholar.org/paper/b0128c2abc28b433fd9774eeba05800d9ce5e293",
+   "title": "Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.08393, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2247963050",
+     "name": "Lu Dai"
+    },
+    {
+     "authorId": "2343504880",
+     "name": "Zi-Yang Rao"
+    },
+    {
+     "authorId": "2298205559",
+     "name": "Yi-Li Wang"
+    },
+    {
+     "authorId": "2356172515",
+     "name": "Han-Qing Wang"
+    },
+    {
+     "authorId": "2247930299",
+     "name": "Hao Liu"
+    },
+    {
+     "authorId": "2345974446",
+     "name": "Hui Xiong"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "bbb16aeb6f8576f93be8edb3251bd86c13b61ed7",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-03502",
+    "ArXiv": "2607.03502",
+    "DOI": "10.48550/arXiv.2607.03502",
+    "CorpusId": 289934491
+   },
+   "url": "https://www.semanticscholar.org/paper/bbb16aeb6f8576f93be8edb3251bd86c13b61ed7",
+   "title": "Reading Between the Dots: Decoding Hidden Computation across Filler Tokens",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.03502, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "144520661",
+     "name": "K. Brauer"
+    },
+    {
+     "authorId": "52015628",
+     "name": "C. M. Verdun"
+    },
+    {
+     "authorId": "2383168275",
+     "name": "Samuel Marks"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "d79b73cbf9bf48f34bce5a69d7ca1abf4e6d80f2",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2607-00341",
+    "ArXiv": "2607.00341",
+    "DOI": "10.48550/arXiv.2607.00341",
+    "CorpusId": 289706222
+   },
+   "url": "https://www.semanticscholar.org/paper/d79b73cbf9bf48f34bce5a69d7ca1abf4e6d80f2",
+   "title": "DiscoLoop: Looping Discrete Embeddings and Continuous Hidden States for Multi-hop Reasoning",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.00341, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2395729945",
+     "name": "Heng-Yu Fu"
+    },
+    {
+     "authorId": "2298594403",
+     "name": "Tian-Yu Guo"
+    },
+    {
+     "authorId": "2351088313",
+     "name": "Zixuan Wang"
+    },
+    {
+     "authorId": "2254086052",
+     "name": "Han-Lin Zhu"
+    },
+    {
+     "authorId": "2338360771",
+     "name": "Jason D. Lee"
+    },
+    {
+     "authorId": "2258657022",
+     "name": "Jian-Tao Jiao"
+    },
+    {
+     "authorId": "2261660012",
+     "name": "Stuart Russell"
+    },
+    {
+     "authorId": "2347037130",
+     "name": "Song Mei"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "f8a4a7512d53b0dd0a451e286a49706400251057",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2606-18924",
+    "ArXiv": "2606.18924",
+    "DOI": "10.48550/arXiv.2606.18924",
+    "CorpusId": 289624269
+   },
+   "url": "https://www.semanticscholar.org/paper/f8a4a7512d53b0dd0a451e286a49706400251057",
+   "title": "Who Wins the Conflict? Mechanistic Interpretability of Text Bias in Audio LLMs",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2606.18924, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2190800067",
+     "name": "Hyebin Cho"
+    },
+    {
+     "authorId": "2320819380",
+     "name": "Suho Yoo"
+    },
+    {
+     "authorId": "2276451669",
+     "name": "Jaehyuk Jang"
+    },
+    {
+     "authorId": "2276574578",
+     "name": "Changick Kim"
+    },
+    {
+     "authorId": "2291207614",
+     "name": "Joon Son Chung"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "474563138b3a72a2ed42cfea53ac9766b6d3048a",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2606-13649",
+    "ArXiv": "2606.13649",
+    "DOI": "10.48550/arXiv.2606.13649",
+    "CorpusId": 289187232
+   },
+   "url": "https://www.semanticscholar.org/paper/474563138b3a72a2ed42cfea53ac9766b6d3048a",
+   "title": "Operadic consistency: a label-free signal for compositional reasoning failures in LLMs",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2606.13649, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "102589689",
+     "name": "Nathaniel Bottman"
+    },
+    {
+     "authorId": "2385971733",
+     "name": "Yinhong Liu"
+    },
+    {
+     "authorId": "46666605",
+     "name": "Kyle Richardson"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "61ca38c6755d93fb7a79fb9eb58ae6c1fc8feed4",
+   "externalIds": {
+    "ArXiv": "2606.09338",
+    "DBLP": "journals/corr/abs-2606-09338",
+    "DOI": "10.48550/arXiv.2606.09338",
+    "CorpusId": 289097673
+   },
+   "url": "https://www.semanticscholar.org/paper/61ca38c6755d93fb7a79fb9eb58ae6c1fc8feed4",
+   "title": "Multi-Hop Knowledge Composition is Bound by Pretraining Exposure",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2606.09338, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2309645982",
+     "name": "Yannis Karmim"
+    },
+    {
+     "authorId": "2208978666",
+     "name": "Luis Martí"
+    },
+    {
+     "authorId": "2266063937",
+     "name": "Djamé Seddah"
+    },
+    {
+     "authorId": "21498279",
+     "name": "Valentin Barrière"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "e23f83cb36cbd0c284841ec44508386a0b0901f5",
+   "externalIds": {
+    "DOI": "10.1109/ICAD69378.2026.11608435",
+    "CorpusId": 290454463
+   },
+   "url": "https://www.semanticscholar.org/paper/e23f83cb36cbd0c284841ec44508386a0b0901f5",
+   "title": "Augmenting Large Language Models with Causal Risk Patterns for AI Deployment Risk Assessment",
+   "venue": "International Conference on Auditory Display",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "https://pure.ulster.ac.uk/en/publications/bd33a916-c2bb-4d89-b44e-ecf900326a98",
+    "status": "GREEN",
+    "license": "other-oa",
+    "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ICAD69378.2026.11608435?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ICAD69378.2026.11608435, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2452364285",
+     "name": "Gareth McConomy"
+    },
+    {
+     "authorId": "2243372139",
+     "name": "R. Bond"
+    },
+    {
+     "authorId": "49968482",
+     "name": "David H. Glass"
+    },
+    {
+     "authorId": "32560340",
+     "name": "Jun Liu"
+    },
+    {
+     "authorId": "2452363597",
+     "name": "Holly Toner"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "cc538a98b0b6cfb4d799efae97ee5d7466d8f4b7",
+   "externalIds": {
+    "DOI": "10.1109/ICSSAS68835.2026.11559443",
+    "CorpusId": 289490211
+   },
+   "url": "https://www.semanticscholar.org/paper/cc538a98b0b6cfb4d799efae97ee5d7466d8f4b7",
+   "title": "Diagnosing and Mitigating Multihop QA Failures in Small Language Models with Memory Injection",
+   "venue": "2026 4th International Conference on Self Sustainable Artificial Intelligence Systems (ICSSAS)",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": "CLOSED",
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ICSSAS68835.2026.11559443?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ICSSAS68835.2026.11559443, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2048009863",
+     "name": "Rahul Nair"
+    },
+    {
+     "authorId": "2297815691",
+     "name": "H. S."
+    },
+    {
+     "authorId": "2434187362",
+     "name": "Devapriya S"
+    },
+    {
+     "authorId": "2434241908",
+     "name": "R. R"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "5a07adba7d878aa159e68037ae5986002b3f60a7",
+   "externalIds": {
+    "ArXiv": "2605.28008",
+    "DBLP": "journals/corr/abs-2605-28008",
+    "DOI": "10.48550/arXiv.2605.28008",
+    "CorpusId": 288701474
+   },
+   "url": "https://www.semanticscholar.org/paper/5a07adba7d878aa159e68037ae5986002b3f60a7",
+   "title": "Zipping the Thought: When and How Compressed Reasoning Data Works in LLM Post-Training",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2605.28008, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2365008397",
+     "name": "Kohsei Matsutani"
+    },
+    {
+     "authorId": "2200541567",
+     "name": "Gouki Minegishi"
+    },
+    {
+     "authorId": "2081836120",
+     "name": "Takeshi Kojima"
+    },
+    {
+     "authorId": "1715282",
+     "name": "Yusuke Iwasawa"
+    },
+    {
+     "authorId": "2241471533",
+     "name": "Yutaka Matsuo"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "be7107e257c82eb21b5e6914834fd2da5c204c15",
+   "externalIds": {
+    "ArXiv": "2605.29068",
+    "DBLP": "journals/corr/abs-2605-29068",
+    "DOI": "10.48550/arXiv.2605.29068",
+    "CorpusId": 288741509
+   },
+   "url": "https://www.semanticscholar.org/paper/be7107e257c82eb21b5e6914834fd2da5c204c15",
+   "title": "Robust and Efficient Guardrails with Latent Reasoning",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2605.29068, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2439142380",
+     "name": "Siddharth Sai"
+    },
+    {
+     "authorId": "2302150318",
+     "name": "Xiaofei Wen"
+    },
+    {
+     "authorId": "2374074363",
+     "name": "Mu-Hao Chen"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "fce36b2bc634a7bd2c94ec4a478c0f3e36c2116c",
+   "externalIds": {
+    "ArXiv": "2605.26789",
+    "DBLP": "journals/corr/abs-2605-26789",
+    "DOI": "10.48550/arXiv.2605.26789",
+    "CorpusId": 288672714
+   },
+   "url": "https://www.semanticscholar.org/paper/fce36b2bc634a7bd2c94ec4a478c0f3e36c2116c",
+   "title": "Composition Collapse: Stable Factual Knowledge Does Not Imply Compositional Reasoning",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2605.26789, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2383259205",
+     "name": "Zhengtao Yu"
+    },
+    {
+     "authorId": "2312401599",
+     "name": "Wen-Peng Xing"
+    },
+    {
+     "authorId": "2438914274",
+     "name": "Yunzhao Wei"
+    },
+    {
+     "authorId": "2307777878",
+     "name": "Jie Chen"
+    },
+    {
+     "authorId": "2404025830",
+     "name": "Hongzhi Wang"
+    },
+    {
+     "authorId": "2346878750",
+     "name": "Xuyang Teng"
+    },
+    {
+     "authorId": "2321333899",
+     "name": "Meng Han"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "2ad3dd437fe3b15e736fc9eb6f3d84386180bbaa",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2605-12426",
+    "ArXiv": "2605.12426",
+    "DOI": "10.48550/arXiv.2605.12426",
+    "CorpusId": 288258428
+   },
+   "url": "https://www.semanticscholar.org/paper/2ad3dd437fe3b15e736fc9eb6f3d84386180bbaa",
+   "title": "Geometric Factual Recall in Transformers",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2605.12426, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "51432464",
+     "name": "Shauli Ravfogel"
+    },
+    {
+     "authorId": "90287577",
+     "name": "Gilad Yehudai"
+    },
+    {
+     "authorId": "2253594578",
+     "name": "Joan Bruna"
+    },
+    {
+     "authorId": "2253484313",
+     "name": "Alberto Bietti"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "f6e1e0506bc0907b6e8b9d697377dbce8762335a",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2604-22951",
+    "ArXiv": "2604.22951",
+    "DOI": "10.48550/arXiv.2604.22951",
+    "CorpusId": 287777097
+   },
+   "url": "https://www.semanticscholar.org/paper/f6e1e0506bc0907b6e8b9d697377dbce8762335a",
+   "title": "The Power of Power Law: Asymmetry Enables Compositional Reasoning",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2604.22951, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2351088313",
+     "name": "Zixuan Wang"
+    },
+    {
+     "authorId": "2287928219",
+     "name": "Xing-Yu Dang"
+    },
+    {
+     "authorId": "2305733907",
+     "name": "Jason D. Lee"
+    },
+    {
+     "authorId": "2352110784",
+     "name": "Kaifeng Lyu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "44e348505c95908b8bd8fbc32e0e2bb536c9789b",
+   "externalIds": {
+    "ArXiv": "2604.17121",
+    "DBLP": "journals/corr/abs-2604-17121",
+    "DOI": "10.48550/arXiv.2604.17121",
+    "CorpusId": 287634383
+   },
+   "url": "https://www.semanticscholar.org/paper/44e348505c95908b8bd8fbc32e0e2bb536c9789b",
+   "title": "The Topological Trouble With Transformers",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2604.17121, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "144473519",
+     "name": "M. Mozer"
+    },
+    {
+     "authorId": "29005173",
+     "name": "Shoaib Ahmed Siddiqui"
+    },
+    {
+     "authorId": "2305747635",
+     "name": "Rosanne Liu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "e1cf9fadef9be5d27401a50e7b66b3ed05066af9",
+   "externalIds": {
+    "ArXiv": "2604.07822",
+    "DBLP": "journals/corr/abs-2604-07822",
+    "DOI": "10.48550/arXiv.2604.07822",
+    "CorpusId": 287255623
+   },
+   "url": "https://www.semanticscholar.org/paper/e1cf9fadef9be5d27401a50e7b66b3ed05066af9",
+   "title": "Loop, Think, & Generalize: Implicit Reasoning in Recurrent-Depth Transformers",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2604.07822, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "3326601",
+     "name": "Harsh Kohli"
+    },
+    {
+     "authorId": "2263304062",
+     "name": "Srinivasan Parthasarathy"
+    },
+    {
+     "authorId": "2284196593",
+     "name": "Huan Sun"
+    },
+    {
+     "authorId": "1733485928",
+     "name": "Yue-Kun Yao"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "f0e3a22c3fc1bfc7eaac66a7a54a515fbb18269e",
+   "externalIds": {
+    "DBLP": "conf/acl/FuBHLZSS26",
+    "ArXiv": "2604.05540",
+    "DOI": "10.48550/arXiv.2604.05540",
+    "CorpusId": 287208119
+   },
+   "url": "https://www.semanticscholar.org/paper/f0e3a22c3fc1bfc7eaac66a7a54a515fbb18269e",
+   "title": "Learning to Edit Knowledge via Instruction-based Chain-of-Thought Prompting",
+   "venue": "Annual Meeting of the Association for Computational Linguistics",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2604.05540, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2357488422",
+     "name": "Jin-Hu Fu"
+    },
+    {
+     "authorId": "2232798023",
+     "name": "Yan-Hong Bai"
+    },
+    {
+     "authorId": "2308923633",
+     "name": "Long-Zhu He"
+    },
+    {
+     "authorId": "9920529",
+     "name": "Yihang Lou"
+    },
+    {
+     "authorId": null,
+     "name": "Yan-Xiao Zhao"
+    },
+    {
+     "authorId": "2385501405",
+     "name": "Li Sun"
+    },
+    {
+     "authorId": "2367558982",
+     "name": "Sen Su"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "fbe58b538aaa35745a60658a507c2f7fa23f0faa",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2603-29085",
+    "ArXiv": "2603.29085",
+    "DOI": "10.48550/arXiv.2603.29085",
+    "CorpusId": 286977481
+   },
+   "url": "https://www.semanticscholar.org/paper/fbe58b538aaa35745a60658a507c2f7fa23f0faa",
+   "title": "PAR2-RAG: Planned Active Retrieval and Reasoning for Multi-Hop Question Answering",
+   "venue": "Annual Meeting of the Association for Computational Linguistics",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2603.29085, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2326070995",
+     "name": "Xingyu Li"
+    },
+    {
+     "authorId": "2367179494",
+     "name": "Rong Wang"
+    },
+    {
+     "authorId": "2296223597",
+     "name": "Yuying Wang"
+    },
+    {
+     "authorId": "2365021671",
+     "name": "Meng-Hao Guo"
+    },
+    {
+     "authorId": "2327595117",
+     "name": "Chenyang Li"
+    },
+    {
+     "authorId": "2382921019",
+     "name": "Tao Sheng"
+    },
+    {
+     "authorId": "2382920680",
+     "name": "Sujith Ravi"
+    },
+    {
+     "authorId": "2382920413",
+     "name": "Dan Roth"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "d762a9571bdb5900a82f7fe968a5557b83568690",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2603-11266",
+    "ArXiv": "2603.11266",
+    "DOI": "10.48550/arXiv.2603.11266",
+    "CorpusId": 286488905
+   },
+   "url": "https://www.semanticscholar.org/paper/d762a9571bdb5900a82f7fe968a5557b83568690",
+   "title": "The Unlearning Mirage: A Dynamic Framework for Evaluating LLM Unlearning",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2603.11266, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2051264008",
+     "name": "Raj Sanjay Shah"
+    },
+    {
+     "authorId": "2273933762",
+     "name": "Jing Huang"
+    },
+    {
+     "authorId": "3377711",
+     "name": "K. Murugesan"
+    },
+    {
+     "authorId": "2284064162",
+     "name": "Nathalie Baracaldo"
+    },
+    {
+     "authorId": "2273911302",
+     "name": "Diyi Yang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "e67fc24c982bb5b52a98b15713b89c944888298a",
+   "externalIds": {
+    "ArXiv": "2603.05197",
+    "CorpusId": 286255880
+   },
+   "url": "https://www.semanticscholar.org/paper/e67fc24c982bb5b52a98b15713b89c944888298a",
+   "title": "Masked diffusion LLMs can use EoS tokens for hidden reasoning",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2603.05197, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2421966249",
+     "name": "Sarah Breckner"
+    },
+    {
+     "authorId": "2304326498",
+     "name": "Sebastian Schuster"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "e6e0c5f139e61db106081bd58f5858f834280f26",
+   "externalIds": {
+    "ArXiv": "2602.17993",
+    "DBLP": "journals/corr/abs-2602-17993",
+    "DOI": "10.48550/arXiv.2602.17993",
+    "CorpusId": 285872662
+   },
+   "url": "https://www.semanticscholar.org/paper/e6e0c5f139e61db106081bd58f5858f834280f26",
+   "title": "Turbo Connection: Reasoning as Information Flow from Higher to Lower Layers",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2602.17993, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2346807868",
+     "name": "Mohan Tang"
+    },
+    {
+     "authorId": "2399102539",
+     "name": "Sidi Lu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "d1b22560b4b3b4fee2bafef792611e5f6fac169a",
+   "externalIds": {
+    "ArXiv": "2602.08332",
+    "DBLP": "journals/corr/abs-2602-08332",
+    "DOI": "10.48550/arXiv.2602.08332",
+    "CorpusId": 285453553
+   },
+   "url": "https://www.semanticscholar.org/paper/d1b22560b4b3b4fee2bafef792611e5f6fac169a",
+   "title": "Latent Reasoning with Supervised Thinking States",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2602.08332, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2253657736",
+     "name": "Ido Amos"
+    },
+    {
+     "authorId": "2288816486",
+     "name": "Avi Caciularu"
+    },
+    {
+     "authorId": "22245981",
+     "name": "Mor Geva"
+    },
+    {
+     "authorId": "2261392157",
+     "name": "Amir Globerson"
+    },
+    {
+     "authorId": "2253566854",
+     "name": "Jonathan Herzig"
+    },
+    {
+     "authorId": "38274824",
+     "name": "Lior Shani"
+    },
+    {
+     "authorId": "1711977",
+     "name": "I. Szpektor"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "2aa6fe7b5fa2c7ad7411bd55e00a6801dd231810",
+   "externalIds": {
+    "DBLP": "conf/acl/LeporiLYF26",
+    "ArXiv": "2602.04212",
+    "DOI": "10.48550/arXiv.2602.04212",
+    "CorpusId": 285285519
+   },
+   "url": "https://www.semanticscholar.org/paper/2aa6fe7b5fa2c7ad7411bd55e00a6801dd231810",
+   "title": "Language Models Struggle to Use Representations Learned In-Context",
+   "venue": "Annual Meeting of the Association for Computational Linguistics",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2602.04212, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "91556719",
+     "name": "Michael A. Lepori"
+    },
+    {
+     "authorId": "51223875",
+     "name": "Tal Linzen"
+    },
+    {
+     "authorId": "2307076461",
+     "name": "Ann Yuan"
+    },
+    {
+     "authorId": "3017324",
+     "name": "Katja Filippova"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "c6950a24d510edcaac68cb8a8cda56cfd0045e52",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2602-00449",
+    "ArXiv": "2602.00449",
+    "DOI": "10.48550/arXiv.2602.00449",
+    "CorpusId": 285270033
+   },
+   "url": "https://www.semanticscholar.org/paper/c6950a24d510edcaac68cb8a8cda56cfd0045e52",
+   "title": "Do Latent-CoT Models Think Step-by-Step? A Mechanistic Study on Sequential Reasoning Tasks",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2602.00449, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2393401289",
+     "name": "Jian Liang"
+    },
+    {
+     "authorId": "2308643805",
+     "name": "Liang-Ming Pan"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "b0595b01b691edd3c345c824ed3f975d93301dc1",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2602-00770",
+    "ArXiv": "2602.00770",
+    "DOI": "10.48550/arXiv.2602.00770",
+    "CorpusId": 285270034
+   },
+   "url": "https://www.semanticscholar.org/paper/b0595b01b691edd3c345c824ed3f975d93301dc1",
+   "title": "Reasoning as State Transition: A Representational Analysis of Reasoning Evolution in Large Language Models",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2602.00770, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2297219349",
+     "name": "Si-Yuan Zhang"
+    },
+    {
+     "authorId": "47785961",
+     "name": "J. Li"
+    },
+    {
+     "authorId": "2243430472",
+     "name": "Yi-Chi Zhang"
+    },
+    {
+     "authorId": "2303914618",
+     "name": "Xiao Yang"
+    },
+    {
+     "authorId": "3431029",
+     "name": "Yinpeng Dong"
+    },
+    {
+     "authorId": "2267649469",
+     "name": "Hang Su"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "46feeb8d9299dfdb414701b15232e47416dac2d9",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2601-19847",
+    "ArXiv": "2601.19847",
+    "DOI": "10.48550/arXiv.2601.19847",
+    "CorpusId": 285071441
+   },
+   "url": "https://www.semanticscholar.org/paper/46feeb8d9299dfdb414701b15232e47416dac2d9",
+   "title": "Identifying and Transferring Reasoning-Critical Neurons: Improving LLM Inference Reliability via Activation Steering",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2601.19847, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2344865903",
+     "name": "Fang Dong"
+    },
+    {
+     "authorId": "2356478086",
+     "name": "Zu-Ming Yan"
+    },
+    {
+     "authorId": "1380224383",
+     "name": "Xuri Ge"
+    },
+    {
+     "authorId": "2380136566",
+     "name": "Zhi-Wei Xu"
+    },
+    {
+     "authorId": "48985110",
+     "name": "Mengqi Zhang"
+    },
+    {
+     "authorId": "49794910",
+     "name": "Xuanang Chen"
+    },
+    {
+     "authorId": "2304906129",
+     "name": "Ben He"
+    },
+    {
+     "authorId": "2294565066",
+     "name": "Xin Xin"
+    },
+    {
+     "authorId": "1721165",
+     "name": "Zhu-Min Chen"
+    },
+    {
+     "authorId": "2392439178",
+     "name": "Ying Zhou"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "54ddd515eba3e085025ec613027ab8b9444bd755",
+   "externalIds": {
+    "DBLP": "journals/csr/ZhangZWSWWYNDXYSLXSTLJX26",
+    "ArXiv": "2601.14004",
+    "DOI": "10.48550/arXiv.2601.14004",
+    "CorpusId": 284910048
+   },
+   "url": "https://www.semanticscholar.org/paper/54ddd515eba3e085025ec613027ab8b9444bd755",
+   "title": "Locate, Steer, and Improve: A Practical Survey of Actionable Mechanistic Interpretability in Large Language Models",
+   "venue": "Computer Science Review",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2601.14004, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2368453856",
+     "name": "Hengyuan Zhang"
+    },
+    {
+     "authorId": "2262654002",
+     "name": "Zhi-Hao Zhang"
+    },
+    {
+     "authorId": "2404097169",
+     "name": "Ming-Yang Wang"
+    },
+    {
+     "authorId": "2392806762",
+     "name": "Zun-Hai Su"
+    },
+    {
+     "authorId": "2346427018",
+     "name": "Yiwei Wang"
+    },
+    {
+     "authorId": "2257126685",
+     "name": "Qianli Wang"
+    },
+    {
+     "authorId": "2201687496",
+     "name": "Shuzhou Yuan"
+    },
+    {
+     "authorId": "2197254657",
+     "name": "Ercong Nie"
+    },
+    {
+     "authorId": "2301206224",
+     "name": "Xufeng Duan"
+    },
+    {
+     "authorId": "2202174378",
+     "name": "Fei-Jiang Han"
+    },
+    {
+     "authorId": "2372455149",
+     "name": "Qi Xue"
+    },
+    {
+     "authorId": "2263692531",
+     "name": "Zeping Yu"
+    },
+    {
+     "authorId": "1667793832",
+     "name": "Chenming Shang"
+    },
+    {
+     "authorId": "2395756687",
+     "name": "Xiao Liang"
+    },
+    {
+     "authorId": "2367581176",
+     "name": "Jingfei Xiong"
+    },
+    {
+     "authorId": "2365386330",
+     "name": "Hui Shen"
+    },
+    {
+     "authorId": "2290488386",
+     "name": "Chao-Fan Tao"
+    },
+    {
+     "authorId": "2347731611",
+     "name": "Zhengwu Liu"
+    },
+    {
+     "authorId": "2219131195",
+     "name": "Sen-Jie Jin"
+    },
+    {
+     "authorId": "2218237934",
+     "name": "Zhi-Heng Xi"
+    },
+    {
+     "authorId": "2370495036",
+     "name": "Dongdong Zhang"
+    },
+    {
+     "authorId": "2240623492",
+     "name": "Sophia Ananiadou"
+    },
+    {
+     "authorId": "2067331064",
+     "name": "Tao Gui"
+    },
+    {
+     "authorId": "2257007994",
+     "name": "Ruo-Bing Xie"
+    },
+    {
+     "authorId": "1710259",
+     "name": "Hayden Kwok-Hay So"
+    },
+    {
+     "authorId": "2130001188",
+     "name": "Hinrich Schutze"
+    },
+    {
+     "authorId": "2257129989",
+     "name": "Xuan-Jing Huang"
+    },
+    {
+     "authorId": "2406054182",
+     "name": "Qi Zhang"
+    },
+    {
+     "authorId": "2402729477",
+     "name": "Ngai Wong"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "711d95689035c3d9b2a8436878590047a91d5e87",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2601-08808",
+    "ArXiv": "2601.08808",
+    "DOI": "10.48550/arXiv.2601.08808",
+    "CorpusId": 284704982
+   },
+   "url": "https://www.semanticscholar.org/paper/711d95689035c3d9b2a8436878590047a91d5e87",
+   "title": "Multiplex Thinking: Reasoning via Token-wise Branch-and-Merge",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2601.08808, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2366139516",
+     "name": "Yao Tang"
+    },
+    {
+     "authorId": "2294850817",
+     "name": "Li Dong"
+    },
+    {
+     "authorId": "34128716",
+     "name": "Y. Hao"
+    },
+    {
+     "authorId": "2287927238",
+     "name": "Qingxiu Dong"
+    },
+    {
+     "authorId": "2323870436",
+     "name": "Fu-Ru Wei"
+    },
+    {
+     "authorId": "2287733778",
+     "name": "Jia-Tao Gu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "f3c558c99a703134493aa5e419b3262d35f02897",
+   "externalIds": {
+    "ArXiv": "2601.04600",
+    "DBLP": "journals/corr/abs-2601-04600",
+    "DOI": "10.48550/arXiv.2601.04600",
+    "CorpusId": 284544565
+   },
+   "url": "https://www.semanticscholar.org/paper/f3c558c99a703134493aa5e419b3262d35f02897",
+   "title": "On the Limitations of Rank-One Model Editing in Answering Multi-hop Questions",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2601.04600, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2396511618",
+     "name": "Zhiyuan He"
+    },
+    {
+     "authorId": "2292361370",
+     "name": "Binghan Chen"
+    },
+    {
+     "authorId": "2444523057",
+     "name": "Tian-Xiang Xiong"
+    },
+    {
+     "authorId": "2403221597",
+     "name": "Ziyang Sun"
+    },
+    {
+     "authorId": "2403264365",
+     "name": "Mozhao Zhu"
+    },
+    {
+     "authorId": "2277670590",
+     "name": "Xi Chen"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "82eda0fcb922cc9bf0cac280fcf2ff75b4a411f7",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2601-03542",
+    "ArXiv": "2601.03542",
+    "DOI": "10.48550/arXiv.2601.03542",
+    "CorpusId": 284532374
+   },
+   "url": "https://www.semanticscholar.org/paper/82eda0fcb922cc9bf0cac280fcf2ff75b4a411f7",
+   "title": "Layer-Order Inversion: Rethinking Latent Multi-Hop Reasoning in Large Language Models",
+   "venue": "arXiv.org",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2601.03542, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2311264635",
+     "name": "Xukai Liu"
+    },
+    {
+     "authorId": "2396477211",
+     "name": "Ye Liu"
+    },
+    {
+     "authorId": "2339983780",
+     "name": "Jipeng Zhang"
+    },
+    {
+     "authorId": "2213572352",
+     "name": "Yang-Hai Zhang"
+    },
+    {
+     "authorId": "2346045560",
+     "name": "Kai Zhang"
+    },
+    {
+     "authorId": "2311310468",
+     "name": "Qi Liu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "4af4f726ff6be4102c92b9a82d16b1fbb1d7e9cd",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2601-02996",
+    "ArXiv": "2601.02996",
+    "DOI": "10.48550/arXiv.2601.02996",
+    "CorpusId": 284512545
+   },
+   "url": "https://www.semanticscholar.org/paper/4af4f726ff6be4102c92b9a82d16b1fbb1d7e9cd",
+   "title": "Large Reasoning Models Are (Not Yet) Multilingual Latent Reasoners",
+   "venue": "Annual Meeting of the Association for Computational Linguistics",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2601.02996, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2107995084",
+     "name": "Yihong Liu"
+    },
+    {
+     "authorId": "2319817746",
+     "name": "Raoyuan Zhao"
+    },
+    {
+     "authorId": "2130001188",
+     "name": "Hinrich Schutze"
+    },
+    {
+     "authorId": "51133383",
+     "name": "Michael A. Hedderich"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "c63bf7fc6d60663f73501c4c41d3bb14ab86e8fe",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2512-03276",
+    "ArXiv": "2512.03276",
+    "DOI": "10.48550/arXiv.2512.03276",
+    "CorpusId": 283467194
+   },
+   "url": "https://www.semanticscholar.org/paper/c63bf7fc6d60663f73501c4c41d3bb14ab86e8fe",
+   "title": "Too Late to Recall: Explaining the Two-Hop Problem in Multimodal Knowledge Retrieval",
+   "venue": "Neural Information Processing Systems",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2512.03276, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2325150356",
+     "name": "Constantin Venhoff"
+    },
+    {
+     "authorId": "2285214499",
+     "name": "Ashkan Khakzar"
+    },
+    {
+     "authorId": "2367049008",
+     "name": "Sonia Joseph"
+    },
+    {
+     "authorId": "143635540",
+     "name": "P. Torr"
+    },
+    {
+     "authorId": "2367045798",
+     "name": "Neel Nanda"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ae5a1c51cb0cb5b0490e3e17403a2647a4d62faa",
+   "externalIds": {
+    "DBLP": "conf/kdd/LiZDDZ26",
+    "ArXiv": "2512.01113",
+    "DOI": "10.1145/3770854.3780253",
+    "CorpusId": 283449269
+   },
+   "url": "https://www.semanticscholar.org/paper/ae5a1c51cb0cb5b0490e3e17403a2647a4d62faa",
+   "title": "Efficiently Learning Branching Networks for Multitask Algorithmic Reasoning",
+   "venue": "Knowledge Discovery and Data Mining",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "https://doi.org/10.1145/3770854.3780253",
+    "status": "HYBRID",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2512.01113, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2115199173",
+     "name": "Dong-Yue Li"
+    },
+    {
+     "authorId": "2377642899",
+     "name": "Zhen-Shuo Zhang"
+    },
+    {
+     "authorId": "2392872457",
+     "name": "Min-Xuan Duan"
+    },
+    {
+     "authorId": "2408464820",
+     "name": "Edgar Dobriban"
+    },
+    {
+     "authorId": "2296245618",
+     "name": "Hong-Yan Zhang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "bb41ccf188995226111864c3f6ccc3aa518edeef",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2511-22891",
+    "ArXiv": "2511.22891",
+    "DOI": "10.48550/arXiv.2511.22891",
+    "CorpusId": 283438597
+   },
+   "url": "https://www.semanticscholar.org/paper/bb41ccf188995226111864c3f6ccc3aa518edeef",
+   "title": "ORION: Teaching Language Models to Reason Efficiently in the Language of Thought",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2511.22891, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2395538762",
+     "name": "K. Tanmay"
+    },
+    {
+     "authorId": "2292259353",
+     "name": "Kriti Aggarwal"
+    },
+    {
+     "authorId": "2347038445",
+     "name": "Paul Pu Liang"
+    },
+    {
+     "authorId": "2293143373",
+     "name": "Subhabrata Mukherjee"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "63c7128beba3ae161341ea83476cc516452ec550",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2511-20344",
+    "ArXiv": "2511.20344",
+    "DOI": "10.48550/arXiv.2511.20344",
+    "CorpusId": 283250771
+   },
+   "url": "https://www.semanticscholar.org/paper/63c7128beba3ae161341ea83476cc516452ec550",
+   "title": "The Curious Case of Analogies: Investigating Analogical Reasoning in Large Language Models",
+   "venue": "AAAI Conference on Artificial Intelligence",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2511.20344, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2294868533",
+     "name": "Taewhoo Lee"
+    },
+    {
+     "authorId": "2376162207",
+     "name": "Minju Song"
+    },
+    {
+     "authorId": "2284687462",
+     "name": "Chanwoong Yoon"
+    },
+    {
+     "authorId": "2326546675",
+     "name": "Jungwoo Park"
+    },
+    {
+     "authorId": "2281792202",
+     "name": "Jaewoo Kang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "f6955d3a63b5ed7116b9d66a147090ca2acde0aa",
+   "externalIds": {
+    "ArXiv": "2511.19418",
+    "DBLP": "journals/corr/abs-2511-19418",
+    "DOI": "10.48550/arXiv.2511.19418",
+    "CorpusId": 283244152
+   },
+   "url": "https://www.semanticscholar.org/paper/f6955d3a63b5ed7116b9d66a147090ca2acde0aa",
+   "title": "Chain-of-Visual-Thought: Teaching VLMs to See and Think Better with Continuous Visual Tokens",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2511.19418, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2265568131",
+     "name": "Yi-Ming Qin"
+    },
+    {
+     "authorId": "2394642601",
+     "name": "Bomin Wei"
+    },
+    {
+     "authorId": "2267492717",
+     "name": "Jia-Xin Ge"
+    },
+    {
+     "authorId": "2134886789",
+     "name": "Konstantinos Kallidromitis"
+    },
+    {
+     "authorId": "2323361069",
+     "name": "Stephanie Fu"
+    },
+    {
+     "authorId": "2327334625",
+     "name": "Trevor Darrell"
+    },
+    {
+     "authorId": "2276668087",
+     "name": "Xu-Dong Wang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "83f40d570374244371e2fac77d6fd80615fe731e",
+   "externalIds": {
+    "DBLP": "conf/emnlp/JiangYCLZ25",
+    "ArXiv": "2511.02219",
+    "DOI": "10.18653/v1/2025.findings-emnlp.169",
+    "CorpusId": 282748698
+   },
+   "url": "https://www.semanticscholar.org/paper/83f40d570374244371e2fac77d6fd80615fe731e",
+   "title": "TabDSR: Decompose, Sanitize, and Reason for Complex Numerical Reasoning in Tabular Data",
+   "venue": "Conference on Empirical Methods in Natural Language Processing",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "https://aclanthology.org/2025.findings-emnlp.169.pdf",
+    "status": "GOLD",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2511.02219, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2365270185",
+     "name": "Chang-Jiang Jiang"
+    },
+    {
+     "authorId": "2041127058",
+     "name": "Fengchang Yu"
+    },
+    {
+     "authorId": "2256237454",
+     "name": "Haihua Chen"
+    },
+    {
+     "authorId": "2254879209",
+     "name": "Wei Lu"
+    },
+    {
+     "authorId": "2339742913",
+     "name": "Jin Zeng"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "b7c71680f21bf5dd3c146d1511ec5220c5e3b50c",
+   "externalIds": {
+    "DBLP": "journals/frvir/SlaterDFGIKLLLNPPQRSSSW25",
+    "DOI": "10.3389/frvir.2025.1566419",
+    "CorpusId": 282425457
+   },
+   "url": "https://www.semanticscholar.org/paper/b7c71680f21bf5dd3c146d1511ec5220c5e3b50c",
+   "title": "A multidisciplinary approach to understanding the technology, opportunities, challenges, and implications for society of the metaverse",
+   "venue": "Frontiers Virtual Real.",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "https://doi.org/10.3389/frvir.2025.1566419",
+    "status": "GOLD",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3389/frvir.2025.1566419?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3389/frvir.2025.1566419, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2360539929",
+     "name": "Mel Slater"
+    },
+    {
+     "authorId": "2496325259",
+     "name": "Michele Di Dalmazi"
+    },
+    {
+     "authorId": "2291361514",
+     "name": "Doron Friedman"
+    },
+    {
+     "authorId": "2388237789",
+     "name": "Jessica Galissaire"
+    },
+    {
+     "authorId": "2085117804",
+     "name": "H. Isaac"
+    },
+    {
+     "authorId": "1712714",
+     "name": "Anna Kobusińska"
+    },
+    {
+     "authorId": "2388237579",
+     "name": "Aurelio Lopez-Tarruella-Martinez"
+    },
+    {
+     "authorId": "2315689092",
+     "name": "Lucio Lamberti"
+    },
+    {
+     "authorId": "2052982182",
+     "name": "Jean-François Lucas"
+    },
+    {
+     "authorId": "2319376225",
+     "name": "Omar Niamut"
+    },
+    {
+     "authorId": "2339730831",
+     "name": "Xueni Pan"
+    },
+    {
+     "authorId": "1735198",
+     "name": "Yannick Prié"
+    },
+    {
+     "authorId": "2094684348",
+     "name": "Matthias Quent"
+    },
+    {
+     "authorId": "2425550660",
+     "name": "R. R. Rodriguez"
+    },
+    {
+     "authorId": "2276565953",
+     "name": "Maria V. Sanchez-Vives"
+    },
+    {
+     "authorId": "1940667",
+     "name": "P. Skrzypczyński"
+    },
+    {
+     "authorId": "2286793519",
+     "name": "A. Steed"
+    },
+    {
+     "authorId": "1453651795",
+     "name": "Petter Wannerberg"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "72c82250b959bc1ae4fa8ed771b3f6587c6d0614",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2510-18632",
+    "ArXiv": "2510.18632",
+    "DOI": "10.48550/arXiv.2510.18632",
+    "CorpusId": 282246461
+   },
+   "url": "https://www.semanticscholar.org/paper/72c82250b959bc1ae4fa8ed771b3f6587c6d0614",
+   "title": "Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2510.18632, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2316523566",
+     "name": "Zhangquan Chen"
+    },
+    {
+     "authorId": "2386865313",
+     "name": "Man-Yuan Zhang"
+    },
+    {
+     "authorId": "2375282079",
+     "name": "Xin-Lei Yu"
+    },
+    {
+     "authorId": "13289447",
+     "name": "Xufang Luo"
+    },
+    {
+     "authorId": "2266170221",
+     "name": "Ming-Ze Sun"
+    },
+    {
+     "authorId": "2324850121",
+     "name": "Zihao Pan"
+    },
+    {
+     "authorId": "2054941340",
+     "name": "Xiang An"
+    },
+    {
+     "authorId": "2367375635",
+     "name": "Yan Feng"
+    },
+    {
+     "authorId": "2364686623",
+     "name": "Peng Pei"
+    },
+    {
+     "authorId": "2368485152",
+     "name": "Xunliang Cai"
+    },
+    {
+     "authorId": "2266000155",
+     "name": "Ru-Qi Huang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "90fc3212e16352835cf9e6e031680916c6fccf40",
+   "externalIds": {
+    "ArXiv": "2510.01685",
+    "DBLP": "journals/corr/abs-2510-01685",
+    "DOI": "10.48550/arXiv.2510.01685",
+    "CorpusId": 281724785
+   },
+   "url": "https://www.semanticscholar.org/paper/90fc3212e16352835cf9e6e031680916c6fccf40",
+   "title": "How Do Language Models Compose Functions?",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2510.01685, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "3139858",
+     "name": "Apoorv Khandelwal"
+    },
+    {
+     "authorId": "2260118854",
+     "name": "Ellie Pavlick"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "3350d224dec58c848401edca185c113c6cf381a1",
+   "externalIds": {
+    "DBLP": "journals/cacm/Edwards25d",
+    "DOI": "10.1145/3743165",
+    "CorpusId": 281481283
+   },
+   "url": "https://www.semanticscholar.org/paper/3350d224dec58c848401edca185c113c6cf381a1",
+   "title": "Language Models Wrestle with Gaps in Understanding",
+   "venue": "Communications of the ACM",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1145/3743165?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1145/3743165, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2280411544",
+     "name": "Chris Edwards"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "420b0d025b0d2f85bf0fa407457c6d835d53489f",
+   "externalIds": {
+    "ArXiv": "2509.09650",
+    "DBLP": "journals/corr/abs-2509-09650",
+    "DOI": "10.48550/arXiv.2509.09650",
+    "CorpusId": 281252830
+   },
+   "url": "https://www.semanticscholar.org/paper/420b0d025b0d2f85bf0fa407457c6d835d53489f",
+   "title": "All for One: LLMs Solve Mental Math at the Last Token With Information Transferred From Other Tokens",
+   "venue": "Conference on Empirical Methods in Natural Language Processing",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2509.09650, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2258958137",
+     "name": "Siddarth Mamidanna"
+    },
+    {
+     "authorId": "2203429265",
+     "name": "Daking Rai"
+    },
+    {
+     "authorId": "2307416803",
+     "name": "Zi-Yu Yao"
+    },
+    {
+     "authorId": "2307023535",
+     "name": "Yilun Zhou"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "47dacf70bf6f586ced03a6ad826f801b8213d7fd",
+   "externalIds": {
+    "ArXiv": "2508.16571",
+    "DBLP": "journals/corr/abs-2508-16571",
+    "DOI": "10.48550/arXiv.2508.16571",
+    "CorpusId": 280709087
+   },
+   "url": "https://www.semanticscholar.org/paper/47dacf70bf6f586ced03a6ad826f801b8213d7fd",
+   "title": "LLM-Based Agents for Competitive Landscape Mapping in Drug Asset Due Diligence",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2508.16571, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2376508823",
+     "name": "A. Vinogradova"
+    },
+    {
+     "authorId": "2307916069",
+     "name": "Vlad Vinogradov"
+    },
+    {
+     "authorId": "2376509173",
+     "name": "Dmitrii Radkevich"
+    },
+    {
+     "authorId": "2376508828",
+     "name": "Ilya Yasny"
+    },
+    {
+     "authorId": "2376508285",
+     "name": "Dmitry Kobyzev"
+    },
+    {
+     "authorId": "2307916749",
+     "name": "I. Izmailov"
+    },
+    {
+     "authorId": "2376509017",
+     "name": "Katsiaryna Yanchanka"
+    },
+    {
+     "authorId": "2377275415",
+     "name": "Roman Doronin"
+    },
+    {
+     "authorId": "2364228652",
+     "name": "A. Doronichev"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "7134bb1a6de5efffa03e492f2096942ac3da8a22",
+   "externalIds": {
+    "DBLP": "conf/aaai/ShiLWW26",
+    "ArXiv": "2508.11576",
+    "DOI": "10.48550/arXiv.2508.11576",
+    "CorpusId": 280671689
+   },
+   "url": "https://www.semanticscholar.org/paper/7134bb1a6de5efffa03e492f2096942ac3da8a22",
+   "title": "Causality Matters: How Temporal Information Emerges in Video Language Models",
+   "venue": "AAAI Conference on Artificial Intelligence",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2508.11576, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2358976527",
+     "name": "Yu-Meng Shi"
+    },
+    {
+     "authorId": "1500525090",
+     "name": "Quan-Yu Long"
+    },
+    {
+     "authorId": "2296462772",
+     "name": "Yin Wu"
+    },
+    {
+     "authorId": "2329321386",
+     "name": "Wen-Ya Wang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "1649e2baad47016580e8eccfb59fe3c657cf1036",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2508-11017",
+    "ArXiv": "2508.11017",
+    "DOI": "10.48550/arXiv.2508.11017",
+    "CorpusId": 280671581
+   },
+   "url": "https://www.semanticscholar.org/paper/1649e2baad47016580e8eccfb59fe3c657cf1036",
+   "title": "Beyond the Rosetta Stone: Unification Forces in Generalization Dynamics",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2508.11017, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "150053194",
+     "name": "C. Blum"
+    },
+    {
+     "authorId": "2334572257",
+     "name": "Katja Filippova"
+    },
+    {
+     "authorId": "2307076461",
+     "name": "Ann Yuan"
+    },
+    {
+     "authorId": "2270681948",
+     "name": "Asma Ghandeharioun"
+    },
+    {
+     "authorId": "2365037148",
+     "name": "Julian Zimmert"
+    },
+    {
+     "authorId": "2298858676",
+     "name": "Fred Zhang"
+    },
+    {
+     "authorId": "2282530111",
+     "name": "Jessica Hoffmann"
+    },
+    {
+     "authorId": "51223875",
+     "name": "Tal Linzen"
+    },
+    {
+     "authorId": "2237803620",
+     "name": "Martin Wattenberg"
+    },
+    {
+     "authorId": "2270074412",
+     "name": "Lucas Dixon"
+    },
+    {
+     "authorId": "22245981",
+     "name": "Mor Geva"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "5bfc2c49b1de9b911ec0a127ce2874b7b2aa2d8e",
+   "externalIds": {
+    "DBLP": "conf/aaai/ZhengXLGWF26",
+    "ArXiv": "2508.05129",
+    "DOI": "10.48550/arXiv.2508.05129",
+    "CorpusId": 280546560
+   },
+   "url": "https://www.semanticscholar.org/paper/5bfc2c49b1de9b911ec0a127ce2874b7b2aa2d8e",
+   "title": "Navigating Through Paper Flood: Advancing LLM-based Paper Evaluation through Domain-Aware Retrieval and Latent Reasoning",
+   "venue": "AAAI Conference on Artificial Intelligence",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2508.05129, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2357234851",
+     "name": "Wuqiang Zheng"
+    },
+    {
+     "authorId": "2279662165",
+     "name": "Yi-Yan Xu"
+    },
+    {
+     "authorId": "2192203811",
+     "name": "Xin-Yu Lin"
+    },
+    {
+     "authorId": "2265123543",
+     "name": "Chong-Ming Gao"
+    },
+    {
+     "authorId": "2117833732",
+     "name": "Wenjie Wang"
+    },
+    {
+     "authorId": "2280911299",
+     "name": "Fu-Li Feng"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "c2475513585f38f7043c4eeecad3967a881d6248",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2507-08567",
+    "ArXiv": "2507.08567",
+    "DOI": "10.48550/arXiv.2507.08567",
+    "CorpusId": 280293934
+   },
+   "url": "https://www.semanticscholar.org/paper/c2475513585f38f7043c4eeecad3967a881d6248",
+   "title": "AbbIE: Autoregressive Block-Based Iterative Encoder for Efficient Sequence Modeling",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2507.08567, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2302153111",
+     "name": "Preslav Aleksandrov"
+    },
+    {
+     "authorId": "151499040",
+     "name": "Meghdad Kurmanji"
+    },
+    {
+     "authorId": null,
+     "name": "Fernando Garcia Redondo"
+    },
+    {
+     "authorId": "2056422840",
+     "name": "D. O'Shea"
+    },
+    {
+     "authorId": "2302373311",
+     "name": "William F. Shen"
+    },
+    {
+     "authorId": "9074987",
+     "name": "Alexandru Iacob"
+    },
+    {
+     "authorId": "2220964236",
+     "name": "Lorenzo Sani"
+    },
+    {
+     "authorId": "1702997626",
+     "name": "Xin-Chi Qiu"
+    },
+    {
+     "authorId": "2313189467",
+     "name": "Nicola Cancedda"
+    },
+    {
+     "authorId": "2298756346",
+     "name": "N. Lane"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "0ba7e537a1728d6b40d9ff16105f6207900fbb01",
+   "externalIds": {
+    "ArXiv": "2507.06203",
+    "DBLP": "journals/corr/abs-2507-06203",
+    "DOI": "10.48550/arXiv.2507.06203",
+    "CorpusId": 280148411
+   },
+   "url": "https://www.semanticscholar.org/paper/0ba7e537a1728d6b40d9ff16105f6207900fbb01",
+   "title": "A Survey on Latent Reasoning",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2507.06203, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2303806694",
+     "name": "Ruiming Zhu"
+    },
+    {
+     "authorId": "2367741262",
+     "name": "Tian-Hao Peng"
+    },
+    {
+     "authorId": "2330153728",
+     "name": "Tianhao Cheng"
+    },
+    {
+     "authorId": "2239104064",
+     "name": "Xing-Wei Qu"
+    },
+    {
+     "authorId": "2473251338",
+     "name": "Jin-Fa Huang"
+    },
+    {
+     "authorId": "2308000644",
+     "name": "Da-Wei Zhu"
+    },
+    {
+     "authorId": "2328804910",
+     "name": "Hao Wang"
+    },
+    {
+     "authorId": "2054220757",
+     "name": "Kaiwen Xue"
+    },
+    {
+     "authorId": "2373185060",
+     "name": "Xuanliang Zhang"
+    },
+    {
+     "authorId": "2465596398",
+     "name": "Shan Yong"
+    },
+    {
+     "authorId": "2372511995",
+     "name": "Tian-Le Cai"
+    },
+    {
+     "authorId": "2348097823",
+     "name": "Taylor Kergan"
+    },
+    {
+     "authorId": "2326989492",
+     "name": "Assel Kembay"
+    },
+    {
+     "authorId": "2373073007",
+     "name": "Andrew K Smith"
+    },
+    {
+     "authorId": "2279451646",
+     "name": "Cheng-Hua Lin"
+    },
+    {
+     "authorId": "2368641908",
+     "name": "Binh Nguyen"
+    },
+    {
+     "authorId": "2332050325",
+     "name": "Yu-Qi Pan"
+    },
+    {
+     "authorId": "2224469593",
+     "name": "Yuhong Chou"
+    },
+    {
+     "authorId": "2117632647",
+     "name": "Ze-Fan Cai"
+    },
+    {
+     "authorId": "2214306761",
+     "name": "Zhenhe Wu"
+    },
+    {
+     "authorId": "2345960330",
+     "name": "Yong-Chi Zhao"
+    },
+    {
+     "authorId": "2367795493",
+     "name": "Tian-Yu Liu"
+    },
+    {
+     "authorId": "2327704112",
+     "name": "Jian Yang"
+    },
+    {
+     "authorId": "2284803168",
+     "name": "Wangchunshu Zhou"
+    },
+    {
+     "authorId": "2374103742",
+     "name": "Chujie Zheng"
+    },
+    {
+     "authorId": "2372328241",
+     "name": "Chongxuan Li"
+    },
+    {
+     "authorId": "2344789932",
+     "name": "Yuyin Zhou"
+    },
+    {
+     "authorId": "2258837278",
+     "name": "Zhou-Jun Li"
+    },
+    {
+     "authorId": "2322607797",
+     "name": "Zhao-Xiang Zhang"
+    },
+    {
+     "authorId": "2346051109",
+     "name": "Jia-Heng Liu"
+    },
+    {
+     "authorId": "2372768602",
+     "name": "Ge Zhang"
+    },
+    {
+     "authorId": "2239245627",
+     "name": "Wen-Hao Huang"
+    },
+    {
+     "authorId": "2313096073",
+     "name": "Jason K. Eshraghian"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ec6b5da1eb1228feb182eb9163c97431b7bfc1d3",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2507-04782",
+    "ArXiv": "2507.04782",
+    "DOI": "10.48550/arXiv.2507.04782",
+    "CorpusId": 280135404
+   },
+   "url": "https://www.semanticscholar.org/paper/ec6b5da1eb1228feb182eb9163c97431b7bfc1d3",
+   "title": "Reason to Rote: Rethinking Memorization in Reasoning",
+   "venue": "Conference on Empirical Methods in Natural Language Processing",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2507.04782, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2363574845",
+     "name": "Yu-Pei Du"
+    },
+    {
+     "authorId": "2286310256",
+     "name": "Philipp Mondorf"
+    },
+    {
+     "authorId": "2367272192",
+     "name": "Silvia Casola"
+    },
+    {
+     "authorId": "1733485928",
+     "name": "Yue-Kun Yao"
+    },
+    {
+     "authorId": "46249177",
+     "name": "Robert Litschko"
+    },
+    {
+     "authorId": "2282535169",
+     "name": "Barbara Plank"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "b36c3b79d678805b74025497bf3abc6cbe0ee1eb",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2506-17218",
+    "ArXiv": "2506.17218",
+    "DOI": "10.48550/arXiv.2506.17218",
+    "CorpusId": 279464966
+   },
+   "url": "https://www.semanticscholar.org/paper/b36c3b79d678805b74025497bf3abc6cbe0ee1eb",
+   "title": "Machine Mental Imagery: Empower Multimodal Reasoning with Latent Visual Tokens",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2506.17218, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2298928657",
+     "name": "Ze-Yuan Yang"
+    },
+    {
+     "authorId": "2335618560",
+     "name": "Xueyang Yu"
+    },
+    {
+     "authorId": "2365253463",
+     "name": "Delin Chen"
+    },
+    {
+     "authorId": "2328679661",
+     "name": "Maohao Shen"
+    },
+    {
+     "authorId": "2335558975",
+     "name": "Chuang Gan"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "b574cc08a3375f99bf622ecc13462616082671b4",
+   "externalIds": {
+    "ArXiv": "2506.15732",
+    "CorpusId": 279464170
+   },
+   "url": "https://www.semanticscholar.org/paper/b574cc08a3375f99bf622ecc13462616082671b4",
+   "title": "Can LLMs Reconcile Knowledge Conflicts in Counterfactual Reasoning",
+   "venue": "",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2506.15732, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2172986421",
+     "name": "K. Yamin"
+    },
+    {
+     "authorId": "2328412625",
+     "name": "Gaurav R. Ghosal"
+    },
+    {
+     "authorId": "2326994150",
+     "name": "Bryan Wilder"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "99bed165d7d47de906bbd7c536d615983c3dc986",
+   "externalIds": {
+    "ArXiv": "2506.10887",
+    "DBLP": "journals/corr/abs-2506-10887",
+    "DOI": "10.48550/arXiv.2506.10887",
+    "CorpusId": 279318476
+   },
+   "url": "https://www.semanticscholar.org/paper/99bed165d7d47de906bbd7c536d615983c3dc986",
+   "title": "Generalization or Hallucination? Understanding Out-of-Context Reasoning in Transformers",
+   "venue": "Neural Information Processing Systems",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2506.10887, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2363676468",
+     "name": "Yi-Xiao Huang"
+    },
+    {
+     "authorId": "2254086052",
+     "name": "Han-Lin Zhu"
+    },
+    {
+     "authorId": "2298594403",
+     "name": "Tian-Yu Guo"
+    },
+    {
+     "authorId": "2258657022",
+     "name": "Jian-Tao Jiao"
+    },
+    {
+     "authorId": "2363570697",
+     "name": "Somayeh Sojoudi"
+    },
+    {
+     "authorId": "2273930444",
+     "name": "Michael I. Jordan"
+    },
+    {
+     "authorId": "2261660012",
+     "name": "Stuart Russell"
+    },
+    {
+     "authorId": "2347037130",
+     "name": "Song Mei"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "cb776094a231ec695f0762c116c40a041ec79e92",
+   "externalIds": {
+    "ArXiv": "2506.09277",
+    "CorpusId": 279306087
+   },
+   "url": "https://www.semanticscholar.org/paper/cb776094a231ec695f0762c116c40a041ec79e92",
+   "title": "NeuroFaith: Evaluating LLM Self-Explanation Faithfulness via Internal Representation Alignment",
+   "venue": "",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2506.09277, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2212794108",
+     "name": "Milan Bhan"
+    },
+    {
+     "authorId": "2332925899",
+     "name": "Jean-Noël Vittaut"
+    },
+    {
+     "authorId": "21265854",
+     "name": "N. Chesneau"
+    },
+    {
+     "authorId": "123607932",
+     "name": "Sarath Chandar"
+    },
+    {
+     "authorId": "2248313328",
+     "name": "Marie-Jeanne Lesot"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "0311c49963ff756256bf1ac4363bf89b9314b13b",
+   "externalIds": {
+    "ArXiv": "2506.09047",
+    "DBLP": "journals/corr/abs-2506-09047",
+    "DOI": "10.48550/arXiv.2506.09047",
+    "CorpusId": 279260817
+   },
+   "url": "https://www.semanticscholar.org/paper/0311c49963ff756256bf1ac4363bf89b9314b13b",
+   "title": "Same Task, Different Circuits: Disentangling Modality-Specific Mechanisms in VLMs",
+   "venue": "Neural Information Processing Systems",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2506.09047, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2191617821",
+     "name": "Yaniv Nikankin"
+    },
+    {
+     "authorId": "2290800163",
+     "name": "Dana Arad"
+    },
+    {
+     "authorId": "52164591",
+     "name": "Yossi Gandelsman"
+    },
+    {
+     "authorId": "2346327043",
+     "name": "Yonatan Belinkov"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "8343b21520c5d048422b936b2b75156fa8f767bf",
+   "externalIds": {
+    "DBLP": "conf/asru/YangHLL25",
+    "ArXiv": "2506.05140",
+    "DOI": "10.1109/ASRU65441.2025.11434723",
+    "CorpusId": 279243928
+   },
+   "url": "https://www.semanticscholar.org/paper/8343b21520c5d048422b936b2b75156fa8f767bf",
+   "title": "AudioLens: A Closer Look at Auditory Attribute Perception of Large Audio-Language Models",
+   "venue": "Automatic Speech Recognition & Understanding",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": "CLOSED",
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2506.05140, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2253813730",
+     "name": "Chih-Kai Yang"
+    },
+    {
+     "authorId": "2362507119",
+     "name": "Neo Ho"
+    },
+    {
+     "authorId": "2292058019",
+     "name": "Yiseul Lee"
+    },
+    {
+     "authorId": "2362424420",
+     "name": "Hung-Yi Lee"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ffd34530068bb0ea9bd9d0822c9cd1d50d1882fc",
+   "externalIds": {
+    "DBLP": "conf/acl/BuiPGSW25",
+    "ArXiv": "2506.02591",
+    "DOI": "10.48550/arXiv.2506.02591",
+    "CorpusId": 279119309
+   },
+   "url": "https://www.semanticscholar.org/paper/ffd34530068bb0ea9bd9d0822c9cd1d50d1882fc",
+   "title": "On Generalization across Measurement Systems: LLMs Entail More Test-Time Compute for Underrepresented Cultures",
+   "venue": "Annual Meeting of the Association for Computational Linguistics",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2506.02591, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2298964521",
+     "name": "M. Bui"
+    },
+    {
+     "authorId": "2311205716",
+     "name": "K. Park"
+    },
+    {
+     "authorId": "2257300406",
+     "name": "Goran Glavaš"
+    },
+    {
+     "authorId": "2067934339",
+     "name": "Fabian David Schmidt"
+    },
+    {
+     "authorId": "2258714315",
+     "name": "Katharina von der Wense"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "c55786d3aeee83b745b018163c07c30c0bb99a27",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2505-24225",
+    "ArXiv": "2505.24225",
+    "DOI": "10.48550/arXiv.2505.24225",
+    "CorpusId": 279071145
+   },
+   "url": "https://www.semanticscholar.org/paper/c55786d3aeee83b745b018163c07c30c0bb99a27",
+   "title": "Reasoning Can Hurt the Inductive Abilities of Large Language Models",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2505.24225, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2304364004",
+     "name": "Hai-Bo Jin"
+    },
+    {
+     "authorId": "2268429760",
+     "name": "Pei-Yan Zhang"
+    },
+    {
+     "authorId": "2334355360",
+     "name": "Man Luo"
+    },
+    {
+     "authorId": "2256769308",
+     "name": "Hao-Han Wang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "db992489e1a21da824aabb97286cb125d3cc794d",
+   "externalIds": {
+    "DBLP": "conf/nips/YeYHPLBXLCHL25",
+    "ArXiv": "2505.23653",
+    "DOI": "10.52202/085713-2208",
+    "CorpusId": 278996286
+   },
+   "url": "https://www.semanticscholar.org/paper/db992489e1a21da824aabb97286cb125d3cc794d",
+   "title": "How do Transformers Learn Implicit Reasoning?",
+   "venue": "Neural Information Processing Systems",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "https://arxiv.org/pdf/2505.23653",
+    "status": "GREEN",
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2505.23653, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2364144192",
+     "name": "Jia-Ran Ye"
+    },
+    {
+     "authorId": "2273946831",
+     "name": "Zi-Jun Yao"
+    },
+    {
+     "authorId": "2234629967",
+     "name": "Zhidian Huang"
+    },
+    {
+     "authorId": "2308643805",
+     "name": "Liang-Ming Pan"
+    },
+    {
+     "authorId": "2327002994",
+     "name": "Jinxin Liu"
+    },
+    {
+     "authorId": "2141377570",
+     "name": "Yushi Bai"
+    },
+    {
+     "authorId": "2220101512",
+     "name": "Amy Xin"
+    },
+    {
+     "authorId": "2308556832",
+     "name": "Wei-Chuan Liu"
+    },
+    {
+     "authorId": "2352280631",
+     "name": "Xiaoyin Che"
+    },
+    {
+     "authorId": "2284777109",
+     "name": "Lei Hou"
+    },
+    {
+     "authorId": "2294164848",
+     "name": "Juan-Zi Li"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "59a30ea323f3f11765c55b6db50105e1c4bf9d98",
+   "externalIds": {
+    "ArXiv": "2505.20674",
+    "DBLP": "journals/corr/abs-2505-20674",
+    "DOI": "10.48550/arXiv.2505.20674",
+    "CorpusId": 278912224
+   },
+   "url": "https://www.semanticscholar.org/paper/59a30ea323f3f11765c55b6db50105e1c4bf9d98",
+   "title": "Pretraining Language Models to Ponder in Continuous Space",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2505.20674, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2272843041",
+     "name": "Boyi Zeng"
+    },
+    {
+     "authorId": "2363672366",
+     "name": "Shixiang Song"
+    },
+    {
+     "authorId": "2257132447",
+     "name": "Siyuan Huang"
+    },
+    {
+     "authorId": "2358508797",
+     "name": "Yixuan Wang"
+    },
+    {
+     "authorId": "2363741783",
+     "name": "H. Li"
+    },
+    {
+     "authorId": "2165399443",
+     "name": "Ziwei He"
+    },
+    {
+     "authorId": "2363687606",
+     "name": "Xinbing Wang"
+    },
+    {
+     "authorId": "2363618071",
+     "name": "Zhi-Yu Li"
+    },
+    {
+     "authorId": "2257801558",
+     "name": "Zhouhan Lin"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "da924145e0e7323e559b8c9e964e5acf0dd3aeff",
+   "externalIds": {
+    "ArXiv": "2505.18454",
+    "DBLP": "journals/corr/abs-2505-18454",
+    "DOI": "10.48550/arXiv.2505.18454",
+    "CorpusId": 278905447
+   },
+   "url": "https://www.semanticscholar.org/paper/da924145e0e7323e559b8c9e964e5acf0dd3aeff",
+   "title": "Hybrid Latent Reasoning via Reinforcement Learning",
+   "venue": "Neural Information Processing Systems",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2505.18454, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2028213158",
+     "name": "Zhenrui Yue"
+    },
+    {
+     "authorId": "2057050247",
+     "name": "Bowen Jin"
+    },
+    {
+     "authorId": "2113559163",
+     "name": "Hui-Min Zeng"
+    },
+    {
+     "authorId": "39371343",
+     "name": "Honglei Zhuang"
+    },
+    {
+     "authorId": "2357239322",
+     "name": "Zhen Qin"
+    },
+    {
+     "authorId": "2334322732",
+     "name": "Jinsung Yoon"
+    },
+    {
+     "authorId": "65855502",
+     "name": "Lanyu Shang"
+    },
+    {
+     "authorId": "2257136881",
+     "name": "Jiawei Han"
+    },
+    {
+     "authorId": "2325158655",
+     "name": "Dong Wang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "35e9c8a22e836e019ed023d07b714d7379acb9b3",
+   "externalIds": {
+    "ArXiv": "2505.17923",
+    "DBLP": "conf/emnlp/YaoDZHK25",
+    "DOI": "10.48550/arXiv.2505.17923",
+    "CorpusId": 278886877
+   },
+   "url": "https://www.semanticscholar.org/paper/35e9c8a22e836e019ed023d07b714d7379acb9b3",
+   "title": "Language models can learn implicit multi-hop reasoning, but only if they have lots of training data",
+   "venue": "Conference on Empirical Methods in Natural Language Processing",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2505.17923, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "1733485928",
+     "name": "Yue-Kun Yao"
+    },
+    {
+     "authorId": "2363574845",
+     "name": "Yu-Pei Du"
+    },
+    {
+     "authorId": "2308000644",
+     "name": "Da-Wei Zhu"
+    },
+    {
+     "authorId": "2367193829",
+     "name": "Michael Hahn"
+    },
+    {
+     "authorId": "2261362941",
+     "name": "Alexander Koller"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "5a96bfbae6ea33b0f108604436bc33b144f36ad0",
+   "externalIds": {
+    "ArXiv": "2505.15778",
+    "DBLP": "journals/corr/abs-2505-15778",
+    "DOI": "10.48550/arXiv.2505.15778",
+    "CorpusId": 278782290
+   },
+   "url": "https://www.semanticscholar.org/paper/5a96bfbae6ea33b0f108604436bc33b144f36ad0",
+   "title": "Soft Thinking: Unlocking the Reasoning Potential of LLMs in Continuous Concept Space",
+   "venue": "Neural Information Processing Systems",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2505.15778, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2170500945",
+     "name": "Zhen Zhang"
+    },
+    {
+     "authorId": "2336919480",
+     "name": "Xuehai He"
+    },
+    {
+     "authorId": "2363518715",
+     "name": "Weixiang Yan"
+    },
+    {
+     "authorId": "2282594075",
+     "name": "Ao Shen"
+    },
+    {
+     "authorId": "2330146394",
+     "name": "Chen-Yang Zhao"
+    },
+    {
+     "authorId": "2287785375",
+     "name": "Shuohang Wang"
+    },
+    {
+     "authorId": "2324671790",
+     "name": "Yelong Shen"
+    },
+    {
+     "authorId": "2300489334",
+     "name": "X. Wang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "b3b37ee568015ec5eb85369d1d3ccb1647bdc962",
+   "externalIds": {
+    "ArXiv": "2505.15957",
+    "DBLP": "journals/corr/abs-2505-15957",
+    "DOI": "10.48550/arXiv.2505.15957",
+    "CorpusId": 278789464
+   },
+   "url": "https://www.semanticscholar.org/paper/b3b37ee568015ec5eb85369d1d3ccb1647bdc962",
+   "title": "Towards Holistic Evaluation of Large Audio-Language Models: A Comprehensive Survey",
+   "venue": "Conference on Empirical Methods in Natural Language Processing",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2505.15957, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2253813730",
+     "name": "Chih-Kai Yang"
+    },
+    {
+     "authorId": "2362507119",
+     "name": "Neo Ho"
+    },
+    {
+     "authorId": "2362424420",
+     "name": "Hung-Yi Lee"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "81fdc5587297417efb86f8c389f725bdd9adeb12",
+   "externalIds": {
+    "ArXiv": "2505.14530",
+    "DBLP": "conf/emnlp/YangLXH25",
+    "DOI": "10.48550/arXiv.2505.14530",
+    "CorpusId": 278769331
+   },
+   "url": "https://www.semanticscholar.org/paper/81fdc5587297417efb86f8c389f725bdd9adeb12",
+   "title": "Internal Chain-of-Thought: Empirical Evidence for Layer-wise Subtask Scheduling in LLMs",
+   "venue": "Conference on Empirical Methods in Natural Language Processing",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2505.14530, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2303355401",
+     "name": "Zhipeng Yang"
+    },
+    {
+     "authorId": "2346330086",
+     "name": "Jun-Zhuo Li"
+    },
+    {
+     "authorId": "2379984634",
+     "name": "Si-Yu Xia"
+    },
+    {
+     "authorId": "2362614095",
+     "name": "Xuming Hu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "84fda45cc43549c435bbd128daf182f2270b27b0",
+   "externalIds": {
+    "ArXiv": "2505.13237",
+    "DBLP": "conf/interspeech/YangHPL25",
+    "DOI": "10.48550/arXiv.2505.13237",
+    "CorpusId": 278768871
+   },
+   "url": "https://www.semanticscholar.org/paper/84fda45cc43549c435bbd128daf182f2270b27b0",
+   "title": "SAKURA: On the Multi-hop Reasoning of Large Audio-Language Models Based on Speech and Audio Information",
+   "venue": "Interspeech",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2505.13237, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2253813730",
+     "name": "Chih-Kai Yang"
+    },
+    {
+     "authorId": "2362507119",
+     "name": "Neo Ho"
+    },
+    {
+     "authorId": "2362501797",
+     "name": "Yen-Ting Piao"
+    },
+    {
+     "authorId": "2362424420",
+     "name": "Hung-Yi Lee"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "7eff4b2622543bedd333c758830e6ab60991884e",
+   "externalIds": {
+    "ArXiv": "2504.14107",
+    "CorpusId": 277956010
+   },
+   "url": "https://www.semanticscholar.org/paper/7eff4b2622543bedd333c758830e6ab60991884e",
+   "title": "Signatures of human-like processing in Transformer forward passes",
+   "venue": "",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2504.14107, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2356561161",
+     "name": "Jennifer Hu"
+    },
+    {
+     "authorId": "91556719",
+     "name": "Michael A. Lepori"
+    },
+    {
+     "authorId": "2357284152",
+     "name": "Michael Franke"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "a1e181037c6f5c00369e6d03e21b7be9c6433872",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2504-06823",
+    "ArXiv": "2504.06823",
+    "DOI": "10.48550/arXiv.2504.06823",
+    "CorpusId": 277634005
+   },
+   "url": "https://www.semanticscholar.org/paper/a1e181037c6f5c00369e6d03e21b7be9c6433872",
+   "title": "Open Problems and a Hypothetical Path Forward in LLM Knowledge Paradigms",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2504.06823, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2286432237",
+     "name": "Xiaotian Ye"
+    },
+    {
+     "authorId": "48985110",
+     "name": "Mengqi Zhang"
+    },
+    {
+     "authorId": "2306117278",
+     "name": "Shu Wu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "c82c424996c51b5b3f7e589c71cea408793efcc0",
+   "externalIds": {
+    "ArXiv": "2504.02671",
+    "DBLP": "journals/corr/abs-2504-02671",
+    "DOI": "10.48550/arXiv.2504.02671",
+    "CorpusId": 277510206
+   },
+   "url": "https://www.semanticscholar.org/paper/c82c424996c51b5b3f7e589c71cea408793efcc0",
+   "title": "LLM for Complex Reasoning Task: An Exploratory Study in Fermi Problems",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2504.02671, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2353805084",
+     "name": "Zi-Shuo Liu"
+    },
+    {
+     "authorId": "2353373389",
+     "name": "C. Villarreal"
+    },
+    {
+     "authorId": "2264163226",
+     "name": "Mostafa Rahgouy"
+    },
+    {
+     "authorId": "2374424400",
+     "name": "Amit Das"
+    },
+    {
+     "authorId": "2264121393",
+     "name": "Zheng Zhang"
+    },
+    {
+     "authorId": "2397445132",
+     "name": "Chang Ren"
+    },
+    {
+     "authorId": "2283180499",
+     "name": "Dongji Feng"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "f28216c5acfdf7e5d9bbd4757319360dd18306e9",
+   "externalIds": {
+    "ArXiv": "2503.23084",
+    "DBLP": "journals/corr/abs-2503-23084",
+    "DOI": "10.48550/arXiv.2503.23084",
+    "CorpusId": 277451917
+   },
+   "url": "https://www.semanticscholar.org/paper/f28216c5acfdf7e5d9bbd4757319360dd18306e9",
+   "title": "The Reasoning-Memorization Interplay in Language Models Is Mediated by a Single Direction",
+   "venue": "Annual Meeting of the Association for Computational Linguistics",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2503.23084, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2306946364",
+     "name": "Yi-Huai Hong"
+    },
+    {
+     "authorId": "2116899974",
+     "name": "Diana Zhou"
+    },
+    {
+     "authorId": "2267336189",
+     "name": "Meng Cao"
+    },
+    {
+     "authorId": "2306950395",
+     "name": "Lei Yu"
+    },
+    {
+     "authorId": "2353213835",
+     "name": "Zhijing Jin"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "7a335bc70fed77651be02223239d952fc58f080f",
+   "externalIds": {
+    "ArXiv": "2503.21614",
+    "DBLP": "journals/corr/abs-2503-21614",
+    "DOI": "10.48550/arXiv.2503.21614",
+    "CorpusId": 277349297
+   },
+   "url": "https://www.semanticscholar.org/paper/7a335bc70fed77651be02223239d952fc58f080f",
+   "title": "A Survey of Efficient Reasoning for Large Reasoning Models: Language, Multimodality, and Beyond",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2503.21614, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2262446609",
+     "name": "Xiao-Ye Qu"
+    },
+    {
+     "authorId": "2110450452",
+     "name": "Yafu Li"
+    },
+    {
+     "authorId": "2720303",
+     "name": "Zhao-yu Su"
+    },
+    {
+     "authorId": "2225238340",
+     "name": "Wei-Gao Sun"
+    },
+    {
+     "authorId": "134233854",
+     "name": "Jianhao Yan"
+    },
+    {
+     "authorId": "2152508904",
+     "name": "Dong-Rui Liu"
+    },
+    {
+     "authorId": "52297757",
+     "name": "Ganqu Cui"
+    },
+    {
+     "authorId": "2352623440",
+     "name": "Dai-Zong Liu"
+    },
+    {
+     "authorId": "2352416667",
+     "name": "Shu-Xian Liang"
+    },
+    {
+     "authorId": "2275304144",
+     "name": "Junxian He"
+    },
+    {
+     "authorId": "2420142465",
+     "name": "Peng Li"
+    },
+    {
+     "authorId": "2284721764",
+     "name": "Wei Wei"
+    },
+    {
+     "authorId": "2326115911",
+     "name": "Jing Shao"
+    },
+    {
+     "authorId": "2336246821",
+     "name": "Chaochao Lu"
+    },
+    {
+     "authorId": "2239161494",
+     "name": "Yue Zhang"
+    },
+    {
+     "authorId": "2352275643",
+     "name": "Xian-Sheng Hua"
+    },
+    {
+     "authorId": "2336952845",
+     "name": "Bowen Zhou"
+    },
+    {
+     "authorId": "2484752068",
+     "name": "Yu Cheng"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "9612f21153f328bbe2d3a293d37e836e1a7b4cec",
+   "externalIds": {
+    "ArXiv": "2503.16356",
+    "DBLP": "conf/emnlp/YaoFGZDCP25",
+    "DOI": "10.48550/arXiv.2503.16356",
+    "CorpusId": 277151058
+   },
+   "url": "https://www.semanticscholar.org/paper/9612f21153f328bbe2d3a293d37e836e1a7b4cec",
+   "title": "CaKE: Circuit-aware Editing Enables Generalizable Knowledge Learners",
+   "venue": "Conference on Empirical Methods in Natural Language Processing",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2503.16356, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "4841460",
+     "name": "Yunzhi Yao"
+    },
+    {
+     "authorId": "2320298005",
+     "name": "Jizhan Fang"
+    },
+    {
+     "authorId": "3028818",
+     "name": "Jia-Chen Gu"
+    },
+    {
+     "authorId": "2273594555",
+     "name": "Ningyu Zhang"
+    },
+    {
+     "authorId": "152931849",
+     "name": "Shumin Deng"
+    },
+    {
+     "authorId": "2144200945",
+     "name": "Hua-Jun Chen"
+    },
+    {
+     "authorId": "2256996328",
+     "name": "Nan-Yun Peng"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "34ec49e7e903c4170f69aa9c4f6aec4c8e9d043e",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2503-07604",
+    "ArXiv": "2503.07604",
+    "DOI": "10.48550/arXiv.2503.07604",
+    "CorpusId": 276929093
+   },
+   "url": "https://www.semanticscholar.org/paper/34ec49e7e903c4170f69aa9c4f6aec4c8e9d043e",
+   "title": "Implicit Reasoning in Transformers is Reasoning through Shortcuts",
+   "venue": "Annual Meeting of the Association for Computational Linguistics",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2503.07604, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2297732848",
+     "name": "Tianhe Lin"
+    },
+    {
+     "authorId": "2153624353",
+     "name": "Jian Xie"
+    },
+    {
+     "authorId": "2350591111",
+     "name": "Siyu Yuan"
+    },
+    {
+     "authorId": "2279399111",
+     "name": "Deqing Yang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "1d1b89eefa222a9241b816f14d03aa17e81d92c8",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2503-04796",
+    "ArXiv": "2503.04796",
+    "DOI": "10.48550/arXiv.2503.04796",
+    "CorpusId": 276885355
+   },
+   "url": "https://www.semanticscholar.org/paper/1d1b89eefa222a9241b816f14d03aa17e81d92c8",
+   "title": "Optimizing Multi-Hop Document Retrieval Through Intermediate Representations",
+   "venue": "Annual Meeting of the Association for Computational Linguistics",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2503.04796, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2324132222",
+     "name": "Jiaen Lin"
+    },
+    {
+     "authorId": "2349299283",
+     "name": "Jingyu Liu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "aaaa04358e03fe5ef0d24a86e75fe6c1ee0f3ca7",
+   "externalIds": {
+    "DBLP": "conf/emnlp/TutekCMB25",
+    "ArXiv": "2502.14829",
+    "DOI": "10.18653/v1/2025.emnlp-main.504",
+    "CorpusId": 276482396
+   },
+   "url": "https://www.semanticscholar.org/paper/aaaa04358e03fe5ef0d24a86e75fe6c1ee0f3ca7",
+   "title": "Measuring Chain of Thought Faithfulness by Unlearning Reasoning Steps",
+   "venue": "Conference on Empirical Methods in Natural Language Processing",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "https://aclanthology.org/2025.emnlp-main.504.pdf",
+    "status": "HYBRID",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2502.14829, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2367197291",
+     "name": "Martin Tutek"
+    },
+    {
+     "authorId": "2083451204",
+     "name": "Fateme Hashemi Chaleshtori"
+    },
+    {
+     "authorId": "2261284946",
+     "name": "Ana Marasović"
+    },
+    {
+     "authorId": "2346327043",
+     "name": "Yonatan Belinkov"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "15555e376a72ac6fe997ac649f65b2b6acf7852f",
+   "externalIds": {
+    "DBLP": "conf/nips/DaviesWSKKWG25",
+    "ArXiv": "2502.14828",
+    "DOI": "10.52202/085713-2551",
+    "CorpusId": 276482350
+   },
+   "url": "https://www.semanticscholar.org/paper/15555e376a72ac6fe997ac649f65b2b6acf7852f",
+   "title": "Fundamental Limitations in Pointwise Defences of LLM Finetuning APIs",
+   "venue": "Neural Information Processing Systems",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": "CLOSED",
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2502.14828, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2325727483",
+     "name": "Xander Davies"
+    },
+    {
+     "authorId": "2325726599",
+     "name": "Eric Winsor"
+    },
+    {
+     "authorId": "2266842764",
+     "name": "Alexandra Souly"
+    },
+    {
+     "authorId": "2367144933",
+     "name": "Tomasz Korbak"
+    },
+    {
+     "authorId": "2339264436",
+     "name": "Robert Kirk"
+    },
+    {
+     "authorId": "2390826034",
+     "name": "C. D. de Witt"
+    },
+    {
+     "authorId": "2315116895",
+     "name": "Yarin Gal"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "d8702f28387b7bb81ef6e07177ee5932b1fd9943",
+   "externalIds": {
+    "ArXiv": "2502.13913",
+    "DBLP": "journals/corr/abs-2502-13913",
+    "DOI": "10.48550/arXiv.2502.13913",
+    "CorpusId": 276449562
+   },
+   "url": "https://www.semanticscholar.org/paper/d8702f28387b7bb81ef6e07177ee5932b1fd9943",
+   "title": "How Do LLMs Perform Two-Hop Reasoning in Context?",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2502.13913, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2298594403",
+     "name": "Tian-Yu Guo"
+    },
+    {
+     "authorId": "2254086052",
+     "name": "Han-Lin Zhu"
+    },
+    {
+     "authorId": "2288236139",
+     "name": "Ruiqi Zhang"
+    },
+    {
+     "authorId": "2258657022",
+     "name": "Jian-Tao Jiao"
+    },
+    {
+     "authorId": "2347037130",
+     "name": "Song Mei"
+    },
+    {
+     "authorId": "2273930444",
+     "name": "Michael I. Jordan"
+    },
+    {
+     "authorId": "2261660012",
+     "name": "Stuart Russell"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "2cc8d8a0bdb5c2d922a0304642a8f0d35eefc492",
+   "externalIds": {
+    "DBLP": "conf/emnlp/YuBA25",
+    "ArXiv": "2502.10835",
+    "DOI": "10.48550/arXiv.2502.10835",
+    "CorpusId": 276409219
+   },
+   "url": "https://www.semanticscholar.org/paper/2cc8d8a0bdb5c2d922a0304642a8f0d35eefc492",
+   "title": "Back Attention: Understanding and Enhancing Multi-Hop Reasoning in Large Language Models",
+   "venue": "Conference on Empirical Methods in Natural Language Processing",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2502.10835, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2263692531",
+     "name": "Zeping Yu"
+    },
+    {
+     "authorId": "2083259",
+     "name": "Yonatan Belinkov"
+    },
+    {
+     "authorId": "2240623492",
+     "name": "Sophia Ananiadou"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "d7fa275c7bdd3d1dafd144145d4135c107218225",
+   "externalIds": {
+    "ArXiv": "2502.04667",
+    "CorpusId": 278327406
+   },
+   "url": "https://www.semanticscholar.org/paper/d7fa275c7bdd3d1dafd144145d4135c107218225",
+   "title": "Compositional Generalization from Learned Skills via CoT Training: A Theoretical and Structural Analysis for Reasoning",
+   "venue": "",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2502.04667, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2305064257",
+     "name": "Xin-Hao Yao"
+    },
+    {
+     "authorId": "2261083513",
+     "name": "Ruifeng Ren"
+    },
+    {
+     "authorId": "2342650937",
+     "name": "Yun Liao"
+    },
+    {
+     "authorId": "2386791268",
+     "name": "Lizhong Ding"
+    },
+    {
+     "authorId": "2326482917",
+     "name": "Yong Liu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ad4d616d24564bac7370def79fde45ef4b1190a8",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2501-19201",
+    "ArXiv": "2501.19201",
+    "DOI": "10.48550/arXiv.2501.19201",
+    "CorpusId": 276079477
+   },
+   "url": "https://www.semanticscholar.org/paper/ad4d616d24564bac7370def79fde45ef4b1190a8",
+   "title": "Efficient Reasoning with Hidden Thinking",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2501.19201, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2329871746",
+     "name": "Xuan Shen"
+    },
+    {
+     "authorId": "2470093248",
+     "name": "Yi-Zhou Wang"
+    },
+    {
+     "authorId": "2385502258",
+     "name": "Yu-Fa Zhou"
+    },
+    {
+     "authorId": "8668622",
+     "name": "Xiangxi Shi"
+    },
+    {
+     "authorId": "31643513",
+     "name": "Pu Zhao"
+    },
+    {
+     "authorId": "2313450799",
+     "name": "Yan-Zhi Wang"
+    },
+    {
+     "authorId": "2343700013",
+     "name": "Jiu-Xiang Gu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "9c8d745f2b1cbac9332fb036814b4f70108fd422",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2501-15857",
+    "ArXiv": "2501.15857",
+    "DOI": "10.48550/arXiv.2501.15857",
+    "CorpusId": 275921004
+   },
+   "url": "https://www.semanticscholar.org/paper/9c8d745f2b1cbac9332fb036814b4f70108fd422",
+   "title": "Are Transformers Able to Reason by Connecting Separated Knowledge in Training Data?",
+   "venue": "International Conference on Learning Representations",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2501.15857, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2342470727",
+     "name": "Yu-Tong Yin"
+    },
+    {
+     "authorId": "2257245348",
+     "name": "Zhao-Ran Wang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "475b474addfc4e215b8cda8767a2fab0f40a25e0",
+   "externalIds": {
+    "ArXiv": "2412.18120",
+    "DBLP": "journals/corr/abs-2412-18120",
+    "DOI": "10.48550/arXiv.2412.18120",
+    "CorpusId": 274992244
+   },
+   "url": "https://www.semanticscholar.org/paper/475b474addfc4e215b8cda8767a2fab0f40a25e0",
+   "title": "Do Language Models Understand the Cognitive Tasks Given to Them? Investigations with the N-Back Paradigm",
+   "venue": "arXiv.org",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2412.18120, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2213581704",
+     "name": "Xiaoyang Hu"
+    },
+    {
+     "authorId": "2336954510",
+     "name": "Richard L. Lewis"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "b2f59a1892df38ec4dffdf07632b76d2a7d0874d",
+   "externalIds": {
+    "DBLP": "conf/acl/CohenGGG25",
+    "ArXiv": "2412.14133",
+    "DOI": "10.48550/arXiv.2412.14133",
+    "CorpusId": 274822323
+   },
+   "url": "https://www.semanticscholar.org/paper/b2f59a1892df38ec4dffdf07632b76d2a7d0874d",
+   "title": "Performance Gap in Entity Knowledge Extraction Across Modalities in Vision Language Models",
+   "venue": "Annual Meeting of the Association for Computational Linguistics",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2412.14133, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2353386111",
+     "name": "Ido Cohen"
+    },
+    {
+     "authorId": "2307080108",
+     "name": "Daniela Gottesman"
+    },
+    {
+     "authorId": "22245981",
+     "name": "Mor Geva"
+    },
+    {
+     "authorId": "2252267710",
+     "name": "Raja Giryes"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "673fbdd957cada770d10dffca5e45b53da43a3c6",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2412-06769",
+    "ArXiv": "2412.06769",
+    "DOI": "10.48550/arXiv.2412.06769",
+    "CorpusId": 274610816
+   },
+   "url": "https://www.semanticscholar.org/paper/673fbdd957cada770d10dffca5e45b53da43a3c6",
+   "title": "Training Large Language Models to Reason in a Continuous Latent Space",
+   "venue": "arXiv.org",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2412.06769, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2128965713",
+     "name": "Shibo Hao"
+    },
+    {
+     "authorId": "2265067",
+     "name": "Sainbayar Sukhbaatar"
+    },
+    {
+     "authorId": "2325888815",
+     "name": "Di-Jia Su"
+    },
+    {
+     "authorId": "2315344189",
+     "name": "Xian Li"
+    },
+    {
+     "authorId": "2295863002",
+     "name": "Zhiting Hu"
+    },
+    {
+     "authorId": "2267341626",
+     "name": "Jason E. Weston"
+    },
+    {
+     "authorId": "2285362895",
+     "name": "Yuandong Tian"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "5c9cfe5d173fbfe5af43a18802c7efeb3542726e",
+   "externalIds": {
+    "DBLP": "conf/icml/Feng0S25",
+    "ArXiv": "2412.04614",
+    "DOI": "10.48550/arXiv.2412.04614",
+    "CorpusId": 274581557
+   },
+   "url": "https://www.semanticscholar.org/paper/5c9cfe5d173fbfe5af43a18802c7efeb3542726e",
+   "title": "Extractive Structures Learned in Pretraining Enable Generalization on Finetuned Facts",
+   "venue": "International Conference on Machine Learning",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2412.04614, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2261909208",
+     "name": "Jiahai Feng"
+    },
+    {
+     "authorId": "2309005642",
+     "name": "Stuart Russell"
+    },
+    {
+     "authorId": "2261733842",
+     "name": "Jacob Steinhardt"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "a4f8d79f85ddb7e835ef56a6a44c6821ddeea313",
+   "externalIds": {
+    "DBLP": "conf/acl/YangKG0G25",
+    "ArXiv": "2411.16679",
+    "DOI": "10.48550/arXiv.2411.16679",
+    "CorpusId": 274281424
+   },
+   "url": "https://www.semanticscholar.org/paper/a4f8d79f85ddb7e835ef56a6a44c6821ddeea313",
+   "title": "Do Large Language Models Perform Latent Multi-Hop Reasoning without Exploiting Shortcuts?",
+   "venue": "Annual Meeting of the Association for Computational Linguistics",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2411.16679, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "16110760",
+     "name": "Sohee Yang"
+    },
+    {
+     "authorId": "9529535",
+     "name": "Nora Kassner"
+    },
+    {
+     "authorId": "1980809",
+     "name": "E. Gribovskaya"
+    },
+    {
+     "authorId": "2287841795",
+     "name": "Sebastian Riedel"
+    },
+    {
+     "authorId": "22245981",
+     "name": "Mor Geva"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "c5cd14b2ae7d87af3068159f7f2b0dfc2419eb39",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2410-14405",
+    "ArXiv": "2410.14405",
+    "DOI": "10.48550/arXiv.2410.14405",
+    "CorpusId": 273482203
+   },
+   "url": "https://www.semanticscholar.org/paper/c5cd14b2ae7d87af3068159f7f2b0dfc2419eb39",
+   "title": "Fact Recall, Heuristics or Pure Guesswork? Precise Interpretations of Language Models for Fact Completion",
+   "venue": "Annual Meeting of the Association for Computational Linguistics",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2410.14405, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2180046699",
+     "name": "Denitsa Saynova"
+    },
+    {
+     "authorId": "2106434987",
+     "name": "Lovisa Hagström"
+    },
+    {
+     "authorId": "2264456142",
+     "name": "Moa Johansson"
+    },
+    {
+     "authorId": "2264073480",
+     "name": "Richard Johansson"
+    },
+    {
+     "authorId": "40462390",
+     "name": "Marco Kuhlmann"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "56f18747f4ef6ddccc285787b99d9e5ddf7e5fc3",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2410-09542",
+    "ArXiv": "2410.09542",
+    "DOI": "10.48550/arXiv.2410.09542",
+    "CorpusId": 273345913
+   },
+   "url": "https://www.semanticscholar.org/paper/56f18747f4ef6ddccc285787b99d9e5ddf7e5fc3",
+   "title": "MIRAGE: Evaluating and Explaining Inductive Reasoning Process in Language Models",
+   "venue": "International Conference on Learning Representations",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2410.09542, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2203948041",
+     "name": "Jiachun Li"
+    },
+    {
+     "authorId": "49776272",
+     "name": "Pengfei Cao"
+    },
+    {
+     "authorId": "2152843772",
+     "name": "Zhuo-Ran Jin"
+    },
+    {
+     "authorId": "1763402",
+     "name": "Yubo Chen"
+    },
+    {
+     "authorId": "77397868",
+     "name": "Kang Liu"
+    },
+    {
+     "authorId": "2269147239",
+     "name": "Jun Zhao"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "617f7134afe5b18408a1bd605b199558b5ed58cb",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2410-06331",
+    "ArXiv": "2410.06331",
+    "DOI": "10.48550/arXiv.2410.06331",
+    "CorpusId": 273228000
+   },
+   "url": "https://www.semanticscholar.org/paper/617f7134afe5b18408a1bd605b199558b5ed58cb",
+   "title": "Locate-then-edit for Multi-hop Factual Recall under Knowledge Editing",
+   "venue": "International Conference on Machine Learning",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2410.06331, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2324995228",
+     "name": "Zhuoran Zhang"
+    },
+    {
+     "authorId": "2325092537",
+     "name": "Yongxiang Li"
+    },
+    {
+     "authorId": "2325005726",
+     "name": "Zijian Kan"
+    },
+    {
+     "authorId": "2294877265",
+     "name": "Keyuan Cheng"
+    },
+    {
+     "authorId": "2153121378",
+     "name": "Lijie Hu"
+    },
+    {
+     "authorId": "2260640875",
+     "name": "Di Wang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "f3b36bbfe20156a336e2fb3ae9736fd49ca68679",
+   "externalIds": {
+    "DBLP": "conf/emnlp/FierroDSGS24",
+    "ArXiv": "2410.02499",
+    "ACL": "2024.emnlp-main.900",
+    "DOI": "10.48550/arXiv.2410.02499",
+    "CorpusId": 273098489
+   },
+   "url": "https://www.semanticscholar.org/paper/f3b36bbfe20156a336e2fb3ae9736fd49ca68679",
+   "title": "Defining Knowledge: Bridging Epistemology and Large Language Models",
+   "venue": "Conference on Empirical Methods in Natural Language Processing",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2410.02499, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "50110151",
+     "name": "Constanza Fierro"
+    },
+    {
+     "authorId": "2311888638",
+     "name": "Ruchira Dhar"
+    },
+    {
+     "authorId": "2306968038",
+     "name": "Filippos Stamatiou"
+    },
+    {
+     "authorId": "2281953544",
+     "name": "Nicolas Garneau"
+    },
+    {
+     "authorId": "2281953769",
+     "name": "Anders Søgaard"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "0b388e6cf5d0622f8b5c371045ed0b1a24c6b0a8",
+   "externalIds": {
+    "DBLP": "conf/naacl/LeporiMG25",
+    "ArXiv": "2410.02102",
+    "DOI": "10.18653/v1/2025.naacl-long.155",
+    "CorpusId": 273098846
+   },
+   "url": "https://www.semanticscholar.org/paper/0b388e6cf5d0622f8b5c371045ed0b1a24c6b0a8",
+   "title": "Racing Thoughts: Explaining Contextualization Errors in Large Language Models",
+   "venue": "North American Chapter of the Association for Computational Linguistics",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "https://aclanthology.org/2025.naacl-long.155.pdf",
+    "status": "HYBRID",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2410.02102, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "91556719",
+     "name": "Michael A. Lepori"
+    },
+    {
+     "authorId": "144473519",
+     "name": "M. Mozer"
+    },
+    {
+     "authorId": "2270681948",
+     "name": "Asma Ghandeharioun"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "2ac231b9cff4f5f9054d86c9b540429d4dd687f4",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2407-02646",
+    "ArXiv": "2407.02646",
+    "DOI": "10.48550/arXiv.2407.02646",
+    "CorpusId": 270924412
+   },
+   "url": "https://www.semanticscholar.org/paper/2ac231b9cff4f5f9054d86c9b540429d4dd687f4",
+   "title": "A Practical Review of Mechanistic Interpretability for Transformer-Based Language Models",
+   "venue": "arXiv.org",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2407.02646, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2203429265",
+     "name": "Daking Rai"
+    },
+    {
+     "authorId": "2307023535",
+     "name": "Yilun Zhou"
+    },
+    {
+     "authorId": "2297816489",
+     "name": "Shi Feng"
+    },
+    {
+     "authorId": "2407368",
+     "name": "Abulhair Saparov"
+    },
+    {
+     "authorId": "2307416803",
+     "name": "Zi-Yu Yao"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "a93db9131d2ee88150849442631c807410594d0f",
+   "externalIds": {
+    "ArXiv": "2405.15302",
+    "DBLP": "conf/emnlp/WangWZZJHSLZX25",
+    "DOI": "10.18653/v1/2025.findings-emnlp.893",
+    "CorpusId": 270045306
+   },
+   "url": "https://www.semanticscholar.org/paper/a93db9131d2ee88150849442631c807410594d0f",
+   "title": "Understanding the Language Model to Solve the Symbolic Multi-Step Reasoning Problem from the Perspective of Buffer Mechanism",
+   "venue": "Conference on Empirical Methods in Natural Language Processing",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "https://aclanthology.org/2025.findings-emnlp.893.pdf",
+    "status": "GOLD",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2405.15302, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2279762057",
+     "name": "Zhiwei Wang"
+    },
+    {
+     "authorId": "49418517",
+     "name": "Yunji Wang"
+    },
+    {
+     "authorId": "1953073920",
+     "name": "Zhongwang Zhang"
+    },
+    {
+     "authorId": "2217413670",
+     "name": "Zhang-Chen Zhou"
+    },
+    {
+     "authorId": "2109929634",
+     "name": "Hui Jin"
+    },
+    {
+     "authorId": "2112911801",
+     "name": "Tianyang Hu"
+    },
+    {
+     "authorId": "2136769001",
+     "name": "Jia-Cheng Sun"
+    },
+    {
+     "authorId": "7718952",
+     "name": "Zhen-Guo Li"
+    },
+    {
+     "authorId": "46867879",
+     "name": "Yaoyu Zhang"
+    },
+    {
+     "authorId": "2461897013",
+     "name": "Zhi-Qin John Xu"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "c2a0286bb50af16a3e47402a55dffb2b39b0697a",
+   "externalIds": {
+    "DOI": "10.18653/v1/2026.gem-main.11",
+    "CorpusId": 289754576
+   },
+   "url": "https://www.semanticscholar.org/paper/c2a0286bb50af16a3e47402a55dffb2b39b0697a",
+   "title": "Identifying Where Large Language Models Struggle in Answering Complex Questions",
+   "venue": "IEEE Games Entertainment Media Conference",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "https://aclanthology.org/2026.gem-main.11.pdf",
+    "status": "GOLD",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.18653/v1/2026.gem-main.11?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.18653/v1/2026.gem-main.11, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "1643889940",
+     "name": "Xanh Ho"
+    },
+    {
+     "authorId": "2279688582",
+     "name": "Florian Boudin"
+    },
+    {
+     "authorId": "2673984",
+     "name": "Saku Sugawara"
+    },
+    {
+     "authorId": "2486366870",
+     "name": "Khoa Duong"
+    },
+    {
+     "authorId": "2317015498",
+     "name": "Akiko Aizawa"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "485d0bd02bf2e56e4cded94ff1e86220cbd0e05f",
+   "externalIds": {
+    "DOI": "10.5937/jcfs5-68363",
+    "CorpusId": 291983727
+   },
+   "url": "https://www.semanticscholar.org/paper/485d0bd02bf2e56e4cded94ff1e86220cbd0e05f",
+   "title": "Derivation boundaries: A structural source of faithfulness failure in large language models",
+   "venue": "Journal of Computer and Forensic Sciences",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "https://scindeks-clanci.ceon.rs/data/pdf/2956-087X/8888/2956-087X8800009S.pdf",
+    "status": "BRONZE",
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5937/jcfs5-68363?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5937/jcfs5-68363, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2498985645",
+     "name": "Vaishnavi Sreekumar"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "9298d19a23c4741943b6a4a7981db57729079881",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2504-14107",
+    "DOI": "10.48550/arXiv.2504.14107",
+    "CorpusId": 278787429
+   },
+   "url": "https://www.semanticscholar.org/paper/9298d19a23c4741943b6a4a7981db57729079881",
+   "title": "Linking forward-pass dynamics in Transformers and real-time human processing",
+   "venue": "arXiv.org",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.48550/arXiv.2504.14107?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.48550/arXiv.2504.14107, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2356561161",
+     "name": "Jennifer Hu"
+    },
+    {
+     "authorId": "91556719",
+     "name": "Michael A. Lepori"
+    },
+    {
+     "authorId": "2357284152",
+     "name": "Michael Franke"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "1c4d981aca8d3559cdeb4e8a44184d2d8c37e336",
+   "externalIds": {
+    "DBLP": "conf/emnlp/WangYLCXHZ25",
+    "DOI": "10.18653/v1/2025.emnlp-main.733",
+    "CorpusId": 282825600
+   },
+   "url": "https://www.semanticscholar.org/paper/1c4d981aca8d3559cdeb4e8a44184d2d8c37e336",
+   "title": "Think and Recall: Layer-Level Prompting for Lifelong Model Editing",
+   "venue": "Conference on Empirical Methods in Natural Language Processing",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "https://aclanthology.org/2025.emnlp-main.733.pdf",
+    "status": "HYBRID",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.18653/v1/2025.emnlp-main.733?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.18653/v1/2025.emnlp-main.733, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2295288732",
+     "name": "Jinke Wang"
+    },
+    {
+     "authorId": "2391072552",
+     "name": "Zenan Ying"
+    },
+    {
+     "authorId": "2367222192",
+     "name": "Qi Liu"
+    },
+    {
+     "authorId": "2260766940",
+     "name": "Wei Chen"
+    },
+    {
+     "authorId": "2320264786",
+     "name": "Tong Xu"
+    },
+    {
+     "authorId": "2391072630",
+     "name": "Huijun Hou"
+    },
+    {
+     "authorId": "2227734260",
+     "name": "Zhi Zheng"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ec11a89a36c83f3d9dbf1347f7c51e0e738cc15b",
+   "externalIds": {
+    "DBLP": "conf/acl/WangWH00C0Y25",
+    "DOI": "10.18653/v1/2025.acl-long.1133",
+    "CorpusId": 280018235
+   },
+   "url": "https://www.semanticscholar.org/paper/ec11a89a36c83f3d9dbf1347f7c51e0e738cc15b",
+   "title": "Tracing and Dissecting How LLMs Recall Factual Knowledge for Real World Questions",
+   "venue": "Annual Meeting of the Association for Computational Linguistics",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "https://doi.org/10.18653/v1/2025.acl-long.1133",
+    "status": "HYBRID",
+    "license": "CCBY",
+    "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.18653/v1/2025.acl-long.1133?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.18653/v1/2025.acl-long.1133, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2372133703",
+     "name": "Yiqun Wang"
+    },
+    {
+     "authorId": "29001337",
+     "name": "Chaoqun Wan"
+    },
+    {
+     "authorId": "2355561172",
+     "name": "Sile Hu"
+    },
+    {
+     "authorId": "2319178563",
+     "name": "Yonggang Zhang"
+    },
+    {
+     "authorId": "2372192570",
+     "name": "Xiang Tian"
+    },
+    {
+     "authorId": "2374160543",
+     "name": "Yaowu Chen"
+    },
+    {
+     "authorId": "2319393988",
+     "name": "Xu Shen"
+    },
+    {
+     "authorId": "2316672136",
+     "name": "Jieping Ye"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "153f35fa5907ab21a57254cbc77944c9cff2188b",
+   "externalIds": {
+    "DBLP": "conf/nips/JinZLW25",
+    "DOI": "10.52202/085713-3441",
+    "CorpusId": 290015857
+   },
+   "url": "https://www.semanticscholar.org/paper/153f35fa5907ab21a57254cbc77944c9cff2188b",
+   "title": "Evaluating the Inductive Abilities of Large Language Models: Why Chain-of-Thought Reasoning Sometimes Hurts More Than Helps",
+   "venue": "Neural Information Processing Systems",
+   "year": 2025,
+   "openAccessPdf": {
+    "url": "",
+    "status": "CLOSED",
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.52202/085713-3441?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.52202/085713-3441, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2304364004",
+     "name": "Hai-Bo Jin"
+    },
+    {
+     "authorId": "2268429760",
+     "name": "Pei-Yan Zhang"
+    },
+    {
+     "authorId": "2334355360",
+     "name": "Man Luo"
+    },
+    {
+     "authorId": "2256769308",
+     "name": "Hao-Han Wang"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "1f2edd61222369aafd34a878d649997135b9db73",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2410-02102",
+    "DOI": "10.48550/arXiv.2410.02102",
+    "CorpusId": 278775510
+   },
+   "url": "https://www.semanticscholar.org/paper/1f2edd61222369aafd34a878d649997135b9db73",
+   "title": "Racing Thoughts: Explaining Large Language Model Contextualization Errors",
+   "venue": "arXiv.org",
+   "year": 2024,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.48550/arXiv.2410.02102?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.48550/arXiv.2410.02102, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "91556719",
+     "name": "Michael A. Lepori"
+    },
+    {
+     "authorId": "144473519",
+     "name": "M. Mozer"
+    },
+    {
+     "authorId": "2270681948",
+     "name": "Asma Ghandeharioun"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "486c6a8eb2ad63150024dc6ebb263e9643f9aa5a",
+   "externalIds": {
+    "CorpusId": 275336601
+   },
+   "url": "https://www.semanticscholar.org/paper/486c6a8eb2ad63150024dc6ebb263e9643f9aa5a",
+   "title": "T HE T WO -H OP C URSE : LLM S TRAINED ON A (cid:41) B , B (cid:41) C FAIL TO LEARN A (cid:41) C",
+   "venue": "",
+   "year": null,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "2237797134",
+     "name": "Mikita Balesni"
+    },
+    {
+     "authorId": "2267513433",
+     "name": "Apollo Research"
+    },
+    {
+     "authorId": "2237795801",
+     "name": "Tomasz Korbak"
+    },
+    {
+     "authorId": "2326295358",
+     "name": "Owain Evans"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "89daa3491fe6951927c557ff72fae4ac21b22788",
+   "externalIds": {
+    "CorpusId": 274434397
+   },
+   "url": "https://www.semanticscholar.org/paper/89daa3491fe6951927c557ff72fae4ac21b22788",
+   "title": "Bridging Epistemology and Large Language Models",
+   "venue": "",
+   "year": null,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "2333307911",
+     "name": "†. ConstanzaFierro"
+    },
+    {
+     "authorId": "2311888638",
+     "name": "Ruchira Dhar"
+    },
+    {
+     "authorId": "2333308522",
+     "name": "‡. FilipposStamatiou"
+    },
+    {
+     "authorId": "2281953544",
+     "name": "Nicolas Garneau"
+    },
+    {
+     "authorId": "2281953769",
+     "name": "Anders Søgaard"
+    }
+   ],
+   "abstract": null
+  }
+ ],
+ "retrieved": "2026-10-08T14:57:25"
+}

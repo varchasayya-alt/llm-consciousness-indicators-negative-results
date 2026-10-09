@@ -1,0 +1,137 @@
+{
+ "utc": "2026-10-07T06:49:26.407926+00:00",
+ "git_head_before_commit": "7131249eee77760c1366433b435622dfc4468869",
+ "config_hash": "93af8f8fe7b57477d48ee07623cf25007b3dd35d98820cf7dfb5d164130f6e3d",
+ "thresholds_sha256": "0edbff81b69f002091fa872e6d3d6a18c5c6c606f81e772821b02e374d1199a3",
+ "prereg_sha256": "e603bd1f34cfb3df0277cdc4dfd99676ed3364b7cbc6e9ee3f2dc5d1fd9294f4",
+ "split_manifest2": {
+  "seeds": {
+   "splits": 9500,
+   "designs": 9501,
+   "rng": 9502
+  },
+  "files": {
+   "g_select2.json": "0eb34ced00b5935061841d666472578b24404a96ca89678f6f14e2b8306392ae",
+   "g_confirm2.json": "5cc46b3a4f8d1977d5f332adfbffbe9c9bcfd7ca16e9a5eca544d12904f8945e",
+   "smoke2.json": "2027c9724c73201168e9db9ab90589edd94cda37589b45e61bb36b5fd7a6f7e9"
+  },
+  "sources": {
+   "source_items2.py": "dd13084295484854cb755d783f886d2d18c19953995393eb1198aeb87ed301a3",
+   "source_paragraphs2.py": "60db8513f62bd76a7be86db94ab3dfd4684a810e5c281271db90ffa3ffc1cbd8",
+   "source_contexts2.py": "5f20cb03c3dac370c20bbe3c0894ce340ed5977bf36cc2ad5a596d74f1015180",
+   "tools/make_splits2.py": "ac566a21df2a9ce4cdbc560d0fb4f93919744f31b24125acb67c8a6dc39d99bf"
+  },
+  "unused_country_bridges": [
+   "bennevis",
+   "connery",
+   "dubrovnik",
+   "gaddafi",
+   "galapagos",
+   "hoxha",
+   "idiamin",
+   "marley",
+   "plitvice",
+   "sigiriya",
+   "uyuni",
+   "wc2022",
+   "zelensky"
+  ],
+  "counts": {
+   "select2": {
+    "paragraphs": 63,
+    "concepts": 20,
+    "countries": 20,
+    "two_hop": 74,
+    "w3p_concepts": 8,
+    "w3p_contexts": 48
+   },
+   "confirm2": {
+    "paragraphs": 63,
+    "concepts": 20,
+    "countries": 20,
+    "two_hop": 74,
+    "w3p_concepts": 8,
+    "w3p_contexts": 48
+   },
+   "smoke2": {
+    "paragraphs": 6,
+    "concepts": 8,
+    "countries": 4,
+    "two_hop": 4,
+    "w3p_concepts": 8,
+    "w3p_contexts": 12
+   }
+  },
+  "tokenizer_sha256": {
+   "qwen3-1.7b": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+   "qwen3.5-2b": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+   "qwen3-4b": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  "checks": [
+   "lengths",
+   "single_token",
+   "paraphrase_tokens",
+   "context_tokenization",
+   "two_hop_spans",
+   "foils",
+   "T2_astage_disjoint",
+   "T3_split_disjoint",
+   "vocabulary"
+  ]
+ },
+ "code_sha256": {
+  "research/experiments/c15r2/pytest.ini": "5af92f079590dd729537e1178555aca8d71d7498acc6bcf1f6705dbab013d26e",
+  "research/experiments/c15r2/run_r2.py": "c5ca63d382ec0d20cbda7e190bb5b0b9be1336a17099aaa99d4b19bcde9bcead",
+  "research/experiments/c15r2/_r2_eng_chain.cmd": "fe27a6d9cd4b5290c5e9ab08764e1b2d569e24552546acef4dfc8aea262055f0",
+  "research/experiments/c15r2/_r2_select_chain.cmd": "0b615d4cd743ccab0b5106b85f7f272cdc9718cfb1afc4112edd9d9f5e3cc9f8",
+  "research/experiments/c15r2/c15a2/assays2.py": "12af845dcd59145e68e0ffe73d416da35d154ee2373f5493f98a6be459aec290",
+  "research/experiments/c15r2/c15a2/classify.py": "44438aa5df3593cc36c31b3ccab1937a8b5db553135d4296e664afa980aa5815",
+  "research/experiments/c15r2/c15a2/config.py": "32bd84b9ce1d05d7731b5c1ef2fc2192b891141c6cff1d1c43a702ff4c600a3a",
+  "research/experiments/c15r2/c15a2/guards.py": "8b12761794c04f8d43456fda47e5c0875c0df1aaa519e795b55d7c32041ab148",
+  "research/experiments/c15r2/c15a2/materials.py": "930866ef601127c8c3b9d5371fef49d21a5a6a777d12bf831498b59354533b6f",
+  "research/experiments/c15r2/c15a2/report.py": "85ed5dd9ecb4e2ccf6b8d4314837a6c2779d530bc232c1dc64fd947ed31b9324",
+  "research/experiments/c15r2/c15a2/w3p.py": "47dcbc2fe22347645cafca4119692621e59bbde8552e646dc071924acb071e23",
+  "research/experiments/c15r2/c15a2/__init__.py": "aebe7230b19e44f87caaf09854d9084b3499ee340208091f79d26d2b44650c6e",
+  "research/experiments/c15r2/materials2/g_confirm2.json": "5cc46b3a4f8d1977d5f332adfbffbe9c9bcfd7ca16e9a5eca544d12904f8945e",
+  "research/experiments/c15r2/materials2/g_select2.json": "0eb34ced00b5935061841d666472578b24404a96ca89678f6f14e2b8306392ae",
+  "research/experiments/c15r2/materials2/smoke2.json": "2027c9724c73201168e9db9ab90589edd94cda37589b45e61bb36b5fd7a6f7e9",
+  "research/experiments/c15r2/materials2/source_contexts2.py": "5f20cb03c3dac370c20bbe3c0894ce340ed5977bf36cc2ad5a596d74f1015180",
+  "research/experiments/c15r2/materials2/source_items2.py": "dd13084295484854cb755d783f886d2d18c19953995393eb1198aeb87ed301a3",
+  "research/experiments/c15r2/materials2/source_paragraphs2.py": "60db8513f62bd76a7be86db94ab3dfd4684a810e5c281271db90ffa3ffc1cbd8",
+  "research/experiments/c15r2/materials2/split_manifest2.json": "620f3a513a2ed251c97b5b0e3793075cf96c3a3ec7eba3478080db0fb3ba74ae",
+  "research/experiments/c15r2/tests/conftest.py": "0108ccc49d2a15eb7295866bfd4b676c328687cca438da87514744580d8ed70c",
+  "research/experiments/c15r2/tests/test_r2.py": "28710f5e634f4c71953d42a28aefd6f23adc146578ba0a86fac3cdbff67aa5f8",
+  "research/experiments/c15r2/tools/make_splits2.py": "ac566a21df2a9ce4cdbc560d0fb4f93919744f31b24125acb67c8a6dc39d99bf",
+  "research/experiments/c15r2/tools/prerun_record.py": "6c9e6f466d4a443c427700247aaf0ff5f097db586dc072c45511c2ce87de85af"
+ },
+ "astage_pins": {
+  "trees": {
+   "research/experiments/c15": "31f6d6e7af81c4d894abe576f85052cb2850bd25",
+   "research/results/raw/c15a": "54a3f1236f0af1688f63dfa168d3a85a162ba438"
+  },
+  "files": {
+   "research/experiments/c15/materials/g_confirm.json": "3f0911cb006cbffc0b87a59e263ddc7d320f9f33807d12c2bbf185447f03b0dc",
+   "research/experiments/c15/materials/g_select.json": "740e55b90c6b4e8a6baffa76ff47e0f487243a21bcfa64f686e363f55161b9c2",
+   "research/experiments/c15/materials/split_manifest.json": "4367561c8a1e59ba067aac6b9905b9a910645b5be042b885272caf19b8a7dc3b",
+   "research/experiments/c15/artifacts_astage.json": "79b082e4a629eaa260a0b97a7968e0abacfd7f71c8f82e2317bc46151d7a88de",
+   "research/experiments/c15/astage_report.md": "b18b5bb9cffb373e2316f24467fd1fde8b3a8055507863f737784d187397efaf",
+   "research/results/raw/c15a/select_qwen3-1.7b.json": "e4646d8dc1af5dda0c7ae4913192b16169f4b1e409afeabf8498a7c89faf5b6a",
+   "research/results/raw/c15a/select_qwen3.5-2b.json": "61d88e94da79b9563a5a597a6fed1aba767fee29d213070b7e7509dfc26ec884",
+   "research/results/raw/c15a/select_qwen3-4b.json": "85fd4a3fc3b909b5b014af6da9adc3a1e8816f51ff6faf915a1df39c79de3724",
+   "research/results/raw/c15a/choose_astage.json": "2effe74b433b00795e3b0705a8d4df064411373e6b1c13c5cb19addb459fb9aa",
+   "research/results/raw/c15a/select_tensors/qwen3-1.7b.pt": "5a68f8c3ab334cffa2f8a2b3d8fbab5f3b10a50a20478b3ec94f582d74edbc15",
+   "research/results/raw/c15a/select_tensors/qwen3.5-2b.pt": "9e91f4a028dc4e335e5b805ea7f86e061c10c63dd9d2695f0d6d1b8ca5d18798",
+   "research/results/raw/c15a/select_tensors/qwen3-4b.pt": "c3c99d67a1d0169187b122f93473eb46d1e575221d8e9de175af3cea4d9c2fa8"
+  },
+  "head": "7131249eee77760c1366433b435622dfc4468869",
+  "pass": true
+ },
+ "tests": {
+  "log": "research/results/raw/c15r2/prerun/pytest_r2.log",
+  "passed": 21,
+  "failed": 0,
+  "pytest_exit_code": 0,
+  "log_sha256": "61b1eac45c993cff300adfeeb2a1ac8c97f077502f231ced7fe893e6e9ae83fd"
+ },
+ "statement": "No candidate model has been run on any R2 material (G_select2, G_confirm2, SMOKE2) at the time of this record."
+}

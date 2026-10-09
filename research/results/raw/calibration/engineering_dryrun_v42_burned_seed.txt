@@ -1,0 +1,13 @@
+v4.2 engineering checks (D58) -- BURNED seed 12345 and tiny unit-test worlds only; nothing used for any selection.
+Scripts: experiments/stage1/_eng_dryrun_v42.py (full scale, very short stages).
+
+Run 1 (Stage A 3 epochs, Stage B 3 epochs, p_rd 0.2, 12 threads): Stage A, Stage B, F0A and F0B evaluations run end to
+  end. Timing: Stage A ~0.05 min/epoch (60 epochs ~3 min); Stage B ~0.03 min/epoch (200 epochs ~6 min). Route-A
+  equivalence (all slots masked == Stage-A network) holds bit-for-bit. Presentations 0.57 per covered fact (expected
+  0.60). F2-F4/P2 plumbing not exercisable (too few base-correct facts).
+Run 2 (Stage A 15, Stage B 15; separate store directory -- the cache guard correctly refused the 3-epoch store): F0A,
+  F0B, evaluate_F234 (T-DELETE + Y, delete_qc, audit) and p2_eval all ran ("F234_P2_plumbing": "ok"). Short stages:
+  undertrained stores (Stage-A param-only acc 0.10); numbers are not feasibility results.
+Tiny world (unit-test world, 247 covered facts): Stage B is optimizer-step hungry. With ~240 steps own-slot attention
+  stayed 0.05-0.17; with ~1,000 steps (batch 64) covered integrated accuracy rose 0.04 -> 0.88, own-slot 0.88,
+  median |u|/|hA| 0.94 (cap not binding), P unchanged. The full configuration gets ~4,400 Stage-B steps (E_B = 200).

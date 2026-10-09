@@ -1,0 +1,384 @@
+{
+ "model": "qwen3-1.7b",
+ "band_all": [
+  8,
+  10,
+  12,
+  14,
+  16
+ ],
+ "layers": [
+  12
+ ],
+ "vgen_size": 41295,
+ "w0": {
+  "w0a_lens_agreement_L-2": 0.6597222288449606,
+  "w0a_ci": [
+   0.6145833333333334,
+   0.7013888955116272
+  ],
+  "n_paragraphs": 6,
+  "positions_per_paragraph": 48,
+  "two_hop_acc": 0.25,
+  "two_hop_n": 4,
+  "n_correct": 1,
+  "pass_w0a": true,
+  "w0a_powered_failure": false,
+  "w0b_by_position": {
+   "t1": {
+    "rate": 0.0,
+    "foil_rate": 0.0,
+    "lift": 0.0,
+    "lift_lb_one_sided_95": 0.0,
+    "rate_ci": [
+     0.0,
+     0.0
+    ],
+    "lift_ci": [
+     0.0,
+     0.0
+    ],
+    "n_items": 1
+   },
+   "td": {
+    "rate": 0.0,
+    "foil_rate": 0.0,
+    "lift": 0.0,
+    "lift_lb_one_sided_95": 0.0,
+    "rate_ci": [
+     0.0,
+     0.0
+    ],
+    "lift_ci": [
+     0.0,
+     0.0
+    ],
+    "n_items": 1
+   },
+   "t2": {
+    "rate": 0.0,
+    "foil_rate": 0.0,
+    "lift": 0.0,
+    "lift_lb_one_sided_95": 0.0,
+    "rate_ci": [
+     0.0,
+     0.0
+    ],
+    "lift_ci": [
+     0.0,
+     0.0
+    ],
+    "n_items": 1
+   }
+  },
+  "w0b_primary_position": "td",
+  "pass_w0b": false,
+  "w0b_powered_failure": false,
+  "w4_assessable": false,
+  "pass": false
+ },
+ "per_layer": {
+  "12": {
+   "sj": {
+    "r90": 40,
+    "r": 40,
+    "frac_recon_var": 0.9020371437072754,
+    "frac_state_var_in_SJ": 0.06348474323749542,
+    "gp_recon_r2_centred": -0.5695115327835083,
+    "gp_recon_fit_raw": 0.007994353771209717,
+    "n_states": 288,
+    "gp_screen": 512
+   },
+   "hbar": 139.473388671875,
+   "dose": {
+    "table": [
+     {
+      "a": 0.25,
+      "agree": 1.0,
+      "kl": 0.0004641765026462963,
+      "prop_norm": 43.71426057815552
+     },
+     {
+      "a": 0.5,
+      "agree": 1.0,
+      "kl": 0.0020811371541640256,
+      "prop_norm": 86.64063739776611
+     },
+     {
+      "a": 1.0,
+      "agree": 1.0,
+      "kl": 0.009047599625773728,
+      "prop_norm": 169.8181037902832
+     },
+     {
+      "a": 2.0,
+      "agree": 1.0,
+      "kl": 0.01776342256926,
+      "prop_norm": 325.3295249938965
+     }
+    ],
+    "a_star": 2.0,
+    "no_grid_dose_meets_rule": false,
+    "prop_layer": 15
+   },
+   "w1": {
+    "hit_J": 0.0,
+    "hit_perp": 0.0,
+    "hit_none": null,
+    "n_trials": 0,
+    "frac_unmatched": 1.0,
+    "ratio": "inf",
+    "matching": {
+     "sc2_lantern": {
+      "feasible": false,
+      "cos_to_own_perp": 0.8674761652946472,
+      "ratios": {
+       "gain": 0.8499981423773179,
+       "prop": 0.777897914425055,
+       "kl": 0.8839651651537294
+      },
+      "sj_leak": 4.821653476483334e-08,
+      "pj_frac": 0.27315032482147217,
+      "emp_kl_J": 0.02069922909140587,
+      "norm_used": 278.94677734375,
+      "emp_pool_tried": [
+       [
+        0.8984,
+        0.7464
+       ],
+       [
+        0.8869,
+        0.803
+       ],
+       [
+        0.8731,
+        0.5342
+       ],
+       [
+        0.8641,
+        0.596
+       ],
+       [
+        0.8282,
+        0.5743
+       ],
+       [
+        0.8131,
+        0.5185
+       ],
+       [
+        0.8078,
+        0.685
+       ],
+       [
+        0.7808,
+        0.7689
+       ],
+       [
+        0.7763,
+        1.412
+       ],
+       [
+        0.6147,
+        0.7211
+       ],
+       [
+        0.6047,
+        0.6224
+       ],
+       [
+        0.5845,
+        0.7507
+       ]
+      ],
+      "emp_kl_matched": false,
+      "pool_size": 12,
+      "reason": "no pool candidate matched the empirical generic KL within tolerance"
+     },
+     "sc2_ball": {
+      "feasible": false,
+      "cos_to_own_perp": 0.7662183046340942,
+      "ratios": {
+       "gain": 0.8186620037636317,
+       "prop": 0.8374618459856187,
+       "kl": 0.9218070798528188
+      },
+      "sj_leak": 6.8393163132896e-08,
+      "pj_frac": 0.25510886311531067,
+      "emp_kl_J": 0.015647776424884796,
+      "norm_used": 278.94677734375,
+      "emp_pool_tried": [
+       [
+        0.8127,
+        0.4549
+       ],
+       [
+        0.8084,
+        0.5541
+       ],
+       [
+        0.7362,
+        0.6558
+       ],
+       [
+        0.7153,
+        0.4762
+       ],
+       [
+        0.7002,
+        0.648
+       ],
+       [
+        0.6813,
+        0.6423
+       ],
+       [
+        0.6576,
+        0.5766
+       ],
+       [
+        0.6467,
+        0.619
+       ],
+       [
+        0.6137,
+        0.7378
+       ],
+       [
+        0.577,
+        0.3791
+       ],
+       [
+        0.5098,
+        0.4414
+       ],
+       [
+        0.4606,
+        1.9634
+       ]
+      ],
+      "emp_kl_matched": false,
+      "pool_size": 12,
+      "reason": "no pool candidate matched the empirical generic KL within tolerance"
+     }
+    },
+    "pass": false,
+    "hit_J_ci": [
+     "nan",
+     "nan"
+    ],
+    "ratio_ci": [
+     "nan",
+     "nan"
+    ]
+   },
+   "w2": {
+    "rate_J": 0.0,
+    "rate_perp": 0.0,
+    "n_pairs_included": 3,
+    "frac_unmatched": 0.25,
+    "ratio": "inf",
+    "pass": false,
+    "rate_J_ci": [
+     0.0,
+     0.0
+    ],
+    "ratio_ci": [
+     "nan",
+     "nan"
+    ]
+   },
+   "w3p": {
+    "unmatched_concepts": [
+     "sc2_lantern",
+     "sc2_ball",
+     "sc2_brick",
+     "sc2_sail"
+    ],
+    "norm": 278.94677734375,
+    "assessable": false,
+    "reason": "4 W3' concepts lack a matched perp",
+    "pass": false,
+    "diff": "nan"
+   },
+   "w45": {
+    "acc_clean": 0.25,
+    "imp_J_pp": -25.0,
+    "dmg_J": 0.3645833333333333,
+    "imp_rand_grid_pp": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     -25.0,
+     0.0,
+     0.0
+    ],
+    "dmg_rand_grid": [
+     0.04166666759798924,
+     0.059027778916060925,
+     0.10069444309920073,
+     0.15277777860562006,
+     0.2187500037252903,
+     0.3020833358168602,
+     0.3993055522441864
+    ],
+    "imp_rand1_pp": 0.0,
+    "dmg_rand1": 0.04166666759798924,
+    "s_star": 1.0,
+    "s_star_status": "at_grid_min_lower_bound",
+    "SI_norm": 8.749999804422263,
+    "SI_iso": 8.749999804422263,
+    "SI_iso_ci": [
+     5.6999997840821806,
+     24.49999950826169
+    ],
+    "w4_diff_pp": -25.0,
+    "pass_w4": false,
+    "pass_w5": false,
+    "w5_description": "not selective",
+    "w4_diff_ci": [
+     -75.0,
+     0.0
+    ],
+    "s_star_certifiable": false
+   }
+  }
+ },
+ "timings_s": {
+  "prepare": 15.015949726104736,
+  "w0_r2": 4.344681739807129,
+  "concept_vectors": 3.6081511974334717,
+  "country_vectors": 0.9793891906738281,
+  "dose": 28.937769889831543,
+  "w1": 45.41673946380615,
+  "w2": 51.50569272041321,
+  "w3p": 105.90905237197876,
+  "w45": 75.60015273094177,
+  "w3p_references": 174.6945822238922,
+  "w3p_natural": 50.86061215400696
+ },
+ "eng": {
+  "layer": 12,
+  "PC3": null,
+  "NC1": null,
+  "pass": false
+ },
+ "seconds": 556.8767776489258,
+ "non_evidential": "SMOKE2 material only; never enters any gate, pattern or selection",
+ "provenance": {
+  "phase": "SMOKE2",
+  "model": "qwen3-1.7b",
+  "utc": "2026-10-07T07:03:23.611129+00:00",
+  "git_head": "02201dfaee0678b57cefca4e66fc89077e59d677",
+  "config_hash": "93af8f8fe7b57477d48ee07623cf25007b3dd35d98820cf7dfb5d164130f6e3d",
+  "thresholds_sha256": "0edbff81b69f002091fa872e6d3d6a18c5c6c606f81e772821b02e374d1199a3",
+  "prereg_sha256": "e603bd1f34cfb3df0277cdc4dfd99676ed3364b7cbc6e9ee3f2dc5d1fd9294f4",
+  "split_manifest2_sha256": "620f3a513a2ed251c97b5b0e3793075cf96c3a3ec7eba3478080db0fb3ba74ae",
+  "artifact_manifest_sha256": "79b082e4a629eaa260a0b97a7968e0abacfd7f71c8f82e2317bc46151d7a88de",
+  "torch": "2.14.1+cpu",
+  "transformers": "5.18.0",
+  "threads": 12,
+  "platform": "Windows-11-10.0.26200-SP0"
+ }
+}

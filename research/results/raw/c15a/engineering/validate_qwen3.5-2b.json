@@ -1,0 +1,36 @@
+{
+ "gp": {
+  "n": 256,
+  "sec_exact": 10.995005369186401,
+  "sec_screened": 2.090946674346924,
+  "rel_residual_ratio_mean": 1.0043693780899048,
+  "rel_residual_ratio_p95": 1.0082961320877075,
+  "atom_set_overlap_mean": 0.500625,
+  "top10_overlap_mean": 0.594921875,
+  "recon_cos_mean": 0.9592621326446533
+ },
+ "ablation": {
+  "removed_cos_mean": 0.9267855286598206,
+  "removed_norm_ratio_mean": 0.991909384727478
+ },
+ "emp_kl_cache_check": {
+  "cached": 0.004032657016068697,
+  "uncached": 0.004032648168504238,
+  "abs_diff": 8.847564458847046e-09
+ },
+ "pass": false,
+ "non_evidential": true,
+ "provenance": {
+  "phase": "SMOKE",
+  "model": "qwen3.5-2b",
+  "utc": "2026-10-05T23:15:30.680308+00:00",
+  "git_head": "79a55c7034fbf15be2ceaac9134d7e5c7950f805",
+  "config_hash": "d9aebf573efa749880b1f019cc76364bc785e7c8b1cba8032fe3fad0e45b3555",
+  "artifact_manifest_sha256": "79b082e4a629eaa260a0b97a7968e0abacfd7f71c8f82e2317bc46151d7a88de",
+  "split_manifest_sha256": "4367561c8a1e59ba067aac6b9905b9a910645b5be042b885272caf19b8a7dc3b",
+  "torch": "2.14.1+cpu",
+  "transformers": "5.18.0",
+  "threads": 12,
+  "platform": "Windows-11-10.0.26200-SP0"
+ }
+}

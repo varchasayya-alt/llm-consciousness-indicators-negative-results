@@ -1,0 +1,999 @@
+[
+ {
+  "seeds": [
+   "gurnee2026"
+  ],
+  "title": "Adaptive Multi-Value Control in LLMs via Causal Activation Steering",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2609.30405"
+ },
+ {
+  "seeds": [
+   "devillers2024",
+   "goyal2022",
+   "maytie2024"
+  ],
+  "title": "An Attention Mechanism for Robust Multimodal Integration in a Global Workspace Architecture",
+  "year": 2026,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2602.08597"
+ },
+ {
+  "seeds": [
+   "biran2024"
+  ],
+  "title": "Augmenting Large Language Models with Causal Risk Patterns for AI Deployment Risk Assessment",
+  "year": 2026,
+  "venue": "International Conference on Auditory Display",
+  "abstract": null,
+  "arxiv": null
+ },
+ {
+  "seeds": [
+   "ramesh2025"
+  ],
+  "title": "Beyond tokens: a unified framework for latent communication in LLM-based multi-agent systems",
+  "year": 2026,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2606.05711"
+ },
+ {
+  "seeds": [
+   "gurnee2026"
+  ],
+  "title": "Can We Read the Mind of an Audio LLM? A Verbalizable, Multilingual Middle-Layer Workspace",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2608.24958"
+ },
+ {
+  "seeds": [
+   "gurnee2026"
+  ],
+  "title": "DV-Lens: Revealing the Functional Organization of Language Model Parameters",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2610.04489"
+ },
+ {
+  "seeds": [
+   "gurnee2026"
+  ],
+  "title": "Decodable but Misrouted: Sparse Features Uncover a Readout Gap in Vision-Language Models for Harmful Meme Detection",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2609.18860"
+ },
+ {
+  "seeds": [
+   "biran2024"
+  ],
+  "title": "DiscoLoop: Looping Discrete Embeddings and Continuous Hidden States for Multi-hop Reasoning",
+  "year": 2026,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2607.00341"
+ },
+ {
+  "seeds": [
+   "ramesh2025"
+  ],
+  "title": "Draft-KV: Learning Useful Latent Communication Between Language Models",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2609.34754"
+ },
+ {
+  "seeds": [
+   "kottur2017"
+  ],
+  "title": "Emergent Compositional Communication for Latent World Properties",
+  "year": 2026,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2604.03266"
+ },
+ {
+  "seeds": [
+   "kottur2017",
+   "resnick2020capacity"
+  ],
+  "title": "Emergent Language as an Approach to Conscious AI",
+  "year": 2026,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2606.06380"
+ },
+ {
+  "seeds": [
+   "gurnee2026"
+  ],
+  "title": "Forensic Reserve: Eliciting Latent Knowledge for Image Forgery Detection",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2610.08639"
+ },
+ {
+  "seeds": [
+   "resnick2020capacity"
+  ],
+  "title": "From Signals to Structure: How Memory Architecture Drives Language Emergence in LLM Agents",
+  "year": 2026,
+  "venue": "IEEE Symposium on Artificial Life",
+  "abstract": null,
+  "arxiv": "2607.00233"
+ },
+ {
+  "seeds": [
+   "gurnee2026"
+  ],
+  "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2608.02585"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "HiCI: Hierarchical Construction-Integration for Long-Context Attention",
+  "year": 2026,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2603.20843"
+ },
+ {
+  "seeds": [
+   "gurnee2026"
+  ],
+  "title": "Interference and Retention in Continual Learning",
+  "year": 2026,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2607.09202"
+ },
+ {
+  "seeds": [
+   "kottur2017"
+  ],
+  "title": "Latent Communication Between Language Model Agents: Channels, Alignment, and the Limits of Text",
+  "year": 2026,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2607.14103"
+ },
+ {
+  "seeds": [
+   "kottur2017"
+  ],
+  "title": "Lexical Consensus: Grounded Word Learning and Shared Meaning in Artificial Agents",
+  "year": 2026,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2606.22207"
+ },
+ {
+  "seeds": [
+   "biran2024"
+  ],
+  "title": "Loop, Think, & Generalize: Implicit Reasoning in Recurrent-Depth Transformers",
+  "year": 2026,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2604.07822"
+ },
+ {
+  "seeds": [
+   "gurnee2026"
+  ],
+  "title": "Looped Transformers under the Jacobian Lens: Does the Global Workspace Survive Recurrence?",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2609.01924"
+ },
+ {
+  "seeds": [
+   "kottur2017"
+  ],
+  "title": "Playing log(N)-Questions over Wikipedia Abstracts: How Per-Round Errors Compound Under Information Asymmetry",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2609.19113"
+ },
+ {
+  "seeds": [
+   "latentaudit2026"
+  ],
+  "title": "Portable Semantics, Private Dialects: Reuse and Negative Transfer in Latent Communication Between Language-Model Cells",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2609.11365"
+ },
+ {
+  "seeds": [
+   "t2mlr2026"
+  ],
+  "title": "Principled Thoughts for Latent Recursive LLM Systems",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2609.36159"
+ },
+ {
+  "seeds": [
+   "gurnee2026"
+  ],
+  "title": "Reading and Steering Representations of Materials-Science Mechanisms in an Open-Weight Language Model",
+  "year": 2026,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2607.20058"
+ },
+ {
+  "seeds": [
+   "ramesh2025"
+  ],
+  "title": "Receiver-Conditioned Latent Communication gives 94% CacheBack",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2609.32046"
+ },
+ {
+  "seeds": [
+   "gurnee2026"
+  ],
+  "title": "Residual Streams Read, Recurrent States Remember: The Global Workspace in Mamba Models",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2609.32102"
+ },
+ {
+  "seeds": [
+   "ramesh2025"
+  ],
+  "title": "See What I See, Know What I Think: Dense Latent Communication Across Heterogeneous Agents",
+  "year": 2026,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2606.13594"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Self-Monitoring Benefits from Structural Integration: Lessons from Metacognition in Continuous-Time Multi-Timescale Agents",
+  "year": 2026,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2604.11914"
+ },
+ {
+  "seeds": [
+   "gurnee2026"
+  ],
+  "title": "Self-Reference in Large Language Models: The Introspection Threshold for Recursive Self-Improvement",
+  "year": 2026,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2607.04277"
+ },
+ {
+  "seeds": [
+   "gurnee2026"
+  ],
+  "title": "Self-Referential Introspection in Large Language Models: The Critical Threshold for Recursive Self-Improvement",
+  "year": 2026,
+  "venue": "Entropy",
+  "abstract": null,
+  "arxiv": null
+ },
+ {
+  "seeds": [
+   "gurnee2026"
+  ],
+  "title": "The Cross-Substrate Access Assay: What an Indicator Test Must Declare to Travel from Brain to Language Model",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2609.22300"
+ },
+ {
+  "seeds": [
+   "gurnee2026"
+  ],
+  "title": "The Ignition Is Real, and It Lives at the Readout: Latent composition, difficulty-clocked ignition, and the interface-constituted commit in a recurrent-depth reasoner",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2608.03263"
+ },
+ {
+  "seeds": [
+   "gurnee2026"
+  ],
+  "title": "The Platonic brain bridge hypothesis: human brain networks as an architectural prior for multimodal large language models",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2609.10947"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "The Thinking Pixel: Recursive Sparse Reasoning in Multimodal Diffusion Latents",
+  "year": 2026,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2604.25299"
+ },
+ {
+  "seeds": [
+   "gurnee2026"
+  ],
+  "title": "The ethics of artificial intelligence in the life sciences: Universality, cultural diversity and an architecture of care",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2608.05436"
+ },
+ {
+  "seeds": [
+   "backattention",
+   "biran2024"
+  ],
+  "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2609.36585"
+ },
+ {
+  "seeds": [
+   "kottur2017"
+  ],
+  "title": "What You Can't See Is Still What You Learn: A Preregistered Sixty-Society Confirmation That Evidence Masking Drives Compositional Generalization",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2609.17637"
+ },
+ {
+  "seeds": [
+   "goyal2022",
+   "latentaudit2026",
+   "resnick2020capacity"
+  ],
+  "title": "What You Can't See Is What You Learn: Slot-Selective Evidence Masking Favors Compositional Generalization in Shared-Genome Language-Model Societies",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2608.20054"
+ },
+ {
+  "seeds": [
+   "latentaudit2026",
+   "ramesh2025"
+  ],
+  "title": "When Does Latent Communication Pay? A Causal Audit of Relayed KV Caches in Multi-Agent LLMs",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2608.04893"
+ },
+ {
+  "seeds": [
+   "gurnee2026"
+  ],
+  "title": "When the Reward Suite Is Leaky: A Preregistered Causal Contrast of Natural Verifier False Positives in RLVR",
+  "year": 2026,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2607.11022"
+ },
+ {
+  "seeds": [
+   "backattention",
+   "biran2024"
+  ],
+  "title": "Why Knowing Both Hops Is Not Enough: Understanding Two-Hop Generalization in Language Models",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2608.07261"
+ },
+ {
+  "seeds": [
+   "ramesh2025"
+  ],
+  "title": "XBridge: Entity-Grounded Latent Bridge for Heterogeneous LLM Communication",
+  "year": 2026,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2608.11676"
+ },
+ {
+  "seeds": [
+   "biran2024"
+  ],
+  "title": "A multidisciplinary approach to understanding the technology, opportunities, challenges, and implications for society of the metaverse",
+  "year": 2025,
+  "venue": "Frontiers Virtual Real.",
+  "abstract": null,
+  "arxiv": null
+ },
+ {
+  "seeds": [
+   "devillers2024",
+   "goyal2022"
+  ],
+  "title": "Attention Schema-based Attention Control (ASAC): A Cognitive-Inspired Approach for Attention Management in Transformers",
+  "year": 2025,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2509.16058"
+ },
+ {
+  "seeds": [
+   "biran2024"
+  ],
+  "title": "Back Attention: Understanding and Enhancing Multi-Hop Reasoning in Large Language Models",
+  "year": 2025,
+  "venue": "Conference on Empirical Methods in Natural Language Processing",
+  "abstract": null,
+  "arxiv": "2502.10835"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Can We Test Consciousness Theories on AI? Ablations, Markers, and Robustness",
+  "year": 2025,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2512.19155"
+ },
+ {
+  "seeds": [
+   "dvnc2021",
+   "goyal2022"
+  ],
+  "title": "CellMemory: hierarchical interpretation of out-of-distribution cells using bottlenecked transformer",
+  "year": 2025,
+  "venue": "Genome Biology",
+  "abstract": null,
+  "arxiv": null
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Debiasing Global Workspace: A Cognitive Neural Framework for Learning Debiased and Interpretable Representations",
+  "year": 2025,
+  "venue": "UniReps",
+  "abstract": "",
+  "arxiv": null
+ },
+ {
+  "seeds": [
+   "dvnc2021"
+  ],
+  "title": "IIB-DDI: Invariant Information Bottleneck Theory for Out-of-Distribution Drug-Drug Interaction Prediction",
+  "year": 2025,
+  "venue": "IEEE Transactions on Computational Biology and Bioinformatics",
+  "abstract": null,
+  "arxiv": null
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Improved Knowledge Distillation Based on Global Latent Workspace With Multimodal Knowledge Fusion for Understanding Topological Guidance on Wearable Sensor Data",
+  "year": 2025,
+  "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+  "abstract": null,
+  "arxiv": null
+ },
+ {
+  "seeds": [
+   "backattention"
+  ],
+  "title": "KEREM: Enhancing Reliability and Transparency in Medical QA through LLM and Knowledge Graph Fusion",
+  "year": 2025,
+  "venue": "IEEE International Conference on Systems, Man and Cybernetics",
+  "abstract": null,
+  "arxiv": null
+ },
+ {
+  "seeds": [
+   "devillers2024",
+   "goyal2022"
+  ],
+  "title": "Learning to Chain Operations by Routing Information Through a Global Workspace",
+  "year": 2025,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2503.01906"
+ },
+ {
+  "seeds": [
+   "devillers2024"
+  ],
+  "title": "Multi-Level Collaborative Distillation Meets Global Workspace Model: A Unified Framework for OCIL",
+  "year": 2025,
+  "venue": "IEEE Transactions on Image Processing",
+  "abstract": null,
+  "arxiv": "2508.08677"
+ },
+ {
+  "seeds": [
+   "devillers2024",
+   "maytie2024"
+  ],
+  "title": "Multimodal Dreaming: A Global Workspace Approach to World Model-Based Reinforcement Learning",
+  "year": 2025,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2502.21142"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "On the utility of toy models for theories of consciousness",
+  "year": 2025,
+  "venue": "",
+  "abstract": null,
+  "arxiv": "2508.00190"
+ },
+ {
+  "seeds": [
+   "kottur2017"
+  ],
+  "title": "Towards Human-Like Emergent Communication via Utility, Informativeness, and Complexity",
+  "year": 2025,
+  "venue": "Open Mind",
+  "abstract": null,
+  "arxiv": null
+ },
+ {
+  "seeds": [
+   "biran2024"
+  ],
+  "title": "Tracing and Dissecting How LLMs Recall Factual Knowledge for Real World Questions",
+  "year": 2025,
+  "venue": "Annual Meeting of the Association for Computational Linguistics",
+  "abstract": null,
+  "arxiv": null
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "A Case for AI Consciousness: Language Agents and Global Workspace Theory",
+  "year": 2024,
+  "venue": "Journal of Consciousness Studies",
+  "abstract": null,
+  "arxiv": "2410.11407"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Cohabitation of Intelligence and Systems: Towards Self-reference in Digital Anatomies",
+  "year": 2024,
+  "venue": "International Symposium on Service Oriented Software Engineering",
+  "abstract": null,
+  "arxiv": null
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Design and evaluation of a global workspace agent embodied in a realistic multimodal environment",
+  "year": 2024,
+  "venue": "Frontiers Comput. Neurosci.",
+  "abstract": null,
+  "arxiv": null
+ },
+ {
+  "seeds": [
+   "dvnc2021"
+  ],
+  "title": "Gaussian Mixture Vector Quantization with Aggregated Categorical Posterior",
+  "year": 2024,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2410.10180"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Learning Decomposable and Debiased Representations via Attribute-Centric Information Bottlenecks",
+  "year": 2024,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2403.14140"
+ },
+ {
+  "seeds": [
+   "kottur2017"
+  ],
+  "title": "Learning from Teaching Regularization: Generalizable Correlations Should be Easy to Imitate",
+  "year": 2024,
+  "venue": "Neural Information Processing Systems",
+  "abstract": null,
+  "arxiv": "2402.02769"
+ },
+ {
+  "seeds": [
+   "resnick2020capacity"
+  ],
+  "title": "One-to-Many Communication and Compositionality in Emergent Communication",
+  "year": 2024,
+  "venue": "Conference on Empirical Methods in Natural Language Processing",
+  "abstract": null,
+  "arxiv": null
+ },
+ {
+  "seeds": [
+   "devillers2024"
+  ],
+  "title": "Zero-shot cross-modal transfer of Reinforcement Learning policies through a Global Workspace",
+  "year": 2024,
+  "venue": "RLJ",
+  "abstract": null,
+  "arxiv": "2403.04588"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "m2mKD: Module-to-Module Knowledge Distillation for Modular Transformers",
+  "year": 2024,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2402.16918"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Building artificial neural circuits for domain-general cognition: a primer on brain-inspired systems-level architecture",
+  "year": 2023,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2303.13651"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Concept-Centric Transformers: Enhancing Model Interpretability through Object-Centric Concept Learning within a Shared Global Workspace",
+  "year": 2023,
+  "venue": "IEEE Workshop/Winter Conference on Applications of Computer Vision",
+  "abstract": null,
+  "arxiv": "2305.15775"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+  "year": 2023,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2308.08708"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Contraction Properties of the Global Workspace Primitive",
+  "year": 2023,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2310.01571"
+ },
+ {
+  "seeds": [
+   "kottur2017",
+   "resnick2020capacity"
+  ],
+  "title": "Deep neural networks and humans both benefit from compositional language structure",
+  "year": 2023,
+  "venue": "Nature Communications",
+  "abstract": null,
+  "arxiv": "2302.12239"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Feature-Attending Recurrent Modules for Generalization in Reinforcement Learning",
+  "year": 2023,
+  "venue": "Trans. Mach. Learn. Res.",
+  "abstract": "",
+  "arxiv": null
+ },
+ {
+  "seeds": [
+   "dvnc2021"
+  ],
+  "title": "How Does Information Bottleneck Help Deep Learning?",
+  "year": 2023,
+  "venue": "International Conference on Machine Learning",
+  "abstract": null,
+  "arxiv": "2305.18887"
+ },
+ {
+  "seeds": [
+   "dvnc2021"
+  ],
+  "title": "Learning Invariant Molecular Representation in Latent Discrete Space",
+  "year": 2023,
+  "venue": "Neural Information Processing Systems",
+  "abstract": null,
+  "arxiv": "2310.14170"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "PEFT-Ref: A Modular Reference Architecture and Typology for Parameter-Efficient Finetuning Techniques",
+  "year": 2023,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2304.12410"
+ },
+ {
+  "seeds": [
+   "dvnc2021"
+  ],
+  "title": "Reusable Slotwise Mechanisms",
+  "year": 2023,
+  "venue": "Neural Information Processing Systems",
+  "abstract": null,
+  "arxiv": "2302.10503"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Semi-Supervised Multimodal Representation Learning Through a Global Workspace",
+  "year": 2023,
+  "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+  "abstract": null,
+  "arxiv": "2306.15711"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Think Before You Act: Decision Transformers with Working Memory",
+  "year": 2023,
+  "venue": "International Conference on Machine Learning",
+  "abstract": null,
+  "arxiv": "2305.16338"
+ },
+ {
+  "seeds": [
+   "dvnc2021",
+   "goyal2022"
+  ],
+  "title": "Unlearning via Sparse Representations",
+  "year": 2023,
+  "venue": "Trans. Mach. Learn. Res.",
+  "abstract": null,
+  "arxiv": "2311.15268"
+ },
+ {
+  "seeds": [
+   "dvnc2021",
+   "goyal2022"
+  ],
+  "title": "Adaptive Discrete Communication Bottlenecks with Dynamic Vector Quantization",
+  "year": 2022,
+  "venue": "AAAI Conference on Artificial Intelligence",
+  "abstract": null,
+  "arxiv": "2202.01334"
+ },
+ {
+  "seeds": [
+   "dvnc2021"
+  ],
+  "title": "Discrete Factorial Representations as an Abstraction for Goal Conditioned Reinforcement Learning",
+  "year": 2022,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2211.00247"
+ },
+ {
+  "seeds": [
+   "dvnc2021"
+  ],
+  "title": "Neural Systematic Binder",
+  "year": 2022,
+  "venue": "International Conference on Learning Representations",
+  "abstract": null,
+  "arxiv": "2211.01177"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "On the link between conscious function and general intelligence in humans and machines",
+  "year": 2022,
+  "venue": "Trans. Mach. Learn. Res.",
+  "abstract": null,
+  "arxiv": "2204.05133"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Temporal Latent Bottleneck: Synthesis of Fast and Slow Processing Mechanisms in Sequence Learning",
+  "year": 2022,
+  "venue": "Neural Information Processing Systems",
+  "abstract": null,
+  "arxiv": "2205.14794"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "A roadmap on learning and reasoning for distributed computing continuum ecosystems",
+  "year": 2021,
+  "venue": "International Conference on Edge Computing [Services Society]",
+  "abstract": null,
+  "arxiv": null
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "ABC: Attention with Bounded-memory Control",
+  "year": 2021,
+  "venue": "Annual Meeting of the Association for Computational Linguistics",
+  "abstract": null,
+  "arxiv": "2110.02488"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Continual Learning via Local Module Composition",
+  "year": 2021,
+  "venue": "Neural Information Processing Systems",
+  "abstract": null,
+  "arxiv": "2111.07736"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Discrete-Valued Neural Communication",
+  "year": 2021,
+  "venue": "Neural Information Processing Systems",
+  "abstract": null,
+  "arxiv": "2107.02367"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Fast and Slow Learning of Recurrent Independent Mechanisms",
+  "year": 2021,
+  "venue": "International Conference on Learning Representations",
+  "abstract": null,
+  "arxiv": "2105.08710"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "How does Hemispheric Specialization contribute to Human-Defining Cognition?",
+  "year": 2021,
+  "venue": "Neuron",
+  "abstract": null,
+  "arxiv": null
+ },
+ {
+  "seeds": [
+   "kottur2017"
+  ],
+  "title": "Iterated learning for emergent systematicity in VQA",
+  "year": 2021,
+  "venue": "International Conference on Learning Representations",
+  "abstract": null,
+  "arxiv": "2105.01119"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "Social Neuro AI: Social Interaction as the “Dark Matter” of AI",
+  "year": 2021,
+  "venue": "Frontiers of Computer Science",
+  "abstract": null,
+  "arxiv": "2112.15459"
+ },
+ {
+  "seeds": [
+   "kottur2017"
+  ],
+  "title": "The Effect of Efficient Messaging and Input Variability on Neural-Agent Iterated Language Learning",
+  "year": 2021,
+  "venue": "Conference on Empirical Methods in Natural Language Processing",
+  "abstract": null,
+  "arxiv": "2104.07637"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "The Tensor Brain: A Unified Theory of Perception, Memory, and Semantic Decoding",
+  "year": 2021,
+  "venue": "Neural Computation",
+  "abstract": null,
+  "arxiv": "2109.13392"
+ },
+ {
+  "seeds": [
+   "kottur2017"
+  ],
+  "title": "Zero-Shot Generalization using Intrinsically Motivated Compositional Emergent Protocols",
+  "year": 2021,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2105.05069"
+ },
+ {
+  "seeds": [
+   "kottur2017",
+   "resnick2020capacity"
+  ],
+  "title": "Emergent Communication Pretraining for Few-Shot Machine Translation",
+  "year": 2020,
+  "venue": "International Conference on Computational Linguistics",
+  "abstract": null,
+  "arxiv": "2011.00890"
+ },
+ {
+  "seeds": [
+   "kottur2017",
+   "resnick2020capacity"
+  ],
+  "title": "ReferentialGym: A Nomenclature and Framework for Language Emergence & Grounding in (Visual) Referential Games",
+  "year": 2020,
+  "venue": "arXiv.org",
+  "abstract": null,
+  "arxiv": "2012.09486"
+ },
+ {
+  "seeds": [
+   "goyal2022"
+  ],
+  "title": "A Cognitive Framework for Learning Debiased and Interpretable Representations via Debiasing Global Workspace",
+  "year": null,
+  "venue": "",
+  "abstract": "",
+  "arxiv": null
+ }
+]

@@ -1,0 +1,13 @@
+{
+ "H3": {
+  "K1_ancova": {
+   "support_rate": 1.0,
+   "mean": 0.8804972240043747
+  },
+  "K1_dml": {
+   "support_rate": 1.0,
+   "mean": 0.8920577826634615
+  },
+  "median_feasible_seeds": 8.0
+ }
+}

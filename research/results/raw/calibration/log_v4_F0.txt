@@ -1,0 +1,7 @@
+  epoch 10: trained-fact acc 0.6997 (1.4 min)
+  epoch 20: trained-fact acc 0.8683 (2.9 min)
+  epoch 30: trained-fact acc 0.9786 (4.3 min)
+  epoch 40: trained-fact acc 0.9989 (5.8 min)
+  epoch 50: trained-fact acc 1.0000 (7.2 min)
+  epoch 60: trained-fact acc 1.0000 (8.7 min)
+F0: {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.02566486888599591, 'fluency_auroc_high_vs_low': 1.0, 'acc_covered': 1.0, 'acc_param_only': 1.0, 'own_slot_attention_mean': 0.9884649515151978, 'null_attention_param_only_mean': 0.9914538860321045, 'n_slots': 4636, 'pass': True} -> pass=True (E_store=60)

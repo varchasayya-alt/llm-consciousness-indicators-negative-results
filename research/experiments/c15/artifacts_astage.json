@@ -1,0 +1,66 @@
+{
+  "_note": "C15-R A-stage pinned artifacts (PI-approved downloads only). Resolved 2026-10-04 from the Hugging Face API. Z0 fails if any local file or lens metadata disagrees with this manifest.",
+  "lens_repo": {
+    "repo_id": "neuronpedia/jacobian-lens",
+    "revision": "b25d72a96b79c8e309d6625955a98751da47e67a",
+    "license": "mit",
+    "reference_code": "https://github.com/anthropics/jacobian-lens (Apache-2.0); lens readout = lm_head(final_norm(J_l @ h_l)); h_l = output of decoder block l; J_l maps to the output of the final block (target_layer null -> n_layers-1)."
+  },
+  "models": {
+    "qwen3-1.7b": {
+      "hf_model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "license": "apache-2.0",
+      "files": {
+        "model-00001-of-00002.safetensors": {"size": 3441185608, "sha256": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5"},
+        "model-00002-of-00002.safetensors": {"size": 622329984, "sha256": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9"},
+        "tokenizer.json": {"size": 11422654, "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"}
+      },
+      "lens": {
+        "path": "qwen3-1.7b/jlens/Salesforce-wikitext/Qwen3-1.7B_jacobian_lens.pt",
+        "size": 226501315,
+        "sha256": "6fcc79011bd921ffd87612255e2e99950a124fa519470ee44ebaf161c39be9d6",
+        "config_path": "qwen3-1.7b/jlens/Salesforce-wikitext/config.yaml",
+        "expected_hf_model_name": "Qwen/Qwen3-1.7B"
+      },
+      "expected": {"n_layers": 28, "d_model": 2048, "n_lens_layers": 27}
+    },
+    "qwen3.5-2b": {
+      "hf_model_id": "Qwen/Qwen3.5-2B",
+      "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+      "license": "apache-2.0",
+      "note": "Post-trained checkpoint, exactly matching lens qwen3.5-2b (config hf_model_name Qwen/Qwen3.5-2B). The separate public lens qwen3.5-2b-pt was fitted on Qwen/Qwen3.5-2B-Base (a distinct checkpoint) and is NOT used.",
+      "files": {
+        "model.safetensors-00001-of-00001.safetensors": {"size": 4548221488, "sha256": "aa33250c4fc64891ddfaba3a314fd9542ea371843c387178b425fbcc5ed680b1"},
+        "tokenizer.json": {"size": 12807982, "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42"}
+      },
+      "lens": {
+        "path": "qwen3.5-2b/jlens/Salesforce-wikitext/Qwen3.5-2B_jacobian_lens.pt",
+        "size": 192946315,
+        "sha256": "69e02a9794c340da7a69cfaa1638c0267192f25a64e7f4fa23f3021e72393c82",
+        "config_path": "qwen3.5-2b/jlens/Salesforce-wikitext/config.yaml",
+        "expected_hf_model_name": "Qwen/Qwen3.5-2B"
+      },
+      "expected": {"n_layers": 24, "d_model": 2048, "n_lens_layers": 23}
+    },
+    "qwen3-4b": {
+      "hf_model_id": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "license": "apache-2.0",
+      "files": {
+        "model-00001-of-00003.safetensors": {"size": 3957900840, "sha256": "328a91d3122359d5547f9d79521205bc0a46e1f79a792dfe650e99fc2d651223"},
+        "model-00002-of-00003.safetensors": {"size": 3987450520, "sha256": "6cd087b316306a68c562436b5492edbcf6e16c6dba3a1308279caa5a58e21ca5"},
+        "model-00003-of-00003.safetensors": {"size": 99630640, "sha256": "e4bf436957184f4eeb86a80e9db394503f1f56446b2e6b7edeac5b81470f4ca1"},
+        "tokenizer.json": {"size": 11422654, "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"}
+      },
+      "lens": {
+        "path": "qwen3-4b/jlens/Salesforce-wikitext/Qwen3-4B_jacobian_lens.pt",
+        "size": 458762977,
+        "sha256": "9c94a43ac2db2debbab36acb74480f49a3ac411fb3d7fa8e5461377028e74606",
+        "config_path": "qwen3-4b/jlens/Salesforce-wikitext/config.yaml",
+        "expected_hf_model_name": "Qwen/Qwen3-4B"
+      },
+      "expected": {"n_layers": 36, "d_model": 2560, "n_lens_layers": 35}
+    }
+  }
+}

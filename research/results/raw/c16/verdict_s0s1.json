@@ -1,0 +1,49 @@
+{
+ "S0": {
+  "final_format": null,
+  "core_instrument_valid": false,
+  "phase_diagram_measurable": false,
+  "V1": {
+   "V1a": false,
+   "V1b": false,
+   "V1c": false,
+   "V1d": false,
+   "pool_passing_V1": []
+  },
+  "V2": null,
+  "W": null,
+  "L_w": 8,
+  "l_o": null,
+  "read_layers": null,
+  "rX_geomean": null,
+  "rB_geomean": null
+ },
+ "S1b_pass": true,
+ "S1c_1_pass": false,
+ "S1c_2": {
+  "zero_gate_identity": true,
+  "cue_invariance": true,
+  "train_reach": 0.007369614512471645,
+  "train_reach_pass": false,
+  "transport_pc_CT_TR": 0.09603715327140126,
+  "transport_pc_pass": false,
+  "V6_ratio": 1.212500990286497,
+  "V6_pass": true,
+  "nc_neutral": true,
+  "pass": false
+ },
+ "S1a": {
+  "core_final_gates": {
+   "h1_lb": 0.1,
+   "h2_lb": 0.0,
+   "h3_lb": 0.0,
+   "h4_lb": 0.0,
+   "h5_lb": 0.0
+  },
+  "core_final_fpr": 0.0475,
+  "core_final_power": 0.7,
+  "hcd_minimal": null,
+  "hcd_central_recommended": false,
+  "stage2_run_cpu_h_estimate": null
+ }
+}

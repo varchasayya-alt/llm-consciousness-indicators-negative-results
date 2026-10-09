@@ -1,0 +1,128 @@
+{
+ "shift0.0|H3_strong": {
+  "S1_delta_lin": {
+   "support_rate": 1.0,
+   "mean": 0.9545590037716468
+  },
+  "S3_post_rcs_P": {
+   "support_rate": 1.0,
+   "mean": 0.9822570972080787
+  },
+  "S3_noState": {
+   "support_rate": 1.0,
+   "mean": 0.9855199711674629
+  },
+  "S9_dml_rank": {
+   "support_rate": 1.0,
+   "mean": 0.9720171443217034
+  },
+  "S9_dml_logitM": {
+   "support_rate": 1.0,
+   "mean": 0.9722037264628939
+  },
+  "S9_gen": {
+   "support_rate": 1.0,
+   "mean": 0.9545884604072087
+  },
+  "K1_prob": {
+   "support_rate": 0.0,
+   "mean": NaN
+  },
+  "K1_ancova": {
+   "support_rate": 0.0,
+   "mean": NaN
+  },
+  "labels_S9": {
+   "A": 1.0,
+   "B": 0.0,
+   "C": 0.0
+  },
+  "median_r2_pre": 0.18552536931366115,
+  "median_r2_gen": 0.298693622088978,
+  "median_lost_frac": 0.16333333333333333
+ },
+ "shift0.0|null": {
+  "S1_delta_lin": {
+   "support_rate": 0.0,
+   "mean": 0.0021193991842837503
+  },
+  "S3_post_rcs_P": {
+   "support_rate": 0.0,
+   "mean": -0.00047315083642175226
+  },
+  "S3_noState": {
+   "support_rate": 0.0,
+   "mean": -0.0008468392581133991
+  },
+  "S9_dml_rank": {
+   "support_rate": 0.0,
+   "mean": -5.2623960500264435e-05
+  },
+  "S9_dml_logitM": {
+   "support_rate": 0.0,
+   "mean": -4.424065474104281e-05
+  },
+  "S9_gen": {
+   "support_rate": 0.0,
+   "mean": -0.0001896898082113678
+  },
+  "K1_prob": {
+   "support_rate": 0.0,
+   "mean": NaN
+  },
+  "K1_ancova": {
+   "support_rate": 0.0,
+   "mean": NaN
+  },
+  "labels_S9": {
+   "A": 0.0,
+   "B": 0.0,
+   "C": 1.0
+  },
+  "median_r2_pre": 0.18640480479421423,
+  "median_r2_gen": 0.3016137298204173,
+  "median_lost_frac": 0.16333333333333333
+ },
+ "shift1.5|H2_intensity": {
+  "S1_delta_lin": {
+   "support_rate": 1.0,
+   "mean": 0.44452046343105117
+  },
+  "S3_post_rcs_P": {
+   "support_rate": 1.0,
+   "mean": 0.4955301142052835
+  },
+  "S3_noState": {
+   "support_rate": 1.0,
+   "mean": 0.4447172097367389
+  },
+  "S9_dml_rank": {
+   "support_rate": 1.0,
+   "mean": 0.49256540497519447
+  },
+  "S9_dml_logitM": {
+   "support_rate": 1.0,
+   "mean": 0.5048270955016131
+  },
+  "S9_gen": {
+   "support_rate": 0.0,
+   "mean": 0.008700919835999125
+  },
+  "K1_prob": {
+   "support_rate": 1.0,
+   "mean": 0.7465072143571629
+  },
+  "K1_ancova": {
+   "support_rate": 1.0,
+   "mean": 0.7557954165754718
+  },
+  "labels_S9": {
+   "A": 0.0,
+   "B": 1.0,
+   "C": 0.0
+  },
+  "median_r2_pre": 0.15385192943117826,
+  "median_r2_gen": 0.23358096450645172,
+  "median_lost_frac": 0.47333333333333333
+ }
+}

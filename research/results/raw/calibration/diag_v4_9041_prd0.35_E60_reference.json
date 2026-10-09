@@ -1,0 +1,37 @@
+{
+ "covered": {
+  "acc_integrated": 1.0,
+  "acc_route_A": 0.792,
+  "a_null_mean": 0.011247962713241577,
+  "a_max_mean": 0.9884801506996155,
+  "a_own_mean": 0.9884801506996155,
+  "leak_mass_mean": 0.00027188658714294434,
+  "M2_answer_from_u": 0.998,
+  "downstream_sensitivity": {
+   "along_u": 0.05488251894712448,
+   "along_hA": 0.13463282585144043,
+   "random": 0.10707373172044754,
+   "u_norm_mean": 21.30706787109375,
+   "hA_norm_mean": 6.932119846343994
+  }
+ },
+ "param_only": {
+  "acc_integrated": 1.0,
+  "acc_route_A": 0.9889280322093609,
+  "a_null_mean": 0.9914538860321045,
+  "a_max_mean": 0.9914538860321045,
+  "leak_mass_mean": 0.008546113967895508,
+  "M2_answer_from_u": 0.4921992954202315,
+  "downstream_sensitivity": {
+   "along_u": 4.761900424957275,
+   "along_hA": 1.8371130228042603,
+   "random": 1.6427638530731201,
+   "u_norm_mean": 2.1018145084381104,
+   "hA_norm_mean": 6.932701587677002
+  }
+ },
+ "W_o_fro": 63.52931594848633,
+ "mem_values_norm_mean": 1.7284069061279297,
+ "null_value_norm": 0.22281600534915924,
+ "log_scale": 47.27048110961914
+}

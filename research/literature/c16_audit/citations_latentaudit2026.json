@@ -1,0 +1,238 @@
+{
+ "seed": "arXiv:2607.26773",
+ "meta": {
+  "paperId": "68669fc97efef8e4698e2bb8d4ee89f0cd272d52",
+  "title": "Do Latent Channels Actually Communicate? A Causal Audit of Latent Multi-Agent LLM",
+  "year": 2026,
+  "citationCount": 7
+ },
+ "citations": [
+  {
+   "paperId": "9db00db878134e6d0db133b653155b97694ebc59",
+   "externalIds": {
+    "ArXiv": "2609.34444",
+    "CorpusId": 292435431
+   },
+   "url": "https://www.semanticscholar.org/paper/9db00db878134e6d0db133b653155b97694ebc59",
+   "title": "Social Circuits behind Multi-agent Echo Chambers",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.34444, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2287829702",
+     "name": "Chui-Yang Meng"
+    },
+    {
+     "authorId": "2505388656",
+     "name": "Wen-Lu Yu"
+    },
+    {
+     "authorId": "2236563555",
+     "name": "Ming Tang"
+    },
+    {
+     "authorId": "2307396710",
+     "name": "Cheng Li"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "dbab65bc829ccc49609a99ec90e5d1bb688b60b6",
+   "externalIds": {
+    "ArXiv": "2609.11365",
+    "CorpusId": 291901932
+   },
+   "url": "https://www.semanticscholar.org/paper/dbab65bc829ccc49609a99ec90e5d1bb688b60b6",
+   "title": "Portable Semantics, Private Dialects: Reuse and Negative Transfer in Latent Communication Between Language-Model Cells",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.11365, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "1396622743",
+     "name": "Narcis Marincat"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ef1002efaee51a8991a4a3c36534ece6f6167530",
+   "externalIds": {
+    "ArXiv": "2609.07474",
+    "CorpusId": 291869059
+   },
+   "url": "https://www.semanticscholar.org/paper/ef1002efaee51a8991a4a3c36534ece6f6167530",
+   "title": "Where Should Language Sit in a Multimodal Model? Lessons from What Language Does to Human Perception and Cognition",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2609.07474, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2354320476",
+     "name": "Peng Xie"
+    },
+    {
+     "authorId": "27706391",
+     "name": "Amr Alanwar"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "e25dd8de4ce8b0a15259f4807344a489d9310bc4",
+   "externalIds": {
+    "ArXiv": "2608.20054",
+    "CorpusId": 291337749
+   },
+   "url": "https://www.semanticscholar.org/paper/e25dd8de4ce8b0a15259f4807344a489d9310bc4",
+   "title": "What You Can't See Is What You Learn: Slot-Selective Evidence Masking Favors Compositional Generalization in Shared-Genome Language-Model Societies",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.20054, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "1396622743",
+     "name": "Narcis Marincat"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "ee9a7c26085ebb99aa464aa03120a4973fc42b46",
+   "externalIds": {
+    "ArXiv": "2608.04893",
+    "CorpusId": 290844590
+   },
+   "url": "https://www.semanticscholar.org/paper/ee9a7c26085ebb99aa464aa03120a4973fc42b46",
+   "title": "When Does Latent Communication Pay? A Causal Audit of Relayed KV Caches in Multi-Agent LLMs",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2608.04893, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2388006543",
+     "name": "Jiaming Cheng"
+    },
+    {
+     "authorId": "2389916963",
+     "name": "Subhransu Das"
+    },
+    {
+     "authorId": "2253261",
+     "name": "Rajiv Ramnath"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "dea260e28e469f5c5c0ef1b379043021ba446e20",
+   "externalIds": {
+    "ArXiv": "2602.15382",
+    "CorpusId": 285659277
+   },
+   "url": "https://www.semanticscholar.org/paper/dea260e28e469f5c5c0ef1b379043021ba446e20",
+   "title": "Vision Wormhole: Latent-Space Communication in Heterogeneous Multi-Agent Systems",
+   "venue": "",
+   "year": 2026,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null,
+    "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2602.15382, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "authors": [
+    {
+     "authorId": "2109052548",
+     "name": "Xiaoze Liu"
+    },
+    {
+     "authorId": "2411632161",
+     "name": "Ruowang Zhang"
+    },
+    {
+     "authorId": "2258712398",
+     "name": "Weicheng Yu"
+    },
+    {
+     "authorId": "2327053595",
+     "name": "Si-Heng Xiong"
+    },
+    {
+     "authorId": "2311605355",
+     "name": "Liu He"
+    },
+    {
+     "authorId": "2257429592",
+     "name": "Fei-Jie Wu"
+    },
+    {
+     "authorId": "2323732924",
+     "name": "Hoin Jung"
+    },
+    {
+     "authorId": "2337690647",
+     "name": "Matt Fredrikson"
+    },
+    {
+     "authorId": "2294510615",
+     "name": "Xiaoqian Wang"
+    },
+    {
+     "authorId": "2308660705",
+     "name": "Jing Gao"
+    }
+   ],
+   "abstract": null
+  },
+  {
+   "paperId": "fef9e06c339145fa37ce5a4a785a833f335af84a",
+   "externalIds": {
+    "CorpusId": 291257234
+   },
+   "url": "https://www.semanticscholar.org/paper/fef9e06c339145fa37ce5a4a785a833f335af84a",
+   "title": "What You Can’t See Is What You Learn: Restricted Evidence Visibility Favors Compositional Generalization in Shared-Genome Language-Model Societies",
+   "venue": "",
+   "year": null,
+   "openAccessPdf": {
+    "url": "",
+    "status": null,
+    "license": null
+   },
+   "authors": [
+    {
+     "authorId": "1396622743",
+     "name": "Narcis Marincat"
+    }
+   ],
+   "abstract": null
+  }
+ ],
+ "retrieved": "2026-10-08T14:49:27"
+}

@@ -1,0 +1,65 @@
+{
+ "model_key": "qwen3-1.7b",
+ "hf_model_id": "Qwen/Qwen3-1.7B",
+ "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+ "lens_repo_revision": "b25d72a96b79c8e309d6625955a98751da47e67a",
+ "files": {
+  "model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+  "model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9",
+  "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+  "config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+  "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+ },
+ "lens": {
+  "path": "qwen3-1.7b/jlens/Salesforce-wikitext/Qwen3-1.7B_jacobian_lens.pt",
+  "sha256": "6fcc79011bd921ffd87612255e2e99950a124fa519470ee44ebaf161c39be9d6",
+  "config_hf_model_name": "Qwen/Qwen3-1.7B",
+  "config_sha256": "d381e4f057dca489042f942e8ded836f91c1efe886ea7efda233adcbe1491089"
+ },
+ "config": {
+  "n_layers": 28,
+  "d_model": 2048,
+  "vocab_size": 151936,
+  "architectures": [
+   "Qwen3ForCausalLM"
+  ]
+ },
+ "lens_checkpoint": {
+  "n_lens_layers": 27,
+  "d_model": 2048,
+  "n_prompts": 466,
+  "provenance": null
+ },
+ "tokenizer": {
+  "len": 151669,
+  "n_word_initial": 41495
+ },
+ "convention_check": {
+  "lens_agreement_L-2_smoke2": 0.6825396825396826,
+  "threshold": 0.3
+ },
+ "band_layers": [
+  8,
+  10,
+  12,
+  14,
+  16
+ ],
+ "pass": true,
+ "seconds": 23.467215299606323,
+ "provenance": {
+  "phase": "Z",
+  "model": "qwen3-1.7b",
+  "utc": "2026-10-07T08:10:40.370120+00:00",
+  "git_head": "f415bb1ac27821f8549fd732d9cf315582992f0e",
+  "config_hash": "93af8f8fe7b57477d48ee07623cf25007b3dd35d98820cf7dfb5d164130f6e3d",
+  "thresholds_sha256": "0edbff81b69f002091fa872e6d3d6a18c5c6c606f81e772821b02e374d1199a3",
+  "prereg_sha256": "e603bd1f34cfb3df0277cdc4dfd99676ed3364b7cbc6e9ee3f2dc5d1fd9294f4",
+  "split_manifest2_sha256": "620f3a513a2ed251c97b5b0e3793075cf96c3a3ec7eba3478080db0fb3ba74ae",
+  "artifact_manifest_sha256": "79b082e4a629eaa260a0b97a7968e0abacfd7f71c8f82e2317bc46151d7a88de",
+  "torch": "2.14.1+cpu",
+  "transformers": "5.18.0",
+  "threads": 12,
+  "platform": "Windows-11-10.0.26200-SP0"
+ }
+}

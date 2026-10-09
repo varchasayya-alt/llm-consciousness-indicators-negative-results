@@ -1,0 +1,11 @@
+  stage B epoch 20: covered integrated acc 1.0000 |W_o| 41.0 median |u|/|hA| 0.55 (0.8 min)
+  stage B epoch 40: covered integrated acc 1.0000 |W_o| 44.9 median |u|/|hA| 0.68 (1.6 min)
+  stage B epoch 60: covered integrated acc 1.0000 |W_o| 47.0 median |u|/|hA| 0.74 (2.4 min)
+  stage B epoch 80: covered integrated acc 1.0000 |W_o| 48.5 median |u|/|hA| 0.79 (3.3 min)
+  stage B epoch 100: covered integrated acc 1.0000 |W_o| 49.7 median |u|/|hA| 0.82 (4.2 min)
+  stage B epoch 120: covered integrated acc 1.0000 |W_o| 50.6 median |u|/|hA| 0.85 (5.1 min)
+  stage B epoch 140: covered integrated acc 1.0000 |W_o| 51.3 median |u|/|hA| 0.87 (6.0 min)
+  stage B epoch 160: covered integrated acc 1.0000 |W_o| 51.8 median |u|/|hA| 0.88 (6.9 min)
+  stage B epoch 180: covered integrated acc 1.0000 |W_o| 52.2 median |u|/|hA| 0.89 (7.8 min)
+  stage B epoch 200: covered integrated acc 1.0000 |W_o| 52.5 median |u|/|hA| 0.90 (8.7 min)
+F0B 9071 p_rd=0.2: pass=True gates={'store_qc': True, 'f1_redundancy': True, 'covered_integrated': True, 'rescue': True, 'no_damage_covered': True, 'no_damage_param_only': True, 'INT1_integration': True, 'SC2_null_route_injection': True, 'SC1_covered_injection_scale': True, 'routeA_equivalence': True} | trained 1.0000 covered 1.0000 own-slot 0.998 | A acc 0.642 IQR 2.49 M1 0.993 M2 1.000 | tiers {'stageA_correct_strong (m>=1)': (2052, 1.0), 'stageA_weak (|m|<1)': (1667, 1.0), 'stageA_wrong_strong (m<=-1)': (925, 1.0), 'stageA_correct (m>0)': (3000, 1.0), 'stageA_wrong (m<=0)': (1644, 1.0)} | param-only 1.0000->1.0000 | INT-1 rho 0.671 | scale |u|/|hA| cov 0.90 null 0.0004 at-cap 0.00 |W_o| 52.5 | routeA==stageA True

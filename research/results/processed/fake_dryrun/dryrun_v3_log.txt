@@ -1,0 +1,135 @@
+
+=== world: H3_strong (expected label A) -> labels {'P1': 'A', 'P2': 'A'}
+P1 within-target FORGET theta_pre (INT-S)                n=20  mean=0.878 p_holm=2.71e-24 -> supported
+P2 within-exposed INTERF theta_pre (INT-S)               n=20  mean=0.887 p_holm=2.23e-29 -> supported
+G1 P1 generic-adjusted theta_gen                         n=20  mean=0.816 p_holm=4.94e-22 -> supported
+G2 P2 generic-adjusted theta_gen                         n=20  mean=0.836 p_holm=7.31e-28 -> supported
+K1 matched lost vs retained within X (INT-S)             n=6   mean=0.943 p_holm=1.91e-08 -> supported
+K2 Y negative control (TOST, rel. bound 0.10)            n=20  mean=-0.000 p_holm=1.45e-31 -> equivalent
+K3 developmental TP>S (z(theta) difference)              n=20  mean=0.000 p_holm=1.00e+00 -> falsified (strong form)
+K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))   n=20  mean=0.878 p_holm=8.13e-24 -> supported
+F1 familiar stratum theta_pre                            n=20  mean=0.869 p_holm=8.76e-23 -> different from null
+F2 familiarity-boost false rise (rel.)                   n=20  mean=0.000 p_holm=6.98e-01 -> not different
+F3 newly learned (low fam.)                              n=20  mean=0.990 p_holm=1.82e-35 -> different from null
+S1 system-specific coupling INT-S (z diff)               n=20  mean=0.165 p_holm=1.06e-13 -> different from null
+S2 system-specific coupling INT-TP (z diff)              n=20  mean=0.146 p_holm=1.06e-13 -> different from null
+
+=== world: H3 (expected label A) -> labels {'P1': 'A', 'P2': 'A'}
+P1 within-target FORGET theta_pre (INT-S)                n=20  mean=0.798 p_holm=4.23e-23 -> supported
+P2 within-exposed INTERF theta_pre (INT-S)               n=20  mean=0.800 p_holm=2.61e-28 -> supported
+G1 P1 generic-adjusted theta_gen                         n=20  mean=0.715 p_holm=1.96e-20 -> supported
+G2 P2 generic-adjusted theta_gen                         n=20  mean=0.723 p_holm=4.69e-27 -> supported
+K1 matched lost vs retained within X (INT-S)             n=6   mean=0.889 p_holm=1.54e-07 -> supported
+K2 Y negative control (TOST, rel. bound 0.10)            n=20  mean=-0.000 p_holm=1.45e-31 -> equivalent
+K3 developmental TP>S (z(theta) difference)              n=20  mean=0.275 p_holm=1.18e-18 -> supported
+K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))   n=20  mean=0.798 p_holm=1.27e-22 -> supported
+F1 familiar stratum theta_pre                            n=20  mean=0.785 p_holm=1.37e-20 -> different from null
+F2 familiarity-boost false rise (rel.)                   n=20  mean=0.000 p_holm=6.98e-01 -> not different
+F3 newly learned (low fam.)                              n=20  mean=0.990 p_holm=1.82e-35 -> different from null
+S1 system-specific coupling INT-S (z diff)               n=20  mean=0.011 p_holm=1.02e-04 -> different from null
+S2 system-specific coupling INT-TP (z diff)              n=20  mean=0.146 p_holm=1.20e-13 -> different from null
+
+=== world: H3_plus_generic (expected label A) -> labels {'P1': 'A', 'P2': 'A'}
+P1 within-target FORGET theta_pre (INT-S)                n=20  mean=0.795 p_holm=1.00e-23 -> supported
+P2 within-exposed INTERF theta_pre (INT-S)               n=20  mean=0.805 p_holm=1.20e-29 -> supported
+G1 P1 generic-adjusted theta_gen                         n=20  mean=0.701 p_holm=7.02e-20 -> supported
+G2 P2 generic-adjusted theta_gen                         n=20  mean=0.717 p_holm=6.21e-27 -> supported
+K1 matched lost vs retained within X (INT-S)             n=6   mean=0.891 p_holm=4.88e-08 -> supported
+K2 Y negative control (TOST, rel. bound 0.10)            n=20  mean=-0.000 p_holm=1.45e-31 -> equivalent
+K3 developmental TP>S (z(theta) difference)              n=20  mean=0.283 p_holm=5.84e-12 -> supported
+K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))   n=20  mean=0.795 p_holm=3.00e-23 -> supported
+F1 familiar stratum theta_pre                            n=20  mean=0.785 p_holm=9.05e-21 -> different from null
+F2 familiarity-boost false rise (rel.)                   n=20  mean=0.000 p_holm=6.98e-01 -> not different
+F3 newly learned (low fam.)                              n=20  mean=0.990 p_holm=1.82e-35 -> different from null
+S1 system-specific coupling INT-S (z diff)               n=20  mean=0.005 p_holm=4.99e-03 -> different from null
+S2 system-specific coupling INT-TP (z diff)              n=20  mean=0.146 p_holm=1.20e-13 -> different from null
+
+=== world: H2_generic (expected label B) -> labels {'P1': 'B', 'P2': 'B'}
+P1 within-target FORGET theta_pre (INT-S)                n=20  mean=0.517 p_holm=1.26e-21 -> supported
+P2 within-exposed INTERF theta_pre (INT-S)               n=20  mean=0.526 p_holm=1.22e-26 -> supported
+G1 P1 generic-adjusted theta_gen                         n=20  mean=0.033 p_holm=1.57e-02 -> falsified (strong form)
+G2 P2 generic-adjusted theta_gen                         n=20  mean=0.027 p_holm=6.46e-04 -> falsified (strong form)
+K1 matched lost vs retained within X (INT-S)             n=6   mean=0.766 p_holm=1.58e-05 -> supported
+K2 Y negative control (TOST, rel. bound 0.10)            n=20  mean=-0.000 p_holm=1.45e-31 -> equivalent
+K3 developmental TP>S (z(theta) difference)              n=20  mean=0.000 p_holm=1.00e+00 -> falsified (strong form)
+K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))   n=20  mean=0.517 p_holm=3.79e-21 -> supported
+F1 familiar stratum theta_pre                            n=20  mean=0.512 p_holm=2.17e-16 -> different from null
+F2 familiarity-boost false rise (rel.)                   n=20  mean=0.000 p_holm=8.39e-01 -> not different
+F3 newly learned (low fam.)                              n=20  mean=0.491 p_holm=8.39e-01 -> not different
+S1 system-specific coupling INT-S (z diff)               n=20  mean=0.004 p_holm=1.18e-01 -> not different
+S2 system-specific coupling INT-TP (z diff)              n=20  mean=0.002 p_holm=2.28e-01 -> not different
+
+=== world: H2_intensity (expected label B) -> labels {'P1': 'B', 'P2': 'B'}
+P1 within-target FORGET theta_pre (INT-S)                n=20  mean=0.497 p_holm=3.56e-21 -> supported
+P2 within-exposed INTERF theta_pre (INT-S)               n=20  mean=0.509 p_holm=1.30e-26 -> supported
+G1 P1 generic-adjusted theta_gen                         n=20  mean=0.010 p_holm=1.96e-01 -> falsified (strong form)
+G2 P2 generic-adjusted theta_gen                         n=20  mean=0.013 p_holm=7.03e-02 -> falsified (strong form)
+K1 matched lost vs retained within X (INT-S)             n=6   mean=0.758 p_holm=2.30e-05 -> supported
+K2 Y negative control (TOST, rel. bound 0.10)            n=20  mean=-0.000 p_holm=1.45e-31 -> equivalent
+K3 developmental TP>S (z(theta) difference)              n=20  mean=0.000 p_holm=1.00e+00 -> falsified (strong form)
+K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))   n=20  mean=0.497 p_holm=1.07e-20 -> supported
+F1 familiar stratum theta_pre                            n=20  mean=0.494 p_holm=2.27e-15 -> different from null
+F2 familiarity-boost false rise (rel.)                   n=20  mean=0.000 p_holm=8.39e-01 -> not different
+F3 newly learned (low fam.)                              n=20  mean=0.491 p_holm=8.39e-01 -> not different
+S1 system-specific coupling INT-S (z diff)               n=20  mean=0.004 p_holm=7.04e-02 -> not different
+S2 system-specific coupling INT-TP (z diff)              n=20  mean=0.002 p_holm=1.45e-01 -> not different
+
+=== world: susceptibility (expected label C) -> labels {'P1': 'C', 'P2': 'C'}
+P1 within-target FORGET theta_pre (INT-S)                n=20  mean=0.027 p_holm=3.59e-02 -> falsified (strong form)
+P2 within-exposed INTERF theta_pre (INT-S)               n=20  mean=0.025 p_holm=5.85e-03 -> falsified (strong form)
+G1 P1 generic-adjusted theta_gen                         n=20  mean=0.024 p_holm=6.14e-02 -> falsified (strong form)
+G2 P2 generic-adjusted theta_gen                         n=20  mean=0.029 p_holm=2.15e-03 -> falsified (strong form)
+K1 matched lost vs retained within X (INT-S)             n=6   mean=0.511 p_holm=6.26e-01 -> falsified (strong form)
+K2 Y negative control (TOST, rel. bound 0.10)            n=20  mean=-0.000 p_holm=1.45e-31 -> equivalent
+K3 developmental TP>S (z(theta) difference)              n=20  mean=0.000 p_holm=1.00e+00 -> falsified (strong form)
+K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))   n=20  mean=0.027 p_holm=1.08e-01 -> falsified (strong form)
+F1 familiar stratum theta_pre                            n=20  mean=0.050 p_holm=1.18e-01 -> not different
+F2 familiarity-boost false rise (rel.)                   n=20  mean=0.000 p_holm=8.39e-01 -> not different
+F3 newly learned (low fam.)                              n=20  mean=0.491 p_holm=8.39e-01 -> not different
+S1 system-specific coupling INT-S (z diff)               n=20  mean=0.002 p_holm=1.00e+00 -> not different
+S2 system-specific coupling INT-TP (z diff)              n=20  mean=0.002 p_holm=1.00e+00 -> not different
+
+=== world: rtm (expected label C) -> labels {'P1': 'C', 'P2': 'C'}
+P1 within-target FORGET theta_pre (INT-S)                n=20  mean=0.020 p_holm=1.27e-01 -> falsified (strong form)
+P2 within-exposed INTERF theta_pre (INT-S)               n=20  mean=0.001 p_holm=4.57e-01 -> falsified (strong form)
+G1 P1 generic-adjusted theta_gen                         n=20  mean=0.017 p_holm=2.04e-01 -> falsified (strong form)
+G2 P2 generic-adjusted theta_gen                         n=20  mean=-0.002 p_holm=5.74e-01 -> falsified (strong form)
+K1 matched lost vs retained within X (INT-S)             n=2   mean=0.518 p_holm=7.18e-01 -> inconclusive
+K2 Y negative control (TOST, rel. bound 0.10)            n=20  mean=-0.000 p_holm=1.45e-31 -> equivalent
+K3 developmental TP>S (z(theta) difference)              n=20  mean=0.000 p_holm=1.00e+00 -> falsified (strong form)
+K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))   n=20  mean=0.020 p_holm=1.90e-01 -> falsified (strong form)
+F1 familiar stratum theta_pre                            n=20  mean=0.042 p_holm=1.41e-01 -> not different
+F2 familiarity-boost false rise (rel.)                   n=20  mean=0.000 p_holm=8.39e-01 -> not different
+F3 newly learned (low fam.)                              n=20  mean=0.491 p_holm=8.39e-01 -> not different
+S1 system-specific coupling INT-S (z diff)               n=20  mean=0.003 p_holm=4.79e-01 -> not different
+S2 system-specific coupling INT-TP (z diff)              n=20  mean=0.000 p_holm=9.63e-01 -> not different
+
+=== world: null (expected label C) -> labels {'P1': 'C', 'P2': 'C'}
+P1 within-target FORGET theta_pre (INT-S)                n=20  mean=0.013 p_holm=3.37e-01 -> falsified (strong form)
+P2 within-exposed INTERF theta_pre (INT-S)               n=20  mean=0.003 p_holm=3.60e-01 -> falsified (strong form)
+G1 P1 generic-adjusted theta_gen                         n=20  mean=0.005 p_holm=6.11e-01 -> falsified (strong form)
+G2 P2 generic-adjusted theta_gen                         n=20  mean=0.001 p_holm=6.11e-01 -> falsified (strong form)
+K1 matched lost vs retained within X (INT-S)             n=6   mean=0.519 p_holm=5.06e-01 -> inconclusive
+K2 Y negative control (TOST, rel. bound 0.10)            n=20  mean=-0.000 p_holm=1.45e-31 -> equivalent
+K3 developmental TP>S (z(theta) difference)              n=20  mean=0.000 p_holm=1.00e+00 -> falsified (strong form)
+K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))   n=20  mean=0.013 p_holm=5.06e-01 -> falsified (strong form)
+F1 familiar stratum theta_pre                            n=20  mean=0.025 p_holm=6.41e-01 -> not different
+F2 familiarity-boost false rise (rel.)                   n=20  mean=0.000 p_holm=8.39e-01 -> not different
+F3 newly learned (low fam.)                              n=20  mean=0.491 p_holm=8.39e-01 -> not different
+S1 system-specific coupling INT-S (z diff)               n=20  mean=0.001 p_holm=1.00e+00 -> not different
+S2 system-specific coupling INT-TP (z diff)              n=20  mean=0.002 p_holm=1.00e+00 -> not different
+
+=== world: susceptibility_latent (expected label stress test) -> labels {'P1': 'C', 'P2': 'C'}
+P1 within-target FORGET theta_pre (INT-S)                n=20  mean=0.092 p_holm=3.03e-06 -> inconclusive
+P2 within-exposed INTERF theta_pre (INT-S)               n=20  mean=0.085 p_holm=1.37e-08 -> inconclusive
+G1 P1 generic-adjusted theta_gen                         n=20  mean=0.102 p_holm=1.44e-07 -> supported
+G2 P2 generic-adjusted theta_gen                         n=20  mean=0.100 p_holm=2.96e-10 -> supported
+K1 matched lost vs retained within X (INT-S)             n=6   mean=0.556 p_holm=1.82e-02 -> supported
+K2 Y negative control (TOST, rel. bound 0.10)            n=20  mean=-0.000 p_holm=1.45e-31 -> equivalent
+K3 developmental TP>S (z(theta) difference)              n=20  mean=0.000 p_holm=1.00e+00 -> falsified (strong form)
+K4 composed behaviour (INT-S->C, theta on 1-P(LOOKUP))   n=20  mean=0.092 p_holm=9.10e-06 -> inconclusive
+F1 familiar stratum theta_pre                            n=20  mean=0.107 p_holm=2.35e-04 -> different from null
+F2 familiarity-boost false rise (rel.)                   n=20  mean=0.000 p_holm=8.39e-01 -> not different
+F3 newly learned (low fam.)                              n=20  mean=0.491 p_holm=8.39e-01 -> not different
+S1 system-specific coupling INT-S (z diff)               n=20  mean=0.004 p_holm=5.09e-01 -> not different
+S2 system-specific coupling INT-TP (z diff)              n=20  mean=0.002 p_holm=5.09e-01 -> not different

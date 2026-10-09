@@ -1,0 +1,4 @@
+seed 9011 rung {'lr_mult': 1.0, 'step_mult': 1}: pass=True failed=[] X 0.66 Y 0.000 Z {'Z_random': 0.0, 'Z_near_entity_X': 0.005917159763313609, 'Z_near_entity_Y': 0.0, 'Z_near_repr': 0.0, 'Z_far': 0.0} sites 10 flu -0.00 pairs {'0.25': 195, '0.5': 198, '0.75': 198, '1.0': 198}
+seed 9012 rung {'lr_mult': 1.0, 'step_mult': 1}: pass=True failed=[] X 0.73 Y 0.000 Z {'Z_random': 0.0009345794392523365, 'Z_near_entity_X': 0.0, 'Z_near_entity_Y': 0.0, 'Z_near_repr': 0.0, 'Z_far': 0.004672897196261682} sites 10 flu -0.00 pairs {'0.25': 219, '0.5': 220, '0.75': 220, '1.0': 220}
+seed 9013 rung {'lr_mult': 1.0, 'step_mult': 1}: pass=True failed=[] X 0.73 Y 0.000 Z {'Z_random': 0.002803738317757009, 'Z_near_entity_X': 0.00625, 'Z_near_entity_Y': 0.005649717514124294, 'Z_near_repr': 0.0, 'Z_far': 0.009345794392523364} sites 9 flu -0.00 pairs {'0.25': 214, '0.5': 219, '0.75': 219, '1.0': 219}
+C4val PASS=False (seeds_ok=True, fingerprint-ok calipers=[])

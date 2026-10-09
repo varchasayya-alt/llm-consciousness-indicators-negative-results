@@ -1,0 +1,11 @@
+18:49:02 phase S1A start; config_hash=5f61cbb59ff4d63e8631579854c7fc39bed9f5c1507b2b649659c0ef8e56cf11
+18:49:52 S1a core step 0 sig_s=0.2575261115686491 sig_x=0.3: overclaim=0.035 power=0.858
+18:50:42 S1a core step 0 sig_s=0.2575261115686491 sig_x=0.6: overclaim=0.048 power=0.700
+18:51:02 S1a H-CD n_s=3 m=100: power=0.000 wrong=0.040 cpu_h(4 cells)=None
+18:51:22 S1a H-CD n_s=3 m=200: power=0.000 wrong=0.043 cpu_h(4 cells)=None
+18:51:46 S1a H-CD n_s=5 m=100: power=0.000 wrong=0.013 cpu_h(4 cells)=None
+18:52:09 S1a H-CD n_s=5 m=200: power=0.000 wrong=0.023 cpu_h(4 cells)=None
+18:52:38 S1a H-CD n_s=8 m=100: power=0.000 wrong=0.013 cpu_h(4 cells)=None
+18:53:07 S1a H-CD n_s=8 m=200: power=0.000 wrong=0.020 cpu_h(4 cells)=None
+18:53:07 S1a done: core gates={'h1_lb': 0.1, 'h2_lb': 0.0, 'h3_lb': 0.0, 'h4_lb': 0.0, 'h5_lb': 0.0} fpr=0.048 power=0.700; H-CD minimal=None; central=False
+18:53:07 phase S1A done

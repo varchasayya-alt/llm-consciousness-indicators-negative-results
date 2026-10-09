@@ -1,0 +1,10 @@
+rho0.3|H3 {'labels': {'A': 1.0, 'B': 0.0, 'C': 0.0}, 'mean_theta_pre': 0.9472535510116292, 'mean_theta_gen': 0.9441662984088077}
+rho0.3|vis_state {'labels': {'A': 0.0, 'B': 0.0, 'C': 1.0}, 'mean_theta_pre': 0.031036234143151688, 'mean_theta_gen': 0.029073511222582074}
+rho0.3|vis_latent {'labels': {'A': 0.92, 'B': 0.06, 'C': 0.02}, 'mean_theta_pre': 0.1220607821782525, 'mean_theta_gen': 0.11968766400278995}
+rho0.3|cue {'labels': {'A': 0.0, 'B': 0.0, 'C': 1.0}, 'mean_theta_pre': -0.22017029346393144, 'mean_theta_gen': -0.019602997560443564}
+rho0.3|null {'labels': {'A': 0.0, 'B': 0.0, 'C': 1.0}, 'mean_theta_pre': -0.0021215618652773954, 'mean_theta_gen': -0.0018440929531975151}
+rho0.7|H3 {'labels': {'A': 1.0, 'B': 0.0, 'C': 0.0}, 'mean_theta_pre': 0.915523776822581, 'mean_theta_gen': 0.9135601355393637}
+rho0.7|vis_state {'labels': {'A': 0.0, 'B': 0.0, 'C': 1.0}, 'mean_theta_pre': 0.045765868890352966, 'mean_theta_gen': 0.046755003567336646}
+rho0.7|vis_latent {'labels': {'A': 1.0, 'B': 0.0, 'C': 0.0}, 'mean_theta_pre': 0.2496012268460885, 'mean_theta_gen': 0.24567727424578195}
+rho0.7|cue {'labels': {'A': 0.0, 'B': 0.0, 'C': 1.0}, 'mean_theta_pre': -0.15273441360184384, 'mean_theta_gen': -0.014176729132585547}
+rho0.7|null {'labels': {'A': 0.0, 'B': 0.0, 'C': 1.0}, 'mean_theta_pre': -0.002422139520675651, 'mean_theta_gen': -0.002345380780621841}

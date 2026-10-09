@@ -1,0 +1,3 @@
+S1 9101: QC {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.031675051239053474, 'fluency_auroc_high_vs_low': 1.0, 'fluency_mean_high': -3.0839760303497314, 'fluency_mean_low': -5.187312126159668, 'pass': True} | population n 1657 | 16.1 min
+S1 9102: QC {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.031037093111279335, 'fluency_auroc_high_vs_low': 1.0, 'fluency_mean_high': -3.095000743865967, 'fluency_mean_low': -5.15366268157959, 'pass': True} | population n 1688 | 16.0 min
+S1 9103: QC {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.03228782287822878, 'fluency_auroc_high_vs_low': 1.0, 'fluency_mean_high': -3.0909228324890137, 'fluency_mean_low': -5.166274070739746, 'pass': True} | population n 1639 | 16.0 min

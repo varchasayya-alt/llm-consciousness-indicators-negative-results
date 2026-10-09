@@ -1,0 +1,5 @@
+seed 9001: 6.9 min, QC {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.02906764168190128, 'fluency_auroc_high_vs_low': 1.0, 'fluency_mean_high': -3.0877418518066406, 'fluency_mean_low': -5.170080184936523, 'pass': True}
+seed 9002: 6.5 min, QC {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.035130111524163565, 'fluency_auroc_high_vs_low': 1.0, 'fluency_mean_high': -3.089916706085205, 'fluency_mean_low': -5.156099796295166, 'pass': True}
+seed 9003: 7.1 min, QC {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.03344419807834442, 'fluency_auroc_high_vs_low': 1.0, 'fluency_mean_high': -3.097782611846924, 'fluency_mean_low': -5.152964115142822, 'pass': True}
+seed 9004: 6.7 min, QC {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.03129657228017884, 'fluency_auroc_high_vs_low': 1.0, 'fluency_mean_high': -3.090557336807251, 'fluency_mean_low': -5.148437976837158, 'pass': True}
+seed 9005: 6.6 min, QC {'trained_fact_acc': 1.0, 'unknown_fact_acc': 0.028581831421809575, 'fluency_auroc_high_vs_low': 1.0, 'fluency_mean_high': -3.096696615219116, 'fluency_mean_low': -5.19678258895874, 'pass': True}

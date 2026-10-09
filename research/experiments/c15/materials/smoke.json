@@ -1,0 +1,241 @@
+{
+ "split": "smoke",
+ "non_evidential": true,
+ "paragraphs": [
+  {
+   "id": "sp0",
+   "text": "The ferry crossing takes about two hours on a calm day. Passengers stand on deck to watch the coastline shrink behind them, while gulls follow the boat hoping for crumbs. Inside, families play cards at the tables and lorry drivers sleep in the reclining seats. When the island finally appears on the horizon, everyone gathers at the rail to point out the white houses and the old harbour."
+  },
+  {
+   "id": "sp1",
+   "text": "A walk through the park in early spring reveals small signs of the changing season. Crocuses push up through the grass, buds swell on the branches and ducks pair up on the pond. Joggers pass in bright jackets, dogs chase sticks and an elderly man feeds the pigeons from a paper bag. By April the whole park is green again and the benches are rarely empty."
+  },
+  {
+   "id": "sp2",
+   "text": "The city market hall was built from iron and glass more than a century ago. Under its high roof, dozens of stalls sell fish, meat, fruit, flowers and spices. Shoppers move slowly between the counters, comparing prices and chatting with the traders they have known for years. In the gallery above, a small restaurant serves lunch made from ingredients bought only a few metres below."
+  },
+  {
+   "id": "sp3",
+   "text": "Writing letters by hand has become rare, yet many people still treasure the ones they receive. A handwritten envelope in the post feels personal in a way that a message on a screen does not. Old letters kept in boxes and drawers record the thoughts and news of earlier generations, and families sometimes discover surprising stories when they finally read them years later."
+  },
+  {
+   "id": "sp4",
+   "text": "The summer festival in the town square lasts for three days and attracts visitors from across the region. Local bands play on a wooden stage, stalls sell grilled sausages and lemonade and children ride an old carousel with painted horses. On the final night fireworks light up the sky above the church tower, and the crowd stays late, reluctant to let the celebration end."
+  },
+  {
+   "id": "sp5",
+   "text": "Repairing an old wooden chair can be a rewarding weekend project. Loose joints are taken apart, cleaned and glued again, and worn patches are sanded smooth. A fresh coat of wax brings out the grain of the wood. The finished chair may not look new, but it carries the marks of many years of use and is likely to last for many more."
+  }
+ ],
+ "concepts": [
+  {
+   "id": "sc_needle",
+   "word": "needle"
+  },
+  {
+   "id": "sc_onion",
+   "word": "onion"
+  },
+  {
+   "id": "sc_pencil",
+   "word": "pencil"
+  },
+  {
+   "id": "sc_pumpkin",
+   "word": "pumpkin"
+  },
+  {
+   "id": "sc_robot",
+   "word": "robot"
+  },
+  {
+   "id": "sc_shark",
+   "word": "shark"
+  },
+  {
+   "id": "sc_spider",
+   "word": "spider"
+  },
+  {
+   "id": "sc_tomato",
+   "word": "tomato"
+  },
+  {
+   "id": "sc_violin",
+   "word": "violin"
+  },
+  {
+   "id": "sc_wallet",
+   "word": "wallet"
+  }
+ ],
+ "concept_templates": [
+  "I remember the{w} from my childhood.",
+  "They found the{w} behind the shed."
+ ],
+ "countries": [
+  {
+   "id": "sk_Mexico",
+   "name": "Mexico",
+   "capital": "Mexico",
+   "language": "Spanish",
+   "currency": "peso"
+  },
+  {
+   "id": "sk_Brazil",
+   "name": "Brazil",
+   "capital": "Brasilia",
+   "language": "Portuguese",
+   "currency": "real"
+  },
+  {
+   "id": "sk_Argentina",
+   "name": "Argentina",
+   "capital": "Buenos",
+   "language": "Spanish",
+   "currency": "peso"
+  },
+  {
+   "id": "sk_Ireland",
+   "name": "Ireland",
+   "capital": "Dublin",
+   "language": "Irish",
+   "currency": "euro"
+  }
+ ],
+ "country_templates": [
+  "They spent a month in {X}"
+ ],
+ "two_hop": [
+  {
+   "id": "st0",
+   "bridge": "smk_vatican",
+   "prompt": "Fact: The language of the church state that surrounds St Peter's Basilica is",
+   "answer": "Latin",
+   "intermediates": [
+    "Vatican"
+   ]
+  },
+  {
+   "id": "st1",
+   "bridge": "smk_everest",
+   "prompt": "Fact: The tallest mountain in the world lies on the border of China and",
+   "answer": "Nepal",
+   "intermediates": [
+    "Everest"
+   ]
+  },
+  {
+   "id": "st2",
+   "bridge": "smk_kiwi",
+   "prompt": "Fact: The capital of the country whose national bird is the kiwi is",
+   "answer": "Wellington",
+   "intermediates": [
+    "Zealand"
+   ]
+  },
+  {
+   "id": "st3",
+   "bridge": "smk_tulip",
+   "prompt": "Fact: The capital of the country famous for tulips and windmills is",
+   "answer": "Amsterdam",
+   "intermediates": [
+    "Netherlands"
+   ]
+  }
+ ],
+ "report_suffix": "\n\nOne single word that comes to mind right now:",
+ "country_queries": {
+  "capital": "Fact: The capital city of {X} is",
+  "language": "Fact: The main language spoken in {X} is",
+  "currency": "Fact: The currency used in {X} is the"
+ },
+ "w1_trials": [
+  {
+   "concept": "sc_needle",
+   "contexts": [
+    "sp4",
+    "sp5"
+   ],
+   "options": [
+    "sc_tomato",
+    "sc_violin",
+    "sc_needle",
+    "sc_robot",
+    "sc_wallet",
+    "sc_spider",
+    "sc_pencil",
+    "sc_onion",
+    "sc_pumpkin",
+    "sc_shark"
+   ]
+  },
+  {
+   "concept": "sc_onion",
+   "contexts": [
+    "sp2",
+    "sp1"
+   ],
+   "options": [
+    "sc_robot",
+    "sc_shark",
+    "sc_spider",
+    "sc_wallet",
+    "sc_onion",
+    "sc_violin",
+    "sc_pumpkin",
+    "sc_tomato",
+    "sc_pencil",
+    "sc_needle"
+   ]
+  }
+ ],
+ "w2_pairs": [
+  {
+   "A": "sk_Mexico",
+   "B": "sk_Ireland"
+  },
+  {
+   "A": "sk_Brazil",
+   "B": "sk_Argentina"
+  },
+  {
+   "A": "sk_Argentina",
+   "B": "sk_Brazil"
+  },
+  {
+   "A": "sk_Ireland",
+   "B": "sk_Mexico"
+  }
+ ],
+ "w3": {
+  "concepts": [
+   "sc_needle"
+  ],
+  "contexts": [
+   "sp3",
+   "sp4",
+   "sp1",
+   "sp2",
+   "sp5",
+   "sp0"
+  ],
+  "scalars": [
+   1.0,
+   -0.5,
+   -0.5,
+   -1.0,
+   -1.0,
+   0.5
+  ]
+ },
+ "dose": {
+  "paragraphs": [
+   "sp1",
+   "sp3"
+  ],
+  "concepts": [
+   "sc_needle"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+  stage B epoch 20: covered integrated acc 1.0000 |W_o| 44.1 median |u|/|hA| 0.66 (1.4 min)
+  stage B epoch 40: covered integrated acc 1.0000 |W_o| 48.2 median |u|/|hA| 0.82 (2.9 min)
+  stage B epoch 60: covered integrated acc 1.0000 |W_o| 50.4 median |u|/|hA| 0.89 (4.4 min)
+  stage B epoch 80: covered integrated acc 1.0000 |W_o| 52.0 median |u|/|hA| 0.94 (5.9 min)
+  stage B epoch 100: covered integrated acc 1.0000 |W_o| 53.2 median |u|/|hA| 0.98 (7.3 min)
+  stage B epoch 120: covered integrated acc 1.0000 |W_o| 54.2 median |u|/|hA| 1.01 (8.8 min)
+  stage B epoch 140: covered integrated acc 1.0000 |W_o| 54.9 median |u|/|hA| 1.03 (10.3 min)
+  stage B epoch 160: covered integrated acc 1.0000 |W_o| 55.4 median |u|/|hA| 1.05 (11.7 min)
+  stage B epoch 180: covered integrated acc 1.0000 |W_o| 55.8 median |u|/|hA| 1.06 (13.2 min)
+  stage B epoch 200: covered integrated acc 1.0000 |W_o| 56.2 median |u|/|hA| 1.07 (14.7 min)
+TRAINB 9073 p_rd=0.2: 14.8 min, threads 6
